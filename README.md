@@ -1,91 +1,87 @@
 # Leon benchmarks
 
-Recorded comparisons of Leon, Hermes and OpenClaw, with frozen task selections,
-agent versions, native score criteria and performance telemetry.
+📊 A collection of Personal AI benchmarks with detailed results, sanitized traces,
+and reproduction guides to help grow the space together.
 
-**These are configured, modified local benchmark subsets, not official leaderboard
-submissions or factory-default product scores.** Read each dated run's methods
-and repairs before quoting its results. Close scores are not evidence of a
-statistically established winner.
+The goal is to understand how personal AI agents perform in practice, share
+evidence that others can inspect, and identify concrete ways to improve them.
+Comparisons include Leon, Hermes and OpenClaw, with room for more agents and
+benchmarks over time.
 
-| Benchmark | Recorded status | Tasks | Scored attempts |
-| --- | --- | ---: | ---: |
-| [WildClawBench](wildclawbench/runs/2026-10-12/README.md) | Complete | 36: six per domain | 324 |
-| [PinchBench](pinchbench/README.md) | Paused, native session validation required | 32 | 0 |
-| [Terminal-Bench 4.0](terminal-bench-4.0/README.md) | Planned, paused | 21 | 0 |
+[Browse the interactive reports](https://benchmarks.getleon.ai/).
 
-[Open the interactive WildClawBench report](wildclawbench/runs/2026-10-12/report/index.html).
-It includes overall/domain scores, all three repetitions per task, token and
-inference usage, latency, native failures, tool-schema checks, efficiency and
-critical improvement areas. Missing measurements remain unknown.
+## What you'll find
 
-The final WildClawBench score is the mean of six equally weighted domain scores;
-each domain averages six tasks, each task averages three independent attempts.
-Hermes **79.40%**, OpenClaw **78.51%**, Leon **78.25%**. The dashboard reports
-selected-task bootstrap intervals and pairwise uncertainty.
+- **Results:** overall, domain and task scores, with repeated attempts and
+  uncertainty where available.
+- **Performance metrics:** task completion time, response latency, token usage,
+  inference counts, tool-call checks and measurement coverage.
+- **Evidence:** sanitized action traces, grading records, failure analysis and
+  practical improvement priorities for each agent.
+- **Reproduction guides:** frozen tasks, exact agent versions, model settings,
+  environment conditions, documented repairs and the captured harness.
 
-## Repository layout
+## Benchmarks
 
-```text
-harness/                       Captured controller, native adapters and export/verification tools
-wildclawbench/runs/2026-10-12/   Dated report, measurements, action traces, repairs and provenance
-pinchbench/                     Frozen task plan; no scored results yet
-terminal-bench-4.0/             Frozen task plan; no scored results yet
-.local/                        Ignored access to the owner's private workspace
-```
+Each benchmark has its own folder. Completed campaigns are published in dated
+run folders; planned selections are kept separately from scored results.
 
-Run folders use the UTC date of the last accepted attempt, rather than the report
-export date. This run finished on October 12 and was frozen/exported October 13.
-Future campaigns get separate immutable folders; if a date repeats, append a UTC
-time or campaign identifier. Do not replace prior evidence with updated versions.
+| Benchmark | Status | Records |
+| --- | --- | --- |
+| [WildClawBench](wildclawbench/README.md) | First campaign complete | [2026-10-12 results and methods](wildclawbench/runs/2026-10-12/README.md) · [Interactive report](wildclawbench/runs/2026-10-12/report/index.html) |
+| [PinchBench](pinchbench/README.md) | Frozen plan; session validation pending | [Task selection](pinchbench/frozen-plan.json) |
+| [Terminal-Bench 4.0](terminal-bench-4.0/README.md) | Frozen plan; execution pending | [Task selection](terminal-bench-4.0/frozen-plan.json) |
 
-## Publication and private evidence
+## Comparison principles
 
-Public records remove OAuth credentials, private reasoning, owner paths and
-embedded image payloads. Scores and telemetry are retained. Compressed traces
-can be opened with `gzip -dc <file.jsonl.gz>`. The publication map records both
-original and exported hashes; the public manifest verifies the exported files.
+Compare agents on matched tasks and recorded conditions while preserving each
+agent's native loop, tools and configured preset. Freeze versions for each
+campaign, retain genuine failures, and document environment or grader repairs
+consistently across affected agents.
 
-Large generated artifacts, binaries, dependency caches and raw private captures
-are not included in Git. Their original hash inventory is supplied, but a hash
-alone does not make the original bytes publicly downloadable. Full raw artifacts
-currently require a separate reviewed evidence distribution. The owner retains
-the complete original archive through the ignored `.local/workspace` link.
-Never publish that symlink, private credentials or raw reasoning captures.
+Report missing measurements and uncertainty explicitly. Read a run's methods
+before quoting its scores: published campaigns may use modified benchmark
+subsets, and close scores do not establish a statistically reliable winner.
 
-The source exports had no Git metadata. Declared commit identities come from
-recorded provenance; byte inventories establish the actual source snapshots.
-See [the harness](harness/README.md) for dependencies and the reproduction boundary.
+## Reproduce or contribute
+
+Start with the selected run's methods and reproduction prompt, then read the
+[harness guide](harness/README.md) and [agent instructions](AGENTS.md).
+Reproduction requires the recorded dependencies, inputs and preflight checks;
+the captured harness is not a verified one-command installer.
+
+For comparisons with new agent versions, create a separate campaign and preserve
+existing records. Suggestions for additional benchmarks, agents, measurement
+improvements and evidence-backed fixes are welcome.
 
 ```sh
 python3 harness/validation/verify.py
 ```
 
-The root `index.html` and `.nojekyll` support static hosting, including GitHub
-Pages. Opening a report, publishing the static site or running the offline verifier
-does not start benchmark execution.
+This offline check verifies the published inventory and score invariants without
+starting agents or consuming inference allowance.
 
-The harness is MIT-licensed. Upstream benchmark inputs, rubrics and agent code
-remain subject to their own licenses and are referenced rather than vendored as
-complete source distributions. Records may quote task instructions and tool
-outputs; inspect those materials and benchmark terms before redistribution.
+## Repository layout
 
-## Agent instructions and static hosting
+```text
+<benchmark>/runs/<date>/   Results, reports, traces, methods and provenance
+<benchmark>/              Benchmark overview and frozen selections
+harness/                  Captured controller, adapters and publication tools
+docs/                     Repository and hosting guides
+```
 
-Repository-wide benchmark guidance lives in [AGENTS.md](AGENTS.md); `CLAUDE.md`
-imports that file. Use a dated run's reproduction prompt for its exact settings.
-A new-version campaign uses new manifests and fresh matched attempts; existing
-results remain preserved.
+Run dates use the UTC date of the final accepted attempt. New campaigns receive
+separate folders, with a time or campaign identifier if the date already exists.
 
-The report and landing page follow the browser's light/dark preference, with
-white/black page backgrounds. Charts use the previously corrected comparison
-palette: Leon `#1C75DB`, Hermes `#0000F2`, OpenClaw `#FF4D4D`. Labels remain
-readable in both themes. Private session logs are not included.
+## Public evidence and licensing
 
-See [GitHub Pages setup](docs/github-pages.md) to publish this static repository
-from `main` at `/(root)`. Preparing these files does not publish the site.
+Published records are sanitized to remove credentials, private reasoning, owner
+paths and embedded image payloads. Large generated artifacts and raw private
+captures are not included; each run documents available evidence and omissions.
+Hashes establish provenance but do not make omitted artifacts downloadable.
 
-The custom-domain target is [benchmarks.getleon.ai](https://benchmarks.getleon.ai/).
-GitHub Pages settings and the Namecheap `benchmarks` CNAME record must both be
-configured before that address serves the report. Keep the root and `www` DNS
-records serving the main Leon website.
+The harness is [MIT-licensed](LICENSE). Upstream benchmarks, agent code and quoted
+record material retain their own licensing conditions.
+
+Reports support light and dark themes according to the browser's preference.
+See the [GitHub Pages guide](docs/github-pages.md) for static hosting instructions.
