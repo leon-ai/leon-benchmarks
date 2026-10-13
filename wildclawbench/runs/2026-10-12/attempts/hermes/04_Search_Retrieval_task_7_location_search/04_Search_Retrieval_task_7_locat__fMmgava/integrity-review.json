@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__fMmgava",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "22e9a5b4617e168dc527708daa9ef82dc3c247fbe4060ea34bf7d55213cede88",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

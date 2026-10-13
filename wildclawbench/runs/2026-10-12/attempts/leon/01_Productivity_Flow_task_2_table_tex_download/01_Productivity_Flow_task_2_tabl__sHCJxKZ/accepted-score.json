@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_2_tabl__sHCJxKZ",
+  "agent": "leon",
+  "task": "01_Productivity_Flow_task_2_table_tex_download",
+  "score": 1.0,
+  "source_result_sha256": "b54e9acaa4b72b944e4fe22807c78c9c29141e1d2edc0ec628988e35048ac5b9",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

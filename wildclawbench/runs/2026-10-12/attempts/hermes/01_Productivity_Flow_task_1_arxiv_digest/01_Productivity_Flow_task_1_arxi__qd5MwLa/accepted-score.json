@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_1_arxi__qd5MwLa",
+  "agent": "hermes",
+  "task": "01_Productivity_Flow_task_1_arxiv_digest",
+  "score": 0.8667,
+  "source_result_sha256": "3d2e62bca8d0c13f21683304adc9c621e7e9481fd89ba0e19459d4578fd865a7",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

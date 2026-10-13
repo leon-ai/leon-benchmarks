@@ -1,0 +1,55 @@
+REPRODUCTION PROMPT — FROZEN WILDCLAWBENCH LOCAL SUBSET
+
+Use the benchmark folder I provide as the authoritative experiment specification. First read its selection.json, campaign.json, runtime-provenance.json, input receipts, final wild-fairness-review.json and verified evidence-freeze manifest. Verify wild-evidence-freeze.json, its evidence-manifest.json checksum and every required input/runtime checksum before candidate execution. If evidence is missing or changed, report the mismatch and hold scored runs.
+
+Reproduce the recorded WildClawBench local subset, not an official full-benchmark leaderboard. Do not choose different tasks, silently update versions, discard failures, or reuse another experiment's candidate scores. Write fresh attempts to a separate output folder; preserve all original experiment records. Preserve selection order and record any necessary host-path substitutions.
+
+Use exactly 36 frozen WildClawBench tasks, six per domain, three independent attempts per task per agent: 324 candidate slots. Use the final selection after approved substitutions. Preserve all native prompts, published timeouts, input bytes, graders, task dependencies and documented modifications. Restore the authors' original live Social service inputs and Thread Consolidation service, and retain native error-injection policy. Apply the same documented immutable-initial-fixture Safety grader repairs for all three agents. Verify hashes and quick local controls before scoring.
+
+Use the frozen agent sources, rather than their latest versions:
+- Leon develop commit 111ccc8de5719108eebd4906ed0485cba5de7a50.
+- OpenClaw v2026.10.1, commit e178c39e9aae3fa440735217f9aef9574f286677.
+- Hermes v0.21.6, commit 818c13be1dc4fd28987e1e881a9408224afd4535.
+Use the saved runtime adapters and recorded configurations, including native public-transcript capture and repaired async image completion. Preserve the Hermes preset: persistent memory/user-profile disabled, 90 main-loop iterations, 50 delegated iterations. These are configured harness results; do not call them factory-default product results. Check the freeze manifest for all other settings and dependencies.
+
+All candidate and judge inference must use OpenAI directly through ChatGPT/Codex subscription OAuth, model gpt-6.1-sol, high reasoning, service_tier priority requested. No OpenRouter, billing API keys or reasoning-model substitutions. The frozen native image policy permits GPT Image 2 through ChatGPT subscription image generation/editing endpoints or native hosted image calls; record that auxiliary model usage separately. Do not replace the reasoning model or inject non-native image tools. OAuth access tokens must stay local and outside shareable evidence. Verify actual request model, effort, endpoint and auth mode. Record returned model/service tier; priority requested does not prove Fast was served. Preserve recorded image/web wiring and distinguish candidate inference from judging.
+
+Process one task cohort at a time, running all three agents with three isolated attempts each concurrently: up to 9 candidate runs, each with 2 CPUs and 4,096 MB RAM. Use the frozen admission policy and resource/quota limits. Keep task environments independent. Share immutable image/dependency layers while needed; prepare a task once for its complete cohort. Apply published task budgets unchanged; never impose an arbitrary 30-minute cutoff. Record hardware, software, admission delays and actual concurrency.
+
+Export native trajectories, public transcripts, request ledgers, usage, tool schemas/calls, outputs, native grader submetrics and integrity evidence before deleting an attempt's containers/volumes/networks. Retire task-owned resources and environments immediately after the complete cohort no longer needs them. Delete temporary images once no remaining task needs them. Preserve frozen sources, shared dependencies still needed, reports and provenance. Never globally prune unrelated Docker resources or destroy evidence to save space.
+
+Record per attempt/task/domain/agent: native score and criteria; completion/artifact success; published deadline outcomes; setup, queue, execution and grading time; response/turn timings, first-text and first-tool latency; input/output/cached/reasoning tokens; inference counts, retries and failures; observed token throughput with its timing definition and telemetry coverage; tool schema validity/coverage and task-specific semantic/action correctness. Missing telemetry remains unknown. Tool schema validity is not semantic tool-call accuracy. Judge costs/latency must be separate from candidate metrics.
+
+When an attempt fails, scores zero/very low, lacks a required artifact, reports judge errors or shows a concrete environment failure, perform quick local evidence checks. Keep genuine native failures and deadline zeros. Repair only demonstrably broken wiring, fixtures, lifecycle capture or grading input; preserve original evidence and replace every affected slot consistently across agents. Do not selectively rerun low scores. Do not modify task selection or rubrics beyond recorded repairs without my approval. Do not add expensive model-based diagnostics by default.
+
+Rank only matched task cohorts and use equal domain weights, with three attempt scores averaged per task. Include per-domain task counts, exclusions, documented modifications, presets and uncertainty. Run a final contextual fairness audit before publishing the completed scores. Same settings cannot guarantee identical numerical results because model/provider responses, native injected failures and semantic judging vary.
+
+If continuing the complete campaign afterward, retain the frozen 32 PinchBench tasks and 21 Terminal-Bench 4.0 tasks. Benchmark order is WildClawBench, then PinchBench, then Terminal-Bench 4.0; one suite at a time. PinchBench must first pass native conversation reuse and fresh-session file-persistence controls. Do not rerun valid completed work when resuming the existing campaign. Before resuming this owner's campaign, read NEXT_SESSION.txt and resume-gate.json and address the recorded owner pause.
+
+
+EXACT SOURCE IDENTITIES AND METRIC DEFINITIONS
+- Harbor dataset: internlm/WildClawBench-Harbor, revision 33d06066716dc2666721f08ad2784c96e9b44dc5.
+- Supplemental author workspace inputs: internlm/WildClawBench, revision 75f945578aa00cbdb8f46e4d42e4f4e98f704b4f. The source review, repair plan and restored-file hashes identify the omitted live inputs and original Thread Consolidation server.
+- Use the complete 36-task roster from selection.json or the archive snapshots. Do not use the stale 12-task pilot.json roster/concurrency field: pilot.json carries native inference/media wiring, while campaign.json and scheduling-policy.json define the actual 36 tasks and up-to-nine concurrency.
+- Use the metrics-plan.json agreement and wildclawbench-data.json definitions. Per-task reporting must retain all three scores, mean, median and range. Include per-call p50/p95 sample coverage; do not average per-run latency medians and call it pooled latency.
+- Effective output throughput is output_tokens / full completed-response seconds, including reasoning and request wait. Isolated decode speed is not available.
+- Compare successful efficiency on the strict shared-success cohort: all nine attempts score 100% and finish without an exception. Keep full-cohort efficiency separate.
+- Observed token sums are lower bounds where usage is missing. Cached input and reasoning output are subsets, not additive new tokens. Include candidate image transport, hosted image tool usage, original judging and recovery judging separately.
+- Between-assistant-event spacing is a proxy including tools/thinking. Exact request-start spacing is unavailable for Hermes in the original records. Original resource peaks, exact universal semantic retry counts and universal semantic tool accuracy were not captured; report unknown rather than infer zeros.
+- Tool result status coverage describes exported results with explicit structured status, not complete model-tool dispatch coverage. Native wrappers differ, so do not treat those execution ratios as directly comparable semantic accuracy.
+- Pin this experiment's source code, dependency locks, generated runtimes, tool settings, profiles, auxiliary/delegated settings and native image lifecycle to the frozen inventories. Install dependencies from pinned records, not an unrecorded latest resolution. Host paths may be remapped explicitly; do not mutate the owner's active Core checkout.
+- Historical provider and model/grade variability means the same conditions can reproduce the methodology, not guarantee identical numeric scores or latencies. Capture actual returned models/tiers, hardware, software, concurrency and network conditions.
+
+Report and manifest locations in the provided campaign folder:
+- wildclawbench-frozen-20261013/wildclawbench-report.html
+- wildclawbench-frozen-20261013/wildclawbench-data.json
+- wildclawbench-frozen-20261013/metrics-plan.json
+- wildclawbench-frozen-20261013/accepted-attempts.json
+- wildclawbench-frozen-20261013/evidence-manifest.json
+- wildclawbench-frozen-20261013/freeze-verification.json
+- wild-fairness-review.json
+
+These records contain 324 accepted slots. Superseded and withdrawn attempts are preserved for provenance, never selected for their score. In a fresh reproduction, do not copy complete markers, result files or acceptance mappings into active run directories. In a resume of this campaign, never reset or rerun accepted slots.
+
+REBUILDING RETIRED ENVIRONMENTS
+The final task environment directories and temporary Social service image were intentionally retired after export. Recreate them from the pinned Harbor revision, per-task input/adaptation receipts, canonical author-input recovery plan, and captured native service dependency receipt. Preserve the original service image parent and dependency versions from social-service-image.json; clear inherited invalid proxy settings as recorded. Do not interpret intentionally deleted containers/environments as missing scored evidence. Verify regenerated task preparation hashes before inference. Existing source exports may have no Git directory: retain their recorded commit provenance and verify the actual frozen bytes with the source inventory.

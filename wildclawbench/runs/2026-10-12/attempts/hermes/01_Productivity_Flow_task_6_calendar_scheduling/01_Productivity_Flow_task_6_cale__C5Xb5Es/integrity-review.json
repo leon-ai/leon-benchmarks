@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_6_calendar_scheduling/native/01_Productivity_Flow_task_6_cale__C5Xb5Es",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "c341103fc3a9767321c2819385b67b6cb5c6f2ec93d2e619ac7dc0c19bf7a0d0",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

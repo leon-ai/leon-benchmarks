@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_8_paper__aEWXLcq",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_8_paper_affiliation_search",
+  "score": 1.0,
+  "source_result_sha256": "3b51dfdc031bd488b049a1f6a5ebb79c544a2a8ea282b78774b2f6a31c349f69",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

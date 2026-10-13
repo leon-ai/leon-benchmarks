@@ -1,0 +1,12 @@
+{
+  "id": "05_Creative_Synthesis_task_6_clo__EhgHVt2",
+  "agent": "openclaw",
+  "task": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+  "score": 0.0,
+  "source_result_sha256": "6704042e08d3f658b09baca59681f9373b45f39cfe86c9b73015296bd8f6576f",
+  "diagnosis": {
+    "category": "Image artifact persistence",
+    "explanation": "The audited replacement retained generated image activity but did not save all required independent PNG outputs. The repaired native lifecycle completed; this is a retained native output failure.",
+    "confidence": "Native grader and lifecycle review"
+  }
+}

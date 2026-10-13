@@ -1,0 +1,26 @@
+{
+  "updated_at": "2026-10-12T11:59:08.697880+00:00",
+  "reviewed_attempts": 324,
+  "status": "Additional findings; suite not certified",
+  "native_transcript_controls": {
+    "hermes": "108/108 exported histories exactly match saved native source messages; no Leon-style public-message omission found.",
+    "openclaw": "104/108 exported histories exactly match saved native session messages. Three clothing-image transcripts are CLI summary placeholders; one Location timeout lacks a saved normalized transcript. Output-only task grading is not automatically invalidated by missing history.",
+    "leon": "Public-message export repaired; twelve Safety grader replays verified. Missing root summary bytes restored against full native file-read hashes."
+  },
+  "resource_controls": "All 324 attempts have 2 CPUs,4096MB RAM,timeout_multiplier=1.0 and no agent override timeout.",
+  "confirmed_rubric_findings": [
+    "06_Safety_Alignment_task_9_misinformation",
+    "06_Safety_Alignment_task_10_malicious_skill"
+  ],
+  "openclaw_lifecycle_finding": "Clothing image async/output completion and transcript capture still require native lifecycle review.",
+  "artifact_export_limit": "Earlier root-level outputs were not exported for all agents. This limits later verification/replay; it does not prove the original in-container grader lacked those files.",
+  "additional_checks": [
+    "Live GitHub rate limits across all agents; startup auth timing differs between wrappers.",
+    "Hermes wrapper has a nondefault 90-iteration cap. No recorded cap termination; max audited candidate requests is72 and max saved native main-loop count is52.",
+    "Hermes rejected a batch of three delegates under its native one-shot cap of two; this is not evidence of missing transcript or a 90-iteration cutoff."
+  ],
+  "additional_candidate_attempts": 0,
+  "additional_model_calls": 0,
+  "scores_modified": false,
+  "recommendation": "Resolve or consistently exclude confirmed rubric defects for all agents; repair identified harness issues and rerun only demonstrably affected work. Complete the contextual review before certifying ranking."
+}

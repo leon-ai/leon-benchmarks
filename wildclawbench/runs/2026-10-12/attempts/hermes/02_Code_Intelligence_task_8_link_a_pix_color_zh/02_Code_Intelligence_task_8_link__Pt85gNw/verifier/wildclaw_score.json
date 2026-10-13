@@ -1,0 +1,10 @@
+{
+  "image_judge_reason": "填色位置及颜色与标准答案一致，所有区域均完整还原，像素画整体完全匹配。",
+  "image_judge_method": "vlm",
+  "image_score": 1.0,
+  "desc_judge_reason": "准确描述了人物骑滑板车的场景，涵盖红色上衣、黑色裤子、蓝天白云、太阳和绿色草地等全部关键要素，补充细节与标准答案无明显冲突。",
+  "desc_judge_method": "llm",
+  "llm_attempts": 1,
+  "description_score": 1.0,
+  "overall_score": 1.0
+}

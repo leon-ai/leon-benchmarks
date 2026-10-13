@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_9_artwo__2YbcLJh",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_9_artwork_search",
+  "score": 1.0,
+  "source_result_sha256": "1b5927b8690339aefb014a76eb6a264e85ca84a3219c6e232dc9cd9edbc52ccf",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

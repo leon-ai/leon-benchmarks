@@ -1,0 +1,12 @@
+{
+  "id": "05_Creative_Synthesis_task_6_clo__Ghes8UA",
+  "agent": "leon",
+  "task": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+  "score": 0.598,
+  "source_result_sha256": "9be5f742d197ed20db4800bcab949e9b36b816d082fdf6ff0169cbafe92e4c5a",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

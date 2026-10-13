@@ -1,0 +1,12 @@
+{
+  "id": "05_Creative_Synthesis_task_10_so__qdhveHE",
+  "agent": "hermes",
+  "task": "05_Creative_Synthesis_task_10_social_poster_multi_crop",
+  "score": 0.8933,
+  "source_result_sha256": "033f773b70420f82fecf7bcc83f77cd4e188ddb97cad5a78e48903d5c6afef12",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

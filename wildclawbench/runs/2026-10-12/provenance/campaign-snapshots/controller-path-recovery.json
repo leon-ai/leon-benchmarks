@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-11T14:11:07.922758+00:00",
+  "reason": "Allowance check could not locate installed codex executable in background service environment. Explicit per-service executable path avoids dependence on interactive shell initialization.",
+  "dropin": "__HOME__/.config/systemd/user/leon-benchmark-campaign.service.d/10-executable-path.conf",
+  "previous_content": null,
+  "content": "[Service]\nEnvironment=\"PATH=%h/.local/bin:%h/.volta/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"\n",
+  "sha256": "5ffe8cc6017f8125981625662c7b003a3d47b7a59b0bf47563e28266c8bbeb32",
+  "candidate_reruns": 0,
+  "candidate_model_auth_budget_changes": false
+}

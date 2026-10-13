@@ -1,0 +1,125 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 11,
+    "recorded_inference_requests": 11,
+    "completed_inference_requests": 11,
+    "requests_with_token_usage": 11,
+    "token_usage": {
+      "input_tokens": 402306,
+      "output_tokens": 4944,
+      "total_tokens": 407250,
+      "cached_input_tokens": 209408,
+      "reasoning_output_tokens": 2201
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 11
+    },
+    "http_statuses": {
+      "200": 11
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 11,
+        "median": 1.8459686400001374,
+        "minimum": 1.4554465960000016,
+        "maximum": 3.253716584000358
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 5.830665221500112,
+        "minimum": 5.6801375690001805,
+        "maximum": 5.981192874000044
+      },
+      "firstToolActionSeconds": {
+        "count": 9,
+        "median": 11.445656973000041,
+        "minimum": 4.2022022910005035,
+        "maximum": 36.28412128200034
+      },
+      "responseSeconds": {
+        "count": 11,
+        "median": 7.482819712000492,
+        "minimum": 4.23098517300059,
+        "maximum": 36.315293120000206
+      }
+    },
+    "observer_milliseconds": 40.40484502002073,
+    "model_tool_calls": 11,
+    "tool_schema_checks": {
+      "valid": 11
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 1327,
+      "output_tokens": 44,
+      "total_tokens": 1371,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 0
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.8837227829999392,
+        "minimum": 1.8837227829999392,
+        "maximum": 1.8837227829999392
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 2.483587183000054,
+        "minimum": 2.483587183000054,
+        "maximum": 2.483587183000054
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 3.1809832429999005,
+        "minimum": 3.1809832429999005,
+        "maximum": 3.1809832429999005
+      }
+    },
+    "observer_milliseconds": 1.4430890005314723,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.056417,
+    "agent_setup": 1.5422,
+    "agent_execution": 175.686827,
+    "verifier": 4.211804
+  },
+  "native_task_grade": {
+    "overall_score": 1.0,
+    "judge_reason": "待评估回答明确识别项目为 llama.cpp，并指出其由 Georgi Gerganov（ggerganov）创建，与标准答案一致。"
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

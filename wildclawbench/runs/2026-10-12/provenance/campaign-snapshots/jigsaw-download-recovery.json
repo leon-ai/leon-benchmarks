@@ -1,0 +1,16 @@
+{
+  "recovered_at": "2026-10-11T12:59:23.977887+00:00",
+  "task": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+  "reason": "Truncated immutable input download; no candidates launched for this task.",
+  "file": "environment/input/piece_13.png",
+  "before": {
+    "size": 85366,
+    "sha256": "15873801aad21b493ddd2175d93b3e33dfcc41ba020e835d0d6b6a1b89076b59"
+  },
+  "after": {
+    "size": 100906,
+    "sha256": "9cef4dab18f415d1d9526ab5fd020da195b468b1812436fa870399106058fa2a"
+  },
+  "prepared_fixture_verified": true,
+  "candidate_reruns": 0
+}

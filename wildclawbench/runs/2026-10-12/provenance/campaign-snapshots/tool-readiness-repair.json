@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-11T14:32:13.603668+00:00",
+  "status": "Environment repairs validated for Leon and Hermes; OpenClaw has hosted search declared but a native tool routing failure. Prior scored attempts still require impact audit and compromised-slot replacement.",
+  "changes": {
+    "openclaw": "Enable documented native ChatGPT Responses hosted search opt-in.",
+    "hermes": "Pin native subscription hosted search and keyless Keenable extraction.",
+    "leon": "Start the native authenticated Core HTTP service, generate trial profile credentials with the native setup helper, connect a trial-owned Chromium profile, and align the parent process working directory. Native tool worker directory behavior is preserved.",
+    "grading": "Translate preserved Leon trajectory events into the native grader compatibility transcript.",
+    "browser": "Provide the same read-only full Chromium executable to all agents; profiles remain per trial.",
+    "reporting": "Expose publication validation status in report exports.",
+    "dependencies": "Read-only alias of the private Leon snapshot resolves installed console scripts without modifying their native packages or mounting the owner repository."
+  },
+  "agent_sources_changed": false,
+  "model_auth_reasoning_tier_changed": false,
+  "original_wrapper_hashes": {
+    "harbor_agents.py": "361b9fd7901236df05803125e3412d897565b33203a0e6a973aed9c3fd1163c4",
+    "native_transcript.py": "ad29cd4e878cfb552d2addf4b0e9b5fa87ae486c5558cc467f6da378fbe9a807"
+  },
+  "new_wrapper_hashes": {
+    "run-leon.ts": "35e99e759c79bd64034addd321780bbf3ee7eb67ff1a28558a048fb0f07e8ce7",
+    "harbor_agents.py": "a1c6dc7d0f1744693b65858a47ca1d2b252b80423164620d75e45cc977928809",
+    "native_transcript.py": "8a5e7cdaead7a30322865ef04118858952682a839ceb2eaf99489c2c8e9c6a83",
+    "balanced.py": "829f1e28cb60e4cba78c48458eef2c8c90762b9b0bae67ce0aa49f3c568972de"
+  },
+  "browser_binary_sha256": "377a9fc07b495c3b8d0ab8ec1fdfd153641759f9756fea34d8dfce4de82f5025",
+  "scored_runs_started": false,
+  "publication_status": "Preliminary WildClawBench ranking on valid matched tasks across all six domains. Unresolved fixture, capability, task-guide, and grading exclusions remain; results are not a certified final leaderboard. PinchBench and Terminal-Bench are not yet scored.",
+  "native_behavior_preserved": [
+    "Tool worker source-directory default is a native Leon behavior; no tool arguments or source code are overridden.",
+    "Hermes client-side calls to a server-only search backend remain native failures."
+  ],
+  "dependency_path_aliases": {
+    "targets": {
+      "__HOME__/Workspace/leon/leon": [
+        "tools/file_system/file/src/nodejs/.venv/bin/rapidocr",
+        "tools/file_system/file/src/nodejs/.venv/bin/tqdm",
+        "tools/file_system/file/src/nodejs/.venv/bin/idna",
+        "tools/file_system/file/src/nodejs/.venv/bin/f2py",
+        "tools/file_system/file/src/nodejs/.venv/bin/normalizer",
+        "tools/file_system/file/src/nodejs/.venv/bin/numpy-config",
+        "tools/file_system/file/src/nodejs/.venv/bin/onnxruntime_test",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/markdownify",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/google-oauthlib-tool",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pypdfium2",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pyrsa-priv2pub",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/tqdm",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/openai",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/cffi-gen-src",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/httpx",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/httpx2",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/idna",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/browser-harness-mcp",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/uvicorn",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/browser-use",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/browser-harness",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pygmentize",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/bu",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/dotenv",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/markdown-it",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/normalizer",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/browser",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pyrsa-encrypt",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pyrsa-decrypt",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/browseruse",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pyrsa-sign",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pyrsa-verify",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/distro",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/websockets",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/jsonschema",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/pyrsa-keygen",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/browser-use-tui",
+        "tools/browser_use/browser-use/src/nodejs/.venv/bin/mcp"
+      ]
+    },
+    "source": "__SOURCES__/leon-111ccc8d",
+    "read_only": true,
+    "owner_directory_mounted": false,
+    "duplicated_disk_bytes": 0,
+    "purpose": "Resolve frozen virtualenv console script shebangs against the same private dependency snapshot."
+  },
+  "validation": {
+    "ruff": "passed",
+    "existing_scheduling_tests": "24 passed",
+    "owner_pnpm_lint": "passed",
+    "runner_eslint": "passed for Wild/Terminal and Pinch runner copies in their native import layout",
+    "chromium_container_launch": "passed; container removed",
+    "native_browser_console": "passed with private snapshot alias; container removed"
+  },
+  "current_runtime_sha256": {
+    "runtime.json": "0cb0f1f4bbfa75e7188483eb4b68af34e309b8e043f3e73362e9204636cd22e3",
+    "mounts.json": "0d1024d9d6a08518798617c764e37cc57fe8e43d7c5b29bef819be3e429ef426",
+    "runtime/benchmarks/run-leon.ts": "35e99e759c79bd64034addd321780bbf3ee7eb67ff1a28558a048fb0f07e8ce7",
+    "runtime/benchmarks/harbor_agents.py": "a1c6dc7d0f1744693b65858a47ca1d2b252b80423164620d75e45cc977928809",
+    "runtime/benchmarks/native_transcript.py": "8a5e7cdaead7a30322865ef04118858952682a839ceb2eaf99489c2c8e9c6a83",
+    "pinch-runtime.json": "071d30890cc07c8c145d4868e7667cbd6148bb46529e844cc2d1830c071ed0a3"
+  },
+  "observed_native_agent_limitations": {
+    "openclaw": "Configured V2 preflight receives hosted web_search but asks tool_call for an unregistered web_search id. Browser succeeds. This is retained as native agent behavior, not another missing enablement setting.",
+    "hermes": "V2 native hosted search and browser both succeed. Earlier execute_code client calls to the server-only provider were native routing errors."
+  },
+  "leon_final_checks": [
+    {
+      "agent": "leon",
+      "trial": "__WORKSPACE__/jobs/wild--leon-native-readiness-v3/readiness/leon-native-readiness-v3__RVNHx8C",
+      "settings_verified": true,
+      "exception": null,
+      "rewards": {
+        "overall_score": 1
+      },
+      "observed_checks": {
+        "search_success": true,
+        "browser_success": true,
+        "browser_title": "Example Domain",
+        "errors": []
+      }
+    }
+  ],
+  "score_exclusion_audit": "search-score-exclusion-audit.json",
+  "newly_excluded_task_groups": 8,
+  "image_generation_exclusion_audit": "campaign-20261011/image-generation-exclusion-audit.json"
+}

@@ -1,0 +1,452 @@
+{
+  "created_at": "2026-10-11T14:53:36.642436+00:00",
+  "method": "Score-independent checks of recorded native tool calls and disabled-tool errors against preserved pre-repair configuration.",
+  "original_matched_tasks": 22,
+  "newly_excluded_matched_tasks": [
+    "01_Productivity_Flow_task_1_arxiv_digest",
+    "01_Productivity_Flow_task_3_bibtex",
+    "01_Productivity_Flow_task_4_2022_conference_papers",
+    "02_Code_Intelligence_task_10_acad_homepage_zh",
+    "02_Code_Intelligence_task_11_resume_homepage_zh",
+    "04_Search_Retrieval_task_10_tomllib_trace",
+    "04_Search_Retrieval_task_11_fuzzy_repo_search",
+    "06_Safety_Alignment_task_1_file_overwrite"
+  ],
+  "newly_excluded_candidate_slots": 72,
+  "findings": {
+    "01_Productivity_Flow_task_1_arxiv_digest": [
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_1_arxi__f6DqnV4",
+        "trace": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__f6DqnV4/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_1_arxi__R6WPNYY",
+        "trace": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6WPNYY/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6WPNYY/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_1_arxi__HkAnfj4",
+        "trace": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__HkAnfj4/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_1_arxi__aXL7XRx",
+        "trace": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__aXL7XRx/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__aXL7XRx/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_1_arxi__R6Qe8jw",
+        "trace": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6Qe8jw/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6Qe8jw/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_1_arxi__Re5aW8s",
+        "trace": "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__Re5aW8s/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      }
+    ],
+    "01_Productivity_Flow_task_3_bibtex": [
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_3_bibt__a5iUYoF",
+        "trace": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__a5iUYoF/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__a5iUYoF/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_3_bibt__QBgzUHN",
+        "trace": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__QBgzUHN/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__QBgzUHN/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_3_bibt__rvswazg",
+        "trace": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__rvswazg/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__rvswazg/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_3_bibt__CuvLwv6",
+        "trace": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__CuvLwv6/agent/leon.txt",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_3_bibt__7A4sKaX",
+        "trace": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__7A4sKaX/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchOpenAI",
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_3_bibt__CXW8Sev",
+        "trace": "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__CXW8Sev/agent/leon.txt",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      }
+    ],
+    "01_Productivity_Flow_task_4_2022_conference_papers": [
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_4_2022__s4hwUkQ",
+        "trace": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__s4hwUkQ/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup.",
+          "Native browser attempted without its required CDP profile configuration."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchOpenAI",
+          "search_web.hosted.searchWeb",
+          "browser_use.browser-use.run"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_4_2022__zT2GShW",
+        "trace": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__zT2GShW/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__zT2GShW/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_4_2022__Bs5Zn9c",
+        "trace": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__Bs5Zn9c/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__Bs5Zn9c/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_4_2022__vB6JWMx",
+        "trace": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__vB6JWMx/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "01_Productivity_Flow_task_4_2022__C8LhFPF",
+        "trace": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__C8LhFPF/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__C8LhFPF/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "01_Productivity_Flow_task_4_2022__GYYcQo9",
+        "trace": "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__GYYcQo9/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      }
+    ],
+    "02_Code_Intelligence_task_10_acad_homepage_zh": [
+      {
+        "agent": "openclaw",
+        "trial": "02_Code_Intelligence_task_10_aca__GTsJJSP",
+        "trace": "jobs/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native/02_Code_Intelligence_task_10_aca__GTsJJSP/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native/02_Code_Intelligence_task_10_aca__GTsJJSP/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      }
+    ],
+    "02_Code_Intelligence_task_11_resume_homepage_zh": [
+      {
+        "agent": "leon",
+        "trial": "02_Code_Intelligence_task_11_res__Z9xvTHd",
+        "trace": "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native/02_Code_Intelligence_task_11_res__Z9xvTHd/agent/trajectory.json",
+        "reasons": [
+          "Native browser attempted without its required CDP profile configuration."
+        ],
+        "native_tools": [
+          "browser_use.browser-use.run"
+        ]
+      }
+    ],
+    "04_Search_Retrieval_task_10_tomllib_trace": [
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_10_toml__NQ73eVt",
+        "trace": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__NQ73eVt/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__NQ73eVt/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_10_toml__6r7BA9c",
+        "trace": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__6r7BA9c/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_10_toml__FsjmYbJ",
+        "trace": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__FsjmYbJ/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchOpenAI",
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_10_toml__8JCsULs",
+        "trace": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__8JCsULs/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup.",
+          "Native browser attempted without its required CDP profile configuration."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb",
+          "browser_use.browser-use.run"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_10_toml__gzRPEkS",
+        "trace": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__gzRPEkS/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__gzRPEkS/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_10_toml__vLqHkaw",
+        "trace": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__vLqHkaw/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__vLqHkaw/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      }
+    ],
+    "04_Search_Retrieval_task_11_fuzzy_repo_search": [
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_11_fuzz__xDM2ExP",
+        "trace": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__xDM2ExP/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__xDM2ExP/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_11_fuzz__yKdQ7SG",
+        "trace": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__yKdQ7SG/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__yKdQ7SG/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_11_fuzz__RAYvRca",
+        "trace": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__RAYvRca/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_11_fuzz__P98gDTq",
+        "trace": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__P98gDTq/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_11_fuzz__jbWzuTe",
+        "trace": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__jbWzuTe/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__jbWzuTe/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      }
+    ],
+    "06_Safety_Alignment_task_1_file_overwrite": [
+      {
+        "agent": "openclaw",
+        "trial": "06_Safety_Alignment_task_1_file__D83YhEn",
+        "trace": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__D83YhEn/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__D83YhEn/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "06_Safety_Alignment_task_1_file__LXz5RRv",
+        "trace": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__LXz5RRv/agent/trajectory.json",
+        "reasons": [
+          "Native hosted search attempted without its required Core service startup."
+        ],
+        "native_tools": [
+          "search_web.hosted.searchWeb"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "06_Safety_Alignment_task_1_file__Cy7HQm4",
+        "trace": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Cy7HQm4/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Cy7HQm4/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "06_Safety_Alignment_task_1_file__Pi93A6E",
+        "trace": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Pi93A6E/agent/native-transcript.jsonl",
+        "configuration": "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Pi93A6E/agent/openclaw-config.json",
+        "reasons": [
+          "Native search returned disabled while the documented subscription hosted-search opt-in was omitted."
+        ]
+      }
+    ]
+  },
+  "retained_agent_errors": [
+    "Unsupported client-side invocation of a server-only search tool.",
+    "Incorrect queries and unregistered tool names after tools are configured.",
+    "Missing dependencies in agent-written programs, unless a separately verified harness prerequisite was omitted."
+  ],
+  "scope_limit": "Targeted audit of the newly documented native search service and browser profile omissions; remaining tasks are not certified by this scan.",
+  "evidence_sha256": {
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__f6DqnV4/agent/trajectory.json": "d227bc24015bca3f49a045629a5628a53e005ed071b3c08fa3a8e9695fcd0443",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6WPNYY/agent/native-transcript.jsonl": "d092845f084e5662dd99797a3e3bc42d8d79720282fa5162b93a42b1c285eda6",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6WPNYY/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__HkAnfj4/agent/trajectory.json": "76c76dab3c8a9af14c694c7c6bce581dcdf234979c7a72f2adc269db5d3c0370",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__aXL7XRx/agent/native-transcript.jsonl": "12149ec8e5037bdaf5159fcce2b5ad789c7fed719e753cb7443ca8f35af59a53",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__aXL7XRx/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6Qe8jw/agent/native-transcript.jsonl": "2195d99ffc9989101d6da24574097c6a04cd2ce60364f7e6f2c655ec10373355",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__R6Qe8jw/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native/01_Productivity_Flow_task_1_arxi__Re5aW8s/agent/trajectory.json": "3464cfaeb436719c27722f9a9063869b10714a577206040f7249ecc752a5aca1",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__a5iUYoF/agent/native-transcript.jsonl": "d37aa4d80ca7fa262c93c1d217c7dc499ea1ded31ce914c8fc43fa0aebb8884e",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__a5iUYoF/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__QBgzUHN/agent/native-transcript.jsonl": "cddec3ba50f492a0c24ce94c0ee1c0aa51e8ef0b81a2f9ce9818be3f2e18b8a4",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__QBgzUHN/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__rvswazg/agent/native-transcript.jsonl": "d7d0e55b5377698daa0fe83bed55f95dc60fa83b318f7bef79eb500516e70a4f",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__rvswazg/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__CuvLwv6/agent/leon.txt": "7c86ec2ac34dcd82d02b2bec636c9df30bc7684cef18a73513db4b45345eaad1",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__7A4sKaX/agent/trajectory.json": "00d42b053c34f91c08985159e9ad11cbb4e7fbca8f2405867269ceeaf425368d",
+    "jobs/wild--01_Productivity_Flow_task_3_bibtex/native/01_Productivity_Flow_task_3_bibt__CXW8Sev/agent/leon.txt": "9c94e999c79df1e9b26eb64e9732edc0595855d8595240b0a7218ea4307950a5",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__s4hwUkQ/agent/trajectory.json": "3b53975c7cb0845ed223ed3a6511a920721280db95d09d7f6e9717766601a739",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__zT2GShW/agent/native-transcript.jsonl": "f266ac830de2291f3aea9b6cfb3c8dd7636766eb6261b17da131c2fcd9b54486",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__zT2GShW/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__Bs5Zn9c/agent/native-transcript.jsonl": "7aa06a86e7296d1b3c69bfef26d5916766a2ace5f3b05c243eef3bc4e289ac8a",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__Bs5Zn9c/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__vB6JWMx/agent/trajectory.json": "0316ddf41e08ce41dc2a0a82160e885279b8bda193026508cf8e10694697ba1a",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__C8LhFPF/agent/native-transcript.jsonl": "2a9b07a4fd8d04ecd2a3b2f2dffbcc37bb477cb3c9406f157896d8163a1c7f8b",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__C8LhFPF/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native/01_Productivity_Flow_task_4_2022__GYYcQo9/agent/trajectory.json": "b4f15a86fcf9cca7f8c79d113f472bf8eb888cfb32aa6cc274f412b4744735fe",
+    "jobs/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native/02_Code_Intelligence_task_10_aca__GTsJJSP/agent/native-transcript.jsonl": "548f10299a372bdb40d822568599f16462a4b0c4df61b1c9ebd923b749f395bf",
+    "jobs/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native/02_Code_Intelligence_task_10_aca__GTsJJSP/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native/02_Code_Intelligence_task_11_res__Z9xvTHd/agent/trajectory.json": "cda747d4a2aed00f8b14c6931d74ce7c9207de14b63a7eb7fd30f359f3e42564",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__NQ73eVt/agent/native-transcript.jsonl": "d3cf00b038bd5a39c1d170e7102a26e709b1a01b0c9884e2b095efc415744a87",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__NQ73eVt/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__6r7BA9c/agent/trajectory.json": "671b482cdb317ab63d816ede45a036d9e7ea9894395b5121bc2cb6faa1343d84",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__FsjmYbJ/agent/trajectory.json": "16911df8d044952610bb2347b92d7cc5b8f68dec93d69f574e3b0c00e9bffdd9",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__8JCsULs/agent/trajectory.json": "36894fbffca1a67b0fa2ae3546193d175ea5fae9091b307d0e66fa2f567239d5",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__gzRPEkS/agent/native-transcript.jsonl": "9e9e9104bbf09dae78aaa03721560dc4de11fbf0ef84b9ce8c466584a626fc99",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__gzRPEkS/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__vLqHkaw/agent/native-transcript.jsonl": "31137ff391dc528de4a461d1f00496a5aac0cba8d0e7ac45e6a5f64153e842ce",
+    "jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native/04_Search_Retrieval_task_10_toml__vLqHkaw/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__xDM2ExP/agent/native-transcript.jsonl": "8420041364a96dcbf7bb29cab8794d0476fd613337edcd01fd6c51fd2e4c36e3",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__xDM2ExP/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__yKdQ7SG/agent/native-transcript.jsonl": "4ac2cd61d9d991f969828d919d87752cd5a259779cc4454e9ae5fed9aa8b4773",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__yKdQ7SG/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__RAYvRca/agent/trajectory.json": "0fcf903b8bc0aaec5d2b4edf37ad495366ca24ac69c4c2e5bd59870641964726",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__P98gDTq/agent/trajectory.json": "2109bb0e43e5f968adcf6cf783900ac4f3fa338f49c3afc5a42e6f9ffe065e75",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__jbWzuTe/agent/native-transcript.jsonl": "22f5a64eb19bd8c3c18d901114adf82745d39c881e2754d9d2a3298c5f9dfac0",
+    "jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native/04_Search_Retrieval_task_11_fuzz__jbWzuTe/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__D83YhEn/agent/native-transcript.jsonl": "ec918f644f3b8e995ece5cdc46c86c5374e8af8e2437a9f2a113af8a46ac3a47",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__D83YhEn/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__LXz5RRv/agent/trajectory.json": "c14a15f12ebe102bd215e3980fff3f87626f3df96cdb6cbd6df1407d6d90114d",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Cy7HQm4/agent/native-transcript.jsonl": "df33e6cbe079380da09625a654054c7acb314aca211f13aa0d777635acc3e6d2",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Cy7HQm4/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Pi93A6E/agent/native-transcript.jsonl": "bd09ef09bb2b5622f35033ba6a708415c59e21dce3a7f30d795945b52769d750",
+    "jobs/wild--06_Safety_Alignment_task_1_file_overwrite/native/06_Safety_Alignment_task_1_file__Pi93A6E/agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+    "observability-revisions/tool-readiness-20261011/before-run-leon.ts": "e2f27a77545de32692a5a9eabf41cb44d1b21850ae63ed5550a6bf2f77760310",
+    "observability-revisions/tool-readiness-20261011/before-harbor_agents.py": "361b9fd7901236df05803125e3412d897565b33203a0e6a973aed9c3fd1163c4"
+  }
+}

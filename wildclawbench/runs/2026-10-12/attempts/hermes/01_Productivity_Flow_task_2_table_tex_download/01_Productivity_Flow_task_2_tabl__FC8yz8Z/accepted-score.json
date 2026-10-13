@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_2_tabl__FC8yz8Z",
+  "agent": "hermes",
+  "task": "01_Productivity_Flow_task_2_table_tex_download",
+  "score": 1.0,
+  "source_result_sha256": "fd23002e2f444ac41728d8a281c08c03427a56e4b80deeef086515e297611f8a",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

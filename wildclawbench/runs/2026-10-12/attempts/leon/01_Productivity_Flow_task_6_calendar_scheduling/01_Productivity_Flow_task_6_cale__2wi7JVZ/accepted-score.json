@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_6_cale__2wi7JVZ",
+  "agent": "leon",
+  "task": "01_Productivity_Flow_task_6_calendar_scheduling",
+  "score": 1.0,
+  "source_result_sha256": "fd52638b8c98d86370b68b6c8f61828f55f128d427ea067d699fed963ee3e5c0",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

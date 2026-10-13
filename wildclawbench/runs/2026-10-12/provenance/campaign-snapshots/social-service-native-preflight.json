@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "passed": true,
+      "api_initial_messages": 20,
+      "full_message_read": true,
+      "draft_saved": null,
+      "native_seed_cleanup_preserved": true,
+      "source_messages": 20,
+      "readiness_sha256": "599df7e7a367ecdc1e832706d5ab900ca298732b4ab114d28469c9ca8526861e",
+      "control_sha256": "d0b495b80d72e4d48933b2c790e26e3382ad710b70ad297ca73500144261fdad",
+      "container_deleted": true
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "passed": true,
+      "api_initial_messages": 12,
+      "full_message_read": true,
+      "draft_saved": true,
+      "native_seed_cleanup_preserved": true,
+      "source_messages": 12,
+      "readiness_sha256": "d54c38f9c0a3ed2fd40483e8da0e52dd4b30fb48c568234f1ddf8109e5206b28",
+      "control_sha256": "9c304b4f0fb4323146893a61ce2137a8773c5c337c8150f581ca5df9f5a01f07",
+      "container_deleted": true
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "passed": true,
+      "api_initial_messages": 12,
+      "draft_saved": true,
+      "native_seed_cleanup_preserved": true,
+      "source_messages": 12,
+      "readiness_sha256": "1f0bfbba5321dad25db45c148319c2eee67d3caf47a5ced3d700d4eb3062f0c6",
+      "control_sha256": "704130d3bd6629096a0a5019dd6a0881d8c27732857b4e1cb898ce781beff769",
+      "container_deleted": true
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "passed": true,
+      "api_initial_messages": 9,
+      "draft_saved": true,
+      "native_seed_cleanup_preserved": true,
+      "source_messages": 9,
+      "readiness_sha256": "35a06e81817d0f6c2e0084f9de5acb30bdd0ec17ab975cd26e587cb99e73d138",
+      "control_sha256": "b98a15d9dedc840d6abb17ae7184e2c61af436f8005f80daa1b13d30eba3fc61",
+      "container_deleted": true
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "passed": true,
+      "api_initial_messages": 18,
+      "full_message_read": true,
+      "draft_saved": null,
+      "native_seed_cleanup_preserved": true,
+      "source_messages": 18,
+      "readiness_sha256": "599df7e7a367ecdc1e832706d5ab900ca298732b4ab114d28469c9ca8526861e",
+      "control_sha256": "d40de4e27ec4e403a3ca693c4349e74de713eb3f5518958fafcd5c5aa556a625",
+      "container_deleted": true
+    }
+  ],
+  "model_calls": 0,
+  "native_error_injection_changed": false,
+  "native_instructions_and_graders_changed": false,
+  "initial_seed_files_removed_after_readiness": true
+}

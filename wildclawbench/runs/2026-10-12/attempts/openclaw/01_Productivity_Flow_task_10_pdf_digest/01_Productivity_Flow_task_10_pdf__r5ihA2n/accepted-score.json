@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_10_pdf__r5ihA2n",
+  "agent": "openclaw",
+  "task": "01_Productivity_Flow_task_10_pdf_digest",
+  "score": 0.9374,
+  "source_result_sha256": "a8e7a1aef5c152aa622effe725c3c0332566c5f28d38c1619746aabf7c9c7d0c",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

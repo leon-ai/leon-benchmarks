@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_4_cha__FzVD98p",
+  "agent": "openclaw",
+  "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+  "score": 0.885,
+  "source_result_sha256": "8ea927b110c837bc12cb60d9b217d2a4860782cb55c71a84c49ed2f83c061191",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

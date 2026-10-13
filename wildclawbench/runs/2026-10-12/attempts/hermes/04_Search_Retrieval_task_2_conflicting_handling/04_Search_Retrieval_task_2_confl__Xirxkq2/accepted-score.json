@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_2_confl__Xirxkq2",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_2_conflicting_handling",
+  "score": 1.0,
+  "source_result_sha256": "df36a07cf0d324eec4bceb0fdc382fd14439f40f19dd9d32e8ba5dbf704a266d",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

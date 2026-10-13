@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_3_jigs__hvQjrTH",
+  "agent": "openclaw",
+  "task": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+  "score": 0.8,
+  "source_result_sha256": "d23b62028ffea3b8c8323712d8a8cb25616fe74f25da13095c54bc6ffc0c6036",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

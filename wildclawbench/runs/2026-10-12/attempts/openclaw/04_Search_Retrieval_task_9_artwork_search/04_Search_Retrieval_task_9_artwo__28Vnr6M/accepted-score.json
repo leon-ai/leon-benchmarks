@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_9_artwo__28Vnr6M",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_9_artwork_search",
+  "score": 0.0,
+  "source_result_sha256": "8d070fff4232839f598fbf044d68703c7b7ba08eadab5c5505caa7b7c16deb12",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The saved answer did not earn native artwork-identification credit.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

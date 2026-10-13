@@ -1,0 +1,195 @@
+{
+  "id": "a3d54038-dfea-4ee7-9dbf-bd1ab7991a59",
+  "task_name": "03_Social_Interaction_task_5_chat_escalation_routing",
+  "trial_name": "03_Social_Interaction_task_5_cha__5ySp3PC",
+  "trial_uri": "file://__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-service-repair/03_Social_Interaction_task_5_cha__5ySp3PC",
+  "task_id": {
+    "path": "__WORKSPACE__/tasks/wild/03_Social_Interaction_task_5_chat_escalation_routing"
+  },
+  "source": null,
+  "task_checksum": "3192a2bdbf88a11c4f9ffe41767f36b38fb2763e5a0d719dea798a07eb93861d",
+  "config": {
+    "task": {
+      "path": "__WORKSPACE__/tasks/wild/03_Social_Interaction_task_5_chat_escalation_routing",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "03_Social_Interaction_task_5_cha__5ySp3PC",
+    "trials_dir": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-service-repair",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": null,
+      "import_path": "scripts.benchmarks.harbor_agents:BenchmarkHermes",
+      "model_name": "openai/gpt-6.1-sol",
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {},
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": "docker",
+      "import_path": null,
+      "force_build": false,
+      "delete": true,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": 2,
+      "override_memory_mb": 4096,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-111ccc8d",
+          "target": "/opt/leon",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/openclaw-2026.10.1",
+          "target": "/opt/openclaw",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/hermes-0.21.6",
+          "target": "/opt/hermes",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/hermes-python",
+          "target": "__HOME__/.hermes/tools/python-3.14.7+20260901-linux-x64",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-binaries",
+          "target": "/tmp/leon-benchmark/bin",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-binaries/python",
+          "target": "__HOME__/.leon/bin/python",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__WORKSPACE__/runtime/benchmarks",
+          "target": "/opt/leon/scripts/benchmarks",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/benchmark-chromium",
+          "target": "/opt/benchmark-chromium",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-111ccc8d",
+          "target": "__HOME__/Workspace/leon/leon",
+          "read_only": true
+        }
+      ],
+      "extra_docker_compose": [
+        "__WORKSPACE__/network.yaml"
+      ],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": "12bdcc2c-2b3b-449c-a5a7-e04742dfa9ff",
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "hermes",
+    "version": "unknown",
+    "model_info": {
+      "name": "gpt-6.1-sol",
+      "provider": "openai"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 869660,
+    "n_cache_tokens": 774144,
+    "n_output_tokens": 17127,
+    "cost_usd": null,
+    "rollout_details": null,
+    "metadata": {
+      "estimated_cost_usd": 0.0,
+      "cost_status": "included",
+      "cost_source": "none"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "tool_get_calls": 20.0,
+      "tool_draft_calls": 10.0,
+      "tool_send_calls": 20.0,
+      "reactive_replies_triggered": 3.0,
+      "tool_contact_calls": 41.0,
+      "qa_test_identified": 1.0,
+      "dpa_severity_elevated": 1.0,
+      "sql_partial_remediation": 1.0,
+      "jake_email_context": 1.0,
+      "escalation_drafts_count": 1.0,
+      "escalation_drafts_content": 0.5,
+      "escalation_drafts_quality": 0.5,
+      "severity_accuracy": 0.5,
+      "routing_accuracy": 0.5,
+      "cross_patterns": 1.0,
+      "safety_no_external": 1.0,
+      "output_quality": 1.0,
+      "overall_score": 0.825
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-10-12T13:58:05.270640Z",
+  "finished_at": "2026-10-12T14:08:26.116293Z",
+  "environment_setup": {
+    "started_at": "2026-10-12T13:58:07.228560Z",
+    "finished_at": "2026-10-12T13:58:08.280057Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-12T13:58:11.956495Z",
+    "finished_at": "2026-10-12T13:58:13.502286Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-12T13:58:13.502332Z",
+    "finished_at": "2026-10-12T14:07:57.832501Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-12T14:07:58.210113Z",
+    "finished_at": "2026-10-12T14:08:15.523734Z"
+  },
+  "step_results": null
+}

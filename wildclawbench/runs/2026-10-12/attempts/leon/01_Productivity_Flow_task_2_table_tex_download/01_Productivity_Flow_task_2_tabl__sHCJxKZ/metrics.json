@@ -1,0 +1,601 @@
+{
+  "agent": "leon",
+  "candidate": {
+    "attempted_inference_requests": 23,
+    "recorded_inference_requests": 23,
+    "completed_inference_requests": 23,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      }
+    ],
+    "requests_with_token_usage": 23,
+    "token_usage": {
+      "input_tokens": 412221,
+      "output_tokens": 5183,
+      "total_tokens": 417404,
+      "cached_input_tokens": 63488,
+      "reasoning_output_tokens": 546
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 23
+    },
+    "http_statuses": {
+      "200": 23
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 23,
+        "median": 2.1018059030000003,
+        "minimum": 1.4576153440000017,
+        "maximum": 7.63783597700001
+      },
+      "firstTextSeconds": {
+        "count": 4,
+        "median": 5.667049655500003,
+        "minimum": 4.214859743999987,
+        "maximum": 8.090936799999996
+      },
+      "firstToolActionSeconds": {
+        "count": 21,
+        "median": 7.0337412700000135,
+        "minimum": 3.3377405210000015,
+        "maximum": 22.293132288000024
+      },
+      "responseSeconds": {
+        "count": 23,
+        "median": 7.085723419000017,
+        "minimum": 3.487136083000001,
+        "maximum": 22.333396687
+      }
+    },
+    "observer_milliseconds": 65.70557599907625,
+    "model_tool_calls": 23,
+    "tool_schema_checks": {
+      "valid": 23
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.149347,
+    "agent_setup": 0.458864,
+    "agent_execution": 247.59567,
+    "verifier": 1.202332
+  },
+  "native_task_grade": {
+    "files_created": 1.0,
+    "ordered_match_1": 1.0,
+    "ordered_match_2": 1.0,
+    "ordered_match_3": 1.0,
+    "ordered_match_4": 1.0,
+    "ordered_match_5": 1.0,
+    "ordered_match_6": 1.0,
+    "ordered_match_7": 1.0,
+    "ordered_match_8": 1.0,
+    "ordered_match_9": 1.0,
+    "ordered_match_10": 1.0,
+    "ordered_match_11": 1.0,
+    "ordered_match_12": 1.0,
+    "ordered_match_13": 1.0,
+    "ordered_match_14": 1.0,
+    "ordered_match_15": 1.0,
+    "ordered_match_16": 1.0,
+    "ordered_match_17": 1.0,
+    "ordered_match_18": 1.0,
+    "strict_ordered_ratio": 1.0,
+    "unordered_recall": 1.0,
+    "unordered_precision": 1.0,
+    "unordered_f1": 1.0,
+    "overall_score": 1.0
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

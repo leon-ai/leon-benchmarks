@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_1_mee__trhK4VC",
+  "agent": "openclaw",
+  "task": "03_Social_Interaction_task_1_meeting_negotiation",
+  "score": 0.895,
+  "source_result_sha256": "539c13f566c797b1cd26112930b598f764e35ad039a1f0ad1734f6f96f29670e",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

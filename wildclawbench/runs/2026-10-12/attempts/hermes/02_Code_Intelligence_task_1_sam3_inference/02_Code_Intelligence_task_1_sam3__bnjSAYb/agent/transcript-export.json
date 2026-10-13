@@ -1,0 +1,6 @@
+{
+  "rows": 64,
+  "message_rows": 64,
+  "source": "native agent state",
+  "additional_inference_calls": 0
+}

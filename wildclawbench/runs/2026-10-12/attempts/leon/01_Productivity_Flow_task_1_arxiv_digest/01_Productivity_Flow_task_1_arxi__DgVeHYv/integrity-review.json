@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__DgVeHYv",
+  "score": 0.8,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "1b89f02a305d8155dad28284a7e95d0f978e69ff2846f65d456f366d25823888",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

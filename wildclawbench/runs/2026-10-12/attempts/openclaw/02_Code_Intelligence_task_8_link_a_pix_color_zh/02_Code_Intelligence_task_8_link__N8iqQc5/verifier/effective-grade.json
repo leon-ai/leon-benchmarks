@@ -1,0 +1,10 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "image_score": 1.0,
+    "llm_attempts": 1,
+    "description_score": 1.0,
+    "overall_score": 1.0
+  },
+  "note": "Accepted grade after recorded repairs/regrades; not an invented original grader output."
+}

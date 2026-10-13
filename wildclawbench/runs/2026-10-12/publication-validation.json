@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-13T02:41:31.454567+00:00",
+  "passed": true,
+  "manifest_sha256": "1b05be1c2d4acc9f63d496fc67ae3ac160e6c4ef021f6def61ba49407f6f08c3",
+  "files_verified": 6131,
+  "accepted_attempts": 324,
+  "matched_tasks": 36,
+  "domains": 6,
+  "proof_links_checked": 1304,
+  "scanned_uncompressed_bytes": 278855839,
+  "scores_and_aggregate_telemetry_match_private_original": true,
+  "no_owner_paths_or_credential_patterns": true,
+  "private_reasoning_fields_omitted": true,
+  "scope": "Offline publication validation; no benchmark execution or inference calls"
+}

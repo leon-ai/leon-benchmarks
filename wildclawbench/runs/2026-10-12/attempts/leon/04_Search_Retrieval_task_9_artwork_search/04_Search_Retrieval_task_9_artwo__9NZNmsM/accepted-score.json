@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_9_artwo__9NZNmsM",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_9_artwork_search",
+  "score": 1.0,
+  "source_result_sha256": "bccbb383fd5d50eaa97a718d8d29c5871a73f7f5baaa14b71e655c840458065d",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

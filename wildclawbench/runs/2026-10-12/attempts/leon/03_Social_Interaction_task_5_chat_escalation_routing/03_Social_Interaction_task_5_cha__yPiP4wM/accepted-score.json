@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_5_cha__yPiP4wM",
+  "agent": "leon",
+  "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+  "score": 0.0,
+  "source_result_sha256": "70b421f83a6f7ed6520a06e23bfb8719eb89652aeaf46505822675e09c7240db",
+  "diagnosis": {
+    "category": "Required report missing",
+    "explanation": "The native grader could not find results.md at the published deadline. Exported working files do not satisfy the required report contract.",
+    "confidence": "Native grader and artifact review"
+  }
+}

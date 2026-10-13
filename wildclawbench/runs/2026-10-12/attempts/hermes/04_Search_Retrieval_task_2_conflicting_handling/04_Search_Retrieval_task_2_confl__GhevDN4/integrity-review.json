@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_2_conflicting_handling/native/04_Search_Retrieval_task_2_confl__GhevDN4",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "9b95854c183d5bf3d6259782ca02374e8beec356b894bb70f0bedd55db5eefe2",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

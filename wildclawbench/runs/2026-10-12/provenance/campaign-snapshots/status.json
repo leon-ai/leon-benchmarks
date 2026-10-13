@@ -1,0 +1,8 @@
+{
+  "pid": 2788,
+  "status": "held",
+  "started_at": "2026-10-13T00:20:14.666800+00:00",
+  "suite": "pinch",
+  "task": "pinch-native-session-smoke",
+  "reason": "PinchBench's saved native session preflight failed"
+}

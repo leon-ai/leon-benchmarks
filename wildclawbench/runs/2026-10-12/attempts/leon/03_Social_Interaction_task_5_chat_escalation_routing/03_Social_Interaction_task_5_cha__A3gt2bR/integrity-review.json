@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-service-repair/03_Social_Interaction_task_5_cha__A3gt2bR",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "264dfef94c725654e22d68ac3ed353af2faa0aa90c0dd8b6bf5de1f2f1ff72a6",
+  "additional_inference_calls": 0,
+  "expected_output_failure": true
+}

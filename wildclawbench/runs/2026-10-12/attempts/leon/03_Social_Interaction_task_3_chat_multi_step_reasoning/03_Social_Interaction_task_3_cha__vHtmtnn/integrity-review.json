@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native-service-repair/03_Social_Interaction_task_3_cha__vHtmtnn",
+  "score": 0.9198,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "63ff88d1d554707ce7d1ee52ff59f835471a13a793b1e1270fe966b4b19e06e1",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

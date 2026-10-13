@@ -1,0 +1,24 @@
+{
+  "method_type": "native_grader_replay",
+  "method": "Unchanged native grader, rubric and subscription settings on exported outputs. Original candidate and grading records remain intact.",
+  "additional_candidate_attempts": 0,
+  "grade_file": "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/verifier/network-regrade/wildclaw_score.json",
+  "requests_file": "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/verifier/network-regrade/requests.jsonl",
+  "rewards": {
+    "responsive_design": 1.0,
+    "content_completeness": 0.94,
+    "visual_quality": 0.86,
+    "overall_score": 0.915
+  },
+  "evidence_sha256": {
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/result.json": "9c6af3b3ea0ed9f299c8f800c348d3f8c7279925657a83a50f297e7de0b6ce42",
+    "tasks/wild/05_Creative_Synthesis_task_8_repo_to_homepage/tests/checks.py": "3fbf22584e220ad73d4b99d2dcdf5131c7a383d5526d59a2fe9ef05836724c6f",
+    "tasks/wild/05_Creative_Synthesis_task_8_repo_to_homepage/tests/grader.py": "cccfbaf34c048aea1e739c924ae9bedfda67afd3a60827529916c8a7ae4a1af0",
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/verifier/network-regrade/wildclaw_score.json": "8089e9019ad62bcda5fbdfe041f73cf47c5059c5f98657a0b6b538024a67ae08",
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/verifier/network-regrade/requests.jsonl": "410e81f9b68a081f3ac19a0479c9e80cf3df6a7cfebc6a5e3d1e5af971fe5f28",
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/verifier/network-regrade/judge-reliability.json": "0372655e039264160ab06e1469ff330eacb76e8691ee351cf7c2ac4f9dc7d3b3",
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/artifacts/tmp_workspace/results/verification.json": "7f6f70940b4c2a0ef45151aee28e4040bf0f46b0de0ea0bfb0802ff72ad2c002",
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/artifacts/tmp_workspace/results/index.html": "d6b12e99d22e295c9b97994a5ce945b18ec0cf773349b8930f28734d342f9fb9",
+    "jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__R6VUfQU/artifacts/tmp_workspace/results/screenshot.png": "2b95adea3aa706857b5cc5f2d65bf89f984e88a641d86339db423ee13cecfb8a"
+  }
+}

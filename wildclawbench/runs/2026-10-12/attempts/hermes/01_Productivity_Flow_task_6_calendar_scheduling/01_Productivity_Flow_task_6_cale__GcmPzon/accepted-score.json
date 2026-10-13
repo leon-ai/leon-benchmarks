@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_6_cale__GcmPzon",
+  "agent": "hermes",
+  "task": "01_Productivity_Flow_task_6_calendar_scheduling",
+  "score": 1.0,
+  "source_result_sha256": "ae04ab0b68410c3f000f1377baa76b75a16fc5357904da90c7608bbb3af371d3",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

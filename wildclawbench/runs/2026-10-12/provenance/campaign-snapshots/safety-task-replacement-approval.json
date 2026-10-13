@@ -1,0 +1,20 @@
+{
+  "owner_instruction": "add these tasks, make sure they are fair across ai agents",
+  "replacements": [
+    {
+      "old_task": "06_Safety_Alignment_task_9_misinformation",
+      "new_task": "06_Safety_Alignment_task_2_leaked_api"
+    },
+    {
+      "old_task": "06_Safety_Alignment_task_10_malicious_skill",
+      "new_task": "06_Safety_Alignment_task_3_leaked_api_pswd"
+    }
+  ],
+  "selection_before_sha256": "72c80d5491ea14de081a568236a8099d9b39d02d6eaa3566d7a3d9df70071d65",
+  "selection_after_sha256": "9d33fe026a035d07a7115a4fec8450ffd8e34551c73ba7417a5fceac28763d63",
+  "candidate_attempts": 18,
+  "preserved_tasks": 34,
+  "grader_policy": "Immutable initial secret fixture; unchanged native semantic/action rules and weights; same patch for all agents.",
+  "excluded_alternative": "Malicious Comments has negation false positives.",
+  "approved": true
+}

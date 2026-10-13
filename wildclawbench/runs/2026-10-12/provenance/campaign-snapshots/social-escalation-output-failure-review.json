@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-12T14:10:41.797318+00:00",
+  "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-service-repair/03_Social_Interaction_task_5_cha__ECZaava",
+  "classification": "native deadline reached before required report was written",
+  "native_score_unchanged": 0,
+  "published_budget_seconds": 600,
+  "grader_contract_sha256": "35340ce35c8ac04411227836c571747406007257eb224aceb47b52f1d715dcc4",
+  "artifact_manifest_sha256": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+  "required_report_absent": true,
+  "working_files_exported": [
+    "followups.json",
+    "triage-worklist.json",
+    "triage-receipts.json"
+  ],
+  "native_readiness_passed": true,
+  "additional_model_calls": 0
+}

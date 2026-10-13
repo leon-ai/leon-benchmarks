@@ -1,0 +1,125 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 8,
+    "recorded_inference_requests": 8,
+    "completed_inference_requests": 8,
+    "requests_with_token_usage": 8,
+    "token_usage": {
+      "input_tokens": 265303,
+      "output_tokens": 3292,
+      "total_tokens": 268595,
+      "cached_input_tokens": 160640,
+      "reasoning_output_tokens": 1156
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 8
+    },
+    "http_statuses": {
+      "200": 8
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 8,
+        "median": 1.675317307999876,
+        "minimum": 1.4486063310000645,
+        "maximum": 3.9171794290000435
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 5.0137131685000895,
+        "minimum": 3.6443260400001236,
+        "maximum": 6.383100297000055
+      },
+      "firstToolActionSeconds": {
+        "count": 6,
+        "median": 5.882908321000286,
+        "minimum": 4.4948620609998216,
+        "maximum": 29.672892257000058
+      },
+      "responseSeconds": {
+        "count": 8,
+        "median": 5.990665670500221,
+        "minimum": 3.9725692130000425,
+        "maximum": 29.68731785199998
+      }
+    },
+    "observer_milliseconds": 38.046046004183154,
+    "model_tool_calls": 6,
+    "tool_schema_checks": {
+      "valid": 6
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 1124,
+      "output_tokens": 66,
+      "total_tokens": 1190,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 0
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.633133127000292,
+        "minimum": 1.633133127000292,
+        "maximum": 1.633133127000292
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 2.3479820530001234,
+        "minimum": 2.3479820530001234,
+        "maximum": 2.3479820530001234
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 3.15068690399994,
+        "minimum": 3.15068690399994,
+        "maximum": 3.15068690399994
+      }
+    },
+    "observer_milliseconds": 1.183238999601599,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.052548,
+    "agent_setup": 1.451792,
+    "agent_execution": 126.167984,
+    "verifier": 4.460886
+  },
+  "native_task_grade": {
+    "overall_score": 0.8,
+    "judge_reason": "待评估回答明确给出 Python 3.11 和 CPython PR #31498，获得初始0.3分；搜索过程共使用3次搜索，额外获得0.5分，最终得分为0.8。"
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

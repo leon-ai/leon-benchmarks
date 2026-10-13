@@ -1,0 +1,63 @@
+{
+  "status": "queued: exactly four empty setup slots",
+  "affected_environments": [
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__QsUGuuE",
+      "agent": "leon",
+      "preserved_directory": "setup-interrupted/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native-repair/02_Code_Intelligence_task_10_aca__QsUGuuE",
+      "result_sha256": "ff4bf986c19ccb3c5aea342630a2031b8695a3bbba810702fb6404e32fda380f",
+      "candidate_calls": 0
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__xGLi6XA",
+      "agent": "openclaw",
+      "preserved_directory": "setup-interrupted/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native-repair/02_Code_Intelligence_task_10_aca__xGLi6XA",
+      "result_sha256": "a2deedc14967e55aaf15a8e0d800b882e8317f08b60631cbccb033a241aa31f1",
+      "candidate_calls": 0
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__S9km4Lq",
+      "agent": "hermes",
+      "preserved_directory": "setup-interrupted/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native-repair/02_Code_Intelligence_task_10_aca__S9km4Lq",
+      "result_sha256": "97d4a353a50071ebb9c05f6c78ae2a91c4fff1b11309ccbc4ae4d8cc16323a26",
+      "candidate_calls": 0
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__mAdRFgV",
+      "agent": "leon",
+      "preserved_directory": "setup-interrupted/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native-repair/02_Code_Intelligence_task_10_aca__mAdRFgV",
+      "result_sha256": "769befe0623f053dc8de676b1b1ca585489636633863516bf6f1564bb60eeb60",
+      "candidate_calls": 0
+    }
+  ],
+  "retained_candidates": [
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__yUeLhjP",
+      "agent": "hermes",
+      "result_sha256": "6de02f62a4a62a670faafc9f009c8d63329afc167b053c797dd7c20520fda2b8"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__5tc7uCb",
+      "agent": "openclaw",
+      "result_sha256": "97ccaf744f6ccc45456490adcd8f33aae3b092ed16c5c3e2e82a2987d47c1f2e"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__exM93i9",
+      "agent": "hermes",
+      "result_sha256": "2894414a675402f4fd8ba54c8220f4b16af7458c7302945038c5b56a3e4b7db7"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__fbLfnX9",
+      "agent": "openclaw",
+      "result_sha256": "ba88505fa6830fa64cabe92b1dc010685c023c060cfdc1bc61503bc2109394d4"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_10_aca__4LT7Cje",
+      "agent": "leon",
+      "result_sha256": "c4e349aefaa0baf12658c663bf6e608e9e82c43e1f84e672b822c19e9048a2e0"
+    }
+  ],
+  "candidate_repeats": 0,
+  "remaining_slots": 4,
+  "native_setup_commands": "unchanged; prior failures were pip download timeouts"
+}

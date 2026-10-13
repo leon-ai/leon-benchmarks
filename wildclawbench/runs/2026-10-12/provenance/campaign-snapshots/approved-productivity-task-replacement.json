@@ -1,0 +1,33 @@
+{
+  "old_task": "01_Productivity_Flow_task_8_real_image_category",
+  "new_task": "01_Productivity_Flow_task_10_pdf_digest",
+  "domain": "01_Productivity_Flow",
+  "reason": "Native image-sorting answer key matches no source filenames; owner explicitly approved verified PDF Digest substitution.",
+  "approved_at": "2026-10-12T09:53:00.638055+00:00",
+  "prior_evidence_preserved": true,
+  "approved": true,
+  "approval": "Owner answered Replace with PDF Digest (recommended)",
+  "candidate_attempts": 9,
+  "task_counts": {
+    "wild": 36,
+    "pinch": 32,
+    "terminal": 21
+  },
+  "planned_runs": 801,
+  "native_task_budget_seconds": 900,
+  "model_settings_unchanged": true,
+  "native_sources_unchanged": true,
+  "native_rubric_unchanged": true,
+  "selection_sha256": "72c80d5491ea14de081a568236a8099d9b39d02d6eaa3566d7a3d9df70071d65",
+  "fixture_validation": "replacement-review/01_Productivity_Flow_task_10_pdf_digest/fixture-validation.json",
+  "reviewed_files_sha256": {
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/fixture-validation.json": "8fdf7779473e26e38c1bde7cc41a43ec20f20034fa726b73026e0dae3216e469",
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/instruction.md": "432d2fae47bee326819a3c5705b5929b39c430e974519c6a84b6a49908ed208b",
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/task.toml": "19a8637baf792a82b9959288b1a7b39ec12d37a1afa7c1f3d91e12a245c5e471",
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/tests/checks.py": "f997f04d7c1b20126a71bd2746a38112c48038886f3f8637c61e802e879acbbb",
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/tests/grader.py": "cccfbaf34c048aea1e739c924ae9bedfda67afd3a60827529916c8a7ae4a1af0",
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/tests/test.sh": "0ef158775569d7f3f00ac13c6c96da5015e8a1ff5980263b812f7dbda36ea3aa",
+    "replacement-review/01_Productivity_Flow_task_10_pdf_digest/tests/gt/ground_truth.json": "7242785d45435ae7f5b9cec7981ab6c2c12081778059200fe56e22c0bbfc1e1c"
+  },
+  "additional_artifact_export": "/tmp_workspace/gt for deterministic grader replay; candidate never sees /tests ground truth before verification"
+}

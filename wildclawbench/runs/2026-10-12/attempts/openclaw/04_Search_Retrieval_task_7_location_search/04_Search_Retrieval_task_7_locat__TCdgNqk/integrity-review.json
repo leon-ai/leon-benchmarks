@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__TCdgNqk",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "340906c7ce4c0c95497413f7cb0c76dad447f54a744e36caf7651d71016ec21d",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

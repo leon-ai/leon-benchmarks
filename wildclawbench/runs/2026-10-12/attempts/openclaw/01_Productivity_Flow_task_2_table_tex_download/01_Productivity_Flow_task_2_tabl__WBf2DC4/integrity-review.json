@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_2_table_tex_download/native/01_Productivity_Flow_task_2_tabl__WBf2DC4",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "a05617f6b849d6850c81150dc418c8f32be4c8e14163854cbd59dcef0d0387ae",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

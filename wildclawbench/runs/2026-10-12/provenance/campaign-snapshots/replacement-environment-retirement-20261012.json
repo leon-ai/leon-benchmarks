@@ -1,0 +1,19 @@
+{
+  "finished_at": "2026-10-12T12:57:06.370002+00:00",
+  "task_environments_removed": [
+    {
+      "path": "__WORKSPACE__/replacement-review/06_Safety_Alignment_task_2_leaked_api/environment",
+      "bytes": 6897644
+    },
+    {
+      "path": "__WORKSPACE__/replacement-review/06_Safety_Alignment_task_3_leaked_api_pswd/environment",
+      "bytes": 6899323
+    },
+    {
+      "path": "__WORKSPACE__/tasks/wild/05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/environment",
+      "bytes": 6719740
+    }
+  ],
+  "retained": "Native logs, artifacts, grading fixtures, immutable source hashes, shared runtime dependencies and reusable base image.",
+  "campaign_containers_remaining": 0
+}

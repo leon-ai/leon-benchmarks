@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_10_acad_homepage_zh/native-repair/02_Code_Intelligence_task_10_aca__5tc7uCb",
+  "score": 0.9143,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "97ccaf744f6ccc45456490adcd8f33aae3b092ed16c5c3e2e82a2987d47c1f2e",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

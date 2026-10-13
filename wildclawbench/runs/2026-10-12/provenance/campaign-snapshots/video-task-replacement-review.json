@@ -1,0 +1,18 @@
+{
+  "proposal": "Replace audio-dependent video dubbing with product-poster synthesis; keep Creative Synthesis task count unchanged. Requires owner approval; no candidate runs started.",
+  "task": "05_Creative_Synthesis_task_3_product_poster",
+  "input_files": [
+    {
+      "file": "tasks/wild/05_Creative_Synthesis_task_3_product_poster/environment/briefcase.png",
+      "sha256": "625c8c0950130891395a6f3097c33ce001132901f37531aaa74e1e2f54eda07e"
+    }
+  ],
+  "grading_modalities": [
+    "text",
+    "image"
+  ],
+  "instruction_sha256": "4107d170826c4dcf2ab7a7921e263b3bc0dc6188ed17f2d9c6a5fbced7b4b42a",
+  "checks_sha256": "568755cff9cff0d9abe5f9305e1920aade283e6d534e22ef0c1ffd61ddf9751b",
+  "task_list_changed": false,
+  "candidate_inference_calls": 0
+}

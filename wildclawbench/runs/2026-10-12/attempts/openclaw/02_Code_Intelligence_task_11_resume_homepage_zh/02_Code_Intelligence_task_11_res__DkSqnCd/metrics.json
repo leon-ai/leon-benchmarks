@@ -1,0 +1,171 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 20,
+    "recorded_inference_requests": 20,
+    "completed_inference_requests": 20,
+    "requests_with_token_usage": 20,
+    "token_usage": {
+      "input_tokens": 593355,
+      "output_tokens": 13155,
+      "total_tokens": 606510,
+      "cached_input_tokens": 534272,
+      "reasoning_output_tokens": 1632
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 20
+    },
+    "http_statuses": {
+      "200": 20
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 20,
+        "median": 2.899435467999996,
+        "minimum": 2.3675962870000005,
+        "maximum": 5.045059502999998
+      },
+      "firstTextSeconds": {
+        "count": 3,
+        "median": 6.737452350000036,
+        "minimum": 3.7358243359999976,
+        "maximum": 14.795634965999984
+      },
+      "firstToolActionSeconds": {
+        "count": 19,
+        "median": 9.269418666999998,
+        "minimum": 4.473900238000031,
+        "maximum": 60.13090289299999
+      },
+      "responseSeconds": {
+        "count": 20,
+        "median": 9.0418373065,
+        "minimum": 4.60081248100003,
+        "maximum": 60.148450144
+      }
+    },
+    "observer_milliseconds": 183.400466001116,
+    "model_tool_calls": 28,
+    "tool_schema_checks": {
+      "valid": 28
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 6521,
+      "output_tokens": 656,
+      "total_tokens": 7177,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 192
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.9097097679996295,
+        "minimum": 2.9097097679996295,
+        "maximum": 2.9097097679996295
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 8.582927272000234,
+        "minimum": 8.582927272000234,
+        "maximum": 8.582927272000234
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 13.71780165400014,
+        "minimum": 13.71780165400014,
+        "maximum": 13.71780165400014
+      }
+    },
+    "observer_milliseconds": 5.3648770017389324,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.072325,
+    "agent_setup": 17.003455,
+    "agent_execution": 329.354904,
+    "verifier": 16.813699
+  },
+  "native_task_grade": {
+    "has_html": 1.0,
+    "screenshot_exists": 1.0,
+    "style_1_dual_column": 0.0,
+    "style_2_photo_round": 0.0,
+    "style_3_name_tagline": 0.0,
+    "style_4_social_vertical": 0.0,
+    "style_5_emoji_match": 0.0,
+    "style_6_paper_cards": 1.0,
+    "style_7_bold_author": 1.0,
+    "style_8_news_date_format": 0.0,
+    "style_9_academic_style": 1.0,
+    "style_10_section_order": 1.0,
+    "style_11_no_about_header": 1.0,
+    "style_12_no_extra_sidebar": 0.0,
+    "style_13_edu_date_format": 1.0,
+    "style_14_venue_tag_style": 0.0,
+    "style_15_no_topnav": 0.0,
+    "style_16_no_extra_sections": 0.0,
+    "style_17_sections_vertical": 1.0,
+    "style_18_edu_standalone": 1.0,
+    "prompt_19_three_papers": 1.0,
+    "prompt_20_mmifengine": 1.0,
+    "prompt_21_armthinker": 1.0,
+    "prompt_22_omnialign": 1.0,
+    "prompt_23_news_filter": 1.0,
+    "content_24_name": 1.0,
+    "content_25_affiliation": 1.0,
+    "content_26_advisor": 1.0,
+    "content_27_research": 1.0,
+    "content_28_education": 1.0,
+    "content_29_internship": 1.0,
+    "content_30_contact": 1.0,
+    "content_31_paper_info": 1.0,
+    "content_32_paper_links": 1.0,
+    "content_33_paper_desc": 1.0,
+    "content_34_awards": 1.0,
+    "content_35_services": 1.0,
+    "content_36_opensource": 1.0,
+    "visual_37_real_photo": 0.0,
+    "visual_38_paper_thumbs": 1.0,
+    "visual_39_social_icons": 0.0,
+    "judge_method": "vlm",
+    "vlm_attempts": 1,
+    "style_score": 0.4444,
+    "prompt_score": 1.0,
+    "content_score": 1.0,
+    "visual_score": 0.3333,
+    "overall_score": 0.6923
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

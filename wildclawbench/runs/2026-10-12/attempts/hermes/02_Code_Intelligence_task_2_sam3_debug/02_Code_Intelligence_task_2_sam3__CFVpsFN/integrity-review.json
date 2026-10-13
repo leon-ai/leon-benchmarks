@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_2_sam3_debug/native/02_Code_Intelligence_task_2_sam3__CFVpsFN",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "9d58f550fda53f93222760504ee10b2eb7d6c4f1a0332f260f1d6d3cbdff825e",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

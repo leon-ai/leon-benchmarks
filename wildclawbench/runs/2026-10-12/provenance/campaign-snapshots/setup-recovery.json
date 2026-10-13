@@ -1,0 +1,24 @@
+{
+  "suite": "wild",
+  "task": "01_Productivity_Flow_task_6_calendar_scheduling",
+  "status": "resuming two pre-agent setup slots",
+  "affected_environments": [
+    {
+      "agent": "openclaw",
+      "trial": "01_Productivity_Flow_task_6_cale__HKaraUY",
+      "preserved_directory": "setup-interrupted/wild--01_Productivity_Flow_task_6_calendar_scheduling/native/01_Productivity_Flow_task_6_cale__HKaraUY",
+      "original_result_sha256": "97555248f314ed851b1336e8911c18dfa09933d8e4ee572eaf3bf1d0d6b8b1e7",
+      "candidate_inference_calls": 0
+    },
+    {
+      "agent": "hermes",
+      "trial": "01_Productivity_Flow_task_6_cale__dwk84zV",
+      "preserved_directory": "setup-interrupted/wild--01_Productivity_Flow_task_6_calendar_scheduling/native/01_Productivity_Flow_task_6_cale__dwk84zV",
+      "original_result_sha256": "e8f9aaaabfd3ae3d644f87aa28f2f6832367702bee217a4723046067a06769b4",
+      "candidate_inference_calls": 0
+    }
+  ],
+  "healthy_candidates_repeated": 0,
+  "setup_commands": "Unchanged native prerequisite commands; passive diagnostics enabled",
+  "resumed_at": "2026-10-11T08:22:06.122180+00:00"
+}

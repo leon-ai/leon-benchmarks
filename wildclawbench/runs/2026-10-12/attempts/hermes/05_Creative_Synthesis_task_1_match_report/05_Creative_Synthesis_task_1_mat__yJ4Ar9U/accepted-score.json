@@ -1,0 +1,12 @@
+{
+  "id": "05_Creative_Synthesis_task_1_mat__yJ4Ar9U",
+  "agent": "hermes",
+  "task": "05_Creative_Synthesis_task_1_match_report",
+  "score": 0.8908,
+  "source_result_sha256": "f6f11a062cdad21ce8b480ff009bcce70934688cbe9ade0da059fcea604f531a",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. Match-report text and video alignment requirements were incomplete or uncredited.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

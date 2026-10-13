@@ -1,0 +1,120 @@
+{
+  "recorded_at": "2026-10-11T07:55:44.886228+00:00",
+  "reason": "Owner-confirmed network outage with simultaneous subscription connection failures; preserve unaffected candidates and replay only interrupted candidate slots.",
+  "first_observed_failure_utc": "2026-10-11T07:44:14.386Z",
+  "affected_candidates": [
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__NkmDNwd",
+      "agent": "openclaw",
+      "original_result_sha256": "5cff85a73cd43f962bd187021adbde32ae6c39955b451ee9bc63e1f3a6f18978",
+      "reason": "Repeated failed subscription connections during confirmed outage",
+      "connection_failures": 7,
+      "incomplete_stream_seconds": [],
+      "preserved_directory": "network-interrupted/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__NkmDNwd"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__UtFqWYu",
+      "agent": "leon",
+      "original_result_sha256": "13bec25dc8d1119d0d727b549f14fb293de3f45b6f44a47bceb139255dadc106",
+      "reason": "Repeated failed subscription connections during confirmed outage",
+      "connection_failures": 4,
+      "incomplete_stream_seconds": [],
+      "preserved_directory": "network-interrupted/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__UtFqWYu"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__Y3tvwb5",
+      "agent": "openclaw",
+      "original_result_sha256": "5794d36f688c4fd70616988ad1d47265d393b0753c0bc1456a6a56a65001523f",
+      "reason": "Repeated failed subscription connections during confirmed outage",
+      "connection_failures": 7,
+      "incomplete_stream_seconds": [],
+      "preserved_directory": "network-interrupted/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__Y3tvwb5"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__cfUWen3",
+      "agent": "leon",
+      "original_result_sha256": "51e1257de3869b35b7c36edbc1b2d7bd58f816b1461ca8054f9c2adf3ec22705",
+      "reason": "Repeated failed subscription connections during confirmed outage",
+      "connection_failures": 4,
+      "incomplete_stream_seconds": [],
+      "preserved_directory": "network-interrupted/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__cfUWen3"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__hHeKDcW",
+      "agent": "hermes",
+      "original_result_sha256": "3fcebfd88635a3386bb45638cde0be2fe9801c38c45ad943e8cf0d13956a3bf7",
+      "reason": "Incomplete subscription stream waited 169 seconds during outage before native deadline; network-affected timeout retained as excluded evidence",
+      "connection_failures": 0,
+      "incomplete_stream_seconds": [
+        169.87849401700078
+      ],
+      "preserved_directory": "network-interrupted/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__hHeKDcW"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__oTk3Gct",
+      "agent": "leon",
+      "original_result_sha256": "490ee810d506d6ce54dcf7232bf17860094fd8e458659ae02385a7a9ce828d61",
+      "reason": "Repeated failed subscription connections during confirmed outage",
+      "connection_failures": 5,
+      "incomplete_stream_seconds": [],
+      "preserved_directory": "network-interrupted/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__oTk3Gct"
+    }
+  ],
+  "grading_only_trials": [
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__R6VUfQU",
+      "agent": "hermes",
+      "original_result_sha256": "9c6af3b3ea0ed9f299c8f800c348d3f8c7279925657a83a50f297e7de0b6ce42"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__kTqmS3e",
+      "agent": "hermes",
+      "original_result_sha256": "17206d1569a7d145764ac5af6f46ef171e0a4ebfc558a08bc262fa36f367e89a"
+    }
+  ],
+  "unaffected_trials": [
+    {
+      "trial": "05_Creative_Synthesis_task_8_rep__6kQWkiu",
+      "agent": "openclaw",
+      "original_result_sha256": "77bc1996b9e00cefab16ee268b6ede9cb5cddfd1fc29426021a05fc5af39ff97"
+    }
+  ],
+  "recovery_status": "complete",
+  "suite": "wild",
+  "task": "05_Creative_Synthesis_task_8_repo_to_homepage",
+  "candidate_slots_to_resume": 0,
+  "recovered_at": "2026-10-11T07:58:13.546092+00:00",
+  "recovery_completed_at": "2026-10-11T08:11:30.507165+00:00",
+  "recovered_candidates": [
+    {
+      "agent": "leon",
+      "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__7NJECfR",
+      "result_sha256": "f3bd5cd6788b0de394846587c1c11de9ae56f0c5ff34a1461bffb2c649a856d5"
+    },
+    {
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__BhzBmm3",
+      "result_sha256": "51c4f45d552f23f84c67a2dc8fe5eb952f1528578dc6e48b14269b50e868b69b"
+    },
+    {
+      "agent": "leon",
+      "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__CByDBkr",
+      "result_sha256": "2c34eff9f2b364af356f315c21984833ad5595a96a4997d7945bf9990fe435ad"
+    },
+    {
+      "agent": "leon",
+      "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__DHQHfqb",
+      "result_sha256": "df0e139bf8d27cea3f9e8e6c0b23f6f93618907d0366215ed5c74486f3883660"
+    },
+    {
+      "agent": "openclaw",
+      "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__VtHqyL9",
+      "result_sha256": "79eb07e87398a47375e902147374ae44af84556733ba339fb8912c0d97857620"
+    },
+    {
+      "agent": "openclaw",
+      "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_8_repo_to_homepage/native/05_Creative_Synthesis_task_8_rep__WNchwUj",
+      "result_sha256": "24c9fb7d965e1bee15a25b5df8150c0bee46d092c1f729dbe27bc3763007f9e0"
+    }
+  ]
+}

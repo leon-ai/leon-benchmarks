@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_11_fuzzy_repo_search/native-repair/04_Search_Retrieval_task_11_fuzz__3FGgrSu",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "75371bd365053623aade8f4655eb2b0d6d4b2e2755c24fabb23aefd8e52d248f",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

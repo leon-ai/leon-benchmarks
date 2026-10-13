@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_8_link_a_pix_color_zh/native/02_Code_Intelligence_task_8_link__HAqWy9J",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "07fb29a3cbe855f926a0c55d5dfda0688a4a89c5aa5f8dc9ab67ffd3fd846993",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

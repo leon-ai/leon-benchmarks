@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native-repair/01_Productivity_Flow_task_4_2022__QwzQDdp",
+  "score": 0.906,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "f54d4e042d48369ea53e3955c2139edc9a78918020126675253b3bedf6cbf2ba",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

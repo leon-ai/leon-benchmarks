@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-11T15:00:41.816461+00:00",
+  "suite": "wild",
+  "task": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+  "classification": "harness restriction blocks native auxiliary image generation; asynchronous completion lifecycle additionally unvalidated",
+  "observations": [
+    {
+      "trial": "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__mViDxx9",
+      "image_generation_error": "[image-generation] candidate failed: openai/gpt-image-2: Benchmark inference cannot substitute another model",
+      "async_generation_started": true,
+      "final_liveness_state": "working",
+      "exported_required_output_files": [
+        "outfits.json"
+      ],
+      "required_model_images_missing": 4
+    },
+    {
+      "trial": "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__cbnMU9U",
+      "image_generation_error": "[image-generation] candidate failed: openai/gpt-image-2: Benchmark inference cannot substitute another model",
+      "async_generation_started": true,
+      "final_liveness_state": "working",
+      "exported_required_output_files": [
+        "outfits.json"
+      ],
+      "required_model_images_missing": 4
+    },
+    {
+      "trial": "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__n4FW3Rk",
+      "image_generation_error": "[image-generation] candidate failed: openai/gpt-image-2: Benchmark inference cannot substitute another model",
+      "async_generation_started": true,
+      "final_liveness_state": "working",
+      "exported_required_output_files": [
+        "outfits.json"
+      ],
+      "required_model_images_missing": 4
+    }
+  ],
+  "native_grading_contract": "Missing required model images makes basic_requirements less than 1.0, which hard-gates overall_score to zero.",
+  "exclusion_policy": "Exclude entire matched task for all three agents pending resolution. Preserve every native grade, artifact, model setting and transcript. No synthetic images, regenerated scores or agent source changes.",
+  "resolution_required": [
+    "Clarify and declare comparable subscription-only auxiliary image capability while keeping GPT-6.1 Sol/high/priority for reasoning. Do not silently permit extra models.",
+    "Validate native asynchronous generation completion and subsequent agent continuation within the original task budget before replaying compromised attempts."
+  ],
+  "evidence_sha256": {
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__mViDxx9/agent/openclaw.txt": "db989370a01a5d04994828f7ee7ba1bf46cd80934ddc09f7a88b871f9ba336fa",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__mViDxx9/agent/native-transcript.jsonl": "6bcd16650ca7703e3813c1a42c3acc4349d35f8c8e291862198c316748579c66",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__mViDxx9/result.json": "cc93307d1a64557fb3e4117623eba33277c902d0c55df790471a869042e1d857",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__mViDxx9/verifier/wildclaw_score.json": "0d2e855f2dabd247c0803f41db0b699e63f0bd7348ab16cc33586259987b357f",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__mViDxx9/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__cbnMU9U/agent/openclaw.txt": "9c0ba2fd4065eeae1b137bc349138f25748492edf3554b9aa23048b2200aff47",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__cbnMU9U/agent/native-transcript.jsonl": "6c8cad1827eccd3155aba85b96261211b5cfe4fe8d955f0ad7a2f762ccd3c76f",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__cbnMU9U/result.json": "78acb4ddec663e384b580d0c2304132cdffb9b185b986a50d788d4f063c231b0",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__cbnMU9U/verifier/wildclaw_score.json": "0d2e855f2dabd247c0803f41db0b699e63f0bd7348ab16cc33586259987b357f",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__cbnMU9U/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__n4FW3Rk/agent/openclaw.txt": "ecf46cc75f035e125ce7a7eff4c578baae3cfeb0a223170c9369424babda9aaf",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__n4FW3Rk/agent/native-transcript.jsonl": "d0cfcb6d554b4d3889215619769bcf21bea0b79dc6e19dff857c9d924f663086",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__n4FW3Rk/result.json": "3997758bba9d7a70cb8555b4fb88f758539311ee5389ba643ac2051a153b7e85",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__n4FW3Rk/verifier/wildclaw_score.json": "3440b047a08ea5608158297f1231f757e4a96832071a06e8c9484c493697a66f",
+    "jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native/05_Creative_Synthesis_task_6_clo__n4FW3Rk/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+    "runtime/benchmarks/audit-openai.mjs": "cb988aa9d2dd17a444da510c11521269a42f6695125e6eae52e70d264af24bd5",
+    "runtime/benchmarks/harbor_agents.py": "a1c6dc7d0f1744693b65858a47ca1d2b252b80423164620d75e45cc977928809",
+    "tasks/wild/05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/tests/checks.py": "29aa5ef0b7d401facb93b902b0d9f993cf6ce9329b14417079988eaf180cb6a5",
+    "observability-revisions/image-generation-exclusion-20261011/native_image_docs.md": "495486f7ab80437b03cc6ed1e14d70ab3fe545b09795ac538c7f19949daaa414",
+    "observability-revisions/image-generation-exclusion-20261011/native_image_tool.mjs": "9b8b75759d4da6c2b4d395c5449906f4c0ea29ab5a8bc40edeb52f98a6f3f0ca"
+  },
+  "scored_model_calls_started": 0,
+  "containers_created": 0
+}

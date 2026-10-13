@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-12T14:30:39.763369+00:00",
+  "status": "paused_by_owner_before_pinch",
+  "resume_requires": [
+    "Remind owner in this Codex session to freeze all WildClawBench records before any further benchmark execution.",
+    "Create and verify a SHA256 evidence inventory for accepted324 attempts, superseded/quarantined/withdrawn attempts, all selected task sources and fixtures, repaired native service inputs, graders, frozen agent versions, runtime adapters, configurations, selection revisions and fairness receipts. Preserve the original records without large duplicate copies.",
+    "Export task/attempt/domain/agent scores and available metrics: task execution/setup/grading/queue duration, per-call first-text and first-tool latency, response/turn timings, measured token throughput with denominator/coverage, input/output/cached/reasoning tokens, inference calls and retries, HTTP/provider errors, tool schema validity/coverage, task-specific semantic/action accuracy, artifact completion and native deadline outcomes. Keep candidate and judge usage separate; label missing telemetry unknown.",
+    "Finalize and review the exact reproduction prompt in WILDCLAWBENCH_REPRODUCTION_PROMPT.txt against the frozen evidence, including all modifications and limitations.",
+    "Diagnose saved Pinch native-session preflight failure; preserve all three unscored controls and repair only demonstrated wiring issues before retry. No scored Pinch attempts have started.",
+    "Keep benchmark order WildClawBench then PinchBench then Terminal-Bench4.0, with max9 scored attempts per task cohort and native budgets."
+  ],
+  "prior_status": {
+    "pid": 1821817,
+    "status": "held",
+    "started_at": "2026-10-12T14:22:44.577901+00:00",
+    "suite": "pinch",
+    "task": "pinch-native-session-smoke",
+    "reason": "PinchBench native session preflight failed; candidate runs held"
+  },
+  "wild_validated_attempts": 324,
+  "total_planned_candidate_slots": 801,
+  "next_action": "Reminder and WildClawBench records freeze; do not start Pinch first."
+}

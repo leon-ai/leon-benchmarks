@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_2_confl__n8KQPjM",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_2_conflicting_handling",
+  "score": 1.0,
+  "source_result_sha256": "4ceeeeb5308f4cc14325a478adfb9a4ae889b17b381518af5e8fbc0fe4e7db2f",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

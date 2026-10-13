@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_1_mee__69vTfXp",
+  "agent": "leon",
+  "task": "03_Social_Interaction_task_1_meeting_negotiation",
+  "score": 0.895,
+  "source_result_sha256": "be919bc5caff73b52635d3bad4af76ca2dacaf5e4f1a3ea129cf75485ccb8041",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

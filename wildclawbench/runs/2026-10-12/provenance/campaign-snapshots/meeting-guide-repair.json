@@ -1,0 +1,33 @@
+{
+  "task": "03_Social_Interaction_task_1_meeting_negotiation",
+  "native_loader_discovered": [
+    "03-task1"
+  ],
+  "original_id_rejected": true,
+  "guide_body_unchanged": true,
+  "body_sha256": "44f2137847a1a9ef5e290c793a83190cf1e699b4729f27b4a210d750a7de8632",
+  "failed_setup_slots": [
+    {
+      "trial": "03_Social_Interaction_task_1_mee__zSzYNbW",
+      "result_sha256": "1c515cdc86b4a9e42dc7138e3e306300b72e91994fe909e4b68627dede868513",
+      "candidate_calls": 0
+    },
+    {
+      "trial": "03_Social_Interaction_task_1_mee__2VjYAYq",
+      "result_sha256": "53b9d23f26a3994e1e4018052b8ecdd2e573826e0da890cbfe0d01bfcdc1cd6b",
+      "candidate_calls": 0
+    },
+    {
+      "trial": "03_Social_Interaction_task_1_mee__qyCeh4Z",
+      "result_sha256": "f332bc1e25866b7df11f7e27082f2e5c7657c208ad1d9be194324735d9c3eb2b",
+      "candidate_calls": 0
+    }
+  ],
+  "replacement_agents": [
+    "leon"
+  ],
+  "candidate_attempts_to_run": 3,
+  "other_agents_retained": 6,
+  "additional_preflight_inference_calls": 0,
+  "native_sources_modified": false
+}

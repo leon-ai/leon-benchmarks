@@ -1,0 +1,19 @@
+{
+  "accepted_score": 0.5,
+  "native_criteria": {
+    "mae_pdf_valid": 1.0,
+    "rule_resnet_summary_preserved": 0.0,
+    "rule_mae_summary_exist": 1.0,
+    "llm_mae_summary_quality": 1.0,
+    "llm_mae_summary_quality_breakdown": {
+      "paper_identity": 1,
+      "main_method": 2,
+      "innovations": 2,
+      "empirical_results": 2,
+      "clarity_substance": 2,
+      "technical_accuracy": 2
+    },
+    "overall_score": 0.5
+  },
+  "note": "Accepted grade after recorded repairs/regrades; not an invented original grader output."
+}

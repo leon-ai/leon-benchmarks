@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL",
+  "score": 0.7436,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "3a2dd5b7c0e1d3c29e3170ad79ccb406561cf0f889b1b90a22be11be89b97d9a",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

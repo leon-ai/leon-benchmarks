@@ -1,0 +1,12 @@
+{
+  "accepted_score": 0.7,
+  "native_criteria": {
+    "poster_exists": 1.0,
+    "dimensions_correct": 1.0,
+    "content_completeness": 1.0,
+    "feature_highlighting": 0.68,
+    "design_impact": 0.57,
+    "overall_score": 0.7
+  },
+  "note": "Accepted grade after recorded repairs/regrades; not an invented original grader output."
+}

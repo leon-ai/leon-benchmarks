@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_9_artwo__2nj8e7E",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_9_artwork_search",
+  "score": 0.0,
+  "source_result_sha256": "9bdacb197cdaae72bc57337867c11661f16a8e2153afa3c506c325d7380b08a9",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The saved answer did not earn native artwork-identification credit.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

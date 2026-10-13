@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_2_confl__EeuaxZR",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_2_conflicting_handling",
+  "score": 1.0,
+  "source_result_sha256": "899cd4f03e0cf0a13a453761dddad7794d99168b3bfb2ce66554073a148cb634",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

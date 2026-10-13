@@ -1,0 +1,4 @@
+{
+  "overall_score": 0.25,
+  "judge_reason": "country 为 China，与标准答案“中国”一致，得0.25分；city 为 Shenzhen，与“上海”不符，经纬度保留两位小数后为22.53、113.89，与标准答案31.16、121.46不符。"
+}

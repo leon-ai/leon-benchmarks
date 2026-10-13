@@ -1,0 +1,103 @@
+{
+  "repository": "internlm/WildClawBench",
+  "revision": "75f945578aa00cbdb8f46e4d42e4f4e98f704b4f",
+  "updated_at": "2026-08-15T17:39:08.000Z",
+  "task_6_workspace_tree": [
+    {
+      "type": "directory",
+      "oid": "e1e73dcd8eb4090b904f31feb9e2f0fdd7b578d8",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec"
+    },
+    {
+      "type": "directory",
+      "oid": "1da94566f689b8c7f2b8213ccbd3e41043b5a6c4",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/fixtures"
+    },
+    {
+      "type": "directory",
+      "oid": "80ea068e30b215f10c725d10eb282a98172b10a9",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/fixtures/contacts"
+    },
+    {
+      "type": "directory",
+      "oid": "1ec3bdd9150e0a0e534584fc8588e02289cb2e30",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/fixtures/slack"
+    },
+    {
+      "type": "directory",
+      "oid": "536bfb8e3ffcb9511aa7f86c7bd5a507786f151f",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/mock_services"
+    },
+    {
+      "type": "directory",
+      "oid": "d0621b66bc18175f8d9749c04c4dd33f3c010404",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/mock_services/contacts"
+    },
+    {
+      "type": "directory",
+      "oid": "99c1dec9980c4d479f4cd3bd56e79271b4f6efc9",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/mock_services/slack"
+    },
+    {
+      "type": "directory",
+      "oid": "8c9d1ba15f1e933602d5679578b6b76a05180045",
+      "size": 0,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/tmp"
+    },
+    {
+      "type": "file",
+      "oid": "29de1844948e063782a53b2d98d2f5cdc556c639",
+      "size": 952,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/fixtures/contacts/contacts.json"
+    },
+    {
+      "type": "file",
+      "oid": "2d06707a4e1bf8af1a4115ff3f1bb2d1b456efcb",
+      "size": 7246,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/fixtures/slack/messages.json"
+    },
+    {
+      "type": "file",
+      "oid": "521105c5f831c08e3d2116b04d1447fbb2f7bfd0",
+      "size": 3337,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/mock_services/_base.py"
+    },
+    {
+      "type": "file",
+      "oid": "0afd312c75227a0108c5788288aa22e9f855e03b",
+      "size": 2586,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/mock_services/contacts/server.py"
+    },
+    {
+      "type": "file",
+      "oid": "9a8ff2459e89cafa4806859ebb93296afd89d322",
+      "size": 7087,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/mock_services/slack/server.py"
+    },
+    {
+      "type": "file",
+      "oid": "0916e072a65defe82a6c75b2943f818c8046c9cd",
+      "size": 740,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/exec/utils.py"
+    },
+    {
+      "type": "file",
+      "oid": "03b620506fc30dd4229a54088140e617b1973a8e",
+      "size": 2843,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/tmp/contacts.json"
+    },
+    {
+      "type": "file",
+      "oid": "bb3491511adcb1b76d41aaee31268205de76c286",
+      "size": 18372,
+      "path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/tmp/messages.json"
+    }
+  ]
+}

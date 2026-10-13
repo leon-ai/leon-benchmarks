@@ -1,0 +1,130 @@
+{
+  "agent": "leon",
+  "candidate": {
+    "attempted_inference_requests": 40,
+    "recorded_inference_requests": 39,
+    "completed_inference_requests": 39,
+    "requests_with_token_usage": 39,
+    "token_usage": {
+      "input_tokens": 877234,
+      "output_tokens": 8280,
+      "total_tokens": 885514,
+      "cached_input_tokens": 101760,
+      "reasoning_output_tokens": 2501
+    },
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "default": 39
+    },
+    "http_statuses": {
+      "200": 39
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 39,
+        "median": 4.3470295510000065,
+        "minimum": 0.7779082179999969,
+        "maximum": 19.627365415000007
+      },
+      "firstTextSeconds": {
+        "count": 9,
+        "median": 13.579690408999973,
+        "minimum": 6.420730968000018,
+        "maximum": 20.92821612499992
+      },
+      "firstToolActionSeconds": {
+        "count": 31,
+        "median": 9.879147909000022,
+        "minimum": 2.271300843000001,
+        "maximum": 24.60806333200005
+      },
+      "responseSeconds": {
+        "count": 39,
+        "median": 11.390943213999998,
+        "minimum": 2.2935523860000013,
+        "maximum": 25.285516191000003
+      }
+    },
+    "observer_milliseconds": 84.47867599837264,
+    "model_tool_calls": 39,
+    "tool_schema_checks": {
+      "valid": 39
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 226,
+      "output_tokens": 101,
+      "total_tokens": 327,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 36
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.6249711399996158,
+        "minimum": 1.6249711399996158,
+        "maximum": 1.6249711399996158
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 2.9945220780000454,
+        "minimum": 2.9945220780000454,
+        "maximum": 2.9945220780000454
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 3.8470892049999748,
+        "minimum": 3.8470892049999748,
+        "maximum": 3.8470892049999748
+      }
+    },
+    "observer_milliseconds": 1.1476869985926896,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.083363,
+    "agent_setup": 0.444379,
+    "agent_execution": 600.088096,
+    "verifier": 5.539629
+  },
+  "native_task_grade": {
+    "overall_score": 0.5,
+    "judge_reason": "country（China）和city（Shanghai）与标准答案一致，各得0.25分；latitude和longitude保留两位小数后分别为31.20和121.31，与标准答案不符，均不得分。"
+  },
+  "exception": {
+    "exception_type": "AgentTimeoutError",
+    "exception_message": "Agent execution timed out after 600.0 seconds",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/harbor_agents.py\", line 234, in run\n    await self.exec_as_agent(environment, command, env=env)\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 898, in exec_as_agent\n    return await self._exec(\n           ^^^^^^^^^^^^^^^^^\n        environment, command, env=env, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 849, in _exec\n    result = await environment.exec(\n             ^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1101, in exec\n    return await self._compose_exec(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1178, in _compose_exec\n    return await self._run_docker_compose_command(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 649, in _run_docker_compose_command\n    result = await self._collect_buffered_output(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 679, in _collect_buffered_output\n    stdout_bytes, stderr_bytes = await process.communicate(input=stdin_data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 201, in communicate\n    stdin, stdout, stderr = await tasks.gather(stdin, stdout, stderr)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 181, in _read_stream\n    output = await stream.read()\n             ^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 723, in read\n    block = await self.read(self._limit)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 730, in read\n    await self._wait_for_data('read')\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 539, in _wait_for_data\n    await self._waiter\nasyncio.exceptions.CancelledError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 545, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 506, in wait_for\n    async with timeouts.timeout(timeout):\n               ~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/timeouts.py\", line 116, in __aexit__\n    raise TimeoutError from exc_val\nTimeoutError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 554, in _run_agent_phase\n    raise AgentTimeoutError(\n        f\"Agent execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.AgentTimeoutError: Agent execution timed out after 600.0 seconds\n",
+    "occurred_at": "2026-10-12T01:45:51.638523Z"
+  },
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

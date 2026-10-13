@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_2_tabl__UZsU8bw",
+  "agent": "openclaw",
+  "task": "01_Productivity_Flow_task_2_table_tex_download",
+  "score": 1.0,
+  "source_result_sha256": "5699023fa816ca3f249a00214aefc50f4efd7b4e84240d7ddc0eaeea702a408d",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

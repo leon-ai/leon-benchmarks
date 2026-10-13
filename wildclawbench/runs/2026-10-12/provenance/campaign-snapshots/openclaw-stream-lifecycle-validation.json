@@ -1,0 +1,22 @@
+{
+  "offline_controls": [
+    {
+      "trial": "05_Creative_Synthesis_task_6_clo__28awj4k",
+      "original_native_score": 0.5915,
+      "pending_streams_at_prior_teardown": 0
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_6_clo__DD6PnRN",
+      "original_native_score": 0.0,
+      "pending_streams_at_prior_teardown": 1
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_6_clo__ywDB8We",
+      "original_native_score": 0.0,
+      "pending_streams_at_prior_teardown": 1
+    }
+  ],
+  "partial_append_control": "passed",
+  "additional_candidate_attempts": 0,
+  "additional_model_calls": 0
+}

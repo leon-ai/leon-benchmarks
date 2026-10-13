@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_6_cha__Y5C6xEY",
+  "agent": "hermes",
+  "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+  "score": 0.871,
+  "source_result_sha256": "35829acb1546d16e3684218435d94876824af32efafb17a5f971563c98ee110c",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

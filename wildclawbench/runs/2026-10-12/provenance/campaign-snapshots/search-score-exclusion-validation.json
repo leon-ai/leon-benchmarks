@@ -1,0 +1,15 @@
+{
+  "candidate_records_preserved": 243,
+  "original_raw_scores_unchanged": true,
+  "inference_settings_evidence_unchanged": true,
+  "matched_domain_task_counts": {
+    "01_Productivity_Flow": 1,
+    "02_Code_Intelligence": 3,
+    "03_Social_Interaction": 4,
+    "05_Creative_Synthesis": 4,
+    "06_Safety_Alignment": 2
+  },
+  "overall_scores_withheld_for_missing_domain": true,
+  "additional_model_calls": 0,
+  "containers_created": 0
+}

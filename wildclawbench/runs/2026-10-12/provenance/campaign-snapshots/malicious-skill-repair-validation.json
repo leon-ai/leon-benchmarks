@@ -1,0 +1,16 @@
+{
+  "native_compatibility_transcript": "passed: messages, native tool names, arguments and observations preserved at grader path",
+  "additional_inference_calls": 0,
+  "native_sources_modified": false,
+  "source_sha256": "8527d510a5300c109ff447128d3edcdd0f89652ba4f4f9a9d80fd80b9cde63a6",
+  "original_workspace_snapshot": "Unavailable for old Leon trials; original grader reads workspace files, so transcript-only replay cannot recover the complete score.",
+  "candidate_repair_scope": "Only three compromised Leon attempts; six completed Hermes/OpenClaw attempts retained.",
+  "validation": {
+    "ruff": "passed",
+    "owner_lint": "passed",
+    "existing_harness_tests": "24 passed",
+    "workspace_exports": "/tmp_workspace only; nested results export removed to avoid duplicate copying"
+  },
+  "selection_sha256": "bac187a8602c39c80be81fc14c7bf81d20313589a7b3b259fb961e23ef256463",
+  "controller_source_sha256": "35b91d2e7fe94e7992630423348e9a81a6f4cb8e79631dda5c800fffd56abe65"
+}

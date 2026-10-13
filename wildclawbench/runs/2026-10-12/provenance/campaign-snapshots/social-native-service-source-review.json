@@ -1,0 +1,176 @@
+{
+  "revision": "33d06066716dc2666721f08ad2784c96e9b44dc5",
+  "files": [
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "path": "environment/.wildclaw/run-warmup.sh",
+      "sha256": "a559e3158235aa20c8a5b154377a6cce23bd030e9639058d92307f77a7623bfe"
+    },
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "path": "environment/fixtures/slack/messages.json",
+      "sha256": "f2068bf2c859b425c67a918451ca0ba0c7c8732d566e1f7542dbe89ce7e0a5f4"
+    },
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "path": "environment/mock_services/_base.py",
+      "sha256": "644c0f2807b67ee0c0c6aaf2b8c5ecf8a57b8a2a930a2ea03e3e4300d5a2c98e"
+    },
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "path": "environment/mock_services/slack/server.py",
+      "sha256": "773d77aaefb5f445a8b878bcdaca8d7879490e5904acd15823e81b7bc1be4f2f"
+    },
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "path": "environment/utils.py",
+      "sha256": "48c22ebe1929ad40ed83a990145fd1647c69ef3fe2ab5e58b2a5507f80f2712d"
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "path": "environment/.wildclaw/run-warmup.sh",
+      "sha256": "a559e3158235aa20c8a5b154377a6cce23bd030e9639058d92307f77a7623bfe"
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "path": "environment/fixtures/slack/messages.json",
+      "sha256": "d4749ddbc76721443a72767c9a7f1e34bfe0a10c0ccc8b28ae935b0e92a1b2b6"
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "path": "environment/mock_services/_base.py",
+      "sha256": "644c0f2807b67ee0c0c6aaf2b8c5ecf8a57b8a2a930a2ea03e3e4300d5a2c98e"
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "path": "environment/mock_services/slack/server.py",
+      "sha256": "773d77aaefb5f445a8b878bcdaca8d7879490e5904acd15823e81b7bc1be4f2f"
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "path": "environment/utils.py",
+      "sha256": "48c22ebe1929ad40ed83a990145fd1647c69ef3fe2ab5e58b2a5507f80f2712d"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/.wildclaw/run-warmup.sh",
+      "sha256": "a6f75ed7a88506712aa7c3842c1347c06c009e792882aaea383f4c315fa76544"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/fixtures/contacts/contacts.json",
+      "sha256": "6e68fb3da015906d6d0836716e1d7166dd5fa3bd82265745b895e36f4aabcd5a"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/fixtures/slack/messages.json",
+      "sha256": "3708d23c9ec2a1294dd8f0a54423e41fe7e7b0fd8187d9453049218d1de9f11e"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/mock_services/_base.py",
+      "sha256": "644c0f2807b67ee0c0c6aaf2b8c5ecf8a57b8a2a930a2ea03e3e4300d5a2c98e"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/mock_services/contacts/server.py",
+      "sha256": "4de906a0387570d3bfe5635ee2851c268615e407216a3d3e7f22e3a59d26f746"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/mock_services/slack/server.py",
+      "sha256": "8714475c081739ee0db155c63767aedbcbbbd004f67a9300698d42fc90ce466c"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "path": "environment/utils.py",
+      "sha256": "cb20e57128b7a6007822a4647f6e8efae0ceb35f35659fc9e84dac7bcecfde3c"
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "path": "environment/.wildclaw/run-warmup.sh",
+      "sha256": "359cf9b1e643a56a9dccaec42fd7ac68abf516306e540233128afbab3cefb905"
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "path": "environment/mock_services/_base.py",
+      "sha256": "644c0f2807b67ee0c0c6aaf2b8c5ecf8a57b8a2a930a2ea03e3e4300d5a2c98e"
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "path": "environment/mock_services/contacts/server.py",
+      "sha256": "44794c5536a1def9d510c52db74900746b067b57f27c7d5a3d39d7f16cccea33"
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "path": "environment/mock_services/slack/server.py",
+      "sha256": "c5acc2653b62d0c95799cdd75db3e69e4b41d177f648be3cf13f165d1e4fa151"
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "path": "environment/utils.py",
+      "sha256": "f5a631afacf313b1a1aa5116c36fdee48d809319da37eabb5e2d10b31b7e88f6"
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "path": "environment/.wildclaw/run-warmup.sh",
+      "sha256": "a559e3158235aa20c8a5b154377a6cce23bd030e9639058d92307f77a7623bfe"
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "path": "environment/fixtures/slack/messages.json",
+      "sha256": "ee58e537d92d0089bf7b17a26f5f7613461cffa820a1d4ed96b54e96f09081c4"
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "path": "environment/mock_services/_base.py",
+      "sha256": "644c0f2807b67ee0c0c6aaf2b8c5ecf8a57b8a2a930a2ea03e3e4300d5a2c98e"
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "path": "environment/mock_services/slack/server.py",
+      "sha256": "773d77aaefb5f445a8b878bcdaca8d7879490e5904acd15823e81b7bc1be4f2f"
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "path": "environment/utils.py",
+      "sha256": "48c22ebe1929ad40ed83a990145fd1647c69ef3fe2ab5e58b2a5507f80f2712d"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/.wildclaw/run-warmup.sh",
+      "sha256": "a8de9045195e253924287e7584c8776965d5aa2c33344189b8f1f431c80486ef"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/fixtures/calendar/events.json",
+      "sha256": "1b513f2843b0c32c6cd301813fb5657d107fee964145c3bd698fdbbc559d4fe1"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/fixtures/gmail/inbox.json",
+      "sha256": "dfa7f4f5a9baab53a5da4f7b005725a292cd2e912db4690fdca3ecdb9d71a10d"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/mock_services/_base.py",
+      "sha256": "644c0f2807b67ee0c0c6aaf2b8c5ecf8a57b8a2a930a2ea03e3e4300d5a2c98e"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/mock_services/calendar/server.py",
+      "sha256": "749bf99756899553f3c44ca01dde4387e01a96302f8723682bfe9d9870cffc68"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/mock_services/gmail/server.py",
+      "sha256": "25704ff812f7f071d02ec9fd2368ceacb885ab1a447130ffabe50469298a5e10"
+    },
+    {
+      "task": "03_Social_Interaction_task_1_meeting_negotiation",
+      "path": "environment/utils.py",
+      "sha256": "1fcc6a953ae69e1478e2cbe8d647aa7ee9fa8e126a2294dfd5cdd6968b6a6743"
+    }
+  ],
+  "additional_model_calls": 0
+}

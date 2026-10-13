@@ -1,0 +1,131 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 10,
+    "recorded_inference_requests": 10,
+    "completed_inference_requests": 10,
+    "requests_with_token_usage": 10,
+    "token_usage": {
+      "input_tokens": 185334,
+      "output_tokens": 4576,
+      "total_tokens": 189910,
+      "cached_input_tokens": 150656,
+      "reasoning_output_tokens": 966
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 10
+    },
+    "http_statuses": {
+      "200": 10
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 10,
+        "median": 2.3667140474999995,
+        "minimum": 1.8634584690000011,
+        "maximum": 9.883338923000004
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 4.1824980925,
+        "minimum": 3.449399504000001,
+        "maximum": 4.915596680999999
+      },
+      "firstToolActionSeconds": {
+        "count": 9,
+        "median": 8.024641019999995,
+        "minimum": 3.3449289779999964,
+        "maximum": 40.28967699
+      },
+      "responseSeconds": {
+        "count": 10,
+        "median": 7.499055163499998,
+        "minimum": 3.440720597000007,
+        "maximum": 40.306780814999996
+      }
+    },
+    "observer_milliseconds": 68.75416399980531,
+    "model_tool_calls": 11,
+    "tool_schema_checks": {
+      "valid": 11
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 2,
+    "recorded_inference_requests": 2,
+    "completed_inference_requests": 2,
+    "requests_with_token_usage": 2,
+    "token_usage": {
+      "input_tokens": 2517,
+      "output_tokens": 435,
+      "total_tokens": 2952,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 324
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 2
+    },
+    "http_statuses": {
+      "200": 2
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 2,
+        "median": 1.3238966729986714,
+        "minimum": 0.6831186470008106,
+        "maximum": 1.9646746989965322
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 4.960432676998607,
+        "minimum": 1.4272723350004526,
+        "maximum": 8.493593018996762
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 2,
+        "median": 6.041747504998057,
+        "minimum": 2.699948053996195,
+        "maximum": 9.383546955999918
+      }
+    },
+    "observer_milliseconds": 3.5536520299501717,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.023071,
+    "agent_setup": 26.43309,
+    "agent_execution": 139.359602,
+    "verifier": 15.26553
+  },
+  "native_task_grade": {
+    "image_judge_reason": "填色结果与标准答案完全一致，各颜色区域及白色留空位置均准确，像素画完整还原。",
+    "image_judge_method": "vlm",
+    "image_score": 1.0,
+    "desc_judge_reason": "准确描述了人物骑滑板车的场景，红色上衣、黑色裤子、蓝天、白云、太阳和绿色草地等关键要素齐全，额外细节不影响语义一致性。",
+    "desc_judge_method": "llm",
+    "llm_attempts": 1,
+    "description_score": 1.0,
+    "overall_score": 1.0
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

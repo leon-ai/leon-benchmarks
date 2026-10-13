@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_10_tomllib_trace/native-repair/04_Search_Retrieval_task_10_toml__L2AYJV8",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "4622ef5c34ebff91572c20b79bf012b30fed5ad57629b3243909ba1bccc8a4f7",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

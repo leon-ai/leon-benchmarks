@@ -1,0 +1,4 @@
+{
+  "overall_score": 0.5,
+  "judge_reason": "country（China）和city（Shanghai）与标准答案一致，各得0.25分；latitude和longitude保留两位小数后分别为31.20和121.31，与标准答案不符，均不得分。"
+}

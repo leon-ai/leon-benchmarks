@@ -1,0 +1,16 @@
+{
+  "registered": true,
+  "source": "/tmp_workspace/.wildclaw/skills",
+  "target": "/tmp/leon-benchmark/profiles/benchmark/skills/agent",
+  "discovered": [
+    {
+      "id": "agent-browser",
+      "path": "/tmp/leon-benchmark/profiles/benchmark/skills/agent/agent-browser"
+    },
+    {
+      "id": "self-improvement",
+      "path": "/tmp/leon-benchmark/profiles/benchmark/skills/agent/self-improving-agent-3.0.5"
+    }
+  ],
+  "undiscovered": []
+}

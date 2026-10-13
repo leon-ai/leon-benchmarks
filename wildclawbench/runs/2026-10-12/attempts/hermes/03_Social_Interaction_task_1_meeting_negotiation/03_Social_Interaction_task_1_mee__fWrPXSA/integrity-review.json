@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_1_meeting_negotiation/native/03_Social_Interaction_task_1_mee__fWrPXSA",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "cc2c73526aa4817983a5b26ea7d25e19d4eb635c8b056ead28c06ede8693d7f9",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

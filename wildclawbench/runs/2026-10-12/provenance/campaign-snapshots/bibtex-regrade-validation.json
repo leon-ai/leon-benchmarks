@@ -1,0 +1,60 @@
+{
+  "method": "Unchanged native checks.py, network-disabled read-only container; frozen PDFs and ground truth with original exported output artifacts. No candidate reruns or inference.",
+  "control_trials_exact_matches": [
+    "01_Productivity_Flow_task_3_bibt__7A4sKaX",
+    "01_Productivity_Flow_task_3_bibt__QBgzUHN",
+    "01_Productivity_Flow_task_3_bibt__Uqb3HqG",
+    "01_Productivity_Flow_task_3_bibt__a5iUYoF",
+    "01_Productivity_Flow_task_3_bibt__hVLn7UA",
+    "01_Productivity_Flow_task_3_bibt__rrudNYq",
+    "01_Productivity_Flow_task_3_bibt__rvswazg"
+  ],
+  "controls_count": 7,
+  "recoverable_trials": [
+    {
+      "trial": "01_Productivity_Flow_task_3_bibt__CXW8Sev",
+      "scores": {
+        "manifest_exists": 1.0,
+        "manifest_json_valid": 1.0,
+        "renamed_dir_exists": 1.0,
+        "bibtex_dir_exists": 1.0,
+        "input_coverage_consistent": 1.0,
+        "pdf_copies_byte_identical": 1.0,
+        "non_arxiv_excluded": 1.0,
+        "workspace_cleanliness": 1.0,
+        "arxiv_id_accuracy": 1.0,
+        "title_accuracy": 0.95,
+        "filename_accuracy": 0.95,
+        "figure_count_accuracy": 1.0,
+        "bibtex_files_created": 1.0,
+        "bibtex_exact_match_ratio": 0.85,
+        "corrupted_paper_accuracy": 1.0,
+        "hard_constraint_pass": 1.0,
+        "overall_score": 0.965
+      }
+    },
+    {
+      "trial": "01_Productivity_Flow_task_3_bibt__CuvLwv6",
+      "scores": {
+        "manifest_exists": 1.0,
+        "manifest_json_valid": 1.0,
+        "renamed_dir_exists": 1.0,
+        "bibtex_dir_exists": 1.0,
+        "input_coverage_consistent": 1.0,
+        "pdf_copies_byte_identical": 1.0,
+        "non_arxiv_excluded": 1.0,
+        "workspace_cleanliness": 1.0,
+        "arxiv_id_accuracy": 1.0,
+        "title_accuracy": 0.95,
+        "filename_accuracy": 0.95,
+        "figure_count_accuracy": 1.0,
+        "bibtex_files_created": 1.0,
+        "bibtex_exact_match_ratio": 0.8,
+        "corrupted_paper_accuracy": 1.0,
+        "hard_constraint_pass": 1.0,
+        "overall_score": 0.955
+      }
+    }
+  ],
+  "checks_sha256": "31577417f6672870f88c8bc896f076c4a10d81690dc59d9bf249b0e3eab5a285"
+}

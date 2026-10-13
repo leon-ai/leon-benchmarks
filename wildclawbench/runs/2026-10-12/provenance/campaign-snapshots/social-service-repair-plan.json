@@ -1,0 +1,171 @@
+{
+  "approved": true,
+  "authorization": "[PRIVATE_VALUE_OMITTED]",
+  "source_repository": "internlm/WildClawBench",
+  "source_revision": "75f945578aa00cbdb8f46e4d42e4f4e98f704b4f",
+  "harbor_revision": "33d06066716dc2666721f08ad2784c96e9b44dc5",
+  "created_at": "2026-10-12T13:25:09.713245+00:00",
+  "tasks": [
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "restored_files": [
+        {
+          "path": "environment/tmp/messages.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_2_chat_action_extraction/tmp/messages.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_2_chat_action_extraction/tmp/messages.json",
+          "sha256": "a148734e1281e6510b3d4b719e9f0c19aa6ec553785013aa36724af195343829",
+          "bytes": 13801,
+          "fixture_shape": {
+            "type": "list",
+            "messages": 20,
+            "reactive_replies": 0
+          }
+        }
+      ],
+      "cached_fixture_comparisons": [
+        {
+          "path": "exec/fixtures/slack/messages.json",
+          "json_identical": true,
+          "harbor_cached_fixture_preserved": true
+        }
+      ]
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "restored_files": [
+        {
+          "path": "environment/tmp/messages.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_4_chat_thread_consolidation/tmp/messages.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_4_chat_thread_consolidation/tmp/messages.json",
+          "sha256": "1556032f47fa89c12228224cd292971d20113faaadb732d9af87abde4075aa96",
+          "bytes": 10071,
+          "fixture_shape": {
+            "type": "list",
+            "messages": 12,
+            "reactive_replies": 0
+          }
+        },
+        {
+          "path": "environment/mock_services/slack/server.py",
+          "upstream_path": "workspace/03_Social_Interaction/task_4_chat_thread_consolidation/exec/mock_services/slack/server.py",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_4_chat_thread_consolidation/canonical-slack-server.py",
+          "sha256": "b87541c7300b094782a32fa82100b3fdad41dad7a085a8dd8cef4cdcad298e56",
+          "bytes": 6926,
+          "purpose": "Restore original native draft endpoint missing from Harbor prototype service copy."
+        }
+      ],
+      "cached_fixture_comparisons": [
+        {
+          "path": "exec/fixtures/slack/messages.json",
+          "json_identical": true,
+          "harbor_cached_fixture_preserved": true
+        }
+      ]
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "restored_files": [
+        {
+          "path": "environment/tmp/messages.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/tmp/messages.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_6_chat_cross_dept_update_zh/tmp/messages.json",
+          "sha256": "24bb402b9acb628d02c1b9d4168e1840d594877dc48e7c968914dd237aa69147",
+          "bytes": 18372,
+          "fixture_shape": {
+            "type": "dict",
+            "messages": 12,
+            "reactive_replies": 3
+          }
+        },
+        {
+          "path": "environment/tmp/contacts.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_6_chat_cross_dept_update_zh/tmp/contacts.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_6_chat_cross_dept_update_zh/tmp/contacts.json",
+          "sha256": "bac2f63583b0725c73aa0040ff2fd0d23b2c7b63494b2a856f275cf8681f1f81",
+          "bytes": 2843,
+          "fixture_shape": {
+            "type": "list",
+            "messages": 11,
+            "reactive_replies": 0
+          }
+        }
+      ],
+      "cached_fixture_comparisons": [
+        {
+          "path": "exec/fixtures/slack/messages.json",
+          "json_identical": true,
+          "harbor_cached_fixture_preserved": true
+        },
+        {
+          "path": "exec/fixtures/contacts/contacts.json",
+          "json_identical": false,
+          "harbor_cached_fixture_preserved": true
+        }
+      ]
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "restored_files": [
+        {
+          "path": "environment/tmp/messages.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_5_chat_escalation_routing/tmp/messages.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_5_chat_escalation_routing/tmp/messages.json",
+          "sha256": "18ebe31447d0a605f759234ff7b7e7a8fd4901707c2b1b0be2d73508aced6fb3",
+          "bytes": 13121,
+          "fixture_shape": {
+            "type": "dict",
+            "messages": 9,
+            "reactive_replies": 3
+          }
+        },
+        {
+          "path": "environment/tmp/contacts.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_5_chat_escalation_routing/tmp/contacts.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_5_chat_escalation_routing/tmp/contacts.json",
+          "sha256": "24f1c18530f4052488c319cd2226282ff63482d4d3e6e5ec5e044adfd4b23652",
+          "bytes": 4065,
+          "fixture_shape": {
+            "type": "list",
+            "messages": 16,
+            "reactive_replies": 0
+          }
+        }
+      ],
+      "cached_fixture_comparisons": []
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "restored_files": [
+        {
+          "path": "environment/tmp/messages.json",
+          "upstream_path": "workspace/03_Social_Interaction/task_3_chat_multi_step_reasoning/tmp/messages.json",
+          "local_source": "__WORKSPACE__/replacement-review/social-original-live-inputs/03_Social_Interaction_task_3_chat_multi_step_reasoning/tmp/messages.json",
+          "sha256": "73f10dc3371ccbd61e5f3c7ac07e712d2162af432e7d4f0075fd15924bd1d440",
+          "bytes": 18727,
+          "fixture_shape": {
+            "type": "list",
+            "messages": 18,
+            "reactive_replies": 0
+          }
+        }
+      ],
+      "cached_fixture_comparisons": [
+        {
+          "path": "exec/fixtures/slack/messages.json",
+          "json_identical": true,
+          "harbor_cached_fixture_preserved": true
+        }
+      ]
+    }
+  ],
+  "replacement_attempts": 45,
+  "preserved_task_groups": 31,
+  "native_instructions_and_graders_unchanged": true,
+  "native_error_injection_unchanged": true,
+  "mode": "native-service-repair",
+  "service_image": "leon-comparison-social-services:20261012",
+  "cache_note": "Canonical message caches match for four comparable source layouts. Native Harbor cached files are all preserved; only omitted authoritative tmp inputs are restored.",
+  "service_preflight_passed": true,
+  "preflight_sha256": "8859a2db44fdc097303b39390d7f8d2d98c037ef628e31ed5f0352dac7b3fd86",
+  "service_image_id": "sha256:94e0b03cb4b6c43c131c07dba7d5036b4032aa9d3b5735e005da860128ff048c"
+}

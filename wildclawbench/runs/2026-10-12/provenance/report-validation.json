@@ -1,0 +1,59 @@
+{
+  "data_consistency_passed": true,
+  "accepted_attempts": 324,
+  "tasks": 36,
+  "native_scores_unchanged": true,
+  "shared_success_tasks": 7,
+  "original_plan_messages_recovered": 3,
+  "request_counts_and_usage_reconciled": true,
+  "percentile_order_verified": true,
+  "browser_validation": "All six tabs, task filter, nine-run drilldown, attempt details and twelve-Leon-zero filter passed;390px mobile has no horizontal page overflow.",
+  "additional_inference_calls": 0,
+  "browser_checks": {
+    "passed": true,
+    "initial": {
+      "ready": true,
+      "records": 324,
+      "tasks": 36,
+      "scoreCards": 3,
+      "charts": 14
+    },
+    "panes": [
+      {
+        "name": "overview",
+        "visible": true
+      },
+      {
+        "name": "efficiency",
+        "visible": true
+      },
+      {
+        "name": "tools",
+        "visible": true
+      },
+      {
+        "name": "failures",
+        "visible": true
+      },
+      {
+        "name": "tasks",
+        "visible": true
+      },
+      {
+        "name": "methods",
+        "visible": true
+      }
+    ],
+    "filter": {
+      "tasks": 1,
+      "attempts": 9
+    },
+    "zeroRows": 12,
+    "mobile": {
+      "width": 390,
+      "scroll": 390
+    },
+    "console_errors": 0
+  },
+  "verified_at": "2026-10-13T01:04:09.909645+00:00"
+}

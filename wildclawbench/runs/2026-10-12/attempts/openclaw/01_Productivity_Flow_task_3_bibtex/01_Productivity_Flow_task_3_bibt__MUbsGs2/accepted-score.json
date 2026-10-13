@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_3_bibt__MUbsGs2",
+  "agent": "openclaw",
+  "task": "01_Productivity_Flow_task_3_bibtex",
+  "score": 0.715,
+  "source_result_sha256": "ec67376dba0880d1f84838d18fbb83dba558239126ce1b4191e498d54d8627f4",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

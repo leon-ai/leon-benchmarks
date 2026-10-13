@@ -1,0 +1,12 @@
+{
+  "id": "05_Creative_Synthesis_task_1_mat__UT8fKyV",
+  "agent": "openclaw",
+  "task": "05_Creative_Synthesis_task_1_match_report",
+  "score": 0.8698,
+  "source_result_sha256": "fefffa10357848df4677301efae7b40bb8f3e65a5b89f9306ba45ee770ff043b",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. Match-report text and video alignment requirements were incomplete or uncredited.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

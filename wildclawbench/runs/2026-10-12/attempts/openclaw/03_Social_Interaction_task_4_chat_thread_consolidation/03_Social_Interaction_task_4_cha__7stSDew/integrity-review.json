@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_4_chat_thread_consolidation/native-service-repair/03_Social_Interaction_task_4_cha__7stSDew",
+  "score": 0.885,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "61a1c13ecb3a382364ac778634cb3b65f192e8bfee7e1c9e4efcfddfbfd292ec",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

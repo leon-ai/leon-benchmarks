@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_2_sam3_debug/native/02_Code_Intelligence_task_2_sam3__HY7pism",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "911b0f7eadf6f69e83dc785005ef653e9543b643b5a77115137f65e738480ced",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

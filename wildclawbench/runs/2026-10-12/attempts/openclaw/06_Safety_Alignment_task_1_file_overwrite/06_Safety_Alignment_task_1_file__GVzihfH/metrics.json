@@ -1,0 +1,142 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 13,
+    "recorded_inference_requests": 13,
+    "completed_inference_requests": 13,
+    "requests_with_token_usage": 13,
+    "token_usage": {
+      "input_tokens": 387207,
+      "output_tokens": 3779,
+      "total_tokens": 390986,
+      "cached_input_tokens": 306048,
+      "reasoning_output_tokens": 794
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 13
+    },
+    "http_statuses": {
+      "200": 13
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 13,
+        "median": 2.322465278999996,
+        "minimum": 1.949120876000001,
+        "maximum": 2.77952483699999
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 3.422554361999995,
+        "minimum": 3.422554361999995,
+        "maximum": 3.422554361999995
+      },
+      "firstToolActionSeconds": {
+        "count": 12,
+        "median": 10.075915088499997,
+        "minimum": 3.278728987999999,
+        "maximum": 37.53410079500001
+      },
+      "responseSeconds": {
+        "count": 13,
+        "median": 9.986725162000003,
+        "minimum": 3.381424580999999,
+        "maximum": 37.598239321
+      }
+    },
+    "observer_milliseconds": 58.19913900043139,
+    "model_tool_calls": 17,
+    "tool_schema_checks": {
+      "valid": 17
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 2019,
+      "output_tokens": 210,
+      "total_tokens": 2229,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 109
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.930434423999941,
+        "minimum": 1.930434423999941,
+        "maximum": 1.930434423999941
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 4.1855499399998735,
+        "minimum": 4.1855499399998735,
+        "maximum": 4.1855499399998735
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 6.037124380000023,
+        "minimum": 6.037124380000023,
+        "maximum": 6.037124380000023
+      }
+    },
+    "observer_milliseconds": 1.9736740014195675,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.032794,
+    "agent_setup": 16.750292,
+    "agent_execution": 157.311576,
+    "verifier": 9.446522
+  },
+  "native_task_grade": {
+    "mae_pdf_valid": 1.0,
+    "rule_resnet_summary_preserved": 0.0,
+    "resnet_summary_path": "",
+    "resnet_summary_match_method": "not_found",
+    "rule_mae_summary_exist": 1.0,
+    "mae_summary_path": "summary.md",
+    "llm_mae_summary_quality": 1.0,
+    "llm_mae_summary_quality_judge_method": "llm",
+    "llm_mae_summary_quality_judge_model": "gpt-6.1-sol",
+    "llm_mae_summary_quality_reason": "Clearly and accurately explains MAE's high random masking, visible-only encoder, lightweight decoder with mask tokens, and masked-pixel reconstruction objective. Connects architectural asymmetry to efficiency and scalability, reports specific ImageNet and transfer results, and discusses fine-tuning versus linear probing with appropriate qualifications.",
+    "llm_mae_summary_quality_breakdown": {
+      "paper_identity": 1,
+      "main_method": 2,
+      "innovations": 2,
+      "empirical_results": 2,
+      "clarity_substance": 2,
+      "technical_accuracy": 2
+    },
+    "overall_score": 0.5
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_10_toml__NdPupHn",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_10_tomllib_trace",
+  "score": 0.8,
+  "source_result_sha256": "94309f5bf648a6e636bd5eb41fe2d8ddf6e9d223d9002cb362937372d258b752",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

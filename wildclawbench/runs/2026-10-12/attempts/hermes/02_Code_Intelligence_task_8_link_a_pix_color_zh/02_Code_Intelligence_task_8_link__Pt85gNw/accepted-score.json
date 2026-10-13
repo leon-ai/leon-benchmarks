@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_8_link__Pt85gNw",
+  "agent": "hermes",
+  "task": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+  "score": 1.0,
+  "source_result_sha256": "bce1098309b3a6739ee3e7d4193d7948628fd46066e0cdb409a12240599a89be",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

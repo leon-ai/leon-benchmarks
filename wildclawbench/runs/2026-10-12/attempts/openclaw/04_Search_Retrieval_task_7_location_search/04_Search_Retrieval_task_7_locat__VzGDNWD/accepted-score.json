@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_7_locat__VzGDNWD",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_7_location_search",
+  "score": 0.0,
+  "source_result_sha256": "435446f11b5ae0afac2364d4c8b4f1655133c4bb8242747b9031a4dc8d08cb38",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The location answer was missing or its country/city/coordinates did not all match.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

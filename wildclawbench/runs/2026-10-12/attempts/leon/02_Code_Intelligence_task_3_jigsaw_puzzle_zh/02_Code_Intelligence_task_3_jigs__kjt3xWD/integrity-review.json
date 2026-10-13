@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_3_jigsaw_puzzle_zh/native/02_Code_Intelligence_task_3_jigs__kjt3xWD",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "50a644515dab1d012ff386d022c54b92a1bd36e662a0f3f86635fbbeb9521621",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

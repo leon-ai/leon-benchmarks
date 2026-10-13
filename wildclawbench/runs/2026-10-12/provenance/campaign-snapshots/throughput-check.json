@@ -1,0 +1,42 @@
+{
+  "sampled_at": "2026-10-11T07:16:57.682293+00:00",
+  "concurrency": 9,
+  "method": "Provider output_tokens divided by responseSeconds per completed response. Includes reasoning output and total request latency; not isolated decoding speed. Passive observation, no additional model calls.",
+  "live_completed_responses": 122,
+  "live_http_statuses": {
+    "200": 122
+  },
+  "all_sampled_http_statuses": {
+    "200": 554,
+    "503": 1
+  },
+  "live_median_response_seconds": 9.122539562999995,
+  "live_median_effective_output_tokens_per_second": 25.767068357658566,
+  "live_median_headers_seconds": 3.2906845079999876,
+  "live_returned_tiers": {
+    "default": 122
+  },
+  "causal_limit": "No identical-workload lower-concurrency baseline exists. No 429 responses is not proof of no soft queuing.",
+  "agents": {
+    "BenchmarkHermes": {
+      "responses": 27,
+      "median_effective_output_tokens_per_second": 30.58150590769616,
+      "median_response_seconds": 13.920850654001697
+    },
+    "BenchmarkOpenClaw": {
+      "responses": 48,
+      "median_effective_output_tokens_per_second": 20.593891542197277,
+      "median_response_seconds": 7.616770596
+    },
+    "Leon": {
+      "responses": 47,
+      "median_effective_output_tokens_per_second": 29.00280893010673,
+      "median_response_seconds": 9.722383980000012
+    }
+  },
+  "subscription_usage": {
+    "usage_allowed": true,
+    "primary_used_percent": 10,
+    "rate_limit_reached_type": null
+  }
+}

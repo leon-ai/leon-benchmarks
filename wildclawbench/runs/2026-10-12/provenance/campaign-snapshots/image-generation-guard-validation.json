@@ -1,0 +1,29 @@
+{
+  "status": "offline guards passed; native provider preflight pending",
+  "native_sources_changed": false,
+  "changes": [
+    "pilot.json",
+    "audit-openai.mjs",
+    "audit_openai.py",
+    "configure-openclaw.mjs",
+    "inference-observer.mjs",
+    "run-leon.ts",
+    "metrics.py",
+    "image_preflight.py"
+  ],
+  "source_sha256": {
+    "pilot.json": "06215242ccb80d16bfc338159c49720f39efd80d42f3c4b46f5d3f6194888b4b",
+    "audit-openai.mjs": "815fe2dd17c3c39d1d152cf15bc7ee457667aeef9ca07dd722bbc13b3309bfd3",
+    "audit_openai.py": "3b5c1f82dc06cc616778b0d6a433af886ded862555960553a0e1bd4b3dae39cf",
+    "configure-openclaw.mjs": "b9df5a07a0e9ac6a2eba554d59cf722178bb5b39b432a4861094400c1e03f42a",
+    "inference-observer.mjs": "1e619e23f396bed8d90e240bd4ad93f9a309a53b9bfc452312b4a4e467ee1007",
+    "run-leon.ts": "9257182394ee5c08006767d25891c071ff547a5a060cb5ca8b13b9eb277a99ba",
+    "metrics.py": "1db5234e4fdf8df7f008b6ea77ba46e6a1acd584d1b9c7b6ce422dc502e2ef58",
+    "image_preflight.py": "af20e7d40b8dbcba9d7a7c08ab97cfbeb966b913cca1f129b9790295c16d502f"
+  },
+  "validation": {
+    "python_guard_controls": "passed",
+    "javascript_guard_controls": "passed",
+    "network_or_model_calls_in_controls": 0
+  }
+}

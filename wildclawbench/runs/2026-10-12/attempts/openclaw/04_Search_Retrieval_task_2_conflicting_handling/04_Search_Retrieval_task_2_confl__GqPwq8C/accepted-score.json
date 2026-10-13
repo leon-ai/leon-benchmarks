@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_2_confl__GqPwq8C",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_2_conflicting_handling",
+  "score": 1.0,
+  "source_result_sha256": "012a0a7787334141e6d61b09a428987ea35c6f5dd35ff6372f84e037f9debe62",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

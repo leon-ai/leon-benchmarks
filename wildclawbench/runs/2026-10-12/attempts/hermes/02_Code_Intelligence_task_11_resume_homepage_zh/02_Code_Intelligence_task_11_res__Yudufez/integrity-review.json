@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__Yudufez",
+  "score": 0.6667,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "1aa73a7ac80ee7571554b0658d78f26a04cb60a0cae7cf9e608672a73a7277f9",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

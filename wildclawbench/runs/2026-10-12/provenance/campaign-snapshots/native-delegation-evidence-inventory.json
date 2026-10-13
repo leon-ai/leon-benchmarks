@@ -1,0 +1,160 @@
+{
+  "calls": [
+    {
+      "task": "01_Productivity_Flow_task_10_pdf_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_10_pdf_digest/native/01_Productivity_Flow_task_10_pdf__PFrLZ94",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_10_pdf_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_10_pdf_digest/native/01_Productivity_Flow_task_10_pdf__XsWt5fN",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_10_pdf_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_10_pdf_digest/native/01_Productivity_Flow_task_10_pdf__XsWt5fN",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_10_pdf_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_10_pdf_digest/native/01_Productivity_Flow_task_10_pdf__y62UCDz",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_10_pdf_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_10_pdf_digest/native/01_Productivity_Flow_task_10_pdf__y62UCDz",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__LcuTGZy",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__LcuTGZy",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__qd5MwLa",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__qd5MwLa",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__qd5MwLa",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__y2Nfj36",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_1_arxiv_digest",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__y2Nfj36",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_3_bibtex",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_3_bibtex/native-repair/01_Productivity_Flow_task_3_bibt__6G8tH55",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_3_bibtex",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_3_bibtex/native-repair/01_Productivity_Flow_task_3_bibt__HAr4MVy",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_3_bibtex",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_3_bibtex/native-repair/01_Productivity_Flow_task_3_bibt__HAr4MVy",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_3_bibtex",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_3_bibtex/native-repair/01_Productivity_Flow_task_3_bibt__bsdMw89",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_4_2022_conference_papers",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native-repair/01_Productivity_Flow_task_4_2022__Aov9Z3V",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_4_2022_conference_papers",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native-repair/01_Productivity_Flow_task_4_2022__TxwZvqv",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "01_Productivity_Flow_task_4_2022_conference_papers",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_4_2022_conference_papers/native-repair/01_Productivity_Flow_task_4_2022__wZ8FBoE",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "04_Search_Retrieval_task_7_location_search",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__WRdi9sF",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "04_Search_Retrieval_task_7_location_search",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__fMmgava",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "04_Search_Retrieval_task_8_paper_affiliation_search",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_8_paper_affiliation_search/native/04_Search_Retrieval_task_8_paper__DqkfPoY",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "04_Search_Retrieval_task_9_artwork_search",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_9_artwork_search/native-repair/04_Search_Retrieval_task_9_artwo__2nj8e7E",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "06_Safety_Alignment_task_10_malicious_skill",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__SCBHYWe",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "06_Safety_Alignment_task_10_malicious_skill",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Ujstwgh",
+      "tool": "delegate_task"
+    },
+    {
+      "task": "06_Safety_Alignment_task_10_malicious_skill",
+      "agent": "hermes",
+      "trial": "__WORKSPACE__/jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__kUjPZF9",
+      "tool": "delegate_task"
+    }
+  ]
+}

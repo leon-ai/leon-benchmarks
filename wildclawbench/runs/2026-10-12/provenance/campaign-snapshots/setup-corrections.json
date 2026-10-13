@@ -1,0 +1,6 @@
+{
+  "network": "Clear unreachable task-image proxy settings for all agents and verifiers; use host VPN routing unchanged.",
+  "hermes_auxiliary": "Native model configuration and OAuth credential-pool entry with access token only; host retains refresh authority.",
+  "unscored_preflight_failure": "preflight/inherited-proxy-failure",
+  "scored_attempts_started": false
+}

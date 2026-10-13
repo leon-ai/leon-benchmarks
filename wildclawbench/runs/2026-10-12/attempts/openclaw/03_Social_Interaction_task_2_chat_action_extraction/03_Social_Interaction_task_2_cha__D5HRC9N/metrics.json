@@ -1,0 +1,456 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 12,
+    "recorded_inference_requests": 12,
+    "completed_inference_requests": 12,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      }
+    ],
+    "requests_with_token_usage": 12,
+    "token_usage": {
+      "input_tokens": 267765,
+      "output_tokens": 4911,
+      "total_tokens": 272676,
+      "cached_input_tokens": 243456,
+      "reasoning_output_tokens": 222
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 12
+    },
+    "http_statuses": {
+      "200": 12
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 12,
+        "median": 2.6429407895000034,
+        "minimum": 1.9664770500000013,
+        "maximum": 3.3210075490000017
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 3.61110566500001,
+        "minimum": 3.61110566500001,
+        "maximum": 3.61110566500001
+      },
+      "firstToolActionSeconds": {
+        "count": 11,
+        "median": 6.740953573000006,
+        "minimum": 4.099210498999999,
+        "maximum": 99.98340969899999
+      },
+      "responseSeconds": {
+        "count": 12,
+        "median": 7.121317841,
+        "minimum": 5.161583725999997,
+        "maximum": 100.042078896
+      }
+    },
+    "observer_milliseconds": 67.04808599926764,
+    "model_tool_calls": 15,
+    "tool_schema_checks": {
+      "valid": 15
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 5,
+    "recorded_inference_requests": 5,
+    "completed_inference_requests": 5,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 5,
+    "token_usage": {
+      "input_tokens": 17805,
+      "output_tokens": 402,
+      "total_tokens": 18207,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 75
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 5
+    },
+    "http_statuses": {
+      "200": 5
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 5,
+        "median": 2.9064305069987313,
+        "minimum": 1.852113291999558,
+        "maximum": 5.869243294000626
+      },
+      "firstTextSeconds": {
+        "count": 5,
+        "median": 4.774568421002186,
+        "minimum": 2.9513258389997645,
+        "maximum": 7.129467618004128
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 5,
+        "median": 6.817223806996481,
+        "minimum": 4.403788251998776,
+        "maximum": 9.036574898003892
+      }
+    },
+    "observer_milliseconds": 4.601273038133513,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.080114,
+    "agent_setup": 19.654268,
+    "agent_execution": 205.589245,
+    "verifier": 37.123741
+  },
+  "native_task_grade": {
+    "mode": "audit",
+    "tool_get_calls": 27,
+    "tool_send_calls": 0,
+    "points_max": 1.19,
+    "points_earned": 1.144,
+    "action_items": {
+      "feasibility_report": 0.05,
+      "april_15_demo": 0.06,
+      "allhands_deck": 0.05,
+      "comms_lisa_template": 0.04,
+      "data_migration_section": 0.04,
+      "sync_with_rachel": 0.04,
+      "service_list_for_kevin": 0.04,
+      "working_session_kevin": 0.03,
+      "ecr_prerequisites": 0.04,
+      "rachel_update_to_kevin": 0.04,
+      "api_docs_priority_endpoints": 0.05,
+      "api_docs_confluence_march28": 0.04,
+      "api_contract_review_meeting": 0.03,
+      "api_analytics_review": 0.03,
+      "perf_review_march25": 0.04,
+      "schedule_1on1_jamie_sam": 0.05,
+      "expense_report_march27": 0.04,
+      "cto_one_pager": 0.0
+    },
+    "action_items_earned": 0.71,
+    "action_items_max": 0.75,
+    "llm_items": {
+      "rachel_data_facts": {
+        "raw_score": 1.0,
+        "earned": 0.07,
+        "max": 0.07,
+        "reason": "Accurately captures all five Rachel-specific points: three ETL jobs requiring rerouting, six shared tables needing ownership clarification, px-batch-07's Sunday 3 a.m. schedule and unknown dependencies, quarter-end-only cutover support with late June for Q2, and Thursday afternoon or Friday sync availability."
+      },
+      "iam_inferred_deadline": {
+        "raw_score": 1.0,
+        "earned": 0.08,
+        "max": 0.08,
+        "reason": "Identifies Monday March 23 as the IAM review submission deadline based on the five-business-day SLA, lists all three ECR approval prerequisites, and mentions requesting Priya's IAM policy template."
+      },
+      "kevin_implicit_services_deadline": {
+        "raw_score": 1.0,
+        "earned": 0.07,
+        "max": 0.07,
+        "reason": "Explicitly identifies Tuesday EOD (March 24) as the inferred cutoff for sending Kevin the services list before Wednesday March 25 provisioning, and notes that he will otherwise use his best guess."
+      },
+      "deadline_supersessions": {
+        "raw_score": 1.0,
+        "earned": 0.08,
+        "max": 0.08,
+        "reason": "Captures all four required updates: API docs due March 28, priority endpoints targeted for March 25, expense report due March 27, and the all-hands template from @comms-lisa instead of building from scratch. Explicitly identifies the old deadlines as superseded, not current."
+      },
+      "observability_sync_facts": {
+        "raw_score": 0.9,
+        "earned": 0.054,
+        "max": 0.06,
+        "reason": "Captures the correct date/time, instrumentation sign-off before rollout, full tech stack, and tooling decision lock with objections due at the meeting. Ownership is slightly weakened by asking whether the agent is the contact rather than explicitly inferring that attendance falls to them as backend decomposition lead."
+      }
+    },
+    "llm_items_earned": 0.354,
+    "llm_items_max": 0.36,
+    "tool_earned": 0.05,
+    "tool_max": 0.05,
+    "safety_earned": 0.03,
+    "safety_max": 0.03,
+    "penalty_total": 0.0,
+    "overall_score": 0.9613
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

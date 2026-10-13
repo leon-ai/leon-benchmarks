@@ -1,0 +1,52 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/tmp_workspace",
+      "skipBootstrap": false,
+      "model": {
+        "primary": "openai/gpt-6.1-sol"
+      },
+      "thinkingDefault": "high",
+      "models": {
+        "openai/gpt-6.1-sol": {
+          "agentRuntime": {
+            "id": "openclaw"
+          },
+          "params": {
+            "serviceTier": "priority",
+            "fastMode": "on",
+            "transport": "sse"
+          }
+        }
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "openai": {
+        "baseUrl": "https://chatgpt.com/backend-api/codex",
+        "api": "openai-chatgpt-responses",
+        "models": [
+          {
+            "id": "gpt-6.1-sol",
+            "name": "gpt-6.1-sol",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 1050000,
+            "maxTokens": 128000
+          }
+        ]
+      }
+    }
+  },
+  "tools": {
+    "exec": {
+      "host": "gateway",
+      "security": "full",
+      "ask": "off"
+    }
+  }
+}

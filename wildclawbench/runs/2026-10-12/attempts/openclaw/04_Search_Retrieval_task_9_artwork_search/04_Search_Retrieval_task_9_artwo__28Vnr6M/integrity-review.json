@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_9_artwork_search/native-repair/04_Search_Retrieval_task_9_artwo__28Vnr6M",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "8d070fff4232839f598fbf044d68703c7b7ba08eadab5c5505caa7b7c16deb12",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

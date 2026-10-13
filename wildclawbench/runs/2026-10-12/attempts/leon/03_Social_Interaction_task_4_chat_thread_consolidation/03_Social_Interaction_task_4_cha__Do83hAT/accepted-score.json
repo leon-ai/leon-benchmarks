@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_4_cha__Do83hAT",
+  "agent": "leon",
+  "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+  "score": 0.845,
+  "source_result_sha256": "bef624ac965dadace30d0e1af87d33fcc6f8a336b0cb6ca58fa3657d49dbe746",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

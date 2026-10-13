@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "e634664b93b6d4566cec102be79233394ca0d1e7c4325f84babb0174557c6c88",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

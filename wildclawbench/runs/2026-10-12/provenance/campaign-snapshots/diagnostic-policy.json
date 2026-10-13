@@ -1,0 +1,30 @@
+{
+  "low_score_threshold": 0.25,
+  "harness_error_markers": [
+    "[image-generation] candidate failed: openai/gpt-image-2: Benchmark inference cannot substitute another model",
+    "web_search is disabled",
+    "CDP endpoint is not configured"
+  ],
+  "trigger_on_zero": true,
+  "trigger_on_exception": true,
+  "native_output_failure_contracts": {
+    "03_Social_Interaction_task_5_chat_escalation_routing": {
+      "checks_file": "tasks/wild/03_Social_Interaction_task_5_chat_escalation_routing/tests/checks.py",
+      "checks_sha256": "35340ce35c8ac04411227836c571747406007257eb224aceb47b52f1d715dcc4",
+      "rewards": {
+        "overall_score": 0.0,
+        "error": "results.md not found"
+      },
+      "exported_output": "artifacts/tmp_workspace/results/results.md",
+      "artifact_source": "/tmp_workspace/results",
+      "artifact_status": "failed",
+      "native_rewards": {
+        "overall_score": 0.0
+      },
+      "artifact_statuses": [
+        "failed",
+        "ok"
+      ]
+    }
+  }
+}

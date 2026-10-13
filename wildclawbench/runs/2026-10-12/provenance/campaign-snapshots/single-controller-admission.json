@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-11T11:43:11.259605+00:00",
+  "reason": "Only the campaign controller is active. Full cross-controller disk reservations were counted against free space after active containers had already allocated their writable layers.",
+  "before_sha256": "c7b9381b42911800cb1f05e50fc6b75eb4b1c0150670ea8247115851ca9727f3",
+  "after_sha256": "8d075f65ef8588615f7aebadcba74c71e85cc5f80817939569c86e3b8bc30c95",
+  "previous_policy_file": "scheduling-policy-before-single-controller.json",
+  "takes_effect": "Next task cohort; current SAM3 attempts remain uninterrupted",
+  "current_capacity_normal": 8,
+  "current_capacity_sam3": 2,
+  "maximum_concurrency_normal": 9,
+  "maximum_concurrency_sam3": 3,
+  "emergency_disk_guard_changed": false,
+  "candidate_timeouts_changed": false,
+  "model_or_authentication_changed": false,
+  "candidate_attempts_repeated": 0
+}

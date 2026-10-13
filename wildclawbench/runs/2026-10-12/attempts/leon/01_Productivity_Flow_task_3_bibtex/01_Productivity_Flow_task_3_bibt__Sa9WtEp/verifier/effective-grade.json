@@ -1,0 +1,23 @@
+{
+  "accepted_score": 0.705,
+  "native_criteria": {
+    "manifest_exists": 1.0,
+    "manifest_json_valid": 1.0,
+    "renamed_dir_exists": 1.0,
+    "bibtex_dir_exists": 1.0,
+    "input_coverage_consistent": 1.0,
+    "pdf_copies_byte_identical": 1.0,
+    "non_arxiv_excluded": 0.0,
+    "workspace_cleanliness": 1.0,
+    "arxiv_id_accuracy": 1.0,
+    "title_accuracy": 0.95,
+    "filename_accuracy": 0.95,
+    "figure_count_accuracy": 1.0,
+    "bibtex_files_created": 1.0,
+    "bibtex_exact_match_ratio": 0.8,
+    "corrupted_paper_accuracy": 1.0,
+    "hard_constraint_pass": 1.0,
+    "overall_score": 0.705
+  },
+  "note": "Accepted grade after recorded repairs/regrades; not an invented original grader output."
+}

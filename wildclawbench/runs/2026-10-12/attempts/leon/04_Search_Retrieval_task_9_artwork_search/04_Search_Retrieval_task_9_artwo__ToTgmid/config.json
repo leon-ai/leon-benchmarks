@@ -1,0 +1,76 @@
+{
+  "task": {
+    "path": "__WORKSPACE__/tasks/wild/04_Search_Retrieval_task_9_artwork_search"
+  },
+  "trial_name": "04_Search_Retrieval_task_9_artwo__ToTgmid",
+  "trials_dir": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_9_artwork_search/native-repair",
+  "agent": {
+    "import_path": "scripts.benchmarks.harbor_agents:Leon",
+    "model_name": "openai/gpt-6.1-sol"
+  },
+  "environment": {
+    "type": "docker",
+    "override_cpus": 2,
+    "override_memory_mb": 4096,
+    "mounts": [
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-111ccc8d",
+        "target": "/opt/leon",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/openclaw-2026.10.1",
+        "target": "/opt/openclaw",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/hermes-0.21.6",
+        "target": "/opt/hermes",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/hermes-python",
+        "target": "__HOME__/.hermes/tools/python-3.14.7+20260901-linux-x64",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-binaries",
+        "target": "/tmp/leon-benchmark/bin",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-binaries/python",
+        "target": "__HOME__/.leon/bin/python",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__WORKSPACE__/runtime/benchmarks",
+        "target": "/opt/leon/scripts/benchmarks",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/benchmark-chromium",
+        "target": "/opt/benchmark-chromium",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-111ccc8d",
+        "target": "__HOME__/Workspace/leon/leon",
+        "read_only": true
+      }
+    ],
+    "extra_docker_compose": [
+      "__WORKSPACE__/network.yaml"
+    ]
+  },
+  "job_id": "bbdd6a69-fe99-413f-9fcb-e2dbacbdfde6"
+}

@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-10-12T11:51:46.251408+00:00",
+  "scope": "WildClawBench selected 36-task cohort, all 324 attempts; equal weight across six domains",
+  "status": "provisional native rubric scores; unresolved fairness findings remain",
+  "scores": {
+    "leon": {
+      "domain_means": {
+        "01_Productivity_Flow": 0.742161111111111,
+        "02_Code_Intelligence": 0.9367888888888889,
+        "03_Social_Interaction": 0.5904444444444444,
+        "04_Search_Retrieval": 0.8194444444444444,
+        "05_Creative_Synthesis": 0.7016722222222223,
+        "06_Safety_Alignment": 0.7666666666666666
+      },
+      "domain_macro_score": 0.7595296296296297,
+      "without_reported_grader_defects": 0.811715
+    },
+    "openclaw": {
+      "domain_means": {
+        "01_Productivity_Flow": 0.8079055555555555,
+        "02_Code_Intelligence": 0.9290222222222222,
+        "03_Social_Interaction": 0.6925944444444444,
+        "04_Search_Retrieval": 0.7388888888888889,
+        "05_Creative_Synthesis": 0.6717277777777778,
+        "06_Safety_Alignment": 0.6333333333333333
+      },
+      "domain_macro_score": 0.7455787037037037,
+      "without_reported_grader_defects": 0.8345631481481481
+    },
+    "hermes": {
+      "domain_means": {
+        "01_Productivity_Flow": 0.8358222222222222,
+        "02_Code_Intelligence": 0.8609333333333333,
+        "03_Social_Interaction": 0.7434222222222222,
+        "04_Search_Retrieval": 0.6888888888888889,
+        "05_Creative_Synthesis": 0.7999666666666667,
+        "06_Safety_Alignment": 0.5833333333333334
+      },
+      "domain_macro_score": 0.7520611111111111,
+      "without_reported_grader_defects": 0.8286146296296296
+    }
+  },
+  "ranking": [
+    {
+      "agent": "leon",
+      "score": 0.7595296296296297
+    },
+    {
+      "agent": "hermes",
+      "score": 0.7520611111111111
+    },
+    {
+      "agent": "openclaw",
+      "score": 0.7455787037037037
+    }
+  ],
+  "additional_candidate_attempts": 0,
+  "grader_replays": 12,
+  "remaining_fairness_findings": "wild-fairness-open-findings.json"
+}

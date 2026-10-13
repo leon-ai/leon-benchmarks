@@ -1,0 +1,19 @@
+{
+  "python_lint": "ruff: passed for new publication tools",
+  "python_compile": "passed for packaged harness",
+  "javascript_syntax": "passed for report and browser validator",
+  "existing_harness_tests": {
+    "tests": 24,
+    "passed": true,
+    "kind": "offline scheduling/admission/recovery contracts"
+  },
+  "offline_staging": "passed; empty workspace, frozen roster, no result-state reuse",
+  "core_lint": "pnpm lint passed",
+  "core_worktree": "unchanged",
+  "publication": "not published; no Git remote configured",
+  "benchmark_controller": "inactive; zero running containers",
+  "javascript_lint": "ESLint passed for browser validator and rendered report script; no-unused-vars/no-unreachable checks",
+  "presentation": "Automatic browser light/dark schemes; exact white/black page backgrounds; original corrected agent palette; available action-history links",
+  "report_metrics_sha256": "18159c4bcd70c41d402e2a08127aa5f2b50f12937e4a2e89a9c3880854a9540e",
+  "captured_harness_source": "All packaged hashes match the captured source manifest"
+}

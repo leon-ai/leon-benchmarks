@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_2_sam3__P9AxbYa",
+  "agent": "leon",
+  "task": "02_Code_Intelligence_task_2_sam3_debug",
+  "score": 1.0,
+  "source_result_sha256": "d038d4218f62ecce820674a3923f04c2f576dc89c9830b5ee276f0ed782b961b",
+  "diagnosis": {
+    "category": "Native stream completion",
+    "explanation": "Saved SAM3 outputs scored 100%, but Leon's native stream-idle retries exhausted before final response completion. Output accuracy and runtime completion are separate.",
+    "confidence": "Native output and transport review"
+  }
+}

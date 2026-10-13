@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_2_sam3__HY7pism",
+  "agent": "hermes",
+  "task": "02_Code_Intelligence_task_2_sam3_debug",
+  "score": 0.0,
+  "source_result_sha256": "911b0f7eadf6f69e83dc785005ef653e9543b643b5a77115137f65e738480ced",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The required corrected SAM3 output path was not present.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 11,
+    "recorded_inference_requests": 11,
+    "completed_inference_requests": 11,
+    "requests_with_token_usage": 11,
+    "token_usage": {
+      "input_tokens": 333704,
+      "output_tokens": 14691,
+      "total_tokens": 348395,
+      "cached_input_tokens": 296576,
+      "reasoning_output_tokens": 4105
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 11
+    },
+    "http_statuses": {
+      "200": 11
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 11,
+        "median": 1.7902493520014104,
+        "minimum": 1.2924064040053054,
+        "maximum": 3.7287578750037937
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 6.401718246997916,
+        "minimum": 3.106903569001588,
+        "maximum": 9.696532924994244
+      },
+      "firstToolActionSeconds": {
+        "count": 9,
+        "median": 10.44535558300413,
+        "minimum": 4.15189477900276,
+        "maximum": 88.66398048699921
+      },
+      "responseSeconds": {
+        "count": 11,
+        "median": 10.47433106599783,
+        "minimum": 3.2831514529971173,
+        "maximum": 88.694048587
+      }
+    },
+    "observer_milliseconds": 188.53386184491683,
+    "model_tool_calls": 19,
+    "tool_schema_checks": {
+      "valid": 19
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.052838,
+    "agent_setup": 1.393919,
+    "agent_execution": 307.24998,
+    "verifier": 0.660124
+  },
+  "native_task_grade": {
+    "output_files_valid": 1.0,
+    "scheduled_ics_parseable": 1.0,
+    "preserve_original_events": 1.0,
+    "unscheduled_json_valid": 1.0,
+    "decision_log_exists": 1.0,
+    "request_coverage_consistent": 1.0,
+    "required_attendees_respected": 1.0,
+    "duration_respected": 1.0,
+    "within_preferred_windows": 1.0,
+    "no_lunch_violation": 1.0,
+    "no_attendee_conflicts": 1.0,
+    "daily_limit_respected": 1.0,
+    "attendee_unavailability_respected": 1.0,
+    "reason_codes_valid": 1.0,
+    "hard_constraint_pass": 1.0,
+    "optimality_ratio": 1.0,
+    "overall_score": 1.0
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

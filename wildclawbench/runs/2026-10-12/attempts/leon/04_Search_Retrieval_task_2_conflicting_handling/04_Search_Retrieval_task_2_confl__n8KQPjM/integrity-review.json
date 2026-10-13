@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_2_conflicting_handling/native/04_Search_Retrieval_task_2_confl__n8KQPjM",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "4ceeeeb5308f4cc14325a478adfb9a4ae889b17b381518af5e8fbc0fe4e7db2f",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

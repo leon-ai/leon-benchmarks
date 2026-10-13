@@ -1,0 +1,14 @@
+{
+  "candidate_attempts_preserved": 243,
+  "raw_grades_settings_and_metrics_unchanged": true,
+  "task_attempts_symmetrically_excluded": 9,
+  "new_inference_calls": 0,
+  "containers_created": 0,
+  "matched_wild_tasks": 13,
+  "creative_domain_means": {
+    "leon": 0.9069444444444444,
+    "openclaw": 0.8688888888888889,
+    "hermes": 0.8989666666666667
+  },
+  "overall_score_unavailable": true
+}

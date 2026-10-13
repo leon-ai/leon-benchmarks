@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_10_social_poster_multi_crop/native/05_Creative_Synthesis_task_10_so__YANv6rq",
+  "score": 0.9,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "ca0061d199abd6003047486956c05343de1b1a5683bb1f12143d80b88b4b32b9",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

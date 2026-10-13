@@ -1,0 +1,343 @@
+{
+  "revision": "33d06066716dc2666721f08ad2784c96e9b44dc5",
+  "selection": [
+    {
+      "name": "01_Productivity_Flow_task_3_bibtex",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_6_calendar_scheduling",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_10_pdf_digest",
+      "domain": "01_Productivity_Flow",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/gt"
+      ]
+    },
+    {
+      "name": "01_Productivity_Flow_task_4_2022_conference_papers",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_1_arxiv_digest",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_10_acad_homepage_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_11_resume_homepage_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_1_sam3_inference",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_2_chat_action_extraction",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_10_tomllib_trace",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_9_artwork_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_7_location_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_8_paper_affiliation_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_8_repo_to_homepage",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_9_repo_to_slides",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_10_social_poster_multi_crop",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_3_product_poster",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_1_file_overwrite",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_6_prompt_injection",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_3_leaked_api_pswd",
+      "domain": "06_Safety_Alignment",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/mm_agents"
+      ]
+    },
+    {
+      "name": "06_Safety_Alignment_task_5_risk_os_operation",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_4_authority",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_2_table_tex_download",
+      "domain": "01_Productivity_Flow",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/gt"
+      ]
+    },
+    {
+      "name": "02_Code_Intelligence_task_2_sam3_debug",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_1_meeting_negotiation",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_2_conflicting_handling",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_1_match_report",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_2_leaked_api",
+      "domain": "06_Safety_Alignment",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/mm_agents"
+      ]
+    }
+  ],
+  "scored_tasks": [
+    {
+      "id": "01_Productivity_Flow_task_3_bibtex",
+      "domain": "01_Productivity_Flow"
+    },
+    {
+      "id": "01_Productivity_Flow_task_6_calendar_scheduling",
+      "domain": "01_Productivity_Flow"
+    },
+    {
+      "id": "01_Productivity_Flow_task_10_pdf_digest",
+      "domain": "01_Productivity_Flow"
+    },
+    {
+      "id": "01_Productivity_Flow_task_4_2022_conference_papers",
+      "domain": "01_Productivity_Flow"
+    },
+    {
+      "id": "01_Productivity_Flow_task_1_arxiv_digest",
+      "domain": "01_Productivity_Flow"
+    },
+    {
+      "id": "02_Code_Intelligence_task_10_acad_homepage_zh",
+      "domain": "02_Code_Intelligence"
+    },
+    {
+      "id": "02_Code_Intelligence_task_11_resume_homepage_zh",
+      "domain": "02_Code_Intelligence"
+    },
+    {
+      "id": "02_Code_Intelligence_task_1_sam3_inference",
+      "domain": "02_Code_Intelligence"
+    },
+    {
+      "id": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+      "domain": "02_Code_Intelligence"
+    },
+    {
+      "id": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+      "domain": "02_Code_Intelligence"
+    },
+    {
+      "id": "03_Social_Interaction_task_2_chat_action_extraction",
+      "domain": "03_Social_Interaction"
+    },
+    {
+      "id": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "domain": "03_Social_Interaction"
+    },
+    {
+      "id": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "domain": "03_Social_Interaction"
+    },
+    {
+      "id": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "domain": "03_Social_Interaction"
+    },
+    {
+      "id": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "domain": "03_Social_Interaction"
+    },
+    {
+      "id": "04_Search_Retrieval_task_10_tomllib_trace",
+      "domain": "04_Search_Retrieval"
+    },
+    {
+      "id": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+      "domain": "04_Search_Retrieval"
+    },
+    {
+      "id": "04_Search_Retrieval_task_9_artwork_search",
+      "domain": "04_Search_Retrieval"
+    },
+    {
+      "id": "04_Search_Retrieval_task_7_location_search",
+      "domain": "04_Search_Retrieval"
+    },
+    {
+      "id": "04_Search_Retrieval_task_8_paper_affiliation_search",
+      "domain": "04_Search_Retrieval"
+    },
+    {
+      "id": "05_Creative_Synthesis_task_8_repo_to_homepage",
+      "domain": "05_Creative_Synthesis"
+    },
+    {
+      "id": "05_Creative_Synthesis_task_9_repo_to_slides",
+      "domain": "05_Creative_Synthesis"
+    },
+    {
+      "id": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+      "domain": "05_Creative_Synthesis"
+    },
+    {
+      "id": "05_Creative_Synthesis_task_10_social_poster_multi_crop",
+      "domain": "05_Creative_Synthesis"
+    },
+    {
+      "id": "05_Creative_Synthesis_task_3_product_poster",
+      "domain": "05_Creative_Synthesis"
+    },
+    {
+      "id": "06_Safety_Alignment_task_1_file_overwrite",
+      "domain": "06_Safety_Alignment"
+    },
+    {
+      "id": "06_Safety_Alignment_task_6_prompt_injection",
+      "domain": "06_Safety_Alignment"
+    },
+    {
+      "id": "06_Safety_Alignment_task_3_leaked_api_pswd",
+      "domain": "06_Safety_Alignment"
+    },
+    {
+      "id": "06_Safety_Alignment_task_5_risk_os_operation",
+      "domain": "06_Safety_Alignment"
+    },
+    {
+      "id": "06_Safety_Alignment_task_4_authority",
+      "domain": "06_Safety_Alignment"
+    },
+    {
+      "id": "01_Productivity_Flow_task_2_table_tex_download",
+      "domain": "01_Productivity_Flow"
+    },
+    {
+      "id": "02_Code_Intelligence_task_2_sam3_debug",
+      "domain": "02_Code_Intelligence"
+    },
+    {
+      "id": "03_Social_Interaction_task_1_meeting_negotiation",
+      "domain": "03_Social_Interaction"
+    },
+    {
+      "id": "04_Search_Retrieval_task_2_conflicting_handling",
+      "domain": "04_Search_Retrieval"
+    },
+    {
+      "id": "05_Creative_Synthesis_task_1_match_report",
+      "domain": "05_Creative_Synthesis"
+    },
+    {
+      "id": "06_Safety_Alignment_task_2_leaked_api",
+      "domain": "06_Safety_Alignment"
+    }
+  ]
+}

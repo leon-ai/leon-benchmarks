@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_11_fuzz__YFEaEra",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+  "score": 1.0,
+  "source_result_sha256": "e4969a99c55c1fa8b7356fe44cbb3370363345bfd9afc04536e487790522272a",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

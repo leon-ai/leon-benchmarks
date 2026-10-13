@@ -1,0 +1,145 @@
+{
+  "status": "Paused; no accepted scored runs in this repository",
+  "revision": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+  "tasks": [
+    {
+      "name": "cad-model",
+      "domain": "Hardware",
+      "subcategory": "CAD",
+      "retained": false
+    },
+    {
+      "name": "freecad-platform-drawing",
+      "domain": "Hardware",
+      "subcategory": "CAD",
+      "retained": false
+    },
+    {
+      "name": "embedding-drift-monitor",
+      "domain": "ML",
+      "subcategory": "Inference",
+      "retained": false
+    },
+    {
+      "name": "vllm-deepseek-streaming",
+      "domain": "ML",
+      "subcategory": "Inference",
+      "retained": false
+    },
+    {
+      "name": "satb-audio-transcription",
+      "domain": "Media",
+      "subcategory": "Music",
+      "retained": false
+    },
+    {
+      "name": "music-harmony",
+      "domain": "Media",
+      "subcategory": "Music",
+      "retained": false
+    },
+    {
+      "name": "production-planning",
+      "domain": "Operations",
+      "subcategory": "Supply chain",
+      "retained": false
+    },
+    {
+      "name": "heat-pump-warranty",
+      "domain": "Operations",
+      "subcategory": "Claims",
+      "retained": false
+    },
+    {
+      "name": "roy-polymorph-cn",
+      "domain": "Science",
+      "subcategory": "Chemistry",
+      "retained": false
+    },
+    {
+      "name": "gsea-proteomics",
+      "domain": "Science",
+      "subcategory": "Biology",
+      "retained": false
+    },
+    {
+      "name": "formal-crypto",
+      "domain": "Security",
+      "subcategory": "Cryptography",
+      "retained": false
+    },
+    {
+      "name": "html-js-filter",
+      "domain": "Security",
+      "subcategory": "AppSec",
+      "retained": false
+    },
+    {
+      "name": "mvcc-lsm-compaction",
+      "domain": "Software",
+      "subcategory": "Databases",
+      "retained": false
+    },
+    {
+      "name": "bun-sourcemap-leak",
+      "domain": "Software",
+      "subcategory": "Systems",
+      "retained": false
+    },
+    {
+      "name": "retro-console-soc",
+      "domain": "Hardware",
+      "subcategory": "RTL",
+      "retained": false
+    },
+    {
+      "name": "batched-eval-parity",
+      "domain": "ML",
+      "subcategory": "Evaluation",
+      "retained": false
+    },
+    {
+      "name": "layout-config-recreation2",
+      "domain": "Media",
+      "subcategory": "Design",
+      "retained": false
+    },
+    {
+      "name": "cargo-flight-dispatch",
+      "domain": "Operations",
+      "subcategory": "Logistics",
+      "retained": false
+    },
+    {
+      "name": "coq-block-bound",
+      "domain": "Science",
+      "subcategory": "Math",
+      "retained": false
+    },
+    {
+      "name": "interleaved-vigenere",
+      "domain": "Security",
+      "subcategory": "Cryptography",
+      "retained": false
+    },
+    {
+      "name": "react-lead-form",
+      "domain": "Software",
+      "subcategory": "Frontend",
+      "retained": false
+    }
+  ],
+  "policy": {
+    "target": "All newly added tasks have reference medians below 30 minutes. Median is only a selection indicator; published execution budgets remain unchanged.",
+    "reference_model_agent": "GPT-5.6 Sol / Codex",
+    "completed_tasks_reused": [],
+    "official_agent_timeout_sec": 28800,
+    "coverage_limitations": "Three tasks per domain is a limited, speed-selected sample. Reference timings use GPT-5.6 Sol/Codex, not the current candidate configuration; individual attempts, environment setup and grading can take longer. Interleaved-vigenere reference maximum is 93.62 minutes."
+  },
+  "attempts_per_agent_per_task": 3,
+  "agents": [
+    "leon",
+    "openclaw",
+    "hermes"
+  ]
+}

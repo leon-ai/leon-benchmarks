@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_3_bibtex/native-repair/01_Productivity_Flow_task_3_bibt__YCeCwrP",
+  "score": 0.705,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "a66617f9adf02db8bc5cb45926d2ca68f8edf32ac6d635a10d59a01c001edae6",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

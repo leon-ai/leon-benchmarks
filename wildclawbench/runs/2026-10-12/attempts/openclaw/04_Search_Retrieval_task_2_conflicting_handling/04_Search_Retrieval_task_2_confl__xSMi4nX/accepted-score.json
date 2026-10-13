@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_2_confl__xSMi4nX",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_2_conflicting_handling",
+  "score": 1.0,
+  "source_result_sha256": "9eb84895b71b3d442719a1398a97db4b5d475bd9636b9aa3820c5f225dd2501d",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

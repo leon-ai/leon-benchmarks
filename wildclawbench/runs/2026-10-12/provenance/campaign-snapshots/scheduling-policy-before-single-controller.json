@@ -1,0 +1,37 @@
+{
+  "initial_trials": 9,
+  "second_stage_trials": 9,
+  "maximum_trials": 9,
+  "validation_trials": 3,
+  "cpu_reserve": 2,
+  "memory_reserve_gib": 8,
+  "disk_reserve_gib": 5,
+  "disk_estimate_per_trial_gib": 3,
+  "admission_poll_seconds": 2,
+  "quota_refresh_seconds": 30,
+  "backoff_seconds": 60,
+  "backoff_statuses": [
+    429,
+    500,
+    502,
+    503,
+    504
+  ],
+  "task_grouping": "One benchmark at a time, one shared task group across all agents and repetitions.",
+  "disk_estimate_note": "Reserve 3 GiB per trial based on observed OpenClaw writable layers approaching 2.5 GB. Published task storage limits and emergency disk guard remain unchanged.",
+  "ramp_validation": "Full concurrency follows native configuration smoke checks; task outcomes never decide concurrency.",
+  "host_maximum_trials": 9,
+  "shared_admission": true,
+  "legacy_trials": 3,
+  "catchup_trials": 9,
+  "image_transfer_workspace_gib": 4,
+  "catchup_task_groups": 3,
+  "task_overrides": {
+    "wild--02_Code_Intelligence_task_1_sam3_inference": {
+      "initial_trials": 3,
+      "second_stage_trials": 3,
+      "maximum_trials": 3,
+      "disk_estimate_per_trial_gib": 10
+    }
+  }
+}

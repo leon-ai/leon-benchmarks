@@ -1,0 +1,71 @@
+{
+  "task": "01_Productivity_Flow_task_7_openmmlab_contributors",
+  "status": "Confirmed shared external-data prerequisite failure in all nine attempts; final ranking cannot be certified with this unresolved.",
+  "checks": [
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__yzf2vZN",
+      "agent": "openclaw",
+      "actual_rate_limited_tool_observations": 5,
+      "native_transcript_sha256": "72a6dc82006918ab6c323c601793e8339a71bc3437666e64e69ed34f04a3285e",
+      "score": 0.3911
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__CedBDJz",
+      "agent": "hermes",
+      "actual_rate_limited_tool_observations": 6,
+      "native_transcript_sha256": "74c36637c305ecadb0e32eb1921341ec7600697c28668700102ed921aa47a897",
+      "score": 0.3911
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__Jf7ugSs",
+      "agent": "openclaw",
+      "actual_rate_limited_tool_observations": 5,
+      "native_transcript_sha256": "a8c09c7809a658812f93a31c19de7b92ab3741b3a823b2cdd0d978966e3f3ae8",
+      "score": 0.3911
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__PeKYpYX",
+      "agent": "leon",
+      "actual_rate_limited_tool_observations": 4,
+      "native_transcript_sha256": "93807a13fe73795af91bc91df30cde9a30834f6956ef137e802b42fd77cd8beb",
+      "score": 0.0
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__TBVfMTp",
+      "agent": "hermes",
+      "actual_rate_limited_tool_observations": 5,
+      "native_transcript_sha256": "37b5c43ba744339ab9b948cc7d60efe199b03d00b0391d256e09d4947ca5f09e",
+      "score": 0.3911
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__A9eheJj",
+      "agent": "leon",
+      "actual_rate_limited_tool_observations": 1,
+      "native_transcript_sha256": "5112c8650ef8789aa847c611c6bb3930a94a3f725d1d756819566f596bea05c3",
+      "score": 0.2378
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__4rhr8hZ",
+      "agent": "leon",
+      "actual_rate_limited_tool_observations": 2,
+      "native_transcript_sha256": "d8160e12a17b33ed7728cac03a989ecd6ea756ebaeeca14aa97d94b2eaea53c4",
+      "score": 0.0
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__2RJoz86",
+      "agent": "hermes",
+      "actual_rate_limited_tool_observations": 5,
+      "native_transcript_sha256": "e59653ef55dda1c093f96aa1236c6bfdc36b00f65078fca1f6458e9fdd0649c3",
+      "score": 0.3911
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_7_openmmlab_contributors/native/01_Productivity_Flow_task_7_open__PQqNR3d",
+      "agent": "openclaw",
+      "actual_rate_limited_tool_observations": 4,
+      "native_transcript_sha256": "02ece0d58a8be05e03d29263e6203338d76f42d8fc6b1449d5f89506022f049b",
+      "score": 0.3911
+    }
+  ],
+  "additional_model_calls": 0,
+  "native_api_metadata_mutability": "Selection depends on current pushed_at despite historical cutoff; freeze any repaired input provenance rather than silently changing live metadata."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_10_toml__L2AYJV8",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_10_tomllib_trace",
+  "score": 1.0,
+  "source_result_sha256": "4622ef5c34ebff91572c20b79bf012b30fed5ad57629b3243909ba1bccc8a4f7",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

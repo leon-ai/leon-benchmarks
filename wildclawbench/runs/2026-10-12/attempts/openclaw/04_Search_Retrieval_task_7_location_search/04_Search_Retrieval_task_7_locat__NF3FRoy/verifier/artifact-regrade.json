@@ -1,0 +1,28 @@
+{
+  "method_type": "native_deterministic_grader_replay",
+  "method": "Unchanged native location rubric on preserved missing-output state, validated against two unchanged native control scores. Full grader replay completed without inference. Candidate execution is never repeated.",
+  "additional_candidate_attempts": 0,
+  "replay_dependencies": [],
+  "output_only": true,
+  "deterministic_no_inference": true,
+  "grade_file": "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/wildclaw_score.json",
+  "requests_file": "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/requests.jsonl",
+  "rewards": {
+    "overall_score": 0.0
+  },
+  "evidence_sha256": {
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/result.json": "e634664b93b6d4566cec102be79233394ca0d1e7c4325f84babb0174557c6c88",
+    "tasks/wild/04_Search_Retrieval_task_7_location_search/tests/checks.py": "c3c3642a02bd0992dbce3266ab15b3b91673b45a419af9a9aea60c7e93a4ca85",
+    "tasks/wild/04_Search_Retrieval_task_7_location_search/tests/grader.py": "cccfbaf34c048aea1e739c924ae9bedfda67afd3a60827529916c8a7ae4a1af0",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/requests.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/judge-reliability.json": "0372655e039264160ab06e1469ff330eacb76e8691ee351cf7c2ac4f9dc7d3b3",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/adapter/run-judge.py": "5b2d30521dd1005c83067df32d254501481fff8958f4f975f4f264ab75b281f7",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/adapter/pilot.json": "fcbfa59ae4744d6ad9b19fb704a68e9ec39d2653ffdc9c3e0369ddda90374b8f",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__NF3FRoy/verifier/output-only-regrade/adapter/judge_images.py": "5da84309ec227c46e48b756126eb5513770ecd3e858e2ee41d13e6cfe59249a8",
+    "location-deterministic-regrade-validation.json": "12a1064a7a2b8536520afec36d57beca26d2336b045e2aa4591aea6ae6664df5",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__JWQbVUt/result.json": "28cbe2442f54373865abab11d46ae8d8713dba757116288a300d63519706ad04",
+    "jobs/wild--04_Search_Retrieval_task_7_location_search/native-repair/04_Search_Retrieval_task_7_locat__T9DXrSb/result.json": "6a4ab64ed6c22fc9e0df34d1de9338291693f9d5adea6eb18341c01f9641334e"
+  },
+  "validation_file": "location-deterministic-regrade-validation.json"
+}

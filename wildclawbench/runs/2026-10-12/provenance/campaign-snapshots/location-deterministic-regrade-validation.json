@@ -1,0 +1,34 @@
+{
+  "controls_count": 2,
+  "control_trials_exact_matches": [
+    {
+      "trial": "04_Search_Retrieval_task_7_locat__JWQbVUt",
+      "native_grade": {
+        "overall_score": 0.0
+      },
+      "original_grade": 0.0,
+      "required_output_missing": true
+    },
+    {
+      "trial": "04_Search_Retrieval_task_7_locat__T9DXrSb",
+      "native_grade": {
+        "overall_score": 0.0
+      },
+      "original_grade": 0.0,
+      "required_output_missing": true
+    }
+  ],
+  "recoverable_trials": [
+    {
+      "trial": "04_Search_Retrieval_task_7_locat__NF3FRoy",
+      "scores": {
+        "overall_score": 0.0
+      }
+    }
+  ],
+  "native_grade_stdout": "{\"overall_score\": 0.0}",
+  "native_grade_stderr": "[04_Search_Retrieval_task_7_location_search Grading Start!] results.md not found: /tmp_workspace/results/results.md\n",
+  "candidate_reruns": 0,
+  "inference_calls": 0,
+  "graded_source_sha256": "c3c3642a02bd0992dbce3266ab15b3b91673b45a419af9a9aea60c7e93a4ca85"
+}

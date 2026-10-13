@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-12T00:07:55.353755+00:00",
+  "approved_web_task_cohorts": 10,
+  "fresh_candidate_slots": 90,
+  "quick_diagnostics": "Inspect unsuccessful native evidence before scoring. Suspect task groups are held while other ready tasks continue. Valid low scores are retained.",
+  "replacement_assignment": "Three replacements per agent assigned by identifiers, without score selection. Original evidence retained.",
+  "phase_order": [
+    "wild",
+    "pinch",
+    "terminal"
+  ],
+  "validation": {
+    "ruff": "passed",
+    "existing_scheduling_tests": "24 passed",
+    "frozen_selection_hash": "verified",
+    "known_harness_fault_detection": "passed",
+    "valid_native_outcome_retained": "passed"
+  },
+  "source_sha256": {
+    "scripts/benchmarks/balanced.py": "e052c4bdc471a2c4e26f8b687dab0a827ece604d3dba0e8db75d19d78c4b6ed1",
+    "scripts/benchmarks/campaign.py": "fb75b4be5f40cfee13f43606e341a64352d5e189c89915537e42c8d0a5009f24",
+    "scripts/benchmarks/task_integrity.py": "39050cac29890fb9ee42273e9df095bf7b93ca0647b95984155191a1692d8bf1"
+  }
+}

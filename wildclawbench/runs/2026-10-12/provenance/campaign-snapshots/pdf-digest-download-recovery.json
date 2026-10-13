@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-12T09:55:50.224736+00:00",
+  "task": "01_Productivity_Flow_task_10_pdf_digest",
+  "classification": "fixture download transport interruption before candidate launch",
+  "resumed_from_byte": 441450496,
+  "archive_bytes": 686103552,
+  "sha256": "474c2a204a878c2a38b6e7f91971e79c9f45b478ebcef7625ec28a1046f3a107",
+  "verified": true,
+  "candidate_attempts_restarted": 0,
+  "existing_resumable_reader_reused": true
+}

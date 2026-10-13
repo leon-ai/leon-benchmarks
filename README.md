@@ -69,3 +69,18 @@ The harness is MIT-licensed. Upstream benchmark inputs, rubrics and agent code
 remain subject to their own licenses and are referenced rather than vendored as
 complete source distributions. Records may quote task instructions and tool
 outputs; inspect those materials and benchmark terms before redistribution.
+
+## Agent instructions and static hosting
+
+Repository-wide benchmark guidance lives in [AGENTS.md](AGENTS.md); `CLAUDE.md`
+imports that file. Use a dated run's reproduction prompt for its exact settings.
+A new-version campaign uses new manifests and fresh matched attempts; existing
+results remain preserved.
+
+The report and landing page follow the browser's light/dark preference, with
+white/black page backgrounds. Charts use the previously corrected comparison
+palette: Leon `#1C75DB`, Hermes `#0000F2`, OpenClaw `#FF4D4D`. Labels remain
+readable in both themes. Private session logs are not included.
+
+See [GitHub Pages setup](docs/github-pages.md) to publish this static repository
+from `main` at `/(root)`. Preparing these files does not publish the site.

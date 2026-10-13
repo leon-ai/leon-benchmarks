@@ -1,0 +1,10 @@
+{
+  "failed_calls": [
+    "APIError",
+    "APIError",
+    "APIError",
+    "APIError",
+    "APIError",
+    "BadRequestError"
+  ]
+}

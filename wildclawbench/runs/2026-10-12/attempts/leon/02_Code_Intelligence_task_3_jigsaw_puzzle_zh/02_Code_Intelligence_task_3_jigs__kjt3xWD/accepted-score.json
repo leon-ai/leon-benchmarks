@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_3_jigs__kjt3xWD",
+  "agent": "leon",
+  "task": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+  "score": 1.0,
+  "source_result_sha256": "50a644515dab1d012ff386d022c54b92a1bd36e662a0f3f86635fbbeb9521621",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

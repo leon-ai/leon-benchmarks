@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_8_link__N8iqQc5",
+  "agent": "openclaw",
+  "task": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+  "score": 1.0,
+  "source_result_sha256": "c0fb87092051433aa29525d753666fe57efd750ec3b330b804cd543420bbd43b",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

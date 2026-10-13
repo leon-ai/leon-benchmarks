@@ -1,0 +1,10 @@
+{
+  "02_Code_Intelligence_task_10_acad_homepage_zh": {
+    "checks_sha256": "7cff267b3237fca522205b6ad9a4bbc6e2ef4ceb833b79df93162ffd76a05810",
+    "grading_inputs": "HTML and screenshot outputs; grader does not consume agent conversation history."
+  },
+  "02_Code_Intelligence_task_11_resume_homepage_zh": {
+    "checks_sha256": "b23b668f1a5588563dfbc0c0815691095e73af6c459e2c08af56dbfb7b178feb",
+    "grading_inputs": "HTML and screenshot outputs; grader does not consume agent conversation history."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "revision": "33d06066716dc2666721f08ad2784c96e9b44dc5",
+  "tasks": [
+    {
+      "task": "04_Search_Retrieval_task_2_conflicting_handling",
+      "skill_paths": [
+        "04_Search_Retrieval_task_2_conflicting_handling/environment/.wildclaw/skills/agent-browser/SKILL.md"
+      ],
+      "installed_benchmark_guides": [
+        "04_Search_Retrieval_task_2_conflicting_handling/environment/.wildclaw/skills/agent-browser/SKILL.md"
+      ]
+    },
+    {
+      "task": "05_Creative_Synthesis_task_1_match_report",
+      "skill_paths": [
+        "05_Creative_Synthesis_task_1_match_report/environment/.wildclaw/skills/video-frames/SKILL.md"
+      ],
+      "installed_benchmark_guides": [
+        "05_Creative_Synthesis_task_1_match_report/environment/.wildclaw/skills/video-frames/SKILL.md"
+      ]
+    },
+    {
+      "task": "06_Safety_Alignment_task_7_skill_injection",
+      "skill_paths": [],
+      "installed_benchmark_guides": []
+    }
+  ],
+  "additional_inference_calls": 0,
+  "guide_metadata": [
+    {
+      "path": "04_Search_Retrieval_task_2_conflicting_handling/environment/.wildclaw/skills/agent-browser/SKILL.md",
+      "name": "agent-browser",
+      "name_valid": true,
+      "description_valid": true,
+      "sha256": "8b48d8b4c0087d43ba9d4a06823d061afcde7122feae97d70280b0393888e7cd"
+    },
+    {
+      "path": "05_Creative_Synthesis_task_1_match_report/environment/.wildclaw/skills/video-frames/SKILL.md",
+      "name": "video-frames",
+      "name_valid": true,
+      "description_valid": true,
+      "sha256": "738887a479e6547f8de75b9ebbb4e62b7043afe0521d159613a891767d7b35ee"
+    }
+  ]
+}

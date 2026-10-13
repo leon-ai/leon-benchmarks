@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_10_aca__nr3d8Ec",
+  "agent": "openclaw",
+  "task": "02_Code_Intelligence_task_10_acad_homepage_zh",
+  "score": 0.9143,
+  "source_result_sha256": "5e8193a4e06195f066d822cf4ccab7cf6c9092188c6f6c40b86076d31e926184",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "owner_instruction": "Replace with Table Extraction (Recommended)",
+  "old_task": "01_Productivity_Flow_task_7_openmmlab_contributors",
+  "new_task": "01_Productivity_Flow_task_2_table_tex_download",
+  "candidate_attempts": 9,
+  "preserved_tasks": 35,
+  "selection_before_sha256": "9d33fe026a035d07a7115a4fec8450ffd8e34551c73ba7417a5fceac28763d63",
+  "selection_after_sha256": "7de327f6df2e50adc3b120f248341e7237d4003bfcb9045c689d853223956e4a",
+  "native_grader_unchanged": true,
+  "source_review_sha256": "09ba2d9c6cb154d4dd925e7d3f6571c39c3a88496042cb9af52b80cb7ea7a641"
+}

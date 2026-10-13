@@ -1,0 +1,123 @@
+{
+  "agent": "leon",
+  "candidate": {
+    "attempted_inference_requests": 43,
+    "recorded_inference_requests": 43,
+    "completed_inference_requests": 43,
+    "requests_with_token_usage": 43,
+    "token_usage": {
+      "input_tokens": 1351595,
+      "output_tokens": 17202,
+      "total_tokens": 1368797,
+      "cached_input_tokens": 240000,
+      "reasoning_output_tokens": 3988
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 43
+    },
+    "http_statuses": {
+      "200": 43
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 43,
+        "median": 2.6846405079999824,
+        "minimum": 1.2439156869999988,
+        "maximum": 6.048769038999977
+      },
+      "firstTextSeconds": {
+        "count": 5,
+        "median": 9.327172701000004,
+        "minimum": 2.9084610649999996,
+        "maximum": 22.20176374199998
+      },
+      "firstToolActionSeconds": {
+        "count": 41,
+        "median": 10.116126718000015,
+        "minimum": 2.6715223149999985,
+        "maximum": 76.50260029299994
+      },
+      "responseSeconds": {
+        "count": 43,
+        "median": 10.164150224000013,
+        "minimum": 2.709756622999999,
+        "maximum": 76.59961712999997
+      }
+    },
+    "observer_milliseconds": 166.84269099671292,
+    "model_tool_calls": 52,
+    "tool_schema_checks": {
+      "valid": 52
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.832973,
+    "agent_setup": 0.630006,
+    "agent_execution": 714.270822,
+    "verifier": 1.29268
+  },
+  "native_task_grade": {
+    "papers_dir_exists": 1.0,
+    "rename_accuracy": 0.9231,
+    "classification_sections_exist": 1.0,
+    "classification_accuracy": 0.95,
+    "caption_papers_found": 1.0,
+    "table_caption_correct": 1.0,
+    "table_columns_correct": 1.0,
+    "table_rows_correct": 1.0,
+    "table_key_cells_correct": 1.0,
+    "overall_score": 0.9708
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

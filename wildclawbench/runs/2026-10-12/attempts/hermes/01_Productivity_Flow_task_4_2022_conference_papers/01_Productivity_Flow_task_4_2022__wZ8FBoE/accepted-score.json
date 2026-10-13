@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_4_2022__wZ8FBoE",
+  "agent": "hermes",
+  "task": "01_Productivity_Flow_task_4_2022_conference_papers",
+  "score": 0.9893,
+  "source_result_sha256": "917b93cba934ddd6c419f3d2e6f93f9517c23f4fdfffdc9f13f20c0efc6772fc",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

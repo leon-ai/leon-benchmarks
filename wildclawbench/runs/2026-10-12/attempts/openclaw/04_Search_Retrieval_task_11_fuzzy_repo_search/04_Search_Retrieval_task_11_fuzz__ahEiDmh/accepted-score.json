@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_11_fuzz__ahEiDmh",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+  "score": 1.0,
+  "source_result_sha256": "6d9bc46e5dbc707c27d1a1fdb9fc52c0036fa67ca867b04b8c497568de2e5218",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

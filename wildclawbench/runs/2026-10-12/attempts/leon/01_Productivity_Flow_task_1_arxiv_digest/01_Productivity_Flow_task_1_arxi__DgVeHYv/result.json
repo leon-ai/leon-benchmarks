@@ -1,0 +1,200 @@
+{
+  "id": "152b8dae-13e9-476c-9a9f-b7ee2d90c5f4",
+  "task_name": "01_Productivity_Flow_task_1_arxiv_digest",
+  "trial_name": "01_Productivity_Flow_task_1_arxi__DgVeHYv",
+  "trial_uri": "file://__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair/01_Productivity_Flow_task_1_arxi__DgVeHYv",
+  "task_id": {
+    "path": "__WORKSPACE__/tasks/wild/01_Productivity_Flow_task_1_arxiv_digest"
+  },
+  "source": null,
+  "task_checksum": "7591d9fd74ae65f95337653b3652f2652f31fa47cf4e868c401ab574f12ff0d5",
+  "config": {
+    "task": {
+      "path": "__WORKSPACE__/tasks/wild/01_Productivity_Flow_task_1_arxiv_digest",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "01_Productivity_Flow_task_1_arxi__DgVeHYv",
+    "trials_dir": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_1_arxiv_digest/native-repair",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": null,
+      "import_path": "scripts.benchmarks.harbor_agents:Leon",
+      "model_name": "openai/gpt-6.1-sol",
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {},
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": "docker",
+      "import_path": null,
+      "force_build": false,
+      "delete": true,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": 2,
+      "override_memory_mb": 4096,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-111ccc8d",
+          "target": "/opt/leon",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/openclaw-2026.10.1",
+          "target": "/opt/openclaw",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/hermes-0.21.6",
+          "target": "/opt/hermes",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/hermes-python",
+          "target": "__HOME__/.hermes/tools/python-3.14.7+20260901-linux-x64",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-binaries",
+          "target": "/tmp/leon-benchmark/bin",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-binaries/python",
+          "target": "__HOME__/.leon/bin/python",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__WORKSPACE__/runtime/benchmarks",
+          "target": "/opt/leon/scripts/benchmarks",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/benchmark-chromium",
+          "target": "/opt/benchmark-chromium",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-111ccc8d",
+          "target": "__HOME__/Workspace/leon/leon",
+          "read_only": true
+        }
+      ],
+      "extra_docker_compose": [
+        "__WORKSPACE__/network.yaml"
+      ],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": "c9b43f36-0238-45f9-8c37-3d9b105c3580",
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "leon",
+    "version": "unknown",
+    "model_info": {
+      "name": "gpt-6.1-sol",
+      "provider": "openai"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 2760157,
+    "n_cache_tokens": 170624,
+    "n_output_tokens": 25510,
+    "cost_usd": null,
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "classify_multimodal": 1.0,
+      "classify_medical": 1.0,
+      "classify_generation": 1.0,
+      "classify_driving": 1.0,
+      "classify_3d": 1.0,
+      "metadata_simpleocr": 1.0,
+      "metadata_exploring_multimodal_lmms": 1.0,
+      "metadata_nolan": 1.0,
+      "metadata_weavetime": 1.0,
+      "metadata_global_local_dual_perception": 1.0,
+      "metadata_see_it_say_it_sorted": 0.0,
+      "metadata_dynamicgtr": 0.0,
+      "metadata_dynamic_multimodal_activation_steering": 1.0,
+      "metadata_dr_seg": 0.0,
+      "metadata_cccaption": 1.0,
+      "metadata_appendix_flags": 1.0,
+      "metadata_split_consistency": 1.0,
+      "interest_count": 0.0,
+      "interest_selection": 0.0,
+      "benchmark_charxiv": 1.0,
+      "benchmark_caprl_avg": 1.0,
+      "benchmark_cccaption_avg": 1.0,
+      "benchmark_caprl_infovqa": 1.0,
+      "classify_score": 1.0,
+      "metadata_score": 0.75,
+      "interest_score": 0.6667,
+      "overall_score": 0.8
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-10-12T01:46:39.148593Z",
+  "finished_at": "2026-10-12T02:00:43.789813Z",
+  "environment_setup": {
+    "started_at": "2026-10-12T01:46:41.173659Z",
+    "finished_at": "2026-10-12T01:46:42.207013Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-12T01:46:42.301808Z",
+    "finished_at": "2026-10-12T01:46:42.757779Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-12T01:46:42.757840Z",
+    "finished_at": "2026-10-12T02:00:32.082173Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-12T02:00:32.450685Z",
+    "finished_at": "2026-10-12T02:00:33.182480Z"
+  },
+  "step_results": null
+}

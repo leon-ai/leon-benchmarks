@@ -1,0 +1,37 @@
+{
+  "artifact_guides": [],
+  "upstream_guides": [
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "sha256": "d237cae357719148d4b6dfd7184f6b27f70e91a55e29650fee92dfc199c4ae28",
+      "path": "replacement-review/task-guides/03_Social_Interaction_task_2_chat_action_extraction/SKILL.md"
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "sha256": "c3099d065d81ca7ab9f2fe079bc6fce996cafe3cddd04b7a0397bc5af161f455",
+      "path": "replacement-review/task-guides/03_Social_Interaction_task_3_chat_multi_step_reasoning/SKILL.md"
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "sha256": "e312ca8a2228de300011b94018b13c7f8ffef5c2745fdbf97098bd16be56daa7",
+      "path": "replacement-review/task-guides/03_Social_Interaction_task_4_chat_thread_consolidation/SKILL.md"
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "sha256": "7a020be4cf9dcfc1b0d2faa9f4fd2836aa8df1b19a0cd10e867b4691671fe2b6",
+      "path": "replacement-review/task-guides/03_Social_Interaction_task_5_chat_escalation_routing/SKILL.md"
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "sha256": "7871dc014d0265617faaa1341eb1ec32c311440c62da4b0fc1da9ac053ea2213",
+      "path": "replacement-review/task-guides/03_Social_Interaction_task_6_chat_cross_dept_update_zh/SKILL.md"
+    }
+  ],
+  "native_loader_check": {
+    "returncode": 0,
+    "stdout": "DISCOVERY:[{\"id\":\"03-task2\",\"path\":\"__WORKSPACE__/.skill-discovery-f21eh7wb/profiles/benchmark/skills/agent/2-normalized\"},{\"id\":\"03-task3\",\"path\":\"__WORKSPACE__/.skill-discovery-f21eh7wb/profiles/benchmark/skills/agent/3-normalized\"},{\"id\":\"03-task4\",\"path\":\"__WORKSPACE__/.skill-discovery-f21eh7wb/profiles/benchmark/skills/agent/4-normalized\"},{\"id\":\"03-task5\",\"path\":\"__WORKSPACE__/.skill-discovery-f21eh7wb/profiles/benchmark/skills/agent/5-normalized\"},{\"id\":\"03-task6\",\"path\":\"__WORKSPACE__/.skill-discovery-f21eh7wb/profiles/benchmark/skills/agent/6-normalized\"}]\n",
+    "stderr": "",
+    "additional_inference_calls": 0,
+    "native_source_modified": false
+  }
+}

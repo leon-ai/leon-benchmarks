@@ -1,0 +1,52 @@
+{
+  "contract_controls": "passed",
+  "native_grader_unchanged": true,
+  "candidate_executions_repeated": 0,
+  "judge_inference_calls": 0,
+  "reviews": [
+    {
+      "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-repair/03_Social_Interaction_task_5_cha__UwA2FxJ",
+      "score": 0.0,
+      "review_triggered": true,
+      "settings_verified": true,
+      "grader_errors": [],
+      "native_error_markers": [],
+      "requires_review": false,
+      "classification": "native_outcome_retained",
+      "result_sha256": "3e9cba4b780d8af73019b38052773e6eea900cd5c39c288c065e1c9059f33859",
+      "additional_inference_calls": 0,
+      "expected_output_failure": true
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-repair/03_Social_Interaction_task_5_cha__MwdjdZi",
+      "score": 0.0,
+      "review_triggered": true,
+      "settings_verified": true,
+      "grader_errors": [],
+      "native_error_markers": [],
+      "requires_review": false,
+      "classification": "native_outcome_retained",
+      "result_sha256": "44b51a071c3a62cfb5e7cef7b321b01464f0d0d0683d705ec7d41915b22c1a61",
+      "additional_inference_calls": 0,
+      "expected_output_failure": true
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_5_chat_escalation_routing/native-repair/03_Social_Interaction_task_5_cha__WzFfwZp",
+      "score": 0.0,
+      "review_triggered": true,
+      "settings_verified": true,
+      "grader_errors": [],
+      "native_error_markers": [],
+      "requires_review": false,
+      "classification": "native_outcome_retained",
+      "result_sha256": "26bd40069858709136104c1a90288327fa6827223f7b801dab781c8ac960836b",
+      "additional_inference_calls": 0,
+      "expected_output_failure": true
+    }
+  ],
+  "source_sha256": {
+    "scripts/benchmarks/regrading.py": "a36d4429d36885e9f452a6c69fd21395cddd3f9990829da1c112d59a71597e98",
+    "scripts/benchmarks/balanced.py": "d53324bf9e445d9c324781276bd756fa7d4cef6cc417ecd129de0f8e1b5e03d7",
+    "scripts/benchmarks/task_integrity.py": "f85c946ad177c4b6870d4d842ee465c777957f6bca3978ec1b45fcf19f56c5df"
+  }
+}

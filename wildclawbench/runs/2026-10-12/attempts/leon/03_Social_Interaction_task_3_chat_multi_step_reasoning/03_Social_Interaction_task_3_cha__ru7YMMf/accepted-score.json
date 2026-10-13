@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_3_cha__ru7YMMf",
+  "agent": "leon",
+  "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+  "score": 0.9558,
+  "source_result_sha256": "2c19c345b714629b43e08aea709b92c4858c1df253ec3c1829b8c24e0daeed33",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

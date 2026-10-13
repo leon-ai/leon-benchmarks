@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_11_res__kpuEQ57",
+  "agent": "leon",
+  "task": "02_Code_Intelligence_task_11_resume_homepage_zh",
+  "score": 0.7436,
+  "source_result_sha256": "66cf99a320f29bf7a239d6a2c1f4db0b0056c6dcf751335c02b0af5e219a1419",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

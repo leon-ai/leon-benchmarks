@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_9_artwo__ToTgmid",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_9_artwork_search",
+  "score": 0.0,
+  "source_result_sha256": "a92b4183b86926ee0c8316b4be87ea61e270e345d6ee6d1cb5a1fbd78546931c",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The saved answer did not earn native artwork-identification credit.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

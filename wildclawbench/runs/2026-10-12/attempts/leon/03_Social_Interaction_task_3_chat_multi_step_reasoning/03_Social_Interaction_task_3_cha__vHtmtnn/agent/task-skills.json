@@ -1,0 +1,12 @@
+{
+  "registered": true,
+  "source": "/tmp_workspace/.wildclaw/skills",
+  "target": "/tmp/leon-benchmark/profiles/benchmark/skills/agent",
+  "discovered": [
+    {
+      "id": "03-task3",
+      "path": "/tmp/leon-benchmark/profiles/benchmark/skills/agent/03_task3"
+    }
+  ],
+  "undiscovered": []
+}

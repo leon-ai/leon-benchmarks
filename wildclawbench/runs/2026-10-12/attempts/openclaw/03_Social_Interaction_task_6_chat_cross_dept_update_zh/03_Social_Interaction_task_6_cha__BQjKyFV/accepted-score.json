@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_6_cha__BQjKyFV",
+  "agent": "openclaw",
+  "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+  "score": 0.85,
+  "source_result_sha256": "b5b68282ab85bc39aa957f5658297ce90b9971c1d82b197628cec1d512d7c04e",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

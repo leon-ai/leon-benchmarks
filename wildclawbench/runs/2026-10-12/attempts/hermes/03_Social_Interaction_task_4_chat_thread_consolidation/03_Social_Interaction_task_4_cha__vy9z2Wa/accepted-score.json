@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_4_cha__vy9z2Wa",
+  "agent": "hermes",
+  "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+  "score": 0.885,
+  "source_result_sha256": "e8cc5f6716a94fda4ff84dc1c4b992df006ba7c61d4b36265b78954cf05662f1",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

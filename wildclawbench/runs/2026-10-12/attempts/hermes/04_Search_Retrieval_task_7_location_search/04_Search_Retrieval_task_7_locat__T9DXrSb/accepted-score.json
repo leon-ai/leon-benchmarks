@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_7_locat__T9DXrSb",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_7_location_search",
+  "score": 0.0,
+  "source_result_sha256": "6a4ab64ed6c22fc9e0df34d1de9338291693f9d5adea6eb18341c01f9641334e",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The location answer was missing or its country/city/coordinates did not all match.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

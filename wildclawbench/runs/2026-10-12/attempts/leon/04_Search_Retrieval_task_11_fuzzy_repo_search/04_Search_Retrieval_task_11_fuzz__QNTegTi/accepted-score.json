@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_11_fuzz__QNTegTi",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+  "score": 1.0,
+  "source_result_sha256": "efcaae19f1580c7abf5eac932fd3a116ac8a7bb5d7f2da3b9ff081316291a8d0",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

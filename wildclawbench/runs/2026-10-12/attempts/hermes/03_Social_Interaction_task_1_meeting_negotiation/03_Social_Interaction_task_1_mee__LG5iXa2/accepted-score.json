@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_1_mee__LG5iXa2",
+  "agent": "hermes",
+  "task": "03_Social_Interaction_task_1_meeting_negotiation",
+  "score": 1.0,
+  "source_result_sha256": "1efc2bb27c6da1155986bc47955f3b9765967e5ee31661e6f8fb837be3b0f5b2",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

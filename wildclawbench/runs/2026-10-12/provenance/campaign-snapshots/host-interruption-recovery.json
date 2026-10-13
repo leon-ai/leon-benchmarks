@@ -1,0 +1,223 @@
+{
+  "recorded_at": "2026-10-11T14:11:54.174530+00:00",
+  "suite": "wild",
+  "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+  "reason": "Interrupted session left nine unfinished attempts with no saved trial result or valid native grade. Original job statistics recorded zero completed attempts.",
+  "status": "resumed exact nine unfinished slots; stopped containers removed after workspace evidence export",
+  "affected_candidates": [
+    {
+      "agent": "BenchmarkHermes",
+      "trial": "03_Social_Interaction_task_3_cha__7vuTRL4",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__7vuTRL4",
+      "evidence_sha256": {
+        "trial.log": "f5596665d3d1152139b0c8626ed4217b73d012bc9f2bafac90df6c55742ca260",
+        "lock.json": "a71a431a0b8138c67a3f40f88217bf1539dea13e441733382d2d3bd3adee01a0",
+        "config.json": "36fb22c57a926609ec0650d2f6afc293d67c5c96e3daad7d0152dbf2e7924e4b",
+        "artifacts/manifest.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/hermes-result.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/inference-events.jsonl": "6f26133acc67d1c98e76fc12aae29b0794b0ec65db304306cbf528b0e2785243",
+        "agent/requests.jsonl": "9d18ebf47ba9e5b9c23565e9ea2836b20b52197e079e979119db8acf1929045d",
+        "agent/task-skills.json": "0fe04da0095e0588950cc3c0d5d5cca7edcbfa28f30ca9e1b99c47ff90777ef7",
+        "agent/hermes-config.yaml": "56fb0f960e6cf59392f885631d37755f05394c5b02c8da7daebf00f10dae9623",
+        "agent/hermes-session.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/native-transcript.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/model-tool-calls.jsonl": "9e6dac8653f7b961a72ec37df7a335f283387807af2ab3856e811aee587cd8e1",
+        "agent/transcript-export.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/hermes.txt": "5c7b013fcd8b730c0a2565a2a0ad66073dec9b6f9ff5cb91a4877a8fddb1be49",
+        "agent/tool-schemas.jsonl": "0c4e9dab00088ef330a47c46ba11dcba84ebf8d06d8e88ac33ab74f99cbe0287",
+        "agent/environment-healthcheck.jsonl": "7ef83c6739c6619519aef8e2a85e06eb59b9c19839047b16bce0c7c89c81c7c1",
+        "verifier/judge-responses.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/inference-events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/requests.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/tool-schemas.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "artifacts/tmp_workspace/results/results.md": "332a1c9e58fe3ca74d82e051e7f394cee620c1d64e37f7a27007e66f0e397231"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "Leon",
+      "trial": "03_Social_Interaction_task_3_cha__AEmFroz",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__AEmFroz",
+      "evidence_sha256": {
+        "trial.log": "9ecfa08e0a0b593a6d60c03456fef0431c28e19189659715bd42ab7ad6a6ff8d",
+        "lock.json": "25c2dbff1524548932bc0fbb10c2359da6eccdbc5cf8ea0f5f2c3a43c141e2cd",
+        "config.json": "a9531650461211ef26db6d185598662213bf087f17017e8cd340f95f0aea42f2",
+        "agent/trajectory-events.jsonl": "2358103a193546ebb0125b88f5a50681176e2784bb31cb3561bf6d9126bf7c6d",
+        "agent/instruction.txt": "fe66ebb6ab6e2eb6c03c703e59609c9d55bc2c4648fcfc632b80b770cee627cf",
+        "agent/inference-events.jsonl": "e2289d444bb87df7cca60635dc32ef1e579c35b4b5fc325c17a5acd736d74154",
+        "agent/requests.jsonl": "deefca767abab8f66ff6a17d1b43c60c90440f1022b1e113d0e90d8d2eb76440",
+        "agent/task-skills.json": "c1c9711946fd967eeaadb01eef7091ca0f21e3011b7f645ce5719369bc6e93ea",
+        "agent/leon.txt": "2ceacfb9c36754be56207072ddfa53fe5fba9e48bdbdbaa7a585848b704c1527",
+        "agent/model-tool-calls.jsonl": "661bd9e81c68de5e828623800dab5cbe53c00a307298616dc66f40870e2ab168",
+        "agent/tool-schemas.jsonl": "036683d794c09d59642bd6ade06437fc062d6b3b6556ed9f807eeee737f7b5ce",
+        "agent/environment-healthcheck.jsonl": "c72fa1cf64701e285cd366536651d54e7c816e049eae53f3d8385a2af029871e"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "BenchmarkOpenClaw",
+      "trial": "03_Social_Interaction_task_3_cha__ELEKR2A",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__ELEKR2A",
+      "evidence_sha256": {
+        "trial.log": "602f4758eef572e8b89b043b5b0e499dab1ba29d9f4348aaa3c7c67dc9af6f2b",
+        "lock.json": "e5762834af84b80d64fed0ffb04f15ca01e675b30f0949010816385ec3adcaa3",
+        "config.json": "f1d4e5a6d3bfb9056dfb6839c4267328a699a3e2936d8fed73ed23a6a9f19ad9",
+        "agent/openclaw-migration.txt": "82efe72ffb98d0403e2e93a802824a1c92c693d84f983ff56fc946fd2a1beeaf",
+        "agent/openclaw.txt": "fa8a59350f43c1e6263c3ed30399ac43b9fd603d1bd1a9e835e09cf694901673",
+        "agent/inference-events.jsonl": "50536c62f4276fa302cccf7c8f7dcd8ff5fac2530729ccbe722e64ea58c80f68",
+        "agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+        "agent/requests.jsonl": "033a81d69059ab520ebacafc95e48583f6651bd45b90e2d9c8c36b8a0b35632b",
+        "agent/task-skills.json": "34aeb5afa4e50a061af70c472bcbb86004007688a6b7fec738c2fe454582abc5",
+        "agent/model-tool-calls.jsonl": "caa90c977823e1ccf9d8cd9c3ca78e4d2c534a6d76bd6c812f58eb76457f6c24",
+        "agent/tool-schemas.jsonl": "95c6aaff538be8de0205e328a33552e63f03024186ca092f02bf9681a63a83fd",
+        "agent/environment-healthcheck.jsonl": "c407babd79e08b703ca1c70b8caba469a4a5d926636f2c7fd8909f56b1b5bda3"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "Leon",
+      "trial": "03_Social_Interaction_task_3_cha__G9CrYiv",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__G9CrYiv",
+      "evidence_sha256": {
+        "trial.log": "9ecfa08e0a0b593a6d60c03456fef0431c28e19189659715bd42ab7ad6a6ff8d",
+        "lock.json": "25c2dbff1524548932bc0fbb10c2359da6eccdbc5cf8ea0f5f2c3a43c141e2cd",
+        "config.json": "1901d30a3578c8a3c146c4b77b748a74df3175e097ccd1391cf419b91e00c174",
+        "agent/trajectory-events.jsonl": "79917fa1eabf16124cd1c68a6813e65171a871d3e02fba1f238e88d0f5f9957b",
+        "agent/instruction.txt": "fe66ebb6ab6e2eb6c03c703e59609c9d55bc2c4648fcfc632b80b770cee627cf",
+        "agent/inference-events.jsonl": "51fc2e7de63f31d0fcdb2e638fd02f2c06031729dbd05fa1d42771cc11bf10bb",
+        "agent/requests.jsonl": "320bc52280f23f77baa1fe4662a0bb144576854afa64f405da924e7f748dac6b",
+        "agent/task-skills.json": "c1c9711946fd967eeaadb01eef7091ca0f21e3011b7f645ce5719369bc6e93ea",
+        "agent/leon.txt": "5e517589f05ea7b58cd14aca0a87f4157b0577f6a859a47f7229f9dd6390b361",
+        "agent/model-tool-calls.jsonl": "3491cd05899d16f03dbae0a46303b742cff2fc77041c88ec56f74af5eae225c0",
+        "agent/tool-schemas.jsonl": "9b6f9e9de7dd631da3901408b11d8748c5c6984058f71fcc05dc5d83c7df8c58",
+        "agent/environment-healthcheck.jsonl": "ef7a90757422224e008e7ccc981da41dca8b0e8c746ef2b73e9e198d39fb4986"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "BenchmarkOpenClaw",
+      "trial": "03_Social_Interaction_task_3_cha__KNpvduw",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__KNpvduw",
+      "evidence_sha256": {
+        "trial.log": "e2b884ac1b1e8d0f5b87dee247e9df7a9a8a63a52297ee224ee11e6c41e4af17",
+        "lock.json": "e5762834af84b80d64fed0ffb04f15ca01e675b30f0949010816385ec3adcaa3",
+        "config.json": "5e75473e17624a7c29fa679f63a3d94aab4cea0b8abcabe3b8cc09f238d3e399",
+        "agent/openclaw-migration.txt": "3b4d38019092e406ca8b561efae0d0e9f92f9611635e215a8d772fd9875cd0eb",
+        "agent/openclaw.txt": "b5a34e136ce5ec92ecb513a41e6aef94759b12422c67d9217d3c33677dc6c502",
+        "agent/inference-events.jsonl": "38520d870c17265df75611fd39ad5d73853c21ab7dab62f5fe88a0d640fa5f7a",
+        "agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+        "agent/requests.jsonl": "aa9a687d7aab705961894054fe2aadd681f6187c7505fdf71377e985a6fb9d7a",
+        "agent/task-skills.json": "34aeb5afa4e50a061af70c472bcbb86004007688a6b7fec738c2fe454582abc5",
+        "agent/model-tool-calls.jsonl": "7b750e7d94ec55b667a634f6a675c093bdb043a01e71bf18e042c0fd661ac7d9",
+        "agent/tool-schemas.jsonl": "95c6aaff538be8de0205e328a33552e63f03024186ca092f02bf9681a63a83fd",
+        "agent/environment-healthcheck.jsonl": "e049b6c1644c8f633e50dda8e2953833111ee3e8f132b347d74793b7a687d955"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "BenchmarkOpenClaw",
+      "trial": "03_Social_Interaction_task_3_cha__QNiUYph",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__QNiUYph",
+      "evidence_sha256": {
+        "trial.log": "1855fb7e21a6abfab4263991f6e9b5dd68fc084d4148e32008e71db97576e990",
+        "lock.json": "e5762834af84b80d64fed0ffb04f15ca01e675b30f0949010816385ec3adcaa3",
+        "config.json": "d8479ba318f686addffa1b62960e0a76301a844f8f644b345733b7b96e54afb6",
+        "agent/openclaw-migration.txt": "4500c2e245f12a40b24a3403843b960689ded71f2280072c5d81147e4f650f3b",
+        "agent/openclaw.txt": "cea738958c8c53421170f4b4f6a8534dfe4b13d00dd1bd974ea6bd5717e4db80",
+        "agent/inference-events.jsonl": "345cb4e9b9395de3038eb5ce08bb82d03a5eed6256c39939cb3a313c9d1d8efa",
+        "agent/openclaw-config.json": "a376fd5bee0547c735d9ba09c194ad08e7429f4a0439c20192b6903a1861d7a2",
+        "agent/requests.jsonl": "2facd4e465306d92d895b974ba593742f1ff4b512b028efa2a4840e4a532fc3b",
+        "agent/task-skills.json": "34aeb5afa4e50a061af70c472bcbb86004007688a6b7fec738c2fe454582abc5",
+        "agent/model-tool-calls.jsonl": "494cba34e46cb3d2a8a87a635e8b0b34f673e16e07367fef995e394f64044716",
+        "agent/tool-schemas.jsonl": "95c6aaff538be8de0205e328a33552e63f03024186ca092f02bf9681a63a83fd",
+        "agent/environment-healthcheck.jsonl": "6b0935e857cbfc02d21becca26a5ee232c9313637bb68cb276e24e9bad019e68"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "Leon",
+      "trial": "03_Social_Interaction_task_3_cha__UyB3dJv",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__UyB3dJv",
+      "evidence_sha256": {
+        "trial.log": "9ecfa08e0a0b593a6d60c03456fef0431c28e19189659715bd42ab7ad6a6ff8d",
+        "lock.json": "25c2dbff1524548932bc0fbb10c2359da6eccdbc5cf8ea0f5f2c3a43c141e2cd",
+        "config.json": "41381f47467b226a9a8a67f419246a76d4fb77c1e6477b161d302d52237cce62",
+        "agent/trajectory-events.jsonl": "eb007181450356ceef9f1e10493047624b30c28a7d3730f5622ed0e16808fb61",
+        "agent/instruction.txt": "fe66ebb6ab6e2eb6c03c703e59609c9d55bc2c4648fcfc632b80b770cee627cf",
+        "agent/inference-events.jsonl": "28ebdc295dbb2e810906cd05ea6d2a24ba9d41417a5ecd7f8a8d99e1914da005",
+        "agent/requests.jsonl": "0cdcec8b040973be4b1eb47c594a7c0f46d14b01dd8ba5265c600a422456ca86",
+        "agent/task-skills.json": "c1c9711946fd967eeaadb01eef7091ca0f21e3011b7f645ce5719369bc6e93ea",
+        "agent/leon.txt": "8d5202b363a8c2a1092a2820ad0a6bcca928a8856e06c524350e38d3cd714e19",
+        "agent/model-tool-calls.jsonl": "2638d75684844f2439623a2bffb7cc37f4efe3da81832691364ea0d4fe13dd1e",
+        "agent/tool-schemas.jsonl": "04d61fa7981d693a4d900d984a04acc2f916f68fb3e44cf94f775e440aef4502",
+        "agent/environment-healthcheck.jsonl": "0af8d8790e16bbd1c7cc8346c1d5e4ebfcf625b5b202314b31722851de58e32b"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "BenchmarkHermes",
+      "trial": "03_Social_Interaction_task_3_cha__bvpamyG",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__bvpamyG",
+      "evidence_sha256": {
+        "trial.log": "f5596665d3d1152139b0c8626ed4217b73d012bc9f2bafac90df6c55742ca260",
+        "lock.json": "a71a431a0b8138c67a3f40f88217bf1539dea13e441733382d2d3bd3adee01a0",
+        "config.json": "38db28121d154852e9da77bc7d124087c69327f301523231fad67b76b8544eae",
+        "artifacts/manifest.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/hermes-result.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/inference-events.jsonl": "b656406b0653b1399cb452c48f1a4b36f959b528ab28f02d5af6142cf8944ae4",
+        "agent/requests.jsonl": "9550be159b319d402a745a42a9bd48c626d25f332caf243c2cc23904ac8612cd",
+        "agent/task-skills.json": "0fe04da0095e0588950cc3c0d5d5cca7edcbfa28f30ca9e1b99c47ff90777ef7",
+        "agent/hermes-config.yaml": "56fb0f960e6cf59392f885631d37755f05394c5b02c8da7daebf00f10dae9623",
+        "agent/hermes-session.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/native-transcript.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/model-tool-calls.jsonl": "77ed55402a54db1877899c2a41c67c2c1e2d8e4c63c3bd437721bc4ce1ef9568",
+        "agent/transcript-export.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent/hermes.txt": "4238b1142c8b5ba3e6b0ac369d306e9c08b430fc65b4ea91cb7498abea0bd548",
+        "agent/tool-schemas.jsonl": "b21aab61370b8aa0e1cb42e85c76e977a5bc31dec95643416c4fa74f26417231",
+        "agent/environment-healthcheck.jsonl": "1f879b7857c05775cd8d6a75a3d9478a6eff97b7a30cced246d84705425bf657",
+        "verifier/judge-responses.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/inference-events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/requests.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/tool-schemas.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "artifacts/tmp_workspace/results/results.md": "0a7f7aff15792389a9acc1ba500b5f7807db60948009328ac0bd0a4f1091de21"
+      },
+      "original_result_present": false
+    },
+    {
+      "agent": "BenchmarkHermes",
+      "trial": "03_Social_Interaction_task_3_cha__gdCdLjM",
+      "preserved_directory": "host-interrupted/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__gdCdLjM",
+      "evidence_sha256": {
+        "trial.log": "5e294acc9d611c4d45a70d561e1f34e049bb985c09045ebe74219df5cade2b06",
+        "lock.json": "a71a431a0b8138c67a3f40f88217bf1539dea13e441733382d2d3bd3adee01a0",
+        "config.json": "58b3d2f2ab5712210ba23e2d552cf9e945f664b288256b12740d4dc4145605bc",
+        "agent/inference-events.jsonl": "60b81ac0f505aaa8c376ea88592c6002f7a7fc28704ad1973de4382c20a84bb0",
+        "agent/requests.jsonl": "c030d006667c06191596777475ab591706a234540b804aec47dc802e8cf95089",
+        "agent/task-skills.json": "0fe04da0095e0588950cc3c0d5d5cca7edcbfa28f30ca9e1b99c47ff90777ef7",
+        "agent/hermes-config.yaml": "56fb0f960e6cf59392f885631d37755f05394c5b02c8da7daebf00f10dae9623",
+        "agent/model-tool-calls.jsonl": "865bca8f0ef6c48795748d4249cf55b24648117882e8a3fd30c0bf711e7e354e",
+        "agent/hermes.txt": "b559f79a9f344f05e490394c7982ab9f354862d0d707fdcaca01134e10cdacac",
+        "agent/tool-schemas.jsonl": "b21aab61370b8aa0e1cb42e85c76e977a5bc31dec95643416c4fa74f26417231",
+        "agent/environment-healthcheck.jsonl": "91ea63a5a33abb971aa3d41bb77556d7d5fce355ddf005e094259b603fefda77"
+      },
+      "original_result_present": false
+    }
+  ],
+  "healthy_candidates_repeated": 0,
+  "expected_remaining_slots": 9,
+  "remaining_slots": 9,
+  "removed_stopped_containers": [
+    "03_social_interaction_task_3_cha__7vutrl4__env-main-1",
+    "03_social_interaction_task_3_cha__aemfroz__env-main-1",
+    "03_social_interaction_task_3_cha__elekr2a__env-main-1",
+    "03_social_interaction_task_3_cha__g9cryiv__env-main-1",
+    "03_social_interaction_task_3_cha__knpvduw__env-main-1",
+    "03_social_interaction_task_3_cha__qniuyph__env-main-1",
+    "03_social_interaction_task_3_cha__uyb3djv__env-main-1",
+    "03_social_interaction_task_3_cha__bvpamyg__env-main-1",
+    "03_social_interaction_task_3_cha__gdcdljm__env-main-1"
+  ],
+  "cleanup_at": "2026-10-11T14:12:39.999392+00:00"
+}

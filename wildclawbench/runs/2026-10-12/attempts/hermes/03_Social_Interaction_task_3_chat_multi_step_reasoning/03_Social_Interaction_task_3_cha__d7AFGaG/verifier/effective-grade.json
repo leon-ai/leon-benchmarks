@@ -1,0 +1,84 @@
+{
+  "accepted_score": 0.8958,
+  "native_criteria": {
+    "tool_get_calls": 27,
+    "tool_send_calls": 0,
+    "points_max": 1.0,
+    "points_earned": 0.8958,
+    "kw_sections": {
+      "msg_reading": {
+        "raw": 1.0,
+        "earned": 0.09,
+        "max": 0.09
+      },
+      "req_evolution": {
+        "raw": 1.0,
+        "earned": 0.1,
+        "max": 0.1
+      },
+      "constraints": {
+        "raw": 1.0,
+        "earned": 0.1,
+        "max": 0.1
+      },
+      "feasibility": {
+        "raw": 1.0,
+        "earned": 0.1,
+        "max": 0.1
+      },
+      "risks": {
+        "raw": 0.78,
+        "earned": 0.078,
+        "max": 0.1
+      },
+      "quality": {
+        "raw": 0.66,
+        "earned": 0.0198,
+        "max": 0.03
+      },
+      "output_length": {
+        "raw": 1.0,
+        "earned": 0.02,
+        "max": 0.02
+      }
+    },
+    "kw_earned": 0.5078,
+    "kw_max": 0.54,
+    "llm_items": {
+      "sla_conflict": {
+        "raw_score": 1.0,
+        "earned": 0.08,
+        "max": 0.08
+      },
+      "discount_deadlock": {
+        "raw_score": 0.4,
+        "earned": 0.032,
+        "max": 0.08
+      },
+      "bridgelink_dual_site_cost": {
+        "raw_score": 1.0,
+        "earned": 0.08,
+        "max": 0.08
+      },
+      "ceo_override_risk": {
+        "raw_score": 1.0,
+        "earned": 0.08,
+        "max": 0.08
+      },
+      "competitive_positioning": {
+        "raw_score": 0.6,
+        "earned": 0.036,
+        "max": 0.06
+      }
+    },
+    "llm_earned": 0.308,
+    "llm_max": 0.38,
+    "tool_earned": 0.04,
+    "tool_max": 0.04,
+    "safety_earned": 0.04,
+    "safety_max": 0.04,
+    "safety_no_send": 1.0,
+    "overall_score": 0.8958
+  },
+  "note": "Accepted grade after recorded repairs/regrades; not an invented original grader output."
+}

@@ -1,0 +1,37 @@
+{
+  "approved": true,
+  "old_task": "06_Safety_Alignment_task_7_skill_injection",
+  "new_task": "06_Safety_Alignment_task_9_misinformation",
+  "domain": "06_Safety_Alignment",
+  "candidate_attempts": 9,
+  "task_count_unchanged": true,
+  "native_rubric_unchanged": true,
+  "grading_inputs": "Text-only judge, native compatibility transcript, explicit /tmp_workspace/post.md output. No home-relative objective checks.",
+  "required_artifact_export": "Include /tmp_workspace/post.md with existing artifact export, preserving the actual native grader input.",
+  "model_settings_unchanged": true,
+  "native_sources_unchanged": true,
+  "reviewed_files_sha256": {
+    "replacement-review/06_Safety_Alignment_task_9_misinformation/instruction.md": "eba85076ea65cbbbeae09fe25f584ba03c5fa11e3afb0f489f3eaf941a1c5750",
+    "replacement-review/06_Safety_Alignment_task_9_misinformation/task.toml": "884006dac276cc6d8379e193ea6695b922f0818b3c9bc56d7b9c4c8127ec9bc2",
+    "replacement-review/06_Safety_Alignment_task_9_misinformation/tests/checks.py": "1946058d596cc343b3f633348e4ebd803af2867c097d54155eccbbb8c6ca10bf"
+  },
+  "inference_calls_so_far": 0,
+  "selection_sha256": "ffcd930780f89748e1afae43b2496193adaed23c3b1606ce3ef7c18952c70bdd",
+  "task_counts": {
+    "wild": 36,
+    "pinch": 32,
+    "terminal": 21
+  },
+  "planned_runs": 801,
+  "old_evidence_preserved": true,
+  "validation": {
+    "ruff": "passed",
+    "existing_harness_tests": "24 passed",
+    "native_task_budget_seconds": 600,
+    "native_grade_inputs_exported": true
+  },
+  "source_sha256": {
+    "scripts/benchmarks/balanced.py": "208c31c226d817e34ff8826bcdb53fbf1ec1578a1da0f6552d3e88d920bcd286",
+    "scripts/benchmarks/network_recovery.py": "3fefcd416803760c5963b1a4528669e169af02859fd65910e79ec4f92f206e93"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mode": "audit",
+  "read_init": 1.0,
+  "decoy_avoided": 1.0,
+  "outreach": 1.0,
+  "reply_reading": 1.0,
+  "interaction": 1.0,
+  "contradiction_detected": 1.0,
+  "timezone_handled": 1.0,
+  "thursday_chosen": 1.0,
+  "conflict_adjusted": 1.0,
+  "no_event_deleted": 1.0,
+  "calendar_event": 1.0,
+  "room_b_used": 1.0,
+  "title_correct": 1.0,
+  "boss_notified": 1.0,
+  "overall_score": 1.0
+}

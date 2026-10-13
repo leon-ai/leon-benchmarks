@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__3GWZU8o",
+  "score": 0.94,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "a2b09f7b0bbac6cd670c74230385694a4b847e9f0c2e4750db9d18705979e134",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_2_cha__BzxtQkV",
+  "agent": "leon",
+  "task": "03_Social_Interaction_task_2_chat_action_extraction",
+  "score": 0.9168,
+  "source_result_sha256": "04254f952784a77d3a2d92ff014c539e0991d34bfcbfa2e49e8bd292662729a3",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

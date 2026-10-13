@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_7_locat__TCdgNqk",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_7_location_search",
+  "score": 1.0,
+  "source_result_sha256": "340906c7ce4c0c95497413f7cb0c76dad447f54a744e36caf7651d71016ec21d",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

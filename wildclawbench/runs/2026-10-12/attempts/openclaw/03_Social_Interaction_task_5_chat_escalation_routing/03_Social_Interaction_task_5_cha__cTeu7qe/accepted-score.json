@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_5_cha__cTeu7qe",
+  "agent": "openclaw",
+  "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+  "score": 0.675,
+  "source_result_sha256": "900fa7f0412a3a24eb99377212293a8ebd39d2912174bac42d0290589bf21888",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

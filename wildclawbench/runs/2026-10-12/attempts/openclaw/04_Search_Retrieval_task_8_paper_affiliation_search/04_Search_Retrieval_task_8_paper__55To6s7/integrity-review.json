@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--04_Search_Retrieval_task_8_paper_affiliation_search/native/04_Search_Retrieval_task_8_paper__55To6s7",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "67cf982f2affa3508e16debc81df8bf1f28766aa7f74cfc7cd91cd48eb8e67d8",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

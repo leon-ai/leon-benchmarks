@@ -1,0 +1,29 @@
+[
+  {
+    "agent": "leon",
+    "root": "__SOURCES__/leon-111ccc8d",
+    "recorded_commit": "111ccc8de5719108eebd4906ed0485cba5de7a50",
+    "git_head_if_available": null,
+    "source_type": "Exported source/release snapshot",
+    "inventoried_paths": 99252,
+    "dependency_policy": "Local export, dependency files and generated runtime bytes are hashed in place; symlink targets are recorded. Commit identity comes from saved campaign provenance when Git metadata is absent. This is not an offline dependency bundle."
+  },
+  {
+    "agent": "hermes",
+    "root": "__SOURCES__/hermes-0.21.6",
+    "recorded_commit": "818c13be1dc4fd28987e1e881a9408224afd4535",
+    "git_head_if_available": null,
+    "source_type": "Exported source/release snapshot",
+    "inventoried_paths": 22708,
+    "dependency_policy": "Local export, dependency files and generated runtime bytes are hashed in place; symlink targets are recorded. Commit identity comes from saved campaign provenance when Git metadata is absent. This is not an offline dependency bundle."
+  },
+  {
+    "agent": "openclaw",
+    "root": "__SOURCES__/openclaw-2026.10.1",
+    "recorded_commit": "e178c39e9aae3fa440735217f9aef9574f286677",
+    "git_head_if_available": null,
+    "source_type": "Exported source/release snapshot",
+    "inventoried_paths": 42749,
+    "dependency_policy": "Local export, dependency files and generated runtime bytes are hashed in place; symlink targets are recorded. Commit identity comes from saved campaign provenance when Git metadata is absent. This is not an offline dependency bundle."
+  }
+]

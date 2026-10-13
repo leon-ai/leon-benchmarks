@@ -1,0 +1,21 @@
+{
+  "mae_pdf_valid": 1.0,
+  "rule_resnet_summary_preserved": 1.0,
+  "resnet_summary_path": "summary.md.0f750e01-af54-49c5-9330-c82267cdd1dc.bak",
+  "resnet_summary_match_method": "sha256",
+  "rule_mae_summary_exist": 1.0,
+  "mae_summary_path": "summary.md",
+  "llm_mae_summary_quality": 1.0,
+  "llm_mae_summary_quality_judge_method": "llm",
+  "llm_mae_summary_quality_judge_model": "gpt-6.1-sol",
+  "llm_mae_summary_quality_reason": "Clearly and substantively explains MAE's 75% random masking, visible-only encoder, lightweight decoder, and masked-pixel reconstruction objective. Connects architectural asymmetry and high masking to efficiency and scalability, accurately reports key ImageNet and transfer results, and distinguishes fine-tuning from linear probing. No material technical errors.",
+  "llm_mae_summary_quality_breakdown": {
+    "paper_identity": 1,
+    "main_method": 2,
+    "innovations": 2,
+    "empirical_results": 2,
+    "clarity_substance": 2,
+    "technical_accuracy": 2
+  },
+  "overall_score": 1.0
+}

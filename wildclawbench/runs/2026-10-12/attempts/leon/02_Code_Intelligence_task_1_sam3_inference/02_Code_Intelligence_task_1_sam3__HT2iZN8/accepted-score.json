@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_1_sam3__HT2iZN8",
+  "agent": "leon",
+  "task": "02_Code_Intelligence_task_1_sam3_inference",
+  "score": 1.0,
+  "source_result_sha256": "a00d6b3bc389b94e8f323e489841d40cc37eb7ce888b2f406f63e686147d727b",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

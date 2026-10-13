@@ -1,0 +1,51 @@
+[
+  {
+    "agent": "hermes",
+    "trial": "__WORKSPACE__/jobs/wild--native-tool-readiness-v2/readiness/native-tool-readiness-v2__gJn9AZB",
+    "settings_verified": true,
+    "exception": null,
+    "rewards": {
+      "overall_score": 1
+    },
+    "observed_checks": {
+      "search_success": true,
+      "browser_success": true,
+      "browser_title": "Example Domain",
+      "errors": []
+    }
+  },
+  {
+    "agent": "openclaw",
+    "trial": "__WORKSPACE__/jobs/wild--native-tool-readiness-v2/readiness/native-tool-readiness-v2__Kizuxzr",
+    "settings_verified": true,
+    "exception": null,
+    "rewards": {
+      "overall_score": 0
+    },
+    "observed_checks": {
+      "search_success": false,
+      "browser_success": true,
+      "browser_title": "Example Domain",
+      "errors": [
+        "Unknown tool id: web_search. Did you mean: memory_search, plugins, sessions_search? Use tool_search to find a tool, tool_describe to inspect it, then tool_call with the exact id or name."
+      ]
+    }
+  },
+  {
+    "agent": "leon",
+    "trial": "__WORKSPACE__/jobs/wild--native-tool-readiness-v2/readiness/native-tool-readiness-v2__2idrmDP",
+    "settings_verified": true,
+    "exception": null,
+    "rewards": {
+      "overall_score": 0
+    },
+    "observed_checks": {
+      "search_success": true,
+      "browser_success": false,
+      "browser_title": null,
+      "errors": [
+        "Browser Use CLI readiness failed (ENOENT). Command failed with ENOENT: /opt/leon/tools/browser_use/browser-use/src/nodejs/.venv/bin/browser-use --reload\nspawn /opt/leon/tools/browser_use/browser-use/src/nodejs/.venv/bin/browser-use ENOENT The CLI executable or its interpreter is missing. Rerun dependency setup to rebuild its Python environment. See daemon log: /tmp/leon-benchmark/profiles/benchmark/tools/browser_use/browser-use/runtime/tmp/bu.log"
+      ]
+    }
+  }
+]

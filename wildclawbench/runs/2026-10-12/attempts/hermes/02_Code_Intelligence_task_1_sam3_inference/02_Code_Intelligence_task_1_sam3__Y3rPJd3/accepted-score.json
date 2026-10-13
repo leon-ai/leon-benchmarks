@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_1_sam3__Y3rPJd3",
+  "agent": "hermes",
+  "task": "02_Code_Intelligence_task_1_sam3_inference",
+  "score": 1.0,
+  "source_result_sha256": "3769baab9bbee1cf8c06221b4e708b8825ea07776d4cd04e7c24be98a1ca9afd",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

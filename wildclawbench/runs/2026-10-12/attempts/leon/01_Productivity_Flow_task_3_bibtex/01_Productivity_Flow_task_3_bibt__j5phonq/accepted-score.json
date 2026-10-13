@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_3_bibt__j5phonq",
+  "agent": "leon",
+  "task": "01_Productivity_Flow_task_3_bibtex",
+  "score": 0.705,
+  "source_result_sha256": "d55edbb2bd8ac91dfc04d22bae6b2360c34523afcab31ba7114e99dd4c2ea8b4",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. Partial BibTeX requirements earned credit; the turn did not finish.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

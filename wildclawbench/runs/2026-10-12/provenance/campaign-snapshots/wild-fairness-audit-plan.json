@@ -1,0 +1,18 @@
+{
+  "requested_at": "2026-10-12T11:13:58.022446+00:00",
+  "suite": "wild",
+  "scope": "All 36 selected tasks, all 324 accepted attempts, across Leon/OpenClaw/Hermes",
+  "gate": "No PinchBench environment, preflight or candidate begins until the completed Wild cohort has a current accepted contextual fairness review.",
+  "checks": [
+    "Three accepted attempts per agent and task, with symmetric inclusion/exclusion and exact frozen selection.",
+    "Frozen agent versions, direct subscription authentication, Sol/high/priority requests and actual returned tiers.",
+    "Task inputs, task-guide visibility, native tools and required capability/configuration access; distinguish intended native differences from adapter omissions.",
+    "Published task budgets, resources, isolation and concurrency exposure.",
+    "Zero/low scores, missing outputs, timeouts, native/provider errors and network interruptions.",
+    "Native grader paths, exported artifacts, transcript completeness, replay receipts and unsupported/fallback judging.",
+    "Contextual review of known Misinformation wording/negation limitations, plus suspicious high scores and objective grader blind spots."
+  ],
+  "outcome_policy": "Retain genuine native failures. Preserve all evidence. Repair confirmed environment/grader defects and rerun only affected attempts where justified; exclude compromised matched tasks consistently while unresolved. Frozen task substitutions require explicit owner approval.",
+  "additional_model_judges": 0,
+  "status": "scheduled after complete matched coverage"
+}

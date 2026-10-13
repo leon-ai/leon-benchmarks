@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_10_toml__UbYFFwq",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_10_tomllib_trace",
+  "score": 1.0,
+  "source_result_sha256": "fd53fcc23c7c7ea876c52b763bb9bc303bba352d46862516e4e75b6fa17172c0",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

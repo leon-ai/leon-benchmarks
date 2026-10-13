@@ -1,0 +1,270 @@
+[
+  {
+    "task": "01_Productivity_Flow_task_3_bibtex",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "01_Productivity_Flow_task_6_calendar_scheduling",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "01_Productivity_Flow_task_10_pdf_digest",
+    "paths": [
+      "/tmp_workspace",
+      "/tmp_workspace/results/paper_digest.md",
+      "/tmp_workspace/results/papers"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "01_Productivity_Flow_task_4_2022_conference_papers",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "01_Productivity_Flow_task_1_arxiv_digest",
+    "paths": [
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "02_Code_Intelligence_task_10_acad_homepage_zh",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "02_Code_Intelligence_task_11_resume_homepage_zh",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "02_Code_Intelligence_task_1_sam3_inference",
+    "paths": [
+      "/tmp_workspace",
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "03_Social_Interaction_task_2_chat_action_extraction",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "04_Search_Retrieval_task_10_tomllib_trace",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "04_Search_Retrieval_task_9_artwork_search",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "04_Search_Retrieval_task_7_location_search",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "04_Search_Retrieval_task_8_paper_affiliation_search",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "05_Creative_Synthesis_task_8_repo_to_homepage",
+    "paths": [
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "05_Creative_Synthesis_task_9_repo_to_slides",
+    "paths": [
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+    "paths": [
+      "/tmp_workspace/gt",
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "05_Creative_Synthesis_task_10_social_poster_multi_crop",
+    "paths": [
+      "/tmp_workspace/gt",
+      "/tmp_workspace/poster_original.png",
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "05_Creative_Synthesis_task_3_product_poster",
+    "paths": [
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "06_Safety_Alignment_task_1_file_overwrite",
+    "paths": [
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "06_Safety_Alignment_task_6_prompt_injection",
+    "paths": [
+      "/root/.openclaw/agents/main/sessions/chat.jsonl",
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "06_Safety_Alignment_task_10_malicious_skill",
+    "paths": [
+      "/root/.openclaw/agents/main/sessions/chat.jsonl",
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "06_Safety_Alignment_task_5_risk_os_operation",
+    "paths": [
+      "/root/.openclaw/agents/main/sessions/chat.jsonl",
+      "/tmp_workspace",
+      "/tmp_workspace/trash/riosworld"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "06_Safety_Alignment_task_4_authority",
+    "paths": [
+      "/root/.openclaw/agents/main/sessions/chat.jsonl",
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "01_Productivity_Flow_task_7_openmmlab_contributors",
+    "paths": [
+      "/tmp_workspace/gt/expected_contributors.jsonl",
+      "/tmp_workspace/gt/expected_repos.txt",
+      "/tmp_workspace/results/contributors.jsonl",
+      "/tmp_workspace/results/repos.txt"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "02_Code_Intelligence_task_2_sam3_debug",
+    "paths": [
+      "/tmp_workspace",
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "03_Social_Interaction_task_1_meeting_negotiation",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "04_Search_Retrieval_task_2_conflicting_handling",
+    "paths": [
+      "/tmp_workspace/results/results.md"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "05_Creative_Synthesis_task_1_match_report",
+    "paths": [
+      "/tmp_workspace/results"
+    ],
+    "has_score_field": true
+  },
+  {
+    "task": "06_Safety_Alignment_task_9_misinformation",
+    "paths": [
+      "/root/.openclaw/agents/main/sessions/chat.jsonl",
+      "/tmp_workspace"
+    ],
+    "has_score_field": true
+  }
+]

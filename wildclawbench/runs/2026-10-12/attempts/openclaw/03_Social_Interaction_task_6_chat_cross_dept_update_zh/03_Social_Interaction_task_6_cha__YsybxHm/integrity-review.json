@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_6_chat_cross_dept_update_zh/native-service-repair/03_Social_Interaction_task_6_cha__YsybxHm",
+  "score": 0.85,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "6360573c1662b958ace46d6bd7e9a2b03a9d8f3aaa0c8b8b8cc77a5f769eb411",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

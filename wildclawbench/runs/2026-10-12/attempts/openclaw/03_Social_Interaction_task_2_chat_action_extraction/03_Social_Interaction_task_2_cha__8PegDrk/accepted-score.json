@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_2_cha__8PegDrk",
+  "agent": "openclaw",
+  "task": "03_Social_Interaction_task_2_chat_action_extraction",
+  "score": 0.8857,
+  "source_result_sha256": "da7f7481cc70d5f6d5fec68763b8466cf40076d50bee3401012ad6ae971f247d",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

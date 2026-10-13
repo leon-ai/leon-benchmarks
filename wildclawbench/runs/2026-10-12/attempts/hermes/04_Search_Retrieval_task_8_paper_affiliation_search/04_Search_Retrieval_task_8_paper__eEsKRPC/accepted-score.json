@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_8_paper__eEsKRPC",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_8_paper_affiliation_search",
+  "score": 1.0,
+  "source_result_sha256": "299db3420304dd24d70307a8c83e2abf0dcf6cf0ef346eaded2df66531ae92a5",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

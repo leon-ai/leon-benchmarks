@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_6_clothing_outfit_to_model_image/native-repair/05_Creative_Synthesis_task_6_clo__HJ9azVK",
+  "score": 0.5145,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "c66e07060f84ff1971688a0d29c62130206bc3650ebaacc7d99222ce42fed7b9",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

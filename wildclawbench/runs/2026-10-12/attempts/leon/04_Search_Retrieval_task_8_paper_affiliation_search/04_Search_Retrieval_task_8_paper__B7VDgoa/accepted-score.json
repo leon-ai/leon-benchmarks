@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_8_paper__B7VDgoa",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_8_paper_affiliation_search",
+  "score": 1.0,
+  "source_result_sha256": "c98b15c8cedefcd1af9b149ac7019fee8a1fc445ff4a043013471298831a0381",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "agent": "leon",
+    "trial": "__WORKSPACE__/jobs/wild--leon-native-readiness-v3/readiness/leon-native-readiness-v3__RVNHx8C",
+    "settings_verified": true,
+    "exception": null,
+    "rewards": {
+      "overall_score": 1
+    },
+    "observed_checks": {
+      "search_success": true,
+      "browser_success": true,
+      "browser_title": "Example Domain",
+      "errors": []
+    }
+  }
+]

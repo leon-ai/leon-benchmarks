@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-12T03:05:57.882322+00:00",
+  "task": "05_Creative_Synthesis_task_11_video_en_to_zh_dub",
+  "reason": "Nine-way video task execution exhausted the root disk reserve. Safety guard canceled unfinished work; no completed valid attempts exist.",
+  "preserved_directory": "disk-interrupted/wild--05_Creative_Synthesis_task_11_video_en_to_zh_dub/native",
+  "interrupted_attempts": [
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__iUiwdNz",
+      "agent": "openclaw",
+      "result_sha256": "c3fa5f169abb32a57cc4ddf7c53c69199b84dba13b376d44cfe32a6469459d76"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__ujsYvZ8",
+      "agent": "openclaw",
+      "result_sha256": "6b1a574e877f38fc68481bd8620b2768d2a018deee4213c5c5940fcca58dce09"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__hYFB7Xr",
+      "agent": "hermes",
+      "result_sha256": "1d4f9561f1c2f75611fecda242a5551741ba0a007eb153e3779c8e345f31f29f"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__YMxNKhD",
+      "agent": "leon",
+      "result_sha256": "f37bc5e8d33938dd8b29346ee15c5e1a94357c34ffc5662079ef25011bcd1833"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__vCrKSz9",
+      "agent": "openclaw",
+      "result_sha256": "7ba1469ff1ea2493211a695460c7eb2f1a1b7f35f98ec13405dbfc8f9f5d38c0"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__ereeCU9",
+      "agent": "hermes",
+      "result_sha256": "5c9053e496edf8311d7fdd6901680382dd93c656c3e37c78c467d5dc8b45754d"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__mhJeNBq",
+      "agent": "leon",
+      "result_sha256": "d1c1f9fa825cf778f7dc44e36535289714f9a27cb3792a85b33a486d56819f82"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__yXeGczy",
+      "agent": "leon",
+      "result_sha256": "b86d2afb8c7282da8f4f2646d6f2fafa17ebbd6bace432830e3cc11050b5b0c5"
+    },
+    {
+      "trial": "05_Creative_Synthesis_task_11_vi__swxUD5g",
+      "agent": "hermes",
+      "result_sha256": "a1d09d9177c2e20e04dfe64c2fe576023e2b681d282b8a128099f233c726a220"
+    }
+  ],
+  "candidate_slots_to_resume": 9,
+  "maximum_concurrent_trials": 3,
+  "disk_estimate_per_trial_gib": 8,
+  "model_settings_and_native_budgets_unchanged": true,
+  "successful_candidates_repeated": 0
+}

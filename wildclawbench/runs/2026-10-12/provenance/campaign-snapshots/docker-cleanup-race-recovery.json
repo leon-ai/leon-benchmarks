@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-12T01:13:15.418908+00:00",
+  "task": "wild--04_Search_Retrieval_task_9_artwork_search",
+  "interrupted_slots": [
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__UQW7dKP",
+      "agent": "openclaw",
+      "result_sha256": "39fae7100f19407086599028ca994599cc4928b59a3995a87527065719f48aaf",
+      "preserved_directory": "controller-interrupted/wild--04_Search_Retrieval_task_9_artwork_search/native-repair/04_Search_Retrieval_task_9_artwo__UQW7dKP",
+      "reason": "Controller cleanup inspection raced with concurrent container deletion; native execution canceled."
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__b5FuY9D",
+      "agent": "openclaw",
+      "result_sha256": "b791a00a907a77103ef355d705ad9836134ce308681d969a1c69f9146aca97ae",
+      "preserved_directory": "controller-interrupted/wild--04_Search_Retrieval_task_9_artwork_search/native-repair/04_Search_Retrieval_task_9_artwo__b5FuY9D",
+      "reason": "Controller cleanup inspection raced with concurrent container deletion; native execution canceled."
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__eYyjY8L",
+      "agent": "openclaw",
+      "result_sha256": "0c3163f6520048b58c1ff516b59e97fc61be50a167782a831bcf4f61600835fe",
+      "preserved_directory": "controller-interrupted/wild--04_Search_Retrieval_task_9_artwork_search/native-repair/04_Search_Retrieval_task_9_artwo__eYyjY8L",
+      "reason": "Controller cleanup inspection raced with concurrent container deletion; native execution canceled."
+    }
+  ],
+  "completed_slots_preserved": [
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__EWuynYd",
+      "agent": "leon",
+      "result_sha256": "9d76dc55d39a14df1fba88b7097f4e4a0bc9426d1ebd2dc616a3d9ff5103895a"
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__8QbuTou",
+      "agent": "hermes",
+      "result_sha256": "8122a5f5dd3fdcaffeba1e79aebd698112a79cea56ea108d10543c5c8bc50eb4"
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__2nj8e7E",
+      "agent": "hermes",
+      "result_sha256": "9bdacb197cdaae72bc57337867c11661f16a8e2153afa3c506c325d7380b08a9"
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__ToTgmid",
+      "agent": "leon",
+      "result_sha256": "a92b4183b86926ee0c8316b4be87ea61e270e345d6ee6d1cb5a1fbd78546931c"
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__9NZNmsM",
+      "agent": "leon",
+      "result_sha256": "bccbb383fd5d50eaa97a718d8d29c5871a73f7f5baaa14b71e655c840458065d"
+    },
+    {
+      "trial": "04_Search_Retrieval_task_9_artwo__jRm8keK",
+      "agent": "hermes",
+      "result_sha256": "a7c57ca6c3ec2c2f0b291aee4cee3df4bb9404b4ab7c64c8219ab0300c7c271b"
+    }
+  ],
+  "candidate_slots_to_resume": 3,
+  "validation": {
+    "ruff": "passed",
+    "existing_scheduling_tests": "24 passed",
+    "missing_docker_identifier": "surviving JSON objects retained",
+    "healthy_results": "six original result hashes unchanged"
+  },
+  "controller_source_sha256": "7a202acbede38e8eaea3f96c94ec426cc9cef4c3a2b7fa3187b90f959997f4d5"
+}

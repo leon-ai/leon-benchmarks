@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_3_cha__99NeTUr",
+  "agent": "openclaw",
+  "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+  "score": 0.9478,
+  "source_result_sha256": "9f748235b990215915680cdfc1c6b9b310be511964c3d532fed34f736c0a1c35",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

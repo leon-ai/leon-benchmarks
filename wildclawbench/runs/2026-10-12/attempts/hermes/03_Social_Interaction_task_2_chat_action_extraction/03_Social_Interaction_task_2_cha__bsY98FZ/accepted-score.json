@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_2_cha__bsY98FZ",
+  "agent": "hermes",
+  "task": "03_Social_Interaction_task_2_chat_action_extraction",
+  "score": 0.8857,
+  "source_result_sha256": "4825a4e906fc595f5eb585f30602b702cc99d0985b5a6999f3f13ca059914164",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

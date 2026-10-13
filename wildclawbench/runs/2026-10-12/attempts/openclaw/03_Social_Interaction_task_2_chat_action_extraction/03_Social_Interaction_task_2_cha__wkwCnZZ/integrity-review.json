@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--03_Social_Interaction_task_2_chat_action_extraction/native-service-repair/03_Social_Interaction_task_2_cha__wkwCnZZ",
+  "score": 0.9529,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "3922ce27e567ff847b467b01ed4fb9cb69efab7f826d724746214a05bb4aec95",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

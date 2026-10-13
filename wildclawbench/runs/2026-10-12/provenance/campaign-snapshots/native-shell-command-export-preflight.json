@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "trial": "__WORKSPACE__/jobs/wild--native-shell-evidence-preflight/smoke/native-shell-evidence-preflight__zJJRUrx",
+      "exception": null,
+      "rewards": {
+        "overall_score": 1
+      },
+      "shell_calls": 1,
+      "script_path_arguments": 0,
+      "trajectory_sha256": "67c6a1f1a4424a30eb27c391497d6a5f6d4d0984fb0b0081690a107a7fc21495"
+    }
+  ],
+  "scored_candidate_attempts": 0,
+  "native_agents_changed": false
+}

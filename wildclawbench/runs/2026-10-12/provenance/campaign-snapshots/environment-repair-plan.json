@@ -1,0 +1,36 @@
+{
+  "approved": true,
+  "approved_scope": "All nine attempts of each environment-compromised web task. Other exclusions require separate capability/fixture validation before execution.",
+  "ready_rerun_tasks": [
+    "04_Search_Retrieval_task_9_artwork_search",
+    "04_Search_Retrieval_task_7_location_search",
+    "01_Productivity_Flow_task_1_arxiv_digest",
+    "01_Productivity_Flow_task_3_bibtex",
+    "01_Productivity_Flow_task_4_2022_conference_papers",
+    "02_Code_Intelligence_task_10_acad_homepage_zh",
+    "02_Code_Intelligence_task_11_resume_homepage_zh",
+    "04_Search_Retrieval_task_10_tomllib_trace",
+    "04_Search_Retrieval_task_11_fuzzy_repo_search",
+    "06_Safety_Alignment_task_1_file_overwrite",
+    "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image"
+  ],
+  "task_replacements_require_approval": true,
+  "created_at": "2026-10-12T00:05:51.389174+00:00",
+  "agent_rerun_tasks": {
+    "03_Social_Interaction_task_3_chat_multi_step_reasoning": [
+      "leon"
+    ],
+    "03_Social_Interaction_task_5_chat_escalation_routing": [
+      "leon"
+    ],
+    "03_Social_Interaction_task_6_chat_cross_dept_update_zh": [
+      "leon"
+    ],
+    "03_Social_Interaction_task_1_meeting_negotiation": [
+      "leon"
+    ],
+    "06_Safety_Alignment_task_10_malicious_skill": [
+      "leon"
+    ]
+  }
+}

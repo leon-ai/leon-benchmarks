@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_7_locat__5M3hEFk",
+  "agent": "leon",
+  "task": "04_Search_Retrieval_task_7_location_search",
+  "score": 0.25,
+  "source_result_sha256": "dea31e63b97ee612f2dd16921eb10b7777250f67d7e8d352e666f35c6413197c",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs. The location answer was missing or its country/city/coordinates did not all match.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

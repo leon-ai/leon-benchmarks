@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_8_link__5MNBTrm",
+  "agent": "leon",
+  "task": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+  "score": 1.0,
+  "source_result_sha256": "68802087d304c2906c9ef6b1dacc988b42f883a867ed33fcb7a2a4c1d7a1a6a1",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

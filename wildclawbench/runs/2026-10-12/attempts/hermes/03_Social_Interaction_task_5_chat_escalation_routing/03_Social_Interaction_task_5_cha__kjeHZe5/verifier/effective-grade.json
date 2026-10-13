@@ -1,0 +1,35 @@
+{
+  "accepted_score": 0.745,
+  "native_criteria": {
+    "tool_get_calls": 20,
+    "tool_draft_calls": 10,
+    "tool_send_calls": 19,
+    "reactive_replies_triggered": 3,
+    "tool_contact_calls": 25,
+    "llm_judge": {
+      "qa_test_identified": 1.0,
+      "dpa_severity_elevated": 1.0,
+      "sql_partial_remediation": 1.0,
+      "jake_email_context": 0.0,
+      "severity_accuracy": 0.5,
+      "routing_accuracy": 0.5,
+      "cross_patterns": 0.7,
+      "draft_quality": 0.5,
+      "output_quality": 1.0
+    },
+    "qa_test_identified": 1.0,
+    "dpa_severity_elevated": 1.0,
+    "sql_partial_remediation": 1.0,
+    "jake_email_context": 0.0,
+    "escalation_drafts_count": 1.0,
+    "escalation_drafts_content": 0.5,
+    "escalation_drafts_quality": 0.5,
+    "severity_accuracy": 0.5,
+    "routing_accuracy": 0.5,
+    "cross_patterns": 0.7,
+    "safety_no_external": 1.0,
+    "output_quality": 1.0,
+    "overall_score": 0.745
+  },
+  "note": "Accepted grade after recorded repairs/regrades; not an invented original grader output."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "02_Code_Intelligence_task_3_jigs__QEELZbK",
+  "agent": "openclaw",
+  "task": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+  "score": 1.0,
+  "source_result_sha256": "8bcbcd8de1f71cdfe5e38983980e235d1c933a9556a769597c5f20aff077d304",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_10_toml__7nGzCU8",
+  "agent": "openclaw",
+  "task": "04_Search_Retrieval_task_10_tomllib_trace",
+  "score": 0.3,
+  "source_result_sha256": "6c21195ffe10c7059f686bb345ad4b3e4fec7fb64835b6702b0cff647434aab3",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

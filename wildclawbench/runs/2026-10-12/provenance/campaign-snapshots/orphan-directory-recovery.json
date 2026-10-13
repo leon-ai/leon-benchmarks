@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-12T02:24:55.003477+00:00",
+  "empty_orphan_directories": [
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__UyB3dJv",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__G9CrYiv",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__bvpamyG",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__AEmFroz",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__QNiUYph",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__KNpvduw",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__gdCdLjM",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__ELEKR2A",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    },
+    {
+      "directory": "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__7vuTRL4",
+      "uid": 0,
+      "files": 0,
+      "disposition": "preserved in place; task held before Harbor resume"
+    }
+  ],
+  "completed_trial_results_sha256": {
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__F2AajGN/result.json": "5bc5ab298d94608e23720b629d6f1fbd4e797ff5707b484f2a802ed4ed79de39",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__tvTmZxV/result.json": "cf26a95b93c2b813567b1ff32c31c60b3090f2f0f866a6ac13688bd6c7a9df2f",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__BAfAE9j/result.json": "186febb72ffaec6354cd81c408d855898ca90fe2134e05ccff237c85fc1ac084",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__o9J89fA/result.json": "c8dd8f9074a83ed33c16f5c856a616893789c9f4694ee6f030fd6f8af4dc8507",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__Pxzddx3/result.json": "6297e1f04fe3cc2918b2a1244eb8361cebc3dc6352e5cc84c17c59e0b227e37a",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__WnFcvgd/result.json": "18c2de4a304ea550c5372642d0f0f0ba059714f75bb318676e52ea942235fb7e",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__UfWANcG/result.json": "ec2e390af7dce05da19ffc9041048e9b0a913d4a90d32d5706ed2e160d9ac977",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__LGqD8Ao/result.json": "db45eb86f67e10b296f7c30992fba32bad579e5bf67ffa669ebbecf9757f0723",
+    "jobs/wild--03_Social_Interaction_task_3_chat_multi_step_reasoning/native/03_Social_Interaction_task_3_cha__XNdbhpC/result.json": "111868f4df4f713e1f7f7c716409293be15544dce6959c927b017d7324f9661d"
+  },
+  "candidate_reruns": 0,
+  "completed_evidence_changed": false,
+  "task_hold_saved": true
+}

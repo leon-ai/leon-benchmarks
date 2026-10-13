@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-12T04:27:17.154992+00:00",
+  "validation": {
+    "ruff": "passed",
+    "existing_scheduling_tests": "24 passed",
+    "pnpm_lint": "passed",
+    "offline_pillow_and_image_input_limits": "native container passed; removed with --rm",
+    "location_grader_replay": "Unchanged native grader validated against two native missing-output controls; no candidate or judge inference calls."
+  },
+  "agent_sources_changed": false,
+  "native_rubrics_changed": false,
+  "candidate_inference_calls": 0,
+  "image_dependency": "Pillow 12.2.0, verified cached cp310 wheel; offline temporary install only if missing",
+  "grader_replay": "Output-only replay is explicit and restricted to reviewed graders that do not read agent history. Original candidate outputs remain read-only; transcript-dependent graders preserve recorded native events.",
+  "runtime_sha256": {
+    "runtime/benchmarks/run-judge.py": "5b2d30521dd1005c83067df32d254501481fff8958f4f975f4f264ab75b281f7",
+    "runtime/benchmarks/grader-dependencies.json": "fa31adf276c8dff02bf6201ffbe85c912e82070a72c6f481acfc01cb5ad86155",
+    "runtime/benchmarks/judge_images.py": "5da84309ec227c46e48b756126eb5513770ecd3e858e2ee41d13e6cfe59249a8",
+    "runtime/benchmarks/native_transcript.py": "8527d510a5300c109ff447128d3edcdd0f89652ba4f4f9a9d80fd80b9cde63a6",
+    "pinch-runtime/benchmarks/run-judge.py": "5b2d30521dd1005c83067df32d254501481fff8958f4f975f4f264ab75b281f7",
+    "pinch-runtime/benchmarks/grader-dependencies.json": "fa31adf276c8dff02bf6201ffbe85c912e82070a72c6f481acfc01cb5ad86155",
+    "pinch-runtime/benchmarks/judge_images.py": "5da84309ec227c46e48b756126eb5513770ecd3e858e2ee41d13e6cfe59249a8",
+    "pinch-runtime/benchmarks/native_transcript.py": "8527d510a5300c109ff447128d3edcdd0f89652ba4f4f9a9d80fd80b9cde63a6"
+  }
+}

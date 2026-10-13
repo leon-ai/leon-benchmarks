@@ -1,0 +1,142 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 12,
+    "recorded_inference_requests": 12,
+    "completed_inference_requests": 12,
+    "requests_with_token_usage": 12,
+    "token_usage": {
+      "input_tokens": 355711,
+      "output_tokens": 3856,
+      "total_tokens": 359567,
+      "cached_input_tokens": 285440,
+      "reasoning_output_tokens": 909
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 12
+    },
+    "http_statuses": {
+      "200": 12
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 12,
+        "median": 1.8087221104999571,
+        "minimum": 1.340755222000098,
+        "maximum": 4.906046724000134
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 4.774972605499897,
+        "minimum": 2.532434980999824,
+        "maximum": 7.017510229999971
+      },
+      "firstToolActionSeconds": {
+        "count": 10,
+        "median": 7.692245194000179,
+        "minimum": 4.448257911999917,
+        "maximum": 23.804597503999958
+      },
+      "responseSeconds": {
+        "count": 12,
+        "median": 7.39144893300022,
+        "minimum": 3.8607400339997184,
+        "maximum": 23.81050598799993
+      }
+    },
+    "observer_milliseconds": 55.3570769916405,
+    "model_tool_calls": 12,
+    "tool_schema_checks": {
+      "valid": 12
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 1196,
+      "output_tokens": 180,
+      "total_tokens": 1376,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 71
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.5938957060002394,
+        "minimum": 1.5938957060002394,
+        "maximum": 1.5938957060002394
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 3.695744976000242,
+        "minimum": 3.695744976000242,
+        "maximum": 3.695744976000242
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 5.460394959000041,
+        "minimum": 5.460394959000041,
+        "maximum": 5.460394959000041
+      }
+    },
+    "observer_milliseconds": 2.3022020041025826,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.035873,
+    "agent_setup": 1.450911,
+    "agent_execution": 144.132143,
+    "verifier": 6.634954
+  },
+  "native_task_grade": {
+    "mae_pdf_valid": 1.0,
+    "rule_resnet_summary_preserved": 0.0,
+    "resnet_summary_path": "",
+    "resnet_summary_match_method": "not_found",
+    "rule_mae_summary_exist": 1.0,
+    "mae_summary_path": "summary.md",
+    "llm_mae_summary_quality": 1.0,
+    "llm_mae_summary_quality_judge_method": "llm",
+    "llm_mae_summary_quality_judge_model": "gpt-6.1-sol",
+    "llm_mae_summary_quality_reason": "Clearly identifies MAE and accurately explains high random masking, visible-only encoding, lightweight decoding, and masked-pixel reconstruction. Explains asymmetry, efficiency, and scalability, reports concrete ImageNet and transfer results, and distinguishes self-supervised pretraining from supervised fine-tuning. Coherent and substantive, with no material technical errors.",
+    "llm_mae_summary_quality_breakdown": {
+      "paper_identity": 1,
+      "main_method": 2,
+      "innovations": 2,
+      "empirical_results": 2,
+      "clarity_substance": 2,
+      "technical_accuracy": 2
+    },
+    "overall_score": 0.5
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

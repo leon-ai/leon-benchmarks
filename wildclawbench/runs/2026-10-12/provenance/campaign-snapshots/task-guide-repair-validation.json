@@ -1,0 +1,58 @@
+{
+  "native_loader_preflight": "passed: all five normalized identifiers discovered, all five original underscore identifiers rejected",
+  "candidate_reruns": 9,
+  "unaffected_candidate_runs_preserved": 18,
+  "native_sources_modified": false,
+  "changed_runtime_files": [
+    {
+      "file": "runtime/benchmarks/pilot.json",
+      "old_sha256": "fcbfa59ae4744d6ad9b19fb704a68e9ec39d2653ffdc9c3e0369ddda90374b8f",
+      "new_sha256": "bc8255dabb38ba9e45631462dfd35c52d84c0fbb74aca459d80acdd1698a1327"
+    },
+    {
+      "file": "runtime/benchmarks/run-leon.ts",
+      "old_sha256": "3b017f53b2a2371051ff2852b8fe17569286afa07adc7268075b1a767db970cc",
+      "new_sha256": "34c660afd5200cb0e1320503c407a3ecd5777f1f920fb2d314e655f3a336f589"
+    }
+  ],
+  "ruff": "passed",
+  "existing_scheduling_tests": "24 passed",
+  "owner_lint": "passed",
+  "adapter_eslint": "passed in frozen Core module-resolution context",
+  "partial_repair_dry_run": "passed: three replaced, six unaffected, zero outcomes retained",
+  "source_sha256": {
+    "scripts/benchmarks/campaign.py": "70cd37f7f3e0c64f971bc32b102f4a38d434a7e98c87c4196626401363474b0b",
+    "scripts/benchmarks/task_integrity.py": "e018f0b26dbfe394dd9ef43a24652e669e62901e9b7c519fca4c86a53350c6ce",
+    "scripts/benchmarks/network_recovery.py": "52d8d28c7dce976b03b6394421f0517637bb3ab2966f13ea38550556ca89db47",
+    "scripts/benchmarks/grading_recovery.py": "63334e67251648a6bc0c53792c11004163f60467c26bbbcfb1031a55047dbb7c",
+    "scripts/benchmarks/run-leon.ts": "34c660afd5200cb0e1320503c407a3ecd5777f1f920fb2d314e655f3a336f589"
+  },
+  "controller_refresh": "One-shot service waits for the current controller to finish before loading the repair queue. No active trial is interrupted.",
+  "guide_body_checks": [
+    {
+      "task": "03_Social_Interaction_task_2_chat_action_extraction",
+      "body_sha256": "3dcb73bc52b331699951ca1920013e59728e40a9510e7c802c88e323e5edfdf3",
+      "body_unchanged": true
+    },
+    {
+      "task": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "body_sha256": "59fe64ebeafd0bd5f0dd143ca1f799f76dc53ede67ab6a31760757f11c6fd058",
+      "body_unchanged": true
+    },
+    {
+      "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "body_sha256": "5de76e81e278aa8b7f892dc1dbc93d4787bba3b5c51351009609f0de3ae9e800",
+      "body_unchanged": true
+    },
+    {
+      "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "body_sha256": "fa0c322cf7884062c5b57338f489def389dd8fc441e72a5a5cbe50e8ab4638ad",
+      "body_unchanged": true
+    },
+    {
+      "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "body_sha256": "dbe4ec0c7295c87a7c39d3ff70361caf715cc396ee404e30d504206fdd2deb2c",
+      "body_unchanged": true
+    }
+  ]
+}

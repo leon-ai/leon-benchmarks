@@ -1,0 +1,233 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 15,
+    "recorded_inference_requests": 15,
+    "completed_inference_requests": 15,
+    "requests_with_token_usage": 15,
+    "token_usage": {
+      "input_tokens": 511745,
+      "output_tokens": 9630,
+      "total_tokens": 521375,
+      "cached_input_tokens": 433536,
+      "reasoning_output_tokens": 1733
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 15
+    },
+    "http_statuses": {
+      "200": 15
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 15,
+        "median": 1.8724270969978534,
+        "minimum": 1.1112205009994796,
+        "maximum": 4.194612669998605
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 5.473633333502221,
+        "minimum": 3.973954617002164,
+        "maximum": 6.973312050002278
+      },
+      "firstToolActionSeconds": {
+        "count": 13,
+        "median": 7.683311984001193,
+        "minimum": 3.11785217000579,
+        "maximum": 97.39455852100218
+      },
+      "responseSeconds": {
+        "count": 15,
+        "median": 7.173439983002027,
+        "minimum": 3.139742469000339,
+        "maximum": 97.44317122299981
+      }
+    },
+    "observer_milliseconds": 134.31291616871022,
+    "model_tool_calls": 14,
+    "tool_schema_checks": {
+      "valid": 14
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 6,
+    "recorded_inference_requests": 6,
+    "completed_inference_requests": 0,
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "unreported": 6
+    },
+    "http_statuses": {
+      "200": 5,
+      "400": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 6,
+        "median": 4.103077809995739,
+        "minimum": 3.9104265089990804,
+        "maximum": 4.62892161700438
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0.11797200568253174,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 2,
+    "recorded_inference_requests": 2,
+    "completed_inference_requests": 2,
+    "requests_with_token_usage": 2,
+    "token_usage": {
+      "input_tokens": 71788,
+      "output_tokens": 112,
+      "total_tokens": 71900,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 82
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 2
+    },
+    "http_statuses": {
+      "200": 2
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 2,
+        "median": 12.794819105998613,
+        "minimum": 11.557048898997891,
+        "maximum": 14.032589312999335
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 18.05619703999764,
+        "minimum": 17.209388163995754,
+        "maximum": 18.90300591599953
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 2,
+        "median": 18.434097488996485,
+        "minimum": 17.518468927999493,
+        "maximum": 19.34972604999348
+      }
+    },
+    "observer_milliseconds": 1.2032310041831806,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "stage_seconds": {
+    "environment_setup": 1.037801,
+    "agent_setup": 1.386051,
+    "agent_execution": 288.178991,
+    "verifier": 34.971945
+  },
+  "native_task_grade": {
+    "basic_requirements": 1.0,
+    "content_coverage": 1.0,
+    "visual_quality": 0.9,
+    "overall_score": 0.9333
+  },
+  "exception": null,
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "method": "Native grader and rubric on exported outputs with unchanged subscription settings. The shared judge adapter proportionally fits oversized images to the endpoint input limit; any normalization is audited. Original candidate and grading records remain intact.",
+    "additional_candidate_attempts": 0,
+    "replay_dependencies": [
+      "pymupdf==1.28.2",
+      "Pillow==12.3.0"
+    ],
+    "grade_file": "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/wildclaw_score.json",
+    "requests_file": "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/requests.jsonl",
+    "rewards": {
+      "basic_requirements": 1.0,
+      "content_coverage": 1.0,
+      "visual_quality": 0.9,
+      "overall_score": 0.9333
+    },
+    "evidence_sha256": {
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/result.json": "a875c701c6d8ebfca264bee2561426b553adedee66e6938fc2aed93a51591dea",
+      "tasks/wild/05_Creative_Synthesis_task_9_repo_to_slides/tests/checks.py": "dd82d5a53b9beeca495593c3ae401336303bb3e506ae7344139be715fb5bb46b",
+      "tasks/wild/05_Creative_Synthesis_task_9_repo_to_slides/tests/grader.py": "cccfbaf34c048aea1e739c924ae9bedfda67afd3a60827529916c8a7ae4a1af0",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/wildclaw_score.json": "3c62ce377e39365b8f3332d28623903f6e8180a2c893783844d7b0213b4bd627",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/requests.jsonl": "498ffae8f4b0cf05ad0b921dd5798710c722667afad09aad5a25de5632a98455",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/judge-reliability.json": "0372655e039264160ab06e1469ff330eacb76e8691ee351cf7c2ac4f9dc7d3b3",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/adapter/run-judge.py": "bb8b6642cf424b0ef7b21698b339edee8cc72753cd2743ace471aeb4ad5e2274",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/adapter/pilot.json": "fcbfa59ae4744d6ad9b19fb704a68e9ec39d2653ffdc9c3e0369ddda90374b8f",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/adapter/judge_images.py": "df4caa1d3dc2bedfa85f035b35979657deb78ae8fd38e729f0b0e61d61b11914",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/contact_sheet.png": "aff7a1688a855b14209b101b494a96188ea549fb05b8c806450d21d4232355b1",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/verification.json": "ee3812af80dff47ecef1dc7e7b595bf7dd5684c9aa7031c0173ef5772762b4f2",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/prepare_assets.py": "702a91f5f8294764cf2465971925ffd5fb4dca7634334e35680eed15d63f6c51",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/output.pdf": "9058cb6d6ca484998086cf15d23dff08e4a7da2ecdd5096f1ec3585cf056666c",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/build_deck.py": "b2d48e693742f9095a6e90c1515b7bd0a20f2b76b011926bb39862d9dceaf6ab",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/player.jpg": "caed85cb563dae7442208ee351873424f80351c293074a3869012d604a94269f",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/NotoSansSC-Bold.ttf": "32aa8fd04a75ab28e16d9cbcb35343e6696f0efc5dd8f48ffd4914e49a211524",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/README.md": "da3dd047d18ef9a4b33557bf6f8187cf166218dc8aef40f2e18a67cc5249a502",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/dog.jpg": "6e0e2a3c7662802f7fdb39b1781f69ba8df0426d128355d67a7db751529de1c4",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/contact_sheet.jpg": "24fc392d3e55fe43d621963f0d7842d3fdbc302c6a1f0b3fbdf9bd6bffca28b7",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/font.ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/LICENSE": "4dea99bfaa016e21bc860d73f344236bd1e5c4977d1a9a8fd32f822b500ae1be",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/RELEASE_SAM3p1.md": "15816fdd90f809aa6853e9a584ad8c40ed022ba9c6d63ba2aef326da0281a9fa",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/sa_co_dataset.jpg": "f1ddd6e5d4130cb37e0b41f474ac78e75483db1b8964552b042bc8bef03b9cd1",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/dog.gif": "9f42cb8f54361ad303865d9d4907abd6b7c55f1a2eaac9ff4a49ed73c385a89d",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/sam3.1_efficiency.png": "66b7f170bc72d71dcf5943f3cc5121bd8049f4cbaa9386cf85ab44165b687279",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/saco_gold_annotation.png": "dd4a6322763d00c667d66e3628f794625619de918e96017a9276a2cd2a0b0ec5",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/model_diagram.png": "f138d1aa02840a108b7b9578a817c974dc6fcb0e696c84121a48ff0976686ce9",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/tree.json": "12c0b75e2c1d3845b40232fb793616c1fca8c04364c6fd794f0c04635779b568",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/player.gif": "a5d1a3bb1955e78afe3a77a030221d7dc0dad49fa00acc7063636573825bf3a8",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/NotoSansSC-Regular.ttf": "9d62ee930036cc1f1e180938e3f7cb08026fdb1f6c1fef032421290fba5f6574",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/assets/README_TRAIN.md": "4c0c9f2f9e79d1cfc31464ffccdf611dedcbcb5845aff3a6b032f1cc57b1b378",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_3.png": "8f85d76f61b945718472b840676c0fe8aeecbe2134b8df864276ad1feacdb20e",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_1.png": "048c2af6f6d41a9ca8d754a063f3a8be77e7890f467322eb7d526bed28d3a64f",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_4.png": "ef55866e74cfc5d4d7305a69ec51b9d01135c6e7cae077066185c423fa414761",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_8.png": "4981ae72b1b72209dd97b1242831ad3af477cd1645d418cd20a07c8594a2e931",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_7.png": "d99a0ca0c0f9fd8493f94b2782df575903c165bc9510258738fbe13acafec187",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_2.png": "88c2767f9a5b34bec4695c61b541f8abb20ec5b4c68c50e7609e111280c93408",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_6.png": "b47d3b65e9bc17e35cffe26793ac90035a20928787659bc7f6fe312ac25e955e",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/artifacts/tmp_workspace/results/preview/page_5.png": "2117d0f8d70da15653aba846ceb9e2cc277dd0b7a96c49dddee9e2a4a2ebab4d",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/agent/environment-healthcheck.jsonl": "8dba50175e3874c9536a01e84ff9e5b0b010761f342cf04ae466c0a73b9d2a9e",
+      "jobs/wild--05_Creative_Synthesis_task_9_repo_to_slides/native/05_Creative_Synthesis_task_9_rep__Lgd5y3v/verifier/image-budget-regrade-3/judge-image-normalizations.jsonl": "1b648064e85268ba42601399b7474f50d52048cbd96c5fe71f3ea4208e14879f"
+    }
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

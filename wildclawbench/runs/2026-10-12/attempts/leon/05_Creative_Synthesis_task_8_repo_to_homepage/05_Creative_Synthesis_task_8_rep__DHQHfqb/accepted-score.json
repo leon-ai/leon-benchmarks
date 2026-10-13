@@ -1,0 +1,12 @@
+{
+  "id": "05_Creative_Synthesis_task_8_rep__DHQHfqb",
+  "agent": "leon",
+  "task": "05_Creative_Synthesis_task_8_repo_to_homepage",
+  "score": 0.9275,
+  "source_result_sha256": "df0e139bf8d27cea3f9e8e6c0b23f6f93618907d0366215ed5c74486f3883660",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

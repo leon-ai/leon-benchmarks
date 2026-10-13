@@ -1,0 +1,305 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 16,
+    "recorded_inference_requests": 16,
+    "completed_inference_requests": 16,
+    "requests_with_token_usage": 16,
+    "token_usage": {
+      "input_tokens": 570681,
+      "output_tokens": 13790,
+      "total_tokens": 584471,
+      "cached_input_tokens": 502272,
+      "reasoning_output_tokens": 2435
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 16
+    },
+    "http_statuses": {
+      "200": 16
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 16,
+        "median": 2.681917622000583,
+        "minimum": 1.6973166949996994,
+        "maximum": 10.795914661999632
+      },
+      "firstTextSeconds": {
+        "count": 3,
+        "median": 3.5335896990000037,
+        "minimum": 3.409807191999789,
+        "maximum": 5.175921036999625
+      },
+      "firstToolActionSeconds": {
+        "count": 14,
+        "median": 11.916546475999894,
+        "minimum": 5.694039831999817,
+        "maximum": 73.37557721100029
+      },
+      "responseSeconds": {
+        "count": 16,
+        "median": 10.410763449999877,
+        "minimum": 3.740317978999883,
+        "maximum": 73.49528294400034
+      }
+    },
+    "observer_milliseconds": 113.30643998871892,
+    "model_tool_calls": 29,
+    "tool_schema_checks": {
+      "valid": 29
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 6197,
+      "output_tokens": 616,
+      "total_tokens": 6813,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 152
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.847466455998074,
+        "minimum": 2.847466455998074,
+        "maximum": 2.847466455998074
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 8.443867556998157,
+        "minimum": 8.443867556998157,
+        "maximum": 8.443867556998157
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 14.84722523399978,
+        "minimum": 14.84722523399978,
+        "maximum": 14.84722523399978
+      }
+    },
+    "observer_milliseconds": 11.925305974727962,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "stage_seconds": {
+    "environment_setup": 1.047504,
+    "agent_setup": 1.487595,
+    "agent_execution": 324.775801,
+    "verifier": 3.728814
+  },
+  "native_task_grade": {
+    "has_html": 1.0,
+    "screenshot_exists": 1.0,
+    "style_1_dual_column": 0.0,
+    "style_2_photo_round": 0.0,
+    "style_3_name_tagline": 0.0,
+    "style_4_social_vertical": 0.0,
+    "style_5_emoji_match": 0.0,
+    "style_6_paper_cards": 1.0,
+    "style_7_bold_author": 1.0,
+    "style_8_news_date_format": 0.0,
+    "style_9_academic_style": 1.0,
+    "style_10_section_order": 1.0,
+    "style_11_no_about_header": 1.0,
+    "style_12_no_extra_sidebar": 0.0,
+    "style_13_edu_date_format": 1.0,
+    "style_14_venue_tag_style": 1.0,
+    "style_15_no_topnav": 1.0,
+    "style_16_no_extra_sections": 0.0,
+    "style_17_sections_vertical": 1.0,
+    "style_18_edu_standalone": 1.0,
+    "prompt_19_three_papers": 1.0,
+    "prompt_20_mmifengine": 1.0,
+    "prompt_21_armthinker": 1.0,
+    "prompt_22_omnialign": 1.0,
+    "prompt_23_news_filter": 1.0,
+    "content_24_name": 1.0,
+    "content_25_affiliation": 1.0,
+    "content_26_advisor": 1.0,
+    "content_27_research": 1.0,
+    "content_28_education": 1.0,
+    "content_29_internship": 1.0,
+    "content_30_contact": 1.0,
+    "content_31_paper_info": 1.0,
+    "content_32_paper_links": 1.0,
+    "content_33_paper_desc": 1.0,
+    "content_34_awards": 1.0,
+    "content_35_services": 1.0,
+    "content_36_opensource": 1.0,
+    "visual_37_real_photo": 0.0,
+    "visual_38_paper_thumbs": 1.0,
+    "visual_39_social_icons": 0.0,
+    "judge_method": "vlm",
+    "vlm_attempts": 1,
+    "style_score": 0.5556,
+    "prompt_score": 1.0,
+    "content_score": 1.0,
+    "visual_score": 0.3333,
+    "overall_score": 0.7436
+  },
+  "exception": null,
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "method": "Native grader and rubric on exported outputs with unchanged subscription settings. The shared judge adapter proportionally fits oversized images to the endpoint input limit; any normalization is audited. Original candidate and grading records remain intact.",
+    "additional_candidate_attempts": 0,
+    "replay_dependencies": [],
+    "output_only": true,
+    "deterministic_no_inference": false,
+    "grade_file": "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/wildclaw_score.json",
+    "requests_file": "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/requests.jsonl",
+    "rewards": {
+      "has_html": 1.0,
+      "screenshot_exists": 1.0,
+      "style_1_dual_column": 0.0,
+      "style_2_photo_round": 0.0,
+      "style_3_name_tagline": 0.0,
+      "style_4_social_vertical": 0.0,
+      "style_5_emoji_match": 0.0,
+      "style_6_paper_cards": 1.0,
+      "style_7_bold_author": 1.0,
+      "style_8_news_date_format": 0.0,
+      "style_9_academic_style": 1.0,
+      "style_10_section_order": 1.0,
+      "style_11_no_about_header": 1.0,
+      "style_12_no_extra_sidebar": 0.0,
+      "style_13_edu_date_format": 1.0,
+      "style_14_venue_tag_style": 1.0,
+      "style_15_no_topnav": 1.0,
+      "style_16_no_extra_sections": 0.0,
+      "style_17_sections_vertical": 1.0,
+      "style_18_edu_standalone": 1.0,
+      "prompt_19_three_papers": 1.0,
+      "prompt_20_mmifengine": 1.0,
+      "prompt_21_armthinker": 1.0,
+      "prompt_22_omnialign": 1.0,
+      "prompt_23_news_filter": 1.0,
+      "content_24_name": 1.0,
+      "content_25_affiliation": 1.0,
+      "content_26_advisor": 1.0,
+      "content_27_research": 1.0,
+      "content_28_education": 1.0,
+      "content_29_internship": 1.0,
+      "content_30_contact": 1.0,
+      "content_31_paper_info": 1.0,
+      "content_32_paper_links": 1.0,
+      "content_33_paper_desc": 1.0,
+      "content_34_awards": 1.0,
+      "content_35_services": 1.0,
+      "content_36_opensource": 1.0,
+      "visual_37_real_photo": 0.0,
+      "visual_38_paper_thumbs": 1.0,
+      "visual_39_social_icons": 0.0,
+      "judge_method": "vlm",
+      "vlm_attempts": 1,
+      "style_score": 0.5556,
+      "prompt_score": 1.0,
+      "content_score": 1.0,
+      "visual_score": 0.3333,
+      "overall_score": 0.7436
+    },
+    "evidence_sha256": {
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/result.json": "3a2dd5b7c0e1d3c29e3170ad79ccb406561cf0f889b1b90a22be11be89b97d9a",
+      "tasks/wild/02_Code_Intelligence_task_11_resume_homepage_zh/tests/checks.py": "b23b668f1a5588563dfbc0c0815691095e73af6c459e2c08af56dbfb7b178feb",
+      "tasks/wild/02_Code_Intelligence_task_11_resume_homepage_zh/tests/grader.py": "cccfbaf34c048aea1e739c924ae9bedfda67afd3a60827529916c8a7ae4a1af0",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/wildclaw_score.json": "647aac82d757d7ec8f249e76357ae7922d50b391bddb2b9dee3fc93655bd3123",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/requests.jsonl": "39f6981eb10b4f4f3e73bd373051e44b01ac44dc564cbec9c3ce2f425b2e499d",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/judge-reliability.json": "0372655e039264160ab06e1469ff330eacb76e8691ee351cf7c2ac4f9dc7d3b3",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/adapter/run-judge.py": "5b2d30521dd1005c83067df32d254501481fff8958f4f975f4f264ab75b281f7",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/adapter/pilot.json": "fcbfa59ae4744d6ad9b19fb704a68e9ec39d2653ffdc9c3e0369ddda90374b8f",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/adapter/grader-dependencies.json": "fa31adf276c8dff02bf6201ffbe85c912e82070a72c6f481acfc01cb5ad86155",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/adapter/judge_images.py": "5da84309ec227c46e48b756126eb5513770ecd3e858e2ee41d13e6cfe59249a8",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/adapter/native_transcript.py": "8527d510a5300c109ff447128d3edcdd0f89652ba4f4f9a9d80fd80b9cde63a6",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/verifier/image-dependency-regrade/adapter/audit_openai.py": "566c53d8d612ea6c97033eae2195e9f13d19a708db8811345b7a591fe2fb37fa",
+      "runtime/benchmarks/grader-wheels/pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "88d387ff40b3ff7c274947ed3125dedf5262ec6919d83946753b5f3d7c67ea4c",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/README.md": "d3b2ff842e3fde09e586b012efd682c3755c324a1af3e71adddfc5b84d7ba65a",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/verification.json": "268093762988f58f97b2baf4dce91b6a3588f211fdd6261044d5750fe6dd6804",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/index.html": "b44f89db45c2d28648adb0862bef1f0db46974276c2a07240b1c278410761e2b",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/verify.py": "ff836306405465a94d5667f682cbcc5691c6a80544217f98721a3ccacd766507",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/asset-sources.json": "2ed916d3dc792c252bd292ae835acaa08710dedf384641fdedc15811d15fd5d0",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/screenshot.png": "d66f6040b318b385bd47f73e8a202ea6a345ff8959333f5da40430c1adeb345b",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/styles.css": "220c29856075a674b7b59f9fd06c46aad3d2ea3bbb8f1eb44a6aef0e2c034084",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/screenshot-mobile.png": "c137bccb4cc002c9d1fb0d6d2515e7e0c9e8019bb76e0a334cd3f40c08d8ed0f",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/favicon.svg": "124f619cef2f7ec39477a2762b591306014ec89adb699f67d0fe087697941d4d",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/Shengyuan_Ding_CV.pdf": "fac255b8da119f0a114cb1f7e09133ddeb76811b77a5d619ebe0ade5b9b33bc5",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/images/portrait.jpg": "08dd8736c8f4fdadfada11a3e0500d0fbff992a3a1dffb18d0a371787e97e0d0",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/images/arm-thinker.png": "c5d057b8467eb895935eb118923d9d83f3c888995c09e67507919f307d7cde14",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/images/mm-ifengine.png": "310a12f94d1ecfbb404894175f10b49ef0323bab2b1b7637f086c4a98c65f43b",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/images/omnialign-v.png": "e1ae83b6c90d5fe6d5d8833d745cce940d9a7c475d6afd96d63ddbe56999af95",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/images/portrait-original.jpg": "a04ebf79b2b98c6c52c29d072fb4c7fbea9fd48d9a85b2fddad9784e9d0fbd10",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/fonts/Lato-Regular.ttf": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/fonts/Lato-Bold.ttf": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1",
+      "jobs/wild--02_Code_Intelligence_task_11_resume_homepage_zh/native-repair/02_Code_Intelligence_task_11_res__nBK9DyL/artifacts/tmp_workspace/results/assets/fonts/OFL.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+    }
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

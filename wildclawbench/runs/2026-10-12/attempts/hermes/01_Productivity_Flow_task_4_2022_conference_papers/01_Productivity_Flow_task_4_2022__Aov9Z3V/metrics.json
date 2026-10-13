@@ -1,0 +1,132 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 22,
+    "recorded_inference_requests": 22,
+    "completed_inference_requests": 22,
+    "requests_with_token_usage": 22,
+    "token_usage": {
+      "input_tokens": 918258,
+      "output_tokens": 11412,
+      "total_tokens": 929670,
+      "cached_input_tokens": 640128,
+      "reasoning_output_tokens": 3608
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 22
+    },
+    "http_statuses": {
+      "200": 22
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 22,
+        "median": 1.9400286599998253,
+        "minimum": 1.3312967649999337,
+        "maximum": 3.2824070609995033
+      },
+      "firstTextSeconds": {
+        "count": 3,
+        "median": 4.876512429999821,
+        "minimum": 3.4769528900005753,
+        "maximum": 25.93915705999916
+      },
+      "firstToolActionSeconds": {
+        "count": 19,
+        "median": 9.397746979999283,
+        "minimum": 3.550383753999995,
+        "maximum": 37.43219845299973
+      },
+      "responseSeconds": {
+        "count": 22,
+        "median": 9.092847307499596,
+        "minimum": 3.6617366700002094,
+        "maximum": 37.43841003499983
+      }
+    },
+    "observer_milliseconds": 127.61536400557816,
+    "model_tool_calls": 23,
+    "tool_schema_checks": {
+      "valid": 23
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.039866,
+    "agent_setup": 1.489721,
+    "agent_execution": 372.82123,
+    "verifier": 0.645376
+  },
+  "native_task_grade": {
+    "output_exists": 1.0,
+    "tsv_header_valid": 1.0,
+    "rows_parseable": 1.0,
+    "paper_recall": 1.0,
+    "paper_precision": 1.0,
+    "paper_f1": 1.0,
+    "row_sorting_correct": 1.0,
+    "conference_accuracy": 1.0,
+    "authors_accuracy": 1.0,
+    "abstract_accuracy": 1.0,
+    "author_links_format_valid": 1.0,
+    "author_links_accuracy": 0.9286,
+    "github_commit_id_format_valid": 1.0,
+    "github_commit_id_accuracy": 0.6667,
+    "tex_files_created": 1.0,
+    "tex_exact_match_ratio": 1.0,
+    "output_dir_clean": 1.0,
+    "hard_constraint_pass": 1.0,
+    "overall_score": 0.906
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

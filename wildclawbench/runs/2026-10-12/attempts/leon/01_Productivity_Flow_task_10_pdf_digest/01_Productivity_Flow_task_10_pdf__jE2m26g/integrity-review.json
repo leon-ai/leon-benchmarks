@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--01_Productivity_Flow_task_10_pdf_digest/native/01_Productivity_Flow_task_10_pdf__jE2m26g",
+  "score": 0.9708,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "6b82913b05c1986951be47a4c04a9cb2f7e1b5f118c470f07fe4e66dc1d3e34d",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,130 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 55,
+    "recorded_inference_requests": 55,
+    "completed_inference_requests": 55,
+    "requests_with_token_usage": 55,
+    "token_usage": {
+      "input_tokens": 4029516,
+      "output_tokens": 12982,
+      "total_tokens": 4042498,
+      "cached_input_tokens": 3771008,
+      "reasoning_output_tokens": 4492
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 55
+    },
+    "http_statuses": {
+      "200": 55
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 55,
+        "median": 4.205007609000022,
+        "minimum": 1.9169706609999995,
+        "maximum": 9.421963466999994
+      },
+      "firstTextSeconds": {
+        "count": 3,
+        "median": 14.427982463999971,
+        "minimum": 4.550397781,
+        "maximum": 15.174250004000031
+      },
+      "firstToolActionSeconds": {
+        "count": 54,
+        "median": 8.822844809500005,
+        "minimum": 3.4459448489999978,
+        "maximum": 23.248622794000024
+      },
+      "responseSeconds": {
+        "count": 55,
+        "median": 9.256128976000007,
+        "minimum": 3.6044948400000014,
+        "maximum": 23.505770861
+      }
+    },
+    "observer_milliseconds": 225.2936969953389,
+    "model_tool_calls": 84,
+    "tool_schema_checks": {
+      "valid": 84
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.034172,
+    "agent_setup": 20.76324,
+    "agent_execution": 623.662438,
+    "verifier": 3.80153
+  },
+  "native_task_grade": {
+    "manifest_exists": 1.0,
+    "manifest_json_valid": 1.0,
+    "renamed_dir_exists": 1.0,
+    "bibtex_dir_exists": 1.0,
+    "input_coverage_consistent": 1.0,
+    "pdf_copies_byte_identical": 1.0,
+    "non_arxiv_excluded": 0.0,
+    "workspace_cleanliness": 1.0,
+    "arxiv_id_accuracy": 1.0,
+    "title_accuracy": 0.95,
+    "filename_accuracy": 0.95,
+    "figure_count_accuracy": 1.0,
+    "bibtex_files_created": 1.0,
+    "bibtex_exact_match_ratio": 0.85,
+    "corrupted_paper_accuracy": 1.0,
+    "hard_constraint_pass": 1.0,
+    "overall_score": 0.715
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

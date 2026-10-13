@@ -1,0 +1,41 @@
+{
+  "controls_count": 1,
+  "control_trials_exact_matches": [
+    {
+      "native_control": "observability-revisions/native-output-failure-20261012/native-control-stdout.txt",
+      "native_grade": {
+        "overall_score": 0.0,
+        "error": "results.md not found"
+      },
+      "original_trials": [
+        "03_Social_Interaction_task_5_cha__UwA2FxJ",
+        "03_Social_Interaction_task_5_cha__MwdjdZi",
+        "03_Social_Interaction_task_5_cha__WzFfwZp"
+      ]
+    }
+  ],
+  "recoverable_trials": [
+    {
+      "trial": "03_Social_Interaction_task_5_cha__UwA2FxJ",
+      "scores": {
+        "overall_score": 0.0
+      }
+    },
+    {
+      "trial": "03_Social_Interaction_task_5_cha__MwdjdZi",
+      "scores": {
+        "overall_score": 0.0
+      }
+    },
+    {
+      "trial": "03_Social_Interaction_task_5_cha__WzFfwZp",
+      "scores": {
+        "overall_score": 0.0
+      }
+    }
+  ],
+  "additional_candidate_attempts": 0,
+  "additional_inference_calls": 0,
+  "rubric_unchanged": true,
+  "diagnostic_only_change": "Missing required output is a native zero outcome, rather than a grader transport failure."
+}

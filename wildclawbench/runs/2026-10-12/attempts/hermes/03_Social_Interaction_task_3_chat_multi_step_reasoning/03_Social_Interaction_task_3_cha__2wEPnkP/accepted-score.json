@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_3_cha__2wEPnkP",
+  "agent": "hermes",
+  "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+  "score": 0.9318,
+  "source_result_sha256": "901c8e8800e49d387e15b00c0701771235bd94d7116b50ee9830906c9e537779",
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "One or more native scoring criteria were below full credit. Inspect the criteria for this attempt; the score alone does not prove an environment fault.",
+    "confidence": "Native rubric; deeper causal attribution unknown"
+  }
+}

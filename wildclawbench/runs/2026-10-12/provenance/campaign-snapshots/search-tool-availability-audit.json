@@ -1,0 +1,177 @@
+{
+  "audited_at": "2026-10-11T14:22:43.089074+00:00",
+  "scope": "Artwork and location search cohorts; all three agents excluded symmetrically pending tool setup audit.",
+  "findings": {
+    "04_Search_Retrieval_task_9_artwork_search": [
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_9_artwo__9W6uYLR",
+        "native_score": 1.0,
+        "exception_type": null,
+        "observed_tool_errors": []
+      },
+      {
+        "agent": "hermes",
+        "trial": "04_Search_Retrieval_task_9_artwo__SHoiadb",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "OpenAI Native Web Search (Codex Responses) is a search-only backend and cannot extract URL content",
+          "requires the Codex Responses transport"
+        ]
+      },
+      {
+        "agent": "hermes",
+        "trial": "04_Search_Retrieval_task_9_artwo__9zKzTpj",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "OpenAI Native Web Search (Codex Responses) is a search-only backend and cannot extract URL content",
+          "Chromium browser is missing",
+          "requires the Codex Responses transport"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_9_artwo__KG32jYG",
+        "native_score": 0.0,
+        "exception_type": null,
+        "observed_tool_errors": [
+          "web_search is disabled or no provider is available"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_9_artwo__XxBRNHE",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "web_search is disabled or no provider is available",
+          "Chrome not found"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_9_artwo__W3Bu4id",
+        "native_score": 0.0,
+        "exception_type": null,
+        "observed_tool_errors": [
+          "web_search is disabled or no provider is available",
+          "Chrome not found"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_9_artwo__fxUm9qf",
+        "native_score": 1.0,
+        "exception_type": null,
+        "observed_tool_errors": []
+      },
+      {
+        "agent": "hermes",
+        "trial": "04_Search_Retrieval_task_9_artwo__ABhGYq4",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "OpenAI Native Web Search (Codex Responses) is a search-only backend and cannot extract URL content",
+          "Chromium browser is missing",
+          "requires the Codex Responses transport"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_9_artwo__ZEJTZYb",
+        "native_score": 1.0,
+        "exception_type": null,
+        "observed_tool_errors": []
+      }
+    ],
+    "04_Search_Retrieval_task_7_location_search": [
+      {
+        "agent": "hermes",
+        "trial": "04_Search_Retrieval_task_7_locat__DrAUA9o",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "OpenAI Native Web Search (Codex Responses) is a search-only backend and cannot extract URL content",
+          "Chromium browser is missing",
+          "requires the Codex Responses transport"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_7_locat__oARRKVE",
+        "native_score": 0.5,
+        "exception_type": null,
+        "observed_tool_errors": []
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_7_locat__bVnc4SM",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "web_search is disabled or no provider is available",
+          "Chrome not found"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_7_locat__JXTxCmt",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": []
+      },
+      {
+        "agent": "hermes",
+        "trial": "04_Search_Retrieval_task_7_locat__7hSU8mZ",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "OpenAI Native Web Search (Codex Responses) is a search-only backend and cannot extract URL content",
+          "Chromium browser is missing",
+          "requires the Codex Responses transport"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_7_locat__XhggKXd",
+        "native_score": 1.0,
+        "exception_type": null,
+        "observed_tool_errors": [
+          "web_search is disabled or no provider is available",
+          "Chrome not found"
+        ]
+      },
+      {
+        "agent": "openclaw",
+        "trial": "04_Search_Retrieval_task_7_locat__Jm7uC4b",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "web_search is disabled or no provider is available",
+          "Chrome not found"
+        ]
+      },
+      {
+        "agent": "hermes",
+        "trial": "04_Search_Retrieval_task_7_locat__6LfEc6s",
+        "native_score": 0.0,
+        "exception_type": "AgentTimeoutError",
+        "observed_tool_errors": [
+          "requires the Codex Responses transport"
+        ]
+      },
+      {
+        "agent": "leon",
+        "trial": "04_Search_Retrieval_task_7_locat__9Ez7gCr",
+        "native_score": 0.25,
+        "exception_type": null,
+        "observed_tool_errors": []
+      }
+    ]
+  },
+  "interpretation": "Native outputs include genuine wrong answers and deadline overruns, but disabled/unavailable web search, unsupported extraction and missing browser executables prevent a verified fair comparison of retrieval capability. These errors concern tool availability, not a demonstrated answer-key defect.",
+  "resolution": "Verify supported subscription-only native search and browser prerequisites for each agent; establish which candidate cohorts need replacement. Preserve original settings, traces and grades.",
+  "candidate_reruns": 0
+}

@@ -1,0 +1,12 @@
+{
+  "id": "04_Search_Retrieval_task_9_artwo__jRm8keK",
+  "agent": "hermes",
+  "task": "04_Search_Retrieval_task_9_artwork_search",
+  "score": 1.0,
+  "source_result_sha256": "a7c57ca6c3ec2c2f0b291aee4cee3df4bb9404b4ab7c64c8219ab0300c7c271b",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

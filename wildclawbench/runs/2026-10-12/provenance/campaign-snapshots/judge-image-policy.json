@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-10-11T10:24:22.041420+00:00",
+  "scope": "Same deterministic image input limit for every agent and suite judge; no candidate artifact changes",
+  "behavior": "Leave images under 30000 32px patches and 65535px maximum dimension unchanged. Proportionally resize only images exceeding the original/auto endpoint limit, preserve all image content, encode resized pixels as lossless PNG, and log input/output hashes and dimensions.",
+  "source": "https://developers.openai.com/api/docs/guides/images-vision#model-sizing-behavior",
+  "native_grader_files_changed": false,
+  "native_rubrics_changed": false,
+  "candidate_attempts_repeated": 0,
+  "task": "05_Creative_Synthesis_task_9_repo_to_slides",
+  "trial": "05_Creative_Synthesis_task_9_rep__Lgd5y3v",
+  "original_grid_dimensions": [
+    5760,
+    6480
+  ],
+  "original_patches": 36540,
+  "original_adapter_sha256": "ec49f9e245cd6df64a567a4e02aec2d0331beb8089c8919e65469670e107d1c3",
+  "new_adapter_sha256": "bb8b6642cf424b0ef7b21698b339edee8cc72753cd2743ace471aeb4ad5e2274",
+  "normalization_helper_sha256": "df4caa1d3dc2bedfa85f035b35979657deb78ae8fd38e729f0b0e61d61b11914",
+  "replay_dependencies": [
+    "pymupdf==1.28.2",
+    "Pillow==12.3.0"
+  ],
+  "recovery_status": "native grade recovered; all nine candidate attempts verified",
+  "additional_candidate_attempts": 0
+}

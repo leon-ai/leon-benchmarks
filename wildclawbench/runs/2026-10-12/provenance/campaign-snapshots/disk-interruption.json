@@ -1,0 +1,76 @@
+{
+  "suite": "wild",
+  "task": "02_Code_Intelligence_task_1_sam3_inference",
+  "status": "resuming only nine disk-canceled slots",
+  "affected_candidates": [
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__5msVQDx",
+      "agent": "leon",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__5msVQDx",
+      "original_result_sha256": "0eed58b226514397dc65df042166c3b031be77adfdcf5c06645a8c4a650b12d9",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__BhwVk5Y",
+      "agent": "hermes",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__BhwVk5Y",
+      "original_result_sha256": "840f48c69b115299a15ecff648971714e28e076eb24578a11171de7fbbff0bf2",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__Do2KAvZ",
+      "agent": "openclaw",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__Do2KAvZ",
+      "original_result_sha256": "36a6a611c37b6e69355e1f0f275747577a90c5e32e17f71a7306d762ec6d5dc7",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__JMpwtMk",
+      "agent": "hermes",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__JMpwtMk",
+      "original_result_sha256": "da60d53622a90a790f9d963e45f055c01eab3568ef4ef081398e388ea1137a23",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__afku3iF",
+      "agent": "hermes",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__afku3iF",
+      "original_result_sha256": "10dcb8e474d27a042e8f0d5bc8df4d6262fdb2d466177ed3e95fdafbf7b9a8b2",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__dr5kZJc",
+      "agent": "leon",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__dr5kZJc",
+      "original_result_sha256": "27fd75301897cb2412d4cdd8c8ca29cbb61affd8f9bfad506d2eb40c1df223ee",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__r26ow66",
+      "agent": "leon",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__r26ow66",
+      "original_result_sha256": "b919266df21c79c73dcbad593f18768cac1de095e2d51bd002ae51ae7c7d90ac",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__uxfCnLN",
+      "agent": "openclaw",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__uxfCnLN",
+      "original_result_sha256": "2c4fa540f4a73ed6f13c6ae6a09a667b4ea6b36445996dc7bcdbbd54b6df30af",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    },
+    {
+      "trial": "02_Code_Intelligence_task_1_sam3__yVoYgWv",
+      "agent": "openclaw",
+      "preserved_directory": "disk-interrupted/wild--02_Code_Intelligence_task_1_sam3_inference/native/02_Code_Intelligence_task_1_sam3__yVoYgWv",
+      "original_result_sha256": "99401706919a050680459a000360c348ce895327c072f891f4d41fb73d910066",
+      "reason": "Disk guard canceled unfinished candidate execution before grading"
+    }
+  ],
+  "candidate_slots_to_resume": 9,
+  "healthy_candidates_repeated": 0,
+  "maximum_task_concurrency": 3,
+  "disk_estimate_per_trial_gib": 10,
+  "task_input_bytes": 3458753700,
+  "recorded_at": "2026-10-11T11:12:00.004427+00:00"
+}

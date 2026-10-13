@@ -1,0 +1,12 @@
+{
+  "id": "03_Social_Interaction_task_5_cha__woeYje6",
+  "agent": "hermes",
+  "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+  "score": 0.745,
+  "source_result_sha256": "1b942d12588cb2ca35441fbd2e1e4c0a8042042b1b73632bc7fa119f61f5f766",
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The published task budget expired; the native grader evaluated saved outputs.",
+    "confidence": "Native deadline and rubric evidence"
+  }
+}

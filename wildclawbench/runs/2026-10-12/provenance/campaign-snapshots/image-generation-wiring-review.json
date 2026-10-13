@@ -1,0 +1,29 @@
+{
+  "reviewed_at": "2026-10-12T09:54:05.949520+00:00",
+  "task": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+  "status": "repair design; no replacement candidates started",
+  "reasoning_contract": "GPT-6.1 Sol/high/priority requested, direct ChatGPT subscription",
+  "approved_image_backend": "gpt-image-2 via subscription only",
+  "findings": {
+    "leon": "Native Core routes subscription image generation/editing to /images/generations or /images/edits using its selected OAuth connection; global image requests need separate route/model observability.",
+    "hermes": "Native openai-codex plugin uses subscription /images/generations and /images/edits; current shared httpx guard rejects its image model and applies chat-only settings to all calls.",
+    "openclaw": "Native subscription image provider uses a hosted image_generation tool and initially selects GPT-6 Astra as its host; this conflicts with the declared reasoning model. Native image tool detaches background work and wakes the agent in a later turn; current --local one-shot cannot be assumed to preserve that lifecycle."
+  },
+  "required_repairs": [
+    "Permit only approved GPT Image 2 on subscription Images endpoints, record media inference separately, and continue to reject API billing/OpenRouter/extra reasoning models.",
+    "Keep hosted-image reasoning on declared Sol/high/priority without changing prompts or native image parameters; audit any adapter-level host selection.",
+    "Use and validate the native persistent OpenClaw completion lifecycle for image tasks; do not inject a new agent loop or synthetic user turns.",
+    "Validate generation/editing and native artifact delivery for all three agents using an unscored preflight before replacement attempts."
+  ],
+  "native_source_files_unchanged": true,
+  "source_sha256": {
+    "scripts/benchmarks/audit-openai.mjs": "cb988aa9d2dd17a444da510c11521269a42f6695125e6eae52e70d264af24bd5",
+    "scripts/benchmarks/audit_openai.py": "566c53d8d612ea6c97033eae2195e9f13d19a708db8811345b7a591fe2fb37fa",
+    "scripts/benchmarks/harbor_agents.py": "a1c6dc7d0f1744693b65858a47ca1d2b252b80423164620d75e45cc977928809",
+    "environments/leon-111ccc8d/server/src/core/llm-manager/provider-requests.ts": "11f31683a5857a4ad95b3bde0afbc2fa1c654710af5ad91de8047b57b62af279",
+    "environments/leon-111ccc8d/server/src/core/llm-manager/media-generation/media-generation-providers.ts": "aa0682338991a50e6d05c26b53070ec6c1d681579135a447d0344cbca5e3ed0b",
+    "environments/hermes-0.21.6/plugins/image_gen/openai-codex/__init__.py": "d44ceadf01c7d30f41116c8851469146c321e0a0bdf85362f2b0d30415984c9b",
+    "environments/openclaw-2026.10.1/node_modules/openclaw/dist/extensions/openai/image-generation-provider.js": "f7465473aea4f307e21752480b10d9a43c4c975ad93687d714e7cdda163036a0",
+    "environments/openclaw-2026.10.1/node_modules/openclaw/dist/openclaw-tools-DVGN4Qir.mjs": "9b8b75759d4da6c2b4d395c5449906f4c0ea29ab5a8bc40edeb52f98a6f3f0ca"
+  }
+}

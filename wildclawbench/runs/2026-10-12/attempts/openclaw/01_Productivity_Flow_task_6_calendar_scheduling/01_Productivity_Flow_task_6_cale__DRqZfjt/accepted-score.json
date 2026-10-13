@@ -1,0 +1,12 @@
+{
+  "id": "01_Productivity_Flow_task_6_cale__DRqZfjt",
+  "agent": "openclaw",
+  "task": "01_Productivity_Flow_task_6_calendar_scheduling",
+  "score": 1.0,
+  "source_result_sha256": "17f97eb210dd9339b633c0b39ecf4249724f3ef5f4a90a9b9827261baf130bc7",
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All weighted native requirements received full credit.",
+    "confidence": "Native rubric"
+  }
+}

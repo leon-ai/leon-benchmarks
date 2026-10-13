@@ -1,0 +1,13 @@
+{
+  "trial": "__WORKSPACE__/jobs/wild--05_Creative_Synthesis_task_1_match_report/native/05_Creative_Synthesis_task_1_mat__UT8fKyV",
+  "score": 0.8698,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "fefffa10357848df4677301efae7b40bb8f3e65a5b89f9306ba45ee770ff043b",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}
