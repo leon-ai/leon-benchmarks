@@ -62,8 +62,8 @@ python3 harness/validation/verify.py
 ```
 
 The root `index.html` and `.nojekyll` support static hosting, including GitHub
-Pages. This repository has not been published, and no benchmark is started by
-opening a report or running the offline verifier.
+Pages. Opening a report, publishing the static site or running the offline verifier
+does not start benchmark execution.
 
 The harness is MIT-licensed. Upstream benchmark inputs, rubrics and agent code
 remain subject to their own licenses and are referenced rather than vendored as
@@ -84,3 +84,8 @@ readable in both themes. Private session logs are not included.
 
 See [GitHub Pages setup](docs/github-pages.md) to publish this static repository
 from `main` at `/(root)`. Preparing these files does not publish the site.
+
+The custom-domain target is [benchmarks.getleon.ai](https://benchmarks.getleon.ai/).
+GitHub Pages settings and the Namecheap `benchmarks` CNAME record must both be
+configured before that address serves the report. Keep the root and `www` DNS
+records serving the main Leon website.

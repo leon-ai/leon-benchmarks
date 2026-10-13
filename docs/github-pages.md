@@ -41,3 +41,22 @@ companion record directories in the published source so their proof links work.
 Future campaigns get their own run folders and a new landing-page link.
 
 See the [official GitHub Pages publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+## Custom domain
+
+The repository's `CNAME` declares `benchmarks.getleon.ai`. Configure that same
+hostname in **Settings → Pages → Custom domain** before adding its DNS record.
+The `getleon.ai` domain is verified for the `leon-ai` organization; retain its
+verification TXT record.
+
+At Namecheap, create a CNAME host record named `benchmarks` pointing to
+`leon-ai.github.io`, with the default TTL. Preserve all existing root, `www`,
+mail and verification records. Once GitHub confirms DNS and provisions its
+certificate, enable **Enforce HTTPS**. DNS/certificate provisioning may take up
+to 24 hours.
+
+If GitHub adds or changes `CNAME` through repository settings, pull the commit
+locally and review it before resealing the public inventory. Commit and push
+updated checksum/validation controls so a clone still passes the offline verifier.
+
+See [GitHub's custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).

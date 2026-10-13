@@ -23,19 +23,24 @@
       "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
     },
     {
+      "path": "CNAME",
+      "bytes": 22,
+      "sha256": "34f4e04ae2f44d37a226f4ec4aca4469f25e897084131c8d669bd2718f76e27b"
+    },
+    {
       "path": "LICENSE",
       "bytes": 1098,
       "sha256": "63649168004b8da372d0ed0511108016977f7ca7ac1c69322877cc5a7d3159fd"
     },
     {
       "path": "README.md",
-      "bytes": 4585,
-      "sha256": "1a45c78b59deee72c497d5e42ede922527a7b16fe44bdaeaf6da9debbb5396b1"
+      "bytes": 4859,
+      "sha256": "b3c76b73af6a921fe80f6c742de288033b55586f37c6a866ffd6fdac881bb80e"
     },
     {
       "path": "docs/github-pages.md",
-      "bytes": 2362,
-      "sha256": "a06c5333569247829a26eaa26ecbb47e24f2611d307ea113d1d99dcf42013f98"
+      "bytes": 3391,
+      "sha256": "153bc120786a2fb7ed709d9de5d8456e75de680009b4546ecaef6ae27031edcf"
     },
     {
       "path": "harness/README.md",
