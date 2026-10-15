@@ -1,0 +1,22 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_meeting_council_votes/native/task_meeting_council_votes__rEytQsW",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [
+    {
+      "inference_id": "541a012bd3bd407e9920799cf3edbb4e",
+      "status": 502,
+      "error_type": null
+    }
+  ],
+  "provider_recovered": true,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "5889c422405bc0d3a326c5aa9f0e40531a515a0b3490d83aa4fb5a4840f4d223",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

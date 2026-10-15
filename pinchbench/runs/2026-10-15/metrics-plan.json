@@ -1,0 +1,104 @@
+{
+  "source": "Recovered original agreement from this Codex session, 2026-10-11 06:01 UTC; owner reply at06:10 UTC; follow-up at06:11 UTC.",
+  "checks_policy": "Offline automatic checks, deterministic/native semantic verifiers, no extra model-based review by default.",
+  "sections": [
+    {
+      "area": "Task accuracy",
+      "contract": "Native score, criteria, per-task three attempts, median/range, domain and overall score.",
+      "availability": "Measured",
+      "interpretation": "Native score is not a universal binary completion rate."
+    },
+    {
+      "area": "Tool-call validity",
+      "contract": "Tool existence, arguments and JSON-schema validity with coverage.",
+      "availability": "Measured",
+      "interpretation": "Schema acceptance does not establish semantic correctness."
+    },
+    {
+      "area": "Tool execution",
+      "contract": "Structured success/errors, exact repeated signatures, recovery and retries.",
+      "availability": "Partial",
+      "interpretation": "Probes and repeated calls may be legitimate. Exact retry purpose is not universally identified."
+    },
+    {
+      "area": "Semantic tool accuracy",
+      "contract": "Correct tool, arguments, target and resulting action.",
+      "availability": "Task-specific only",
+      "interpretation": "Reuse native criteria; no universal per-call semantic denominator was captured."
+    },
+    {
+      "area": "Critical correctness",
+      "contract": "Artifact integrity, factual correctness, unauthorized actions, injection safety, false completion.",
+      "availability": "Task-specific / partial",
+      "interpretation": "Native rubric criteria retained; universal false-completion claims were not reviewed."
+    },
+    {
+      "area": "Response latency",
+      "contract": "Request to headers, first text, first tool action, full response; p50/p95.",
+      "availability": "Measured with coverage",
+      "interpretation": "First text is absent for tool-only responses. Missing events remain unknown."
+    },
+    {
+      "area": "Between-turn latency",
+      "contract": "Assistant-event spacing and inference-start spacing where native timestamps exist.",
+      "availability": "Partial proxy",
+      "interpretation": "Includes tools/thinking. These are not comparable pure model-turn delays; Hermes lacks request-start wall timestamps."
+    },
+    {
+      "area": "Task speed",
+      "contract": "Agent execution, trial wall, setup, grading and pre-environment waiting.",
+      "availability": "Measured / waiting proxy",
+      "interpretation": "Pre-environment wait is not a separately instrumented scheduler-only queue delay."
+    },
+    {
+      "area": "Token usage",
+      "contract": "Input, output, cached input, reasoning output; candidate, images and judging separately.",
+      "availability": "Measured with coverage",
+      "interpretation": "Failed or open requests may omit usage; observed sums are lower bounds."
+    },
+    {
+      "area": "Inference volume",
+      "contract": "Started, recorded, completed and unclosed calls; failures, image/auxiliary calls and recovery judging.",
+      "availability": "Measured / partial attribution",
+      "interpretation": "Delegated/compaction requests are included when observed but are not all independently labeled."
+    },
+    {
+      "area": "Token speed",
+      "contract": "Output tokens / total completed-response duration, p50/p95 and coverage.",
+      "availability": "Effective throughput proxy",
+      "interpretation": "Includes reasoning and request wait. Isolated decode tokens/sec was not recorded."
+    },
+    {
+      "area": "Resource usage",
+      "contract": "Peak memory/disk and container cleanup status.",
+      "availability": "Peaks unknown; cleanup recorded",
+      "interpretation": "Resource limits and owner cleanup receipts are available; historical per-container peaks were not captured."
+    },
+    {
+      "area": "Repeated-run uncertainty",
+      "contract": "Task attempt median/range; stratified task bootstrap intervals.",
+      "availability": "Measured local variability",
+      "interpretation": "Intervals describe resampling selected tasks, not official-population representativeness."
+    },
+    {
+      "area": "Shared-success efficiency",
+      "contract": "Speed, tokens and inference volume on tasks every agent completes.",
+      "availability": "Measured strict subset",
+      "interpretation": "All nine attempts must score 100% and finish without a runtime exception; avoids ranking quick failures as efficient."
+    }
+  ],
+  "agreement_provenance": [
+    {
+      "timestamp": "2026-10-11T06:01:24.072Z",
+      "role": "assistant"
+    },
+    {
+      "timestamp": "2026-10-11T06:10:52.670Z",
+      "role": "user"
+    },
+    {
+      "timestamp": "2026-10-11T06:11:17.416Z",
+      "role": "assistant"
+    }
+  ]
+}

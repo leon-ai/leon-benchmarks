@@ -1,0 +1,7 @@
+{
+  "failed_calls": [
+    "AuthenticationError",
+    "AuthenticationError",
+    "RuntimeError: LLM judge failed: no parseable response after all attempts"
+  ]
+}

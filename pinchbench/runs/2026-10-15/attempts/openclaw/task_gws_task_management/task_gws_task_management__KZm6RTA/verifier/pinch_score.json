@@ -1,0 +1,17 @@
+{
+  "task_id": "task_gws_task_management",
+  "score": 0.9466666666666667,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.listed_tasks": 1.0,
+    "automated.updated_completed": 1.0,
+    "automated.read_emails": 1.0,
+    "automated.created_new_task": 1.0,
+    "automated.summary_created": 1.0,
+    "llm_judge.Information Extraction": 0.95,
+    "llm_judge.Task List Management": 0.8,
+    "llm_judge.Summary Quality": 0.85
+  },
+  "notes": "Created four specific, source-linked tasks and verified the final task list. Completion of the proposal task relied on an uncertain email match that did not explicitly confirm the Q3 proposal or budget check. The summary thoroughly documents findings, creations, and completions, but is longer than necessary. Unrequested Git commits, including a failed attempt, added avoidable overhead."
+}

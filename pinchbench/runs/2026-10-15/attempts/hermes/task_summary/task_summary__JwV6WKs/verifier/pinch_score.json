@@ -1,0 +1,14 @@
+{
+  "task_id": "task_summary",
+  "score": 0.95,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Accuracy and Completeness": 1.0,
+    "Conciseness": 1.0,
+    "Structure and Coherence": 0.75,
+    "Writing Quality": 1.0,
+    "Task Completion": 1.0
+  },
+  "notes": "Accurate, concise, professional summary covering all major applications, benefits, challenges, and future directions. The source was read and the correctly named output file contains exactly three paragraphs. Minor structural mismatch: challenges appear in paragraph two rather than being grouped with the future outlook in paragraph three."
+}

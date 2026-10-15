@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr",
+  "score": 0.9685714285714285,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "1f4e1c3539e306138a5f638a6a35060bdd471f1487c9d7535bf2ac40c4985728",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.8899999999999999,
+  "native_criteria": {
+    "score": 0.8899999999999999,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.read_email": 1.0,
+      "automated.created_event": 1.0,
+      "automated.found_drive_file": 1.0,
+      "automated.shared_file": 1.0,
+      "automated.actions_summary": 1.0,
+      "llm_judge.Cross-Service Coordination": 0.7,
+      "llm_judge.Task Completeness": 0.75
+    }
+  },
+  "judge_notes": "Correctly read Alice's email, used its details to create and verify a calendar event, located the agenda, and wrote actions.md. Bob's reader permission was requested successfully but could not be confirmed on readback. Efficiency suffered from a malformed Drive query, repeated sharing attempts and checks, and creating a duplicate despite finding an existing matching event. The summary accurately disclosed these issues.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

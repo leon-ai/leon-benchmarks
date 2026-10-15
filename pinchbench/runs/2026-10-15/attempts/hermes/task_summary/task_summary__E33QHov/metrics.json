@@ -1,0 +1,305 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 4,
+    "recorded_inference_requests": 4,
+    "completed_inference_requests": 4,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 4,
+    "token_usage": {
+      "input_tokens": 43222,
+      "output_tokens": 364,
+      "total_tokens": 43586,
+      "cached_input_tokens": 31616,
+      "reasoning_output_tokens": 118
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 4
+    },
+    "http_statuses": {
+      "200": 4
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 4,
+        "median": 1.6053775480031618,
+        "minimum": 1.4369745879957918,
+        "maximum": 2.426280815001519
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 4.608131658500497,
+        "minimum": 2.863631145002728,
+        "maximum": 6.352632171998266
+      },
+      "firstToolActionSeconds": {
+        "count": 2,
+        "median": 6.680259185999603,
+        "minimum": 4.250137183000334,
+        "maximum": 9.110381188998872
+      },
+      "responseSeconds": {
+        "count": 4,
+        "median": 5.411349007001263,
+        "minimum": 3.6661007049988257,
+        "maximum": 9.357478700003412
+      }
+    },
+    "observer_milliseconds": 8.651107018522453,
+    "model_tool_calls": 2,
+    "tool_schema_checks": {
+      "valid": 2
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 2,
+    "recorded_inference_requests": 2,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 2139,
+      "output_tokens": 567,
+      "total_tokens": 2706,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 418
+    },
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "unreported": 1,
+      "default": 1
+    },
+    "http_statuses": {
+      "0": 1,
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 5.435242298000958,
+        "minimum": 5.435242298000958,
+        "maximum": 5.435242298000958
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 18.606702334000147,
+        "minimum": 18.606702334000147,
+        "maximum": 18.606702334000147
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 22.406397108999954,
+        "minimum": 22.406397108999954,
+        "maximum": 22.406397108999954
+      }
+    },
+    "observer_milliseconds": 2.329945011297241,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 2274,
+      "output_tokens": 330,
+      "total_tokens": 2604,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 203
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.0112108579996857,
+        "minimum": 2.0112108579996857,
+        "maximum": 2.0112108579996857
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 11.370898453998961,
+        "minimum": 11.370898453998961,
+        "maximum": 11.370898453998961
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 14.763102249002259,
+        "minimum": 14.763102249002259,
+        "maximum": 14.763102249002259
+      }
+    },
+    "observer_milliseconds": 2.1252439910313115,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "stage_seconds": {
+    "environment_setup": 1.19802,
+    "agent_setup": 1.54842,
+    "agent_execution": 41.748248,
+    "verifier": 28.470486
+  },
+  "native_task_grade": {
+    "task_id": "task_summary",
+    "score": 0.9,
+    "max_score": 1.0,
+    "grading_type": "llm_judge",
+    "breakdown": {
+      "Accuracy and Completeness": 0.9,
+      "Conciseness": 0.85,
+      "Structure and Coherence": 0.75,
+      "Writing Quality": 1.0,
+      "Task Completion": 1.0
+    },
+    "notes": "Accurate, clear summary covering the major applications, challenges, and future outlook, though cost-reduction benefits are omitted. At roughly 140 words, it is slightly below the rubric’s preferred range. Exactly three coherent paragraphs, but challenges appear in paragraph two rather than paragraph three. Source was read and the correctly named output file was saved efficiently.",
+    "reward": 0.9
+  },
+  "exception": {
+    "exception_type": "ValidationError",
+    "exception_message": "2 validation errors for VerifierResult\nrewards.reward.float\n  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/float_type\nrewards.reward.int\n  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/int_type",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 409, in run\n    await self._run()\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 106, in _run_verifier\n    self.result.verifier_result = await self._run_shared_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 670, in _run_shared_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n        verifier.verify(), timeout=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/verifier/verifier.py\", line 238, in verify\n    return VerifierResult(rewards=rewards)\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/pydantic/main.py\", line 280, in __init__\n    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)\npydantic_core._pydantic_core.ValidationError: 2 validation errors for VerifierResult\nrewards.reward.float\n  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/float_type\nrewards.reward.int\n  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/int_type\n",
+    "occurred_at": "2026-10-14T14:26:22.428024Z"
+  },
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "transport_repair": "content-blocks-v2",
+    "candidate_execution_preserved": true,
+    "additional_candidate_inference_calls": 0,
+    "reason": "Native transcript schema requires content blocks for every role; raw candidate outputs unchanged.",
+    "grade_file": "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/effective-grade.json",
+    "requests_file": "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/requests.jsonl",
+    "deterministic_no_inference": false,
+    "rewards": {
+      "task_id": "task_summary",
+      "score": 0.9,
+      "max_score": 1.0,
+      "grading_type": "llm_judge",
+      "breakdown": {
+        "Accuracy and Completeness": 0.9,
+        "Conciseness": 0.85,
+        "Structure and Coherence": 0.75,
+        "Writing Quality": 1.0,
+        "Task Completion": 1.0
+      },
+      "notes": "Accurate, clear summary covering the major applications, challenges, and future outlook, though cost-reduction benefits are omitted. At roughly 140 words, it is slightly below the rubric’s preferred range. Exactly three coherent paragraphs, but challenges appear in paragraph two rather than paragraph three. Source was read and the correctly named output file was saved efficiently.",
+      "reward": 0.9
+    },
+    "started_at": "2026-10-14T15:00:18.352486+00:00",
+    "finished_at": "2026-10-14T15:00:47.935709+00:00",
+    "evidence_sha256": {
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/result.json": "5469914d77c62d642b8f7de8dcfa25c51ed40d9db1e06108cdb6aefbc201f734",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/hermes-result.json": "6a8666280d788063640f8d10eee6be450f3b72e4946af46ea669fc070bd8a310",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/inference-events.jsonl": "302389b040d88a7e051a06c20d0ea7f512595c63193947693c670d7a36fee553",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/requests.jsonl": "ed2ff782a1ce64468a97b83a416f85de5367b9be2462e4c887fdb6d9c1363e77",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/hermes-config.yaml": "ab24c6f5bd53701f693159fb34387a3cd6aa1a6fd655e1a1c4ef4fba28111c5c",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/hermes-session.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/model-tool-calls.jsonl": "32565df0d9aa127f02611ba04a49db654d5ffb2832986344b04758aa349ff498",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/transcript-export.json": "62e047ffb4add4ab2c5467482a2b4f4493b76cfa5aafe9252ad12bcd2b070c88",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/pinch-transcript.jsonl": "348e5029078765c6285a135e161a6c5a0454daca416c3a46f250e7e444cbd41c",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/pinch-turns.json": "c68f9715121833a5fc81a2651841f3352c957b4469428a761d2fd54752f10a90",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/hermes.txt": "ac14b5d463ccdd003067f939f668a9115868ead7fd2eb49db7a13b732b7b16fa",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/tool-schemas.jsonl": "0c4e9dab00088ef330a47c46ba11dcba84ebf8d06d8e88ac33ab74f99cbe0287",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/turns/01/hermes-result.json": "6a8666280d788063640f8d10eee6be450f3b72e4946af46ea669fc070bd8a310",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/turns/01/task-skills.json": "7a3186ef2ed256eeeb66a826cfca375e6b4e8af4a1ebb2abe6d4c2f2654eef75",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/agent/turns/01/hermes.txt": "ac14b5d463ccdd003067f939f668a9115868ead7fd2eb49db7a13b732b7b16fa",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/artifacts/workspace/summary_output.txt": "dbf2380a878030a4154a16090a44e10844db89742abb3856075635b4556f9310",
+      "jobs/pinch--task_summary/native-repair/task_summary__E33QHov/artifacts/workspace/summary_source.txt": "ef52e25cec430318a456d6f96ca4da472200187b9e0c072821243edcd6267616",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/judge-responses.jsonl": "7b7e1779541d8a1eb7c7e9b125ae4946f113c508cc6cda15a009d476d61fef9c",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/inference-events.jsonl": "55c4cf61be0f6719a8ec0c5103e12c4cad944436a111bd3279cca76ab9d91c10",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/reward.json": "4d5866abe478578d241f3d067db49b6ea9eced3ccd879be300c454c40bcd67db",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/requests.jsonl": "cf2a099b9089e7358db18175c953e815ab60a41a6e6c31f94cfb5517b0cef35f",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/effective-grade.json": "8cd3c33325735b6807a5c05973a9ceaafd32f98e145bf5ab2e34a6e1da5f9d82",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/judge-reliability.json": "5354cb75f5a6321f4f96f91b5b8f227e65122cb6278f7005e3e256aa3875028c",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/pinch_score.json": "ceaa2dafbfcdd8a7683c00116045c8b74a5d98de182e1af967e1ab5625ac9653",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/verifier/tool-schemas.jsonl": "60c2d1406e8407a3260fecfceaced5e399eeab6f8df2d1126ed7856291224e3e",
+      "pinch-repairs-20261014/transcript-grades/task_summary/task_summary__E33QHov/agent/pinch-transcript.jsonl": "f780b3f2367faae8cac9cb582d1692d37e0cae76c3da310d12d5bcd8171699c3",
+      "tasks/pinch/task_summary/tests/tasks/task_summary.md": "4b708aad0439834a514e5ccb4c424c22c2ff29a4a4f2cc2013b3cfbc837b52f2",
+      "pinch-repairs-20261014/source-versions/transcript-v2/pinch_hermes_observer.py": "9ea95196fdcf3839802390602ae1e3e1eee064deff5fd71a1f0da9a0d88cd730",
+      "pinch-repairs-20261014/source-versions/transcript-v2/pinch_transcript.py": "5b87ae87d745e2cbf1dce8502823f5326306b5b9cb6772c37040450ab04ace97",
+      "pinch-repairs-20261014/source-versions/transcript-v2/pinch_grader.py": "01360d71fe88b84e01cb528933322d1df4d806c45eccc361ba7e30d2e3583949",
+      "pinch-repairs-20261014/source-versions/transcript-v2/run-hermes.py": "f389f99e7a284fa50f7c1a19b1dc213c2e54cb0512d0216ad7c0593485345135"
+    }
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

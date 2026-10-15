@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_stock_trend__qWWzEEx",
+  "agent": "leon",
+  "task": "task_csv_stock_trend",
+  "score": 0.985,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "Correct prices, return, monthly averages, and streaks, including the tied five-day down streak. Thorough sustained-period analysis and appropriate disclosure of incomplete December coverage. All requested elements are present in a clear markdown report. Minor deductions for excessive numerical precision, an April breakout described less explicitly than other phases, and inefficient execution involving an irrelevant weather call, repeated file searches, and multiple analysis commands.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "accepted_score": 0.996,
+  "native_criteria": {
+    "score": 0.996,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 1.0,
+      "automated.kernel_version": 1.0,
+      "automated.cpu_identified": 1.0,
+      "automated.ram_identified": 1.0,
+      "automated.disk_identified": 1.0,
+      "automated.filesystem_identified": 1.0,
+      "automated.network_card": 1.0,
+      "automated.services_listed": 1.0,
+      "automated.mdmpd_failure": 1.0,
+      "automated.selinux_disabled": 1.0,
+      "llm_judge.boot_report_created": 0.9,
+      "llm_judge.kernel_version_identified": 1.0,
+      "llm_judge.cpu_model_identified": 1.0,
+      "llm_judge.ram_approximately_126mb": 1.0,
+      "llm_judge.hard_drive_model_identified": 1.0,
+      "llm_judge.root_filesystem_ext3_identified": 1.0,
+      "llm_judge.network_card_identified": 1.0,
+      "llm_judge.at_least_15_successful_services_listed": 1.0,
+      "llm_judge.mdmpd_failure_noted": 1.0,
+      "llm_judge.selinux_disabled_at_runtime_mentioned": 1.0
+    }
+  },
+  "judge_notes": "The report satisfies every substantive criterion with source-line references, correctly scopes the first boot, lists 28 exact-phrase successful startups, and identifies 24 BIND listening addresses. Hardware, filesystem, failures, and security warnings are accurately documented. Minor deduction for excessive report detail and a recoverable encoding-related tool retry.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,193 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 6,
+    "recorded_inference_requests": 6,
+    "completed_inference_requests": 6,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 6,
+    "token_usage": {
+      "input_tokens": 90312,
+      "output_tokens": 3813,
+      "total_tokens": 94125,
+      "cached_input_tokens": 69504,
+      "reasoning_output_tokens": 628
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 6
+    },
+    "http_statuses": {
+      "200": 6
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 6,
+        "median": 1.644267346997367,
+        "minimum": 1.3049105210011476,
+        "maximum": 1.9355416119942674
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 7.3170420009992085,
+        "minimum": 4.679244086997642,
+        "maximum": 9.954839915000775
+      },
+      "firstToolActionSeconds": {
+        "count": 4,
+        "median": 19.967446599999676,
+        "minimum": 3.177996990001702,
+        "maximum": 65.64798808299383
+      },
+      "responseSeconds": {
+        "count": 6,
+        "median": 9.006791774500016,
+        "minimum": 3.2774517529978766,
+        "maximum": 65.70362767099869
+      }
+    },
+    "observer_milliseconds": 59.91636001272127,
+    "model_tool_calls": 4,
+    "tool_schema_checks": {
+      "valid": 4
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 2,
+    "recorded_inference_requests": 2,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 7174,
+      "output_tokens": 282,
+      "total_tokens": 7456,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 154
+    },
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "unreported": 1,
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 2
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 2,
+        "median": 1.6730583100033982,
+        "minimum": 1.6127907960035373,
+        "maximum": 1.7333258240032592
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 8.315745645002607,
+        "minimum": 6.724232266002218,
+        "maximum": 9.907259024002997
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 13.837087585001427,
+        "minimum": 13.837087585001427,
+        "maximum": 13.837087585001427
+      }
+    },
+    "observer_milliseconds": 3.0670409978483804,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.92062,
+    "agent_setup": 1.852788,
+    "agent_execution": 144.121184,
+    "verifier": 30.346408
+  },
+  "native_task_grade": {
+    "task_id": "task_csv_stock_trend",
+    "score": 0.99,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.trend_direction": 1.0,
+      "automated.starting_price": 1.0,
+      "automated.ending_price": 1.0,
+      "automated.percentage_change": 1.0,
+      "automated.monthly_breakdown": 1.0,
+      "automated.up_streak": 1.0,
+      "automated.down_streak": 1.0,
+      "automated.trend_periods": 1.0,
+      "llm_judge.Data Analysis Accuracy": 1.0,
+      "llm_judge.Trend Identification Quality": 0.95,
+      "llm_judge.Report Structure and Presentation": 0.95,
+      "llm_judge.Completeness": 1.0
+    },
+    "notes": "Accurate endpoint prices, return, monthly averages, and longest streaks, including the tied five-day decline. Correctly identifies the bullish trend and documents sustained rallies and corrections with dates and returns. All requested elements are present in a well-structured Markdown file, with an appropriate December 12 coverage caveat. Minor deductions for somewhat lengthy methodology and not explicitly highlighting the April 24 breakout."
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

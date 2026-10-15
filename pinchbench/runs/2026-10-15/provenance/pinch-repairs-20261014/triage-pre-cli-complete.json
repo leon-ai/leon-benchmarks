@@ -1,0 +1,7 @@
+{
+  "attempts": 9,
+  "candidate_work_preserved": 6,
+  "replaced_missing_dispatch_evidence": 3,
+  "finished_at": "2026-10-14T15:08:19.399589+00:00",
+  "timing_note": "Recovery batches excluded from strict matched-concurrency efficiency comparisons."
+}

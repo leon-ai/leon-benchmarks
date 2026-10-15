@@ -1,0 +1,24 @@
+{
+  "leon_host_source": "__SOURCES__/leon-111ccc8d",
+  "hermes_host_source": "__SOURCES__/hermes-0.21.6",
+  "hermes_import_paths": [
+    "/opt/hermes",
+    "/opt/hermes/.venv/lib/python3.14/site-packages"
+  ],
+  "hermes_command": [
+    "__HOME__/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python3",
+    "-I",
+    "-c",
+    "import sys,runpy,os; sys.dont_write_bytecode=True; sys.path[:0]=['/opt/hermes','/opt/hermes/.venv/lib/python3.14/site-packages']; runpy.run_path('/opt/leon/scripts/benchmarks/audit_openai.py'); runpy.run_path('/opt/leon/scripts/benchmarks/run-hermes.py',run_name='__main__') if os.environ.get('LEON_BENCHMARK_HERMES_RUNNER') else runpy.run_module('hermes_cli.main',run_name='__main__',alter_sys=True)"
+  ],
+  "hermes_host_import_paths": [
+    "__SOURCES__/hermes-0.21.6",
+    "__SOURCES__/hermes-0.21.6/.venv/lib/python3.14/site-packages"
+  ],
+  "openclaw_entrypoint": "/opt/openclaw/node_modules/openclaw/openclaw.mjs",
+  "openclaw_provider": "openai",
+  "openclaw_api": "openai-chatgpt-responses",
+  "openclaw_migrate_configuration": true,
+  "hermes_host_python": "__SOURCES__/hermes-python/bin/python3",
+  "browser_executable": "/opt/benchmark-chromium/chrome-linux64/chrome"
+}

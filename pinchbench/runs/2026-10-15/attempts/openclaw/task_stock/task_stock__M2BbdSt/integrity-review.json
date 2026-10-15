@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_stock/native/task_stock__M2BbdSt",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "34519d8329e26f39d1f4331a0f765ea2fb290e870a9eb2fbe5225c8e4c90edec",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

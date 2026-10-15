@@ -1,0 +1,11 @@
+{
+  "id": "task_humanizer__ffteecf",
+  "agent": "hermes",
+  "task": "task_humanizer",
+  "score": 0.925,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Strong manual rewrite with contractions, concrete examples, varied sentences, and substantially less filler. Preserves all seven strategies, though some supporting explanations and advice are condensed or altered. Input was read and output saved correctly. The unavailable install command justified the fallback, but environment probing and external documentation lookup added unnecessary steps.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

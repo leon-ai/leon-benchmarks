@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_council_votes__rEytQsW",
+  "agent": "hermes",
+  "task": "task_meeting_council_votes",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent located and read the transcript and requested an independent audit, but no votes_report.md or vote analysis was produced in the provided record. There are no extracted vote details, chronological report, or summary totals to evaluate.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

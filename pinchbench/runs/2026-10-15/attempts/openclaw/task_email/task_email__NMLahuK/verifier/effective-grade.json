@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.94,
+  "native_criteria": {
+    "score": 0.94,
+    "max_score": 1.0,
+    "breakdown": {
+      "Professional Tone and Courtesy": 1.0,
+      "Completeness and Clarity": 1.0,
+      "Structure and Format": 1.0,
+      "Conciseness and Appropriateness": 0.9,
+      "Task Completion": 0.8
+    }
+  },
+  "judge_notes": "The saved email is polished, concise, clearly explains the scheduling conflict, and courteously offers to reschedule. All required email elements and the correct filename are present. Deductions reflect unnecessary skill searches, an unrequested Git commit attempt, and irrelevant commit-failure reporting in the final response.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

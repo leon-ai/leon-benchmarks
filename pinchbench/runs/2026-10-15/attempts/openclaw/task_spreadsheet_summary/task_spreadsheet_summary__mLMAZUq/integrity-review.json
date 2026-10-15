@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_spreadsheet_summary/native/task_spreadsheet_summary__mLMAZUq",
+  "score": 0.975,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "02abc32c1facd9d60a4a38b6c94a90dd4a3531209f01db6dd8ccb1a9c64d3915",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

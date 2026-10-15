@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_meeting_searchable_index/native/task_meeting_searchable_index__wCkf6Hi",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "c5477297bdc5616497b05073f05faf2fe755a2973674e2294d03cf45eeda7b42",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

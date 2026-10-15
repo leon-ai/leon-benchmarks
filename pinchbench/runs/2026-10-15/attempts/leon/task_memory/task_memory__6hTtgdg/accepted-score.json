@@ -1,0 +1,11 @@
+{
+  "id": "task_memory__6hTtgdg",
+  "agent": "leon",
+  "task": "task_memory",
+  "score": 1.0,
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "Inspect the native criteria and saved outputs.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

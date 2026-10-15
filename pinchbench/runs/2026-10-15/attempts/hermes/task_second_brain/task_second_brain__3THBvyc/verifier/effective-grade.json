@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.995,
+  "native_criteria": {
+    "score": 0.995,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.memory_tool_used": 1.0,
+      "automated.recall_tool_used": 1.0,
+      "llm_judge.memory_storage": 0.95,
+      "llm_judge.same_session_recall": 1.0,
+      "llm_judge.cross_session_memory_retrieval": 1.0,
+      "llm_judge.accuracy_of_recalled_facts": 1.0,
+      "llm_judge.response_quality_and_confidence": 1.0
+    }
+  },
+  "judge_notes": "All information was stored clearly in memory/MEMORY.md, storage was confirmed, and both recall sessions answered accurately and confidently. The new session explicitly read the memory file and recalled all five facts. Minor deduction for the unnecessary initial file search before writing.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

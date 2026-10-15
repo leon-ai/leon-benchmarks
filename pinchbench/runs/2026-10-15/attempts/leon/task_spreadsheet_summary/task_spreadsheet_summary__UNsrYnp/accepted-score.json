@@ -1,0 +1,11 @@
+{
+  "id": "task_spreadsheet_summary__UNsrYnp",
+  "agent": "leon",
+  "task": "task_spreadsheet_summary",
+  "score": 0.975,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Successfully parsed both files, including both Excel sheets, and created a clear Markdown report containing all requested results. Key totals, rankings, and budget comparisons are correct. Period-aligned cross-file analysis and explicit caveats about expense coverage and double-counting are valuable. Minor deductions for the unrelated weather call, duplicate file listing, initial failed parsing attempt, and slightly more detail than necessary.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

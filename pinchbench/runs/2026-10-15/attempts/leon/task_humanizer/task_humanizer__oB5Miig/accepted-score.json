@@ -1,0 +1,11 @@
+{
+  "id": "task_humanizer__oB5Miig",
+  "agent": "leon",
+  "task": "task_humanizer",
+  "score": 0.9125,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The manual rewrite substantially improves tone, contractions, sentence variety, and specificity while preserving all seven strategies and named frameworks. The input was read and the output correctly saved and verified. Deductions reflect the lack of an installation attempt or demonstrated registry unavailability, an irrelevant weather call, duplicate file searches, and excessive setup messages.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

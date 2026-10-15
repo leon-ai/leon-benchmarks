@@ -1,0 +1,11 @@
+{
+  "id": "task_second_brain__Q875Rxa",
+  "agent": "hermes",
+  "task": "task_second_brain",
+  "score": 1.0,
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "Created and confirmed memory/MEMORY.md with all five facts in a clear format. Correctly answered the same-session questions, read the file in the new session, and recalled every fact accurately and concisely without uncertainty or fabrication.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "task": {
+    "path": "__WORKSPACE__/tasks/pinch/task_todo_list_cleanup"
+  },
+  "trial_name": "task_todo_list_cleanup__WyKNTU5",
+  "trials_dir": "__WORKSPACE__/jobs/pinch--task_todo_list_cleanup/native",
+  "agent": {
+    "import_path": "scripts.benchmarks.pinch_agents:PinchOpenClaw",
+    "model_name": "openai/gpt-6.1-sol"
+  },
+  "environment": {
+    "type": "docker",
+    "mounts": [
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-111ccc8d",
+        "target": "/opt/leon",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/openclaw-2026.10.1",
+        "target": "/opt/openclaw",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/hermes-0.21.6",
+        "target": "/opt/hermes",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/hermes-python",
+        "target": "__HOME__/.hermes/tools/python-3.14.7+20260901-linux-x64",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-binaries",
+        "target": "/tmp/leon-benchmark/bin",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-binaries/python",
+        "target": "__HOME__/.leon/bin/python",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__WORKSPACE__/pinch-runtime/benchmarks",
+        "target": "/opt/leon/scripts/benchmarks",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/benchmark-chromium",
+        "target": "/opt/benchmark-chromium",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__SOURCES__/leon-111ccc8d",
+        "target": "__HOME__/Workspace/leon/leon",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "__WORKSPACE__/pinch-dependencies",
+        "target": "/opt/pinch-dependencies",
+        "read_only": true
+      }
+    ],
+    "extra_docker_compose": [
+      "__WORKSPACE__/network.yaml"
+    ]
+  },
+  "job_id": "2bdb122a-0656-425a-9818-ee3bb22d6601"
+}

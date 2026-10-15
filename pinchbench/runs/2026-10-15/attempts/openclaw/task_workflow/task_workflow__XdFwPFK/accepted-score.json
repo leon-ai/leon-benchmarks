@@ -1,0 +1,11 @@
+{
+  "id": "task_workflow__XdFwPFK",
+  "agent": "openclaw",
+  "task": "task_workflow",
+  "score": 0.9625,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All requested deliverables are complete. The script reads and validates the configuration, uses the configured endpoint, method, headers, and timeout, prints responses, and handles common configuration and HTTP/network errors. NOTES.md clearly explains implementation, usage, configuration, and verification limitations. Six mocked tests passed; live endpoint availability was appropriately left unverified. Process efficiency was reduced by unnecessary skill searches, repository-history inspection, and an unrequested commit workflow requiring an identity-error recovery.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_it_procurement/native/task_it_procurement__z9B6LbR",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "26851e144e6388839eef498b24fc8569f7fd7dae7084f5a7cc0afe6f52ceaad2",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

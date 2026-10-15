@@ -1,0 +1,14 @@
+{
+  "task_id": "task_summary",
+  "score": 0.9,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "accuracy_and_completeness": 1.0,
+    "conciseness": 1.0,
+    "structure_and_coherence": 0.75,
+    "writing_quality": 0.95,
+    "task_completion": 0.8
+  },
+  "notes": "Accurate, concise summary covering all major applications, benefits, challenges, and future directions. The correct output file contains exactly three clear paragraphs. Paragraph focus partly deviates from the requested organization: applications dominate paragraph one, while challenges appear in paragraph two rather than paragraph three. Unnecessary skill searches and failed verification/commit attempts reduced execution efficiency."
+}

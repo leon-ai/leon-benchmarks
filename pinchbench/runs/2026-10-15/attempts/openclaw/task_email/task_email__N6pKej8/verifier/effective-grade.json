@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.97,
+  "native_criteria": {
+    "score": 0.97,
+    "max_score": 1.0,
+    "breakdown": {
+      "Professional Tone and Courtesy": 1.0,
+      "Completeness and Clarity": 1.0,
+      "Structure and Format": 1.0,
+      "Conciseness and Appropriateness": 0.85,
+      "Task Completion": 1.0
+    }
+  },
+  "judge_notes": "The correctly named file contains a concise, courteous, well-structured email clearly declining due to a scheduling conflict and offering to reschedule. Unnecessary skill searches, an unrequested git commit attempt, and reporting its failure added avoidable overhead to an otherwise excellent completion.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

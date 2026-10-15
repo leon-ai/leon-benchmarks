@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.95,
+  "native_criteria": {
+    "score": 0.95,
+    "max_score": 1.0,
+    "breakdown": {
+      "analytical_depth_and_accuracy": 1.0,
+      "completeness_of_sections": 1.0,
+      "professional_presentation": 0.9,
+      "insight_quality": 0.9
+    }
+  },
+  "judge_notes": "The saved report substantively covers every requested section, with accurate calculations matching the expected values. Particularly strong are the partial-year coverage caveat, explicit return and volatility conventions, correctly dated drawdown and streaks, and transparent price-based context. Markdown tables and interpretations are professional. Minor deductions reflect repetitive caveats, somewhat excessive methodological detail, and avoidable workflow overhead, including unnecessary discovery calls and failed execution attempts. Conclusions are sound but could prioritize investor implications more concisely.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

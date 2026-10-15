@@ -1,0 +1,23 @@
+{
+  "accepted_score": 0.9092857142857143,
+  "native_criteria": {
+    "score": 0.9092857142857143,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.dataset_overview": 1.0,
+      "automated.overall_stats": 1.0,
+      "automated.per_species_stats": 1.0,
+      "automated.correlation": 1.0,
+      "automated.separability_insight": 0.0,
+      "automated.formatting": 1.0,
+      "llm_judge.Statistical Accuracy": 1.0,
+      "llm_judge.Analytical Insight": 1.0,
+      "llm_judge.Report Structure and Presentation": 0.95,
+      "llm_judge.Completeness": 1.0
+    },
+    "reward": 0.9092857142857143
+  },
+  "judge_notes": "Accurate overall and per-species statistics, complete coverage, and clear markdown tables. Particularly strong interpretation distinguishes pooled from within-species correlations and explains species separability without overstating it. Minor efficiency and concision issues: an unnecessary environment probe failed, and methodological commentary is slightly more extensive than needed.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_log_syslog_boot__wmSrtRv",
+  "agent": "hermes",
+  "task": "task_log_syslog_boot",
+  "score": 0.994,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The report covers all six requested areas and accurately identifies the hardware, filesystem, memory, network listeners, and major boot failures. It lists 28 literal startup-success messages with source references and explains excluded startup wording. Minor deductions reflect excessive report detail, an avoidable encoding-related retry, and not separately enumerating all successful startups that use alternative wording.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

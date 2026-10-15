@@ -1,0 +1,628 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 18,
+    "recorded_inference_requests": 17,
+    "completed_inference_requests": 17,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 3
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 2
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 3
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 2
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 2
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 3
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 3
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      }
+    ],
+    "requests_with_token_usage": 17,
+    "token_usage": {
+      "input_tokens": 706684,
+      "output_tokens": 4348,
+      "total_tokens": 711032,
+      "cached_input_tokens": 445184,
+      "reasoning_output_tokens": 3254
+    },
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "default": 17
+    },
+    "http_statuses": {
+      "200": 17
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 17,
+        "median": 2.190947816,
+        "minimum": 1.842729647,
+        "maximum": 5.304465675999992
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 4.856892518,
+        "minimum": 4.856892518,
+        "maximum": 4.856892518
+      },
+      "firstToolActionSeconds": {
+        "count": 17,
+        "median": 7.864328508999999,
+        "minimum": 3.1827359130000006,
+        "maximum": 40.613016036999994
+      },
+      "responseSeconds": {
+        "count": 17,
+        "median": 7.947942271000008,
+        "minimum": 3.2809659329999996,
+        "maximum": 40.70170108900001
+      }
+    },
+    "observer_milliseconds": 65.2774399999289,
+    "model_tool_calls": 22,
+    "tool_schema_checks": {
+      "valid": 22
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 3989,
+      "output_tokens": 232,
+      "total_tokens": 4221,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 116
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.9434765089999928,
+        "minimum": 1.9434765089999928,
+        "maximum": 1.9434765089999928
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 5.259484305999649,
+        "minimum": 5.259484305999649,
+        "maximum": 5.259484305999649
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 6.83734399199966,
+        "minimum": 6.83734399199966,
+        "maximum": 6.83734399199966
+      }
+    },
+    "observer_milliseconds": 4.354519998742035,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "stage_seconds": {
+    "environment_setup": 1.3948,
+    "agent_setup": 20.122696,
+    "agent_execution": 300.224099,
+    "verifier": 2.752302
+  },
+  "native_task_grade": {
+    "task_id": "task_it_procurement",
+    "score": 0.0,
+    "max_score": 1.0,
+    "grading_type": "llm_judge",
+    "breakdown": {
+      "product_research_quality": 0.0,
+      "practical_procurement_value": 0.0,
+      "linux_compatibility_assessment": 0.0,
+      "fleet_recommendation": 0.0,
+      "comparison_quality": 0.0
+    },
+    "notes": "The visible transcript contains research setup and attempted browsing, but no documented configurations, verified prices, Linux compatibility findings, comparison table, fleet recommendation, or budget. No completed laptop_procurement.md file is shown. Research attempts alone do not satisfy the requested deliverables.",
+    "reward": 0.0
+  },
+  "exception": {
+    "exception_type": "AgentTimeoutError",
+    "exception_message": "Agent execution timed out after 300.0 seconds",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 146, in run\n    await super().run(session[\"prompt\"], environment, context)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/harbor_agents.py\", line 468, in run\n    await self.exec_as_agent(environment, command, env=env)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 96, in exec_as_agent\n    result = await super().exec_as_agent(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        environment, command, env=variables, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 898, in exec_as_agent\n    return await self._exec(\n           ^^^^^^^^^^^^^^^^^\n        environment, command, env=env, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 849, in _exec\n    result = await environment.exec(\n             ^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1101, in exec\n    return await self._compose_exec(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1178, in _compose_exec\n    return await self._run_docker_compose_command(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 649, in _run_docker_compose_command\n    result = await self._collect_buffered_output(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 679, in _collect_buffered_output\n    stdout_bytes, stderr_bytes = await process.communicate(input=stdin_data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 201, in communicate\n    stdin, stdout, stderr = await tasks.gather(stdin, stdout, stderr)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 181, in _read_stream\n    output = await stream.read()\n             ^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 723, in read\n    block = await self.read(self._limit)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 730, in read\n    await self._wait_for_data('read')\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 539, in _wait_for_data\n    await self._waiter\nasyncio.exceptions.CancelledError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 545, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 506, in wait_for\n    async with timeouts.timeout(timeout):\n               ~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/timeouts.py\", line 116, in __aexit__\n    raise TimeoutError from exc_val\nTimeoutError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 554, in _run_agent_phase\n    raise AgentTimeoutError(\n        f\"Agent execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.AgentTimeoutError: Agent execution timed out after 300.0 seconds\n",
+    "occurred_at": "2026-10-15T01:10:40.926730Z"
+  },
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "transport_repair": "native-jsonl-record-boundary",
+    "candidate_execution_preserved": true,
+    "additional_candidate_inference_calls": 0,
+    "reason": "Parse intact native JSONL at LF boundaries, preserving Unicode text, saved artifacts, published deadline and original candidate timeout",
+    "grade_file": "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/effective-grade.json",
+    "requests_file": "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/requests.jsonl",
+    "deterministic_no_inference": false,
+    "rewards": {
+      "task_id": "task_it_procurement",
+      "score": 0.0,
+      "max_score": 1.0,
+      "grading_type": "llm_judge",
+      "breakdown": {
+        "product_research_quality": 0.0,
+        "practical_procurement_value": 0.0,
+        "linux_compatibility_assessment": 0.0,
+        "fleet_recommendation": 0.0,
+        "comparison_quality": 0.0
+      },
+      "notes": "The visible transcript contains research setup and attempted browsing, but no documented configurations, verified prices, Linux compatibility findings, comparison table, fleet recommendation, or budget. No completed laptop_procurement.md file is shown. Research attempts alone do not satisfy the requested deliverables.",
+      "reward": 0.0
+    },
+    "started_at": "2026-10-15T01:18:45.674411+00:00",
+    "finished_at": "2026-10-15T01:18:55.266361+00:00",
+    "evidence_sha256": {
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/result.json": "9698b87490eb1a14ea9d98d66c47bf3b51fe7f7de555fb4078a64af47f378a9c",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/openclaw-migration.txt": "92d8641e0e695e2d867942220cd7a538fc572975fd7d8516fa3c7889f0c8f42f",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/openclaw.txt": "85a64ef3875cf723dcba0ff0cefa986809affd0a479ea5a600b6878cb2abd9c8",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/inference-events.jsonl": "0f0e967fc794a29f9359ebb23158590db02ccc35063ea2f980a9e16bceb0e87d",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/openclaw-config.json": "7d5db4a4736782f6d5fda10dce785e3671486dfdbb532dbb79189510127d30f7",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/requests.jsonl": "ff8e6d9ac7eca84c8f367df10f3f04a3f00028152449558143f7ed80d33a50f5",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/task-skills.json": "d32132065465cba8bf71d0c99613ef1b1f7782c48155a12a62781fc6ae0926b6",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/model-tool-calls.jsonl": "309fdab3b127c7918923c8890fbcfbda1aa05bde296df0cf88487dc575d1598f",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/pinch-turns.json": "6abd2d6010404a9a18ae6509f476d2710324ecfcd3e3162ef6c635cde94cfe21",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/tool-schemas.jsonl": "b76a616118dd21cced86fef84b8f853080a6261c6c7ed12669433cc7c6f0019a",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/turns/01/openclaw.txt": "85a64ef3875cf723dcba0ff0cefa986809affd0a479ea5a600b6878cb2abd9c8",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/turns/01/deadline.json": "399f69e23600e12e662a989b07aa965eb140dbd3cdcdf5149bee3a4af86eb022",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/turns/01/openclaw-native-sessions.json": "b982d7f73adaa602633dd3c404e7751b565e9211ed96d6ad62fbd96dfd379647",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/agent/turns/01/openclaw.session.jsonl": "2f120dd2d6f898457727f557c5a4aceccc00f4d039cdedf08720eebb44516d11",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/IDENTITY.md": "59b223766c8dd978162044e333a684c72e22af753d1ba3dc3bff4b2d915c54e2",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/SOUL.md": "f1ca0312afae15dee389671c566cb25c11290ccc344f4a97d306f7d9af85a438",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/USER.md": "46e0d8c937df7b104de97a23c58537292672654194879ca9f76b02075e022555",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/BOOTSTRAP.md": "0bcb8c9187e32c87bc31dc3e2fa83c4569bfd13267c0bf9766a635dac3df33a3",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/AGENTS.md": "490fc2b32865dd310a3af1225a409ac5c942d89ba456167feb0fd95e2807aaff",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/description": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/HEAD": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/config": "cfe7ba1238c9a78be7535d7c63bcaf5a4d5011d46b07c9b45d3bbf7d6c312dfe",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/pre-applypatch.sample": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/applypatch-msg.sample": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/pre-merge-commit.sample": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/update.sample": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/pre-receive.sample": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/fsmonitor-watchman.sample": "f3c0228d8e827f1c5260ac59fdd92c3d425c46e54711ef713c5a54ae0a4db2b4",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/pre-push.sample": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/commit-msg.sample": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/push-to-checkout.sample": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/pre-commit.sample": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/prepare-commit-msg.sample": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/pre-rebase.sample": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/hooks/post-update.sample": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/artifacts/workspace/.git/info/exclude": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/judge-responses.jsonl": "debf60161f104adb8187e1fa77581f4822ebb6d783f883d90df11ae0339d07e3",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/inference-events.jsonl": "0fa1c08dc95be644867cafe3053e4927bacda91f702f748fd1d62fc4e806cc47",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/reward.json": "1d8511dcb533d7d0ea095ab1fed80023c526956199da238a47b3bcde6e6df655",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/requests.jsonl": "6254ef59cbc5f53ae48a22cdf9d70d0fd25c0791b053879948cf42b9dbcb0dea",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/effective-grade.json": "65bdc80a122da4ffc7365d12bc251ae9a28ca420ce91ef6bc2133b9186a4f70c",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/judge-reliability.json": "5354cb75f5a6321f4f96f91b5b8f227e65122cb6278f7005e3e256aa3875028c",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/pinch_score.json": "b2ca209174f1534f84957c363ccfa15eae6c979677a1d392d61581312f96e9e5",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/verifier/tool-schemas.jsonl": "60c2d1406e8407a3260fecfceaced5e399eeab6f8df2d1126ed7856291224e3e",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/pinch-transcript.jsonl": "47e5335a0c3eb501da24600159be5afeeadf71a55ee2fbf5b8e410d0cb0c9368",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/turns/01/openclaw.txt": "85a64ef3875cf723dcba0ff0cefa986809affd0a479ea5a600b6878cb2abd9c8",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/turns/01/deadline.json": "68f2b9d5455f3077ade1f6c32d448ea098b63fae7a151cbc59a67105d4c5db47",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/turns/01/openclaw-native-sessions.json": "b982d7f73adaa602633dd3c404e7751b565e9211ed96d6ad62fbd96dfd379647",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/turns/01/native-transcript.jsonl": "5de9a627208649e2e7450e6f51756d158d361249b7e70af19e53372d587392f9",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/turns/01/transcript-export.json": "e69e689e5be4adb8520b0b6e0f10ed0209d0e2d4017348e7e4b0d6bb7a32f6c1",
+      "pinch-repairs-20261014/transcript-grades/task_it_procurement/task_it_procurement__UXDGRcj/agent/turns/01/openclaw.session.jsonl": "2f120dd2d6f898457727f557c5a4aceccc00f4d039cdedf08720eebb44516d11",
+      "tasks/pinch/task_it_procurement/tests/tasks/task_it_procurement.md": "a43603ba3643e5b19e6c39d3d22c9955dafdb23106b973a175c67c996301c09c",
+      "pinch-repairs-20261015/source-versions/jsonl-record-boundary/native_transcript.py": "9cfbba33dc970825e73df5c812ea64c2111d3f326c7ca71efbb5f7cc8c31b83f",
+      "pinch-repairs-20261015/source-versions/jsonl-record-boundary/pinch_transcript.py": "f0c36e41d37c410ce605b3709e317892e530bae7ed8977b5e5fa43f277de6329",
+      "pinch-repairs-20261015/source-versions/jsonl-record-boundary/regrading.py": "d6d5718c159273f17a939a493cb19a5092ac647aba86e0e150b08ce7b62ae907",
+      "jobs/pinch--task_it_procurement/native/task_it_procurement__UXDGRcj/verifier/pinch_score.json": "06e7dd424ef8ee37c314cfbcec929dec59de81f790c0653e46d696291ec7b48f",
+      "selection.json": "7de327f6df2e50adc3b120f248341e7237d4003bfcb9045c689d853223956e4a"
+    },
+    "deadline_outcome_preserved": true,
+    "deadline_epoch": 1792026640.700142
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

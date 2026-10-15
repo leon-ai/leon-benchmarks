@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "tasks": 32,
+  "sessions": 34,
+  "fixtures_verified": true,
+  "runtime_staged": "__WORKSPACE__/pinch-runtime/benchmarks",
+  "native_session_preflight": "passed",
+  "mock_prerequisite_preflight": "passed",
+  "dependency_lock_sha256": "c5e901e0d3ed393cbe193d967525befa5437ecfddd55719226839b9f291ef5d1",
+  "base_image": "leon-comparison-pinch:819384ae",
+  "base_image_id": "sha256:88cd069e8ead5f4497093671a6d9e39e80259d75d4524f230b52ce439fcb2870"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_email__NMLahuK",
+  "agent": "openclaw",
+  "task": "task_email",
+  "score": 0.94,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The saved email is polished, concise, clearly explains the scheduling conflict, and courteously offers to reschedule. All required email elements and the correct filename are present. Deductions reflect unnecessary skill searches, an unrequested Git commit attempt, and irrelevant commit-failure reporting in the final response.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

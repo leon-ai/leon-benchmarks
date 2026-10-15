@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_finance_report__oA4JY4D",
+  "agent": "leon",
+  "task": "task_csv_finance_report",
+  "score": 0.95,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "All seven sections are substantive, and the calculations match the expected results. Particularly strong treatment of partial-year coverage, return boundaries, volatility conventions, drawdown recovery, and streak definitions. Tables and price-based interpretations support investor review without inventing news causes. Minor deductions for excessive caveats and methodological detail, somewhat cautious rather than decision-oriented takeaways, and unnecessary tool activity, including a weather request and duplicate file search.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

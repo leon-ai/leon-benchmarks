@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.8571428571428571,
+  "native_criteria": {
+    "score": 0.8571428571428571,
+    "max_score": 1.0,
+    "breakdown": {
+      "src_directory": 1.0,
+      "main_py_created": 1.0,
+      "main_py_valid": 1.0,
+      "readme_created": 1.0,
+      "readme_has_title": 1.0,
+      "gitignore_created": 1.0,
+      "gitignore_has_pycache": 0.0
+    }
+  },
+  "judge_notes": "",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

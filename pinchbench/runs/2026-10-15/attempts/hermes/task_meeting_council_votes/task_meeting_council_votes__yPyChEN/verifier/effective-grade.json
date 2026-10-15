@@ -1,0 +1,25 @@
+{
+  "accepted_score": 0.0,
+  "native_criteria": {
+    "score": 0.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 0.0,
+      "automated.minutes_vote": 0.0,
+      "automated.item12_abstain": 0.0,
+      "automated.item14_15_rollcall": 0.0,
+      "automated.item19_unanimous": 0.0,
+      "automated.item22_continued": 0.0,
+      "automated.item23_first_reading": 0.0,
+      "automated.item25_carlson_no": 0.0,
+      "automated.item26_28_reconsider": 0.0,
+      "automated.summary_count": 0.0,
+      "llm_judge.Vote Identification Completeness": 0.0,
+      "llm_judge.Vote Detail Accuracy": 0.0,
+      "llm_judge.Organization": 0.0,
+      "llm_judge.Summary": 0.0
+    }
+  },
+  "judge_notes": "The agent inspected the transcript and delegated extraction work but never created votes_report.md or delivered any vote records. No assessable vote details, chronological report, or summary counts were provided.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

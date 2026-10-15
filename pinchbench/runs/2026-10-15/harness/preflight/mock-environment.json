@@ -1,0 +1,9 @@
+{
+  "GOOGLE_WORKSPACE_CLI_CONFIG_DIR": "/tmp/pinchbench-fws/config",
+  "GOOGLE_WORKSPACE_CLI_TOKEN": "fake",
+  "HTTPS_PROXY": "http://localhost:4101",
+  "SSL_CERT_FILE": "/tmp/pinchbench-fws/certs/ca-bundle.crt",
+  "FWS_DATA_DIR": "/tmp/pinchbench-fws",
+  "NO_PROXY": "chatgpt.com,localhost,127.0.0.1",
+  "no_proxy": "chatgpt.com,localhost,127.0.0.1"
+}

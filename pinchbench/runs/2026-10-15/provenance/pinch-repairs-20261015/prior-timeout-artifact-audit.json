@@ -1,0 +1,199 @@
+{
+  "checked_timeout_attempts": [
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__SZBuZEy",
+      "task": "task_log_syslog_boot",
+      "agent": "leon",
+      "native_score": 0.04000000000000001,
+      "deadline_epoch": 1791990699.886382,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__gQHiU6Y",
+      "task": "task_log_syslog_boot",
+      "agent": "leon",
+      "native_score": 0.996,
+      "deadline_epoch": 1791990701.378589,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__967ZC3o",
+      "task": "task_log_syslog_boot",
+      "agent": "leon",
+      "native_score": 0.0,
+      "deadline_epoch": 1791990700.752206,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__XFoxNXN",
+      "task": "task_log_syslog_boot",
+      "agent": "openclaw",
+      "native_score": 0.996,
+      "deadline_epoch": 1791990721.219862,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__mYA7V9E",
+      "task": "task_csv_iris_summary",
+      "agent": "leon",
+      "native_score": 0.99,
+      "deadline_epoch": 1791989107.147223,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__BJRb3fo",
+      "task": "task_multi_file_refactoring",
+      "agent": "leon",
+      "native_score": 1.0,
+      "deadline_epoch": 1791988891.931956,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__sKjC3ay",
+      "task": "task_multi_file_refactoring",
+      "agent": "leon",
+      "native_score": 0.26666666666666666,
+      "deadline_epoch": 1791988892.582229,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__yQTzKt6",
+      "task": "task_multi_file_refactoring",
+      "agent": "leon",
+      "native_score": 1.0,
+      "deadline_epoch": 1791988891.095627,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__veKLCXf",
+      "task": "task_csv_stock_trend",
+      "agent": "openclaw",
+      "native_score": 0.8416666666666667,
+      "deadline_epoch": 1791993022.905087,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__4vvtj5M",
+      "task": "task_csv_stock_trend",
+      "agent": "openclaw",
+      "native_score": 0.99,
+      "deadline_epoch": 1791993016.52198,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__qWWzEEx",
+      "task": "task_csv_stock_trend",
+      "agent": "leon",
+      "native_score": 0.985,
+      "deadline_epoch": 1791992995.496242,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__VyJz8fy",
+      "task": "task_csv_stock_trend",
+      "agent": "openclaw",
+      "native_score": 0.985,
+      "deadline_epoch": 1791993012.236231,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__c9D3iMi",
+      "task": "task_csv_stock_trend",
+      "agent": "leon",
+      "native_score": 0.99,
+      "deadline_epoch": 1791992996.328786,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__tB7oZxM",
+      "task": "task_csv_stock_trend",
+      "agent": "leon",
+      "native_score": 0.010000000000000002,
+      "deadline_epoch": 1791992996.905447,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__Ch3URDh",
+      "task": "task_humanizer",
+      "agent": "openclaw",
+      "native_score": 0.9125,
+      "deadline_epoch": 1791992457.47509,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__rTX7Jc5",
+      "task": "task_humanizer",
+      "agent": "openclaw",
+      "native_score": 0.925,
+      "deadline_epoch": 1791992453.016966,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__nJDkXtP",
+      "task": "task_humanizer",
+      "agent": "openclaw",
+      "native_score": 0.125,
+      "deadline_epoch": 1791992463.950786,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__B59Qymx",
+      "task": "task_log_apache_top_errors",
+      "agent": "openclaw",
+      "native_score": 0.9299999999999999,
+      "deadline_epoch": 1791993550.053685,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__BEHKzg6",
+      "task": "task_log_apache_top_errors",
+      "agent": "openclaw",
+      "native_score": 0.9299999999999999,
+      "deadline_epoch": 1791993543.903557,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__UeLvAbx",
+      "task": "task_log_apache_top_errors",
+      "agent": "leon",
+      "native_score": 0.925,
+      "deadline_epoch": 1791993522.965618,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__bQxadud",
+      "task": "task_log_apache_top_errors",
+      "agent": "leon",
+      "native_score": 0.9199999999999999,
+      "deadline_epoch": 1791993522.116725,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__Wu4wzbk",
+      "task": "task_log_apache_top_errors",
+      "agent": "openclaw",
+      "native_score": 0.06,
+      "deadline_epoch": 1791993541.477132,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_stock/native/task_stock__ajFEDqL",
+      "task": "task_stock",
+      "agent": "openclaw",
+      "native_score": 1.0,
+      "deadline_epoch": 1791992167.846442,
+      "suspicious_post_deadline_paths": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_stock/native/task_stock__YGDN3aZ",
+      "task": "task_stock",
+      "agent": "openclaw",
+      "native_score": 1.0,
+      "deadline_epoch": 1791992170.102404,
+      "suspicious_post_deadline_paths": []
+    }
+  ],
+  "findings": [],
+  "method": "Tar-preserved artifact modification timestamps after the published deadline plus one second of timestamp precision; a flag requires task-specific review, not automatic reruns",
+  "additional_inference_calls": 0
+}

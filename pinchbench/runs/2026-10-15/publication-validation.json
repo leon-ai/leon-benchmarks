@@ -1,0 +1,34 @@
+{
+  "published_runs": [
+    {
+      "run": "pinchbench/runs/2026-10-15",
+      "accepted_attempts": 288,
+      "matched_tasks": 32,
+      "domains": 11,
+      "proof_links_checked": 1160,
+      "scores_and_aggregate_telemetry_match_private_original": true
+    },
+    {
+      "run": "wildclawbench/runs/2026-10-12",
+      "accepted_attempts": 324,
+      "matched_tasks": 36,
+      "domains": 6,
+      "proof_links_checked": 1304,
+      "scores_and_aggregate_telemetry_match_private_original": true
+    }
+  ],
+  "verified_at": "2026-10-15T01:53:10.058532+00:00",
+  "passed": true,
+  "manifest_sha256": "bf65f9c9fe138b8de9ffa9d568486f597d501eceb1e8d15aefbfe3b058e6ecef",
+  "files_verified": 12135,
+  "accepted_attempts": 288,
+  "matched_tasks": 32,
+  "domains": 11,
+  "proof_links_checked": 1160,
+  "scanned_uncompressed_bytes": 354403410,
+  "scores_and_aggregate_telemetry_match_private_original": true,
+  "no_owner_paths_or_credential_patterns": true,
+  "private_reasoning_fields_omitted": true,
+  "scope": "Offline publication validation; no benchmark execution or inference calls",
+  "run": "pinchbench/runs/2026-10-15"
+}

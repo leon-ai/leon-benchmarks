@@ -1,0 +1,26 @@
+{
+  "native_control_code_unchanged": true,
+  "additional_inference_calls": 0,
+  "checks": [
+    {
+      "agent": "hermes",
+      "passed": true,
+      "native_checks": {
+        "native_sessions_and_workspace": 1.0
+      }
+    },
+    {
+      "agent": "openclaw",
+      "passed": true,
+      "native_checks": {
+        "native_sessions_and_workspace": 1.0
+      }
+    },
+    {
+      "agent": "leon",
+      "passed": false,
+      "error_type": "FileNotFoundError",
+      "error": "[Errno 2] No such file or directory: 'campaign-20261011/jobs/pinch--pinch-native-session-smoke/session-smoke/pinch-native-session-smoke__HovAhn9/artifacts/workspace/session-contract.txt'"
+    }
+  ]
+}

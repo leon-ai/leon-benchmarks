@@ -1,0 +1,19 @@
+{
+  "accepted_score": 0.92,
+  "native_criteria": {
+    "score": 0.92,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_tasks": 1.0,
+      "automated.updated_completed": 1.0,
+      "automated.read_emails": 1.0,
+      "automated.created_new_task": 1.0,
+      "automated.summary_created": 1.0,
+      "llm_judge.Information Extraction": 0.9,
+      "llm_judge.Task List Management": 0.65,
+      "llm_judge.Summary Quality": 0.85
+    }
+  },
+  "judge_notes": "Created four specific, email-grounded tasks and verified the resulting list. Reviewed existing tasks but made no completion updates, leaving the proposal review open despite potentially relevant approval evidence. The summary thoroughly documents created and unchanged tasks, but is unnecessarily long. Unrelated weather lookup and repeated file checks added avoidable overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

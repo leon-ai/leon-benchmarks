@@ -1,0 +1,11 @@
+{
+  "id": "task_log_syslog_boot__yzKCLPL",
+  "agent": "hermes",
+  "task": "task_log_syslog_boot",
+  "score": 0.996,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The report satisfies every substantive criterion with source-line references, correctly scopes the first boot, lists 28 exact-phrase successful startups, and identifies 24 BIND listening addresses. Hardware, filesystem, failures, and security warnings are accurately documented. Minor deduction for excessive report detail and a recoverable encoding-related tool retry.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

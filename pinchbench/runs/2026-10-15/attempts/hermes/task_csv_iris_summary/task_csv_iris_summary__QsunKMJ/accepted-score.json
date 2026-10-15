@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_iris_summary__QsunKMJ",
+  "agent": "hermes",
+  "task": "task_csv_iris_summary",
+  "score": 0.995,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All requested statistics are correct, including sample standard deviations and per-species summaries. The report accurately identifies the strongest correlation, explains setosa separability and other species patterns, and includes every requested section in clear Markdown tables. Minor deduction for slightly excessive methodological detail and an avoidable failed execution before successful completion.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_log_hdfs_failures/native/task_log_hdfs_failures__oVP3osY",
+  "score": 0.98,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "590c79c84f258658b09fda0a6321634797e476bf27017949942acb447fb7b258",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

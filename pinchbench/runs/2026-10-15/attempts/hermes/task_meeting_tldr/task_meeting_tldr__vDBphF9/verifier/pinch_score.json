@@ -1,0 +1,20 @@
+{
+  "task_id": "task_meeting_tldr",
+  "score": 0.94,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 1.0,
+    "automated.one_line_summary": 1.0,
+    "automated.bullet_points": 1.0,
+    "automated.events_mentioned": 1.0,
+    "automated.messaging_decision": 1.0,
+    "automated.deadline_mentioned": 1.0,
+    "automated.word_count_ok": 1.0,
+    "automated.no_filler": 1.0,
+    "llm_judge.Information Density": 0.8,
+    "llm_judge.Conciseness": 0.9,
+    "llm_judge.Scannability": 0.85
+  },
+  "notes": "Created the requested file with 121 words, a one-line summary, five bullets, accurate assignments, and both substantive deadlines. Strong actionable coverage, but omits the green-only infographic decision and company-level tagline while spending two bullets on announcements. Deadlines could stand out more visually. Verification was slightly inefficient, including a failed Python invocation."
+}

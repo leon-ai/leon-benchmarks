@@ -1,0 +1,380 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 10,
+    "recorded_inference_requests": 10,
+    "completed_inference_requests": 10,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      }
+    ],
+    "requests_with_token_usage": 10,
+    "token_usage": {
+      "input_tokens": 309478,
+      "output_tokens": 4432,
+      "total_tokens": 313910,
+      "cached_input_tokens": 270592,
+      "reasoning_output_tokens": 182
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 10
+    },
+    "http_statuses": {
+      "200": 10
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 10,
+        "median": 1.9597792444999995,
+        "minimum": 1.6052657470000014,
+        "maximum": 3.23542621200002
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 4.303940044999996,
+        "minimum": 4.303940044999996,
+        "maximum": 4.303940044999996
+      },
+      "firstToolActionSeconds": {
+        "count": 9,
+        "median": 7.486512943000009,
+        "minimum": 3.6741117780000003,
+        "maximum": 73.03552644000001
+      },
+      "responseSeconds": {
+        "count": 10,
+        "median": 7.267490766500009,
+        "minimum": 3.7972605139999978,
+        "maximum": 73.042947731
+      }
+    },
+    "observer_milliseconds": 75.34089699981632,
+    "model_tool_calls": 9,
+    "tool_schema_checks": {
+      "valid": 9
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 5628,
+      "output_tokens": 408,
+      "total_tokens": 6036,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 237
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.5276140729984036,
+        "minimum": 1.5276140729984036,
+        "maximum": 1.5276140729984036
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 15.425971901000594,
+        "minimum": 15.425971901000594,
+        "maximum": 15.425971901000594
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 20.792655331999413,
+        "minimum": 20.792655331999413,
+        "maximum": 20.792655331999413
+      }
+    },
+    "observer_milliseconds": 2.2844159830128774,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.374871,
+    "agent_setup": 19.212384,
+    "agent_execution": 165.22807,
+    "verifier": 21.823244
+  },
+  "native_task_grade": {
+    "task_id": "task_log_syslog_boot",
+    "score": 0.996,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.output_created": 1.0,
+      "automated.kernel_version": 1.0,
+      "automated.cpu_identified": 1.0,
+      "automated.ram_identified": 1.0,
+      "automated.disk_identified": 1.0,
+      "automated.filesystem_identified": 1.0,
+      "automated.network_card": 1.0,
+      "automated.services_listed": 1.0,
+      "automated.mdmpd_failure": 1.0,
+      "automated.selinux_disabled": 1.0,
+      "llm_judge.boot_report_created": 0.9,
+      "llm_judge.kernel_version_identified": 1.0,
+      "llm_judge.cpu_identified": 1.0,
+      "llm_judge.ram_reported": 1.0,
+      "llm_judge.hard_drive_identified": 1.0,
+      "llm_judge.root_filesystem_identified": 1.0,
+      "llm_judge.network_card_identified": 1.0,
+      "llm_judge.at_least_15_successful_services_listed": 1.0,
+      "llm_judge.mdmpd_failure_noted": 1.0,
+      "llm_judge.selinux_runtime_disabling_mentioned": 1.0
+    },
+    "notes": "The report satisfies all substantive criteria, with six structured sections, source references, 28 literal startup-success messages, and 24 BIND listeners. Its RAM distinctions and boot-duration caveats are well supported. Minor workflow deduction for unnecessary skill searches and unrequested Git commits."
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

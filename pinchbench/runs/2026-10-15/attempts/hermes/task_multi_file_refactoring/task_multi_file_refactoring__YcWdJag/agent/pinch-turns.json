@@ -1,0 +1,11 @@
+{
+  "turns": [
+    {
+      "index": 1,
+      "new_session": false,
+      "completed": true,
+      "elapsed_seconds": 63.79706594799791
+    }
+  ],
+  "timeout_seconds": 120
+}

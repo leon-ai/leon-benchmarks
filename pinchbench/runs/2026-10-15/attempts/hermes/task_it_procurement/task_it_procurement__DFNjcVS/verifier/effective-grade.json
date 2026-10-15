@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.1,
+  "native_criteria": {
+    "score": 0.1,
+    "max_score": 1.0,
+    "breakdown": {
+      "Product Research Quality": 0.25,
+      "Practical Procurement Value": 0.1,
+      "Linux Compatibility Assessment": 0.15,
+      "Fleet Recommendation": 0.0,
+      "Comparison Quality": 0.0
+    }
+  },
+  "judge_notes": "The visible work is incomplete. A saved System76 evidence file provides one exact configuration, price, specifications, and warranty options, while searches target other relevant models and Linux issues. However, no completed laptop_procurement.md is present, five fully researched models are not documented, and there is no actionable procurement recommendation, per-model Linux assessment, fleet mix, total budget, or comparison table.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "trial": "task_it_procurement__UXDGRcj",
+    "native_jsonl_valid": true,
+    "projected_rows": 77,
+    "additional_inference_calls": 0
+  },
+  {
+    "trial": "task_it_procurement__Ltx32RL",
+    "native_jsonl_valid": true,
+    "projected_rows": 25,
+    "additional_inference_calls": 0
+  }
+]

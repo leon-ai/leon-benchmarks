@@ -1,0 +1,11 @@
+{
+  "id": "task_it_procurement__CnjBDFC",
+  "agent": "hermes",
+  "task": "task_it_procurement",
+  "score": 0.15,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The available record shows incomplete research rather than a completed procurement deliverable. System76 evidence includes an exact qualifying configuration, price, repair documentation, and warranty options; Lenovo research identifies relevant certification and business resources. However, five priced models are not documented, Linux issues are not synthesized into model-specific assessments, and laptop_procurement.md is absent. There is no comparison table, macOS recommendation, specific fleet mix, or total budget.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

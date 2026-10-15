@@ -1,0 +1,20 @@
+{
+  "task_id": "task_csv_iris_summary",
+  "score": 0.99,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.dataset_overview": 1.0,
+    "automated.overall_stats": 1.0,
+    "automated.per_species_stats": 1.0,
+    "automated.correlation": 1.0,
+    "automated.separability_insight": 1.0,
+    "automated.formatting": 1.0,
+    "llm_judge.statistical_accuracy": 1.0,
+    "llm_judge.analytical_insight": 1.0,
+    "llm_judge.report_structure_and_presentation": 0.9,
+    "llm_judge.completeness": 1.0
+  },
+  "notes": "All requested statistics are correct, and the report is complete and clearly structured. Insights correctly identify the strongest correlation, setosa separability, and overlap between the other species. Minor deduction for unnecessary skill searches and unrequested Git commit attempts, including recovery from an author-identity error."
+}

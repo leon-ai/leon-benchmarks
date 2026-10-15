@@ -1,0 +1,706 @@
+{
+  "seed": "leon-openclaw-hermes-balanced-v1",
+  "selection_policy": "Preserve all 30 previously selected WildClaw tasks and add one per domain using deterministic SHA256 ordering of seed:domain:task-name, without consulting candidate rewards. Preserve the 14 selected Terminal tasks and add the seven owner-approved tasks with published reference agent-execution medians below 30 minutes. Retain completed audio despite its 31.45-minute reference median. Keep published task budgets; no 30-minute execution cutoff.",
+  "inference": {
+    "model": "openai/gpt-6.1-sol",
+    "reasoning": "high",
+    "service_tier": "priority",
+    "auth_mode": "chatgpt_subscription",
+    "attempts": 3
+  },
+  "wild": [
+    {
+      "name": "01_Productivity_Flow_task_3_bibtex",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_6_calendar_scheduling",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_10_pdf_digest",
+      "domain": "01_Productivity_Flow",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/gt"
+      ]
+    },
+    {
+      "name": "01_Productivity_Flow_task_4_2022_conference_papers",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_1_arxiv_digest",
+      "domain": "01_Productivity_Flow",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_10_acad_homepage_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_11_resume_homepage_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_1_sam3_inference",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_3_jigsaw_puzzle_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "02_Code_Intelligence_task_8_link_a_pix_color_zh",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_2_chat_action_extraction",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_5_chat_escalation_routing",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_10_tomllib_trace",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_9_artwork_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_7_location_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_8_paper_affiliation_search",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_8_repo_to_homepage",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_9_repo_to_slides",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_10_social_poster_multi_crop",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_3_product_poster",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_1_file_overwrite",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_6_prompt_injection",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_3_leaked_api_pswd",
+      "domain": "06_Safety_Alignment",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/mm_agents"
+      ]
+    },
+    {
+      "name": "06_Safety_Alignment_task_5_risk_os_operation",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_4_authority",
+      "domain": "06_Safety_Alignment",
+      "retained": false
+    },
+    {
+      "name": "01_Productivity_Flow_task_2_table_tex_download",
+      "domain": "01_Productivity_Flow",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/gt"
+      ]
+    },
+    {
+      "name": "02_Code_Intelligence_task_2_sam3_debug",
+      "domain": "02_Code_Intelligence",
+      "retained": false
+    },
+    {
+      "name": "03_Social_Interaction_task_1_meeting_negotiation",
+      "domain": "03_Social_Interaction",
+      "retained": false
+    },
+    {
+      "name": "04_Search_Retrieval_task_2_conflicting_handling",
+      "domain": "04_Search_Retrieval",
+      "retained": false
+    },
+    {
+      "name": "05_Creative_Synthesis_task_1_match_report",
+      "domain": "05_Creative_Synthesis",
+      "retained": false
+    },
+    {
+      "name": "06_Safety_Alignment_task_2_leaked_api",
+      "domain": "06_Safety_Alignment",
+      "retained": false,
+      "additional_artifacts": [
+        "/tmp_workspace/mm_agents"
+      ]
+    }
+  ],
+  "terminal": [
+    {
+      "name": "cad-model",
+      "domain": "Hardware",
+      "subcategory": "CAD",
+      "retained": false
+    },
+    {
+      "name": "freecad-platform-drawing",
+      "domain": "Hardware",
+      "subcategory": "CAD",
+      "retained": false
+    },
+    {
+      "name": "embedding-drift-monitor",
+      "domain": "ML",
+      "subcategory": "Inference",
+      "retained": false
+    },
+    {
+      "name": "vllm-deepseek-streaming",
+      "domain": "ML",
+      "subcategory": "Inference",
+      "retained": false
+    },
+    {
+      "name": "satb-audio-transcription",
+      "domain": "Media",
+      "subcategory": "Music",
+      "retained": false
+    },
+    {
+      "name": "music-harmony",
+      "domain": "Media",
+      "subcategory": "Music",
+      "retained": false
+    },
+    {
+      "name": "production-planning",
+      "domain": "Operations",
+      "subcategory": "Supply chain",
+      "retained": false
+    },
+    {
+      "name": "heat-pump-warranty",
+      "domain": "Operations",
+      "subcategory": "Claims",
+      "retained": false
+    },
+    {
+      "name": "roy-polymorph-cn",
+      "domain": "Science",
+      "subcategory": "Chemistry",
+      "retained": false
+    },
+    {
+      "name": "gsea-proteomics",
+      "domain": "Science",
+      "subcategory": "Biology",
+      "retained": false
+    },
+    {
+      "name": "formal-crypto",
+      "domain": "Security",
+      "subcategory": "Cryptography",
+      "retained": false
+    },
+    {
+      "name": "html-js-filter",
+      "domain": "Security",
+      "subcategory": "AppSec",
+      "retained": false
+    },
+    {
+      "name": "mvcc-lsm-compaction",
+      "domain": "Software",
+      "subcategory": "Databases",
+      "retained": false
+    },
+    {
+      "name": "bun-sourcemap-leak",
+      "domain": "Software",
+      "subcategory": "Systems",
+      "retained": false
+    },
+    {
+      "name": "retro-console-soc",
+      "domain": "Hardware",
+      "subcategory": "RTL",
+      "retained": false
+    },
+    {
+      "name": "batched-eval-parity",
+      "domain": "ML",
+      "subcategory": "Evaluation",
+      "retained": false
+    },
+    {
+      "name": "layout-config-recreation2",
+      "domain": "Media",
+      "subcategory": "Design",
+      "retained": false
+    },
+    {
+      "name": "cargo-flight-dispatch",
+      "domain": "Operations",
+      "subcategory": "Logistics",
+      "retained": false
+    },
+    {
+      "name": "coq-block-bound",
+      "domain": "Science",
+      "subcategory": "Math",
+      "retained": false
+    },
+    {
+      "name": "interleaved-vigenere",
+      "domain": "Security",
+      "subcategory": "Cryptography",
+      "retained": false
+    },
+    {
+      "name": "react-lead-form",
+      "domain": "Software",
+      "subcategory": "Frontend",
+      "retained": false
+    }
+  ],
+  "terminal_excluded": [
+    {
+      "name": "fp8-rmsnorm-gemm",
+      "reason": "H100 required; host has RTX 3090"
+    },
+    {
+      "name": "jax-speedrun-gpu",
+      "reason": "H100 required; host has RTX 3090"
+    },
+    {
+      "name": "math-eval-grader",
+      "reason": "H100 required; host has RTX 3090"
+    },
+    {
+      "name": "takens-embedding-lean",
+      "reason": "Declared storage exceeds local free disk"
+    }
+  ],
+  "dataset_revisions": {
+    "wild": "33d06066716dc2666721f08ad2784c96e9b44dc5",
+    "terminal": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+    "pinch": "819384ae830492365b8363fc26bc2602e73f216d"
+  },
+  "total_agent_runs": 801,
+  "retained_agent_runs": 0,
+  "new_agent_runs": 801,
+  "phase": "campaign-20261011",
+  "domain_quotas": {
+    "wild": {
+      "01_Productivity_Flow": 6,
+      "02_Code_Intelligence": 6,
+      "03_Social_Interaction": 6,
+      "04_Search_Retrieval": 6,
+      "05_Creative_Synthesis": 6,
+      "06_Safety_Alignment": 6
+    },
+    "terminal": {
+      "Hardware": 3,
+      "ML": 3,
+      "Media": 3,
+      "Operations": 3,
+      "Science": 3,
+      "Security": 3,
+      "Software": 3
+    },
+    "pinch": {
+      "productivity": 3,
+      "research": 3,
+      "writing": 3,
+      "coding": 3,
+      "analysis": 3,
+      "csv_analysis": 3,
+      "log_analysis": 3,
+      "meeting_analysis": 3,
+      "memory": 2,
+      "skills": 3,
+      "integrations": 3
+    }
+  },
+  "terminal_speed_selection": {
+    "target": "All newly added tasks have reference medians below 30 minutes. Median is only a selection indicator; published execution budgets remain unchanged.",
+    "reference_model_agent": "GPT-5.6 Sol / Codex",
+    "completed_tasks_reused": [],
+    "official_agent_timeout_sec": 28800,
+    "coverage_limitations": "Three tasks per domain is a limited, speed-selected sample. Reference timings use GPT-5.6 Sol/Codex, not the current candidate configuration; individual attempts, environment setup and grading can take longer. Interleaved-vigenere reference maximum is 93.62 minutes."
+  },
+  "pinch": [
+    {
+      "name": "task_calendar",
+      "domain": "productivity",
+      "timeout_seconds": 120,
+      "grading_type": "automated",
+      "sha256": "3ed30a4927d463c4dff73cd2f7dea4bc302753d4cb9d048a5c6f09e60b60314b",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_sanity",
+      "domain": "productivity",
+      "timeout_seconds": 60,
+      "grading_type": "automated",
+      "sha256": "a6912dc746a88faba7557266da7ccd55fb5b02313701c276dffe6ff9e6e9059c",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_todo_list_cleanup",
+      "domain": "productivity",
+      "timeout_seconds": 120,
+      "grading_type": "automated",
+      "sha256": "1dbd1e557ac1007250dd386e44ae3f6ffe8fe95228028e26c6276ef28d9e966d",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_stock",
+      "domain": "research",
+      "timeout_seconds": 180,
+      "grading_type": "automated",
+      "sha256": "77a2658891f68caee4b00abb1ff222514984d4c2a02221c92c01bab8c901b26e",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_market_research",
+      "domain": "research",
+      "timeout_seconds": 300,
+      "grading_type": "hybrid",
+      "sha256": "1a3a995241cfd5333496ddcd31d6a6ddcc7bcf66ad598ff5d2ccf16db4c6bdf4",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_it_procurement",
+      "domain": "research",
+      "timeout_seconds": 300,
+      "grading_type": "llm_judge",
+      "sha256": "a43603ba3643e5b19e6c39d3d22c9955dafdb23106b973a175c67c996301c09c",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_humanizer",
+      "domain": "writing",
+      "timeout_seconds": 120,
+      "grading_type": "llm_judge",
+      "sha256": "2cea683b8840dda9ac2e41df3052d8a8ecd6b627030f452550ff4b59a59529da",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_email",
+      "domain": "writing",
+      "timeout_seconds": 180,
+      "grading_type": "llm_judge",
+      "sha256": "ef406e33046b96125e73ed7e50a2910bb36d682618fa4f503c9ebe5eedcad634",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_blog",
+      "domain": "writing",
+      "timeout_seconds": 300,
+      "grading_type": "llm_judge",
+      "sha256": "1696ba83967e345f27222e4dbd88d872c5c50abc174c9f839248e7ced2f95c1f",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_multi_file_refactoring",
+      "domain": "coding",
+      "timeout_seconds": 120,
+      "grading_type": "automated",
+      "sha256": "18b59323b522488e91a462a4fa15b32b763eff34f5cc539ee92c53af8d7d8a58",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_shell_command_generator",
+      "domain": "coding",
+      "timeout_seconds": 90,
+      "grading_type": "automated",
+      "sha256": "a5d28f13355271e0fc86304601fff658ba32468a798f3cb92ce57e0eb335972c",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_weather",
+      "domain": "coding",
+      "timeout_seconds": 180,
+      "grading_type": "automated",
+      "sha256": "1ee2391ede6ca40b1a2303b6e4760a198ce54035f34f9f01a9a687a9cd71e496",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_summary",
+      "domain": "analysis",
+      "timeout_seconds": 240,
+      "grading_type": "llm_judge",
+      "sha256": "4b708aad0439834a514e5ccb4c424c22c2ff29a4a4f2cc2013b3cfbc837b52f2",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_spreadsheet_summary",
+      "domain": "analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "97928ce77e1edaf36d63ab76666aa2bbaa159ae9713c98b8827064bf1ec86963",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_image_identification",
+      "domain": "analysis",
+      "timeout_seconds": 150,
+      "grading_type": "automated",
+      "sha256": "c89212e2fd0b3731a02d7211d70e5943b22e25d42fff45c5081eaee0e4a368f8",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_csv_iris_summary",
+      "domain": "csv_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "6e7ff2e8d940df1a90c3a13cf0da792a1a2fced33826ae892355d1e8c1aebfdc",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_csv_stock_trend",
+      "domain": "csv_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "47aa4051da51c628acf3b5adcce7042393e3561a79d90d23d4385b72035f7d4f",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_csv_finance_report",
+      "domain": "csv_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "llm_judge",
+      "sha256": "f320d581bb3254837abeb1d0f0ddfeeab676797976fdda232dee7759916b8350",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_log_syslog_boot",
+      "domain": "log_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "729a8717e68ccbfeb91e9f89c323466defc76e47496e8edebcd92834b9a9354e",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_log_apache_top_errors",
+      "domain": "log_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "1e3ec0ab185206ebfdf8d0b2083be6d464b0ff76d7e76c61a9c03d94b94373c3",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_log_hdfs_failures",
+      "domain": "log_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "1bba3043a4bc0fbff306ffb1da0655cc2132d83133bcca1dee0379604d3c55a7",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_meeting_tldr",
+      "domain": "meeting_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "e365287809e605d3ae7089928852d3a2849516cf5340056fbeb5044bb04dcc64",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_meeting_council_votes",
+      "domain": "meeting_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "dd3e49143f1f8354aacb93b7ef4c1c540b0060bcca25ac09ea605fc05734652d",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_meeting_searchable_index",
+      "domain": "meeting_analysis",
+      "timeout_seconds": 180,
+      "grading_type": "hybrid",
+      "sha256": "7b826489801949c708a4c590fcc0894de880c210a049a83fc581a19b0249474c",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_memory",
+      "domain": "memory",
+      "timeout_seconds": 120,
+      "grading_type": "automated",
+      "sha256": "4997f04ea2154f597b13bafe69bd650fa1159c5e2aa9eb720ff2abd89eed3900",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_second_brain",
+      "domain": "memory",
+      "timeout_seconds": 300,
+      "grading_type": "hybrid",
+      "sha256": "312fc9da2136142cc56644620a76a12360c7745360f6fede62cd14d5ab41b061",
+      "sessions": 3,
+      "prerequisites": []
+    },
+    {
+      "name": "task_files",
+      "domain": "skills",
+      "timeout_seconds": 120,
+      "grading_type": "automated",
+      "sha256": "fa88095c89caaabf0626ed1fd269b5a77c01375bd78dbb2f051cc3b2f8a81309",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_skill_search",
+      "domain": "skills",
+      "timeout_seconds": 180,
+      "grading_type": "automated",
+      "sha256": "a153ecb0a2414174c83965d59df360b18dfd9a3c7539fa8fa2c66b25ff577b4b",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_workflow",
+      "domain": "skills",
+      "timeout_seconds": 300,
+      "grading_type": "hybrid",
+      "sha256": "4735df795595b648f5a6c178632d745fe55ac8f48a638bd7a60d78153ec32eb7",
+      "sessions": 1,
+      "prerequisites": []
+    },
+    {
+      "name": "task_gws_email_triage",
+      "domain": "integrations",
+      "timeout_seconds": 300,
+      "grading_type": "hybrid",
+      "sha256": "bef7df99215879e661700c9b9a502d1570412beae6510f86899bb9b2913d407a",
+      "sessions": 1,
+      "prerequisites": [
+        "npm:@juppytt/fws",
+        "cli:gws"
+      ]
+    },
+    {
+      "name": "task_gws_cross_service",
+      "domain": "integrations",
+      "timeout_seconds": 300,
+      "grading_type": "hybrid",
+      "sha256": "3eb0ad81268f6644906e589638f63efbe750b646a71a4e1ba42b2b03de3a69f9",
+      "sessions": 1,
+      "prerequisites": [
+        "npm:@juppytt/fws",
+        "cli:gws"
+      ]
+    },
+    {
+      "name": "task_gws_task_management",
+      "domain": "integrations",
+      "timeout_seconds": 300,
+      "grading_type": "hybrid",
+      "sha256": "738ee8b95c97f22bac0510584820c888edd61e211ace85b67eb3631a71f64f3e",
+      "sessions": 1,
+      "prerequisites": [
+        "npm:@juppytt/fws",
+        "cli:gws"
+      ]
+    }
+  ],
+  "pinch_selection": {
+    "seed": "leon-openclaw-hermes-pinch-v1",
+    "policy": "Prefer upstream core tasks, then seeded SHA256 order. Skills uses files, skill search and workflow to avoid external-generation and GitHub credentials.",
+    "exclusions": {
+      "task_image_gen": "Requires image-generation inference beyond the frozen common model.",
+      "task_openclaw_comprehension": "Tests OpenClaw-specific product knowledge rather than shared agent capability."
+    }
+  }
+}

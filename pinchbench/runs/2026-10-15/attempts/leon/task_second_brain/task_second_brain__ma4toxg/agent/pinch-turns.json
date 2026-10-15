@@ -1,0 +1,23 @@
+{
+  "turns": [
+    {
+      "index": 1,
+      "new_session": false,
+      "completed": true,
+      "elapsed_seconds": 31.693482430999893
+    },
+    {
+      "index": 2,
+      "new_session": false,
+      "completed": true,
+      "elapsed_seconds": 9.859471227000085
+    },
+    {
+      "index": 3,
+      "new_session": true,
+      "completed": true,
+      "elapsed_seconds": 45.18512866800006
+    }
+  ],
+  "timeout_seconds": 300
+}

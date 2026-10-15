@@ -108,7 +108,7 @@ class Sanitizer:
     def transform(self, value):
         """Recursively sanitize structured native transcripts and evidence records."""
         if isinstance(value, dict):
-            if value.get("type") in PRIVATE_PARTS:
+            if isinstance(value.get("type"), str) and value["type"] in PRIVATE_PARTS:
                 self.counts["private_reasoning_parts"] += 1
                 return {"type": "private_reasoning_omitted"}
             output = {}
@@ -145,7 +145,7 @@ def export_file(source, destination, sanitizer, mapping, compress=False):
     original = source.read_bytes()
     if source.suffix == ".jsonl":
         lines = []
-        for line_number, line in enumerate(original.decode().splitlines(), 1):
+        for line_number, line in enumerate(original.decode().split("\n"), 1):
             if not line.strip():
                 continue
             try:

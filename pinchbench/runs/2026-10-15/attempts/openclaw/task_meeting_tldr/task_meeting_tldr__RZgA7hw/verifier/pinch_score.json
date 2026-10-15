@@ -1,0 +1,20 @@
+{
+  "task_id": "task_meeting_tldr",
+  "score": 0.9533333333333334,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 1.0,
+    "automated.one_line_summary": 1.0,
+    "automated.bullet_points": 1.0,
+    "automated.events_mentioned": 1.0,
+    "automated.messaging_decision": 1.0,
+    "automated.deadline_mentioned": 1.0,
+    "automated.word_count_ok": 1.0,
+    "automated.no_filler": 1.0,
+    "llm_judge.Information Density": 0.9,
+    "llm_judge.Conciseness": 0.9,
+    "llm_judge.Scannability": 0.85
+  },
+  "notes": "Captures all five major outcomes and both actionable deadlines in 132 words, with a one-line opener and five bullets. Minor omission: the company-level messaging tagline. Some bullets are denser than ideal for Slack. Redundant skill searches, unnecessary Git operations, and failed validation added avoidable execution overhead."
+}

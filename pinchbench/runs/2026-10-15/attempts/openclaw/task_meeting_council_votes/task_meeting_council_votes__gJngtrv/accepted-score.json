@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_council_votes__gJngtrv",
+  "agent": "openclaw",
+  "task": "task_meeting_council_votes",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent inspected the transcript and searched for voting language but did not produce votes_report.md or any vote enumeration. No extracted vote details, chronological report, or summary counts were delivered. Tool usage itself was not penalized.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

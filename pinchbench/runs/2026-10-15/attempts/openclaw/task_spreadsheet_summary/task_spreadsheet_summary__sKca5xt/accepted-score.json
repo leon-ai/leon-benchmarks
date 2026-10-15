@@ -1,0 +1,11 @@
+{
+  "id": "task_spreadsheet_summary__sKca5xt",
+  "agent": "openclaw",
+  "task": "task_spreadsheet_summary",
+  "score": 0.975,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Correctly analyzed both files and Excel sheets, matched all expected aggregates, and created a clear Markdown report with departmental budget comparisons. Strong synthesis appropriately distinguishes full-year sales from Q1 expenses and avoids unsupported net-profit conclusions. Minor deductions for unnecessary tool discovery, failed environment probes, unrequested Git commits, and limited actionable recommendations.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

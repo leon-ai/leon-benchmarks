@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "candidate_slots": 0,
+  "agents": [
+    "leon",
+    "openclaw",
+    "hermes"
+  ],
+  "inference_checks": [
+    {
+      "agent": "hermes",
+      "settings_verified": true
+    },
+    {
+      "agent": "openclaw",
+      "settings_verified": true
+    },
+    {
+      "agent": "leon",
+      "settings_verified": true
+    }
+  ],
+  "reused_controls": "session-evidence-review-20261014.json",
+  "repaired_control_trial": "__WORKSPACE__/jobs/pinch--pinch-native-session-smoke/session-smoke-repair/pinch-native-session-smoke__JYAzZB4",
+  "workspace_controls": [
+    {
+      "session_id": "",
+      "toolkit": "weather",
+      "tool": "openmeteo",
+      "cwd": "/task_workspace"
+    },
+    {
+      "session_id": "d877eeab-dccc-4f47-a601-f325ae6ccad1",
+      "toolkit": "file_system",
+      "tool": "file",
+      "cwd": "/task_workspace"
+    },
+    {
+      "session_id": "d877eeab-dccc-4f47-a601-f325ae6ccad1",
+      "toolkit": "structured_knowledge",
+      "tool": "memory",
+      "cwd": "/task_workspace"
+    },
+    {
+      "session_id": "4abf6462-561b-4990-9098-01adaa47af9f",
+      "toolkit": "file_system",
+      "tool": "file",
+      "cwd": "/task_workspace"
+    }
+  ],
+  "finished_at": "2026-10-14T14:04:26.293435+00:00",
+  "repairs": "../pinch-repairs-20261014/"
+}

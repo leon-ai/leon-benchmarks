@@ -1,0 +1,164 @@
+{
+  "counts": {
+    "checked": 270
+  },
+  "projection_differences": [
+    {
+      "trial": "task_csv_iris_summary__gbRMKEX",
+      "agent": "openclaw",
+      "task": "task_csv_iris_summary",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_csv_iris_summary__MekHtKe",
+      "agent": "leon",
+      "task": "task_csv_iris_summary",
+      "before_rows": 36,
+      "after_rows": 36
+    },
+    {
+      "trial": "task_csv_iris_summary__qJgWvny",
+      "agent": "openclaw",
+      "task": "task_csv_iris_summary",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_csv_iris_summary__a38WKa3",
+      "agent": "hermes",
+      "task": "task_csv_iris_summary",
+      "before_rows": 8,
+      "after_rows": 8
+    },
+    {
+      "trial": "task_csv_iris_summary__QsunKMJ",
+      "agent": "hermes",
+      "task": "task_csv_iris_summary",
+      "before_rows": 8,
+      "after_rows": 8
+    },
+    {
+      "trial": "task_csv_iris_summary__mYA7V9E",
+      "agent": "leon",
+      "task": "task_csv_iris_summary",
+      "before_rows": 38,
+      "after_rows": 39
+    },
+    {
+      "trial": "task_csv_iris_summary__9wqwuRW",
+      "agent": "hermes",
+      "task": "task_csv_iris_summary",
+      "before_rows": 8,
+      "after_rows": 8
+    },
+    {
+      "trial": "task_csv_iris_summary__Z3rTBPQ",
+      "agent": "leon",
+      "task": "task_csv_iris_summary",
+      "before_rows": 36,
+      "after_rows": 36
+    },
+    {
+      "trial": "task_csv_iris_summary__6UC56Zr",
+      "agent": "openclaw",
+      "task": "task_csv_iris_summary",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_multi_file_refactoring__Qib6dVj",
+      "agent": "openclaw",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 30,
+      "after_rows": 30
+    },
+    {
+      "trial": "task_multi_file_refactoring__5z6YjM7",
+      "agent": "openclaw",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_multi_file_refactoring__BJRb3fo",
+      "agent": "leon",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 43,
+      "after_rows": 43
+    },
+    {
+      "trial": "task_multi_file_refactoring__Y7UStDL",
+      "agent": "openclaw",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_multi_file_refactoring__sKjC3ay",
+      "agent": "leon",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 29,
+      "after_rows": 29
+    },
+    {
+      "trial": "task_multi_file_refactoring__s3fvU27",
+      "agent": "hermes",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 22,
+      "after_rows": 22
+    },
+    {
+      "trial": "task_multi_file_refactoring__YcWdJag",
+      "agent": "hermes",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 10,
+      "after_rows": 10
+    },
+    {
+      "trial": "task_multi_file_refactoring__yQTzKt6",
+      "agent": "leon",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 48,
+      "after_rows": 48
+    },
+    {
+      "trial": "task_multi_file_refactoring__UFHdSzb",
+      "agent": "hermes",
+      "task": "task_multi_file_refactoring",
+      "before_rows": 20,
+      "after_rows": 20
+    },
+    {
+      "trial": "task_csv_stock_trend__qWWzEEx",
+      "agent": "leon",
+      "task": "task_csv_stock_trend",
+      "before_rows": 28,
+      "after_rows": 31
+    },
+    {
+      "trial": "task_csv_stock_trend__c9D3iMi",
+      "agent": "leon",
+      "task": "task_csv_stock_trend",
+      "before_rows": 27,
+      "after_rows": 28
+    },
+    {
+      "trial": "task_log_apache_top_errors__UeLvAbx",
+      "agent": "leon",
+      "task": "task_log_apache_top_errors",
+      "before_rows": 31,
+      "after_rows": 34
+    },
+    {
+      "trial": "task_log_apache_top_errors__bQxadud",
+      "agent": "leon",
+      "task": "task_log_apache_top_errors",
+      "before_rows": 31,
+      "after_rows": 34
+    }
+  ],
+  "projection_errors": [],
+  "metric_record_differences": [],
+  "additional_inference_calls": 0
+}

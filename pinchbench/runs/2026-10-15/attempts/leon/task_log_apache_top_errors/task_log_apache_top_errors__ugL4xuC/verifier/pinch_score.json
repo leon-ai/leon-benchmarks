@@ -1,0 +1,19 @@
+{
+  "task_id": "task_log_apache_top_errors",
+  "score": 0.9450000000000001,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.output_created": 1.0,
+    "automated.directory_forbidden_top": 0.5,
+    "automated.file_not_exist_counted": 1.0,
+    "automated.invalid_method_identified": 1.0,
+    "automated.internal_errors_included": 1.0,
+    "llm_judge.report_file_created": 0.95,
+    "llm_judge.directory_index_forbidden_identification": 1.0,
+    "llm_judge.file_does_not_exist_identification_and_count": 1.0,
+    "llm_judge.invalid_method_distinct_category": 1.0,
+    "llm_judge.server_internal_errors_included": 1.0
+  },
+  "notes": "The report covers all 753 errors in nine ranked categories, with exact counts, authentic examples, and careful cause/security explanations. Directory-index errors are correctly counted at 224; ranking them second is justified by the supplied log's 295 missing-file errors, despite the rubric's approximate ordering. Minor efficiency deduction for the unrelated weather call and duplicated file search."
+}

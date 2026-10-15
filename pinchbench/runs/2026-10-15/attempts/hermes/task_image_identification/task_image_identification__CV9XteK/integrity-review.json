@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_image_identification/native/task_image_identification__CV9XteK",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "3fb071a6708ae45b058942d57c1f733d1fa095a13f28a79ea069f8f2c12564ac",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

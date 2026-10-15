@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_second_brain/native/task_second_brain__nzE5VAm",
+  "score": 0.95,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "f4a7a553e47a22286271fa14a3ccc823ef7e0f57a77dcc3a670f2a3cc4676ece",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

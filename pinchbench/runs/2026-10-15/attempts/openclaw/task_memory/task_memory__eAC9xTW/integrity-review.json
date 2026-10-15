@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_memory/native/task_memory__eAC9xTW",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "5ef271cf388605cffa70e48e4818fa19d68258db3507645052bb04dd1f4fcfc9",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

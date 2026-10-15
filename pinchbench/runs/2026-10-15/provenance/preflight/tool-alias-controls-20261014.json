@@ -1,0 +1,25 @@
+{
+  "native_rubric_unchanged": true,
+  "checks": [
+    {
+      "native_name": "read",
+      "criterion": "read_notes",
+      "score": 1.0
+    },
+    {
+      "native_name": "read_file",
+      "criterion": "read_notes",
+      "score": 1.0
+    },
+    {
+      "native_name": "file_system.file.read",
+      "criterion": "read_notes",
+      "score": 1.0
+    },
+    {
+      "control": "no file-read action",
+      "score": 0.0
+    }
+  ],
+  "additional_inference_calls": 0
+}

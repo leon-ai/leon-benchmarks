@@ -1,0 +1,11 @@
+{
+  "id": "task_humanizer__JU7Lbcy",
+  "agent": "hermes",
+  "task": "task_humanizer",
+  "score": 0.9375,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Strong manual rewrite after unsuccessful installation attempts. The output uses contractions, varied sentences, practical examples, and a conversational tone without the original filler. All seven strategies remain, though some supporting details, such as explicitly avoiding multitasking, are omitted. The input was read and the output saved to the correct location with verification. The additional unsupported installation command was inefficient.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

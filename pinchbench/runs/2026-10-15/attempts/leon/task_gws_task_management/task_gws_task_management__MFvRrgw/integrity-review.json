@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_gws_task_management/native/task_gws_task_management__MFvRrgw",
+  "score": 0.9533333333333334,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "0dba19369f520e7cf1009d619a8729b6cf793a265694b7cd6308fad7a046cad3",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

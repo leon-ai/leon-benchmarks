@@ -1,0 +1,16 @@
+{
+  "task_id": "task_weather",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "automated",
+  "breakdown": {
+    "file_created": 1.0,
+    "valid_python": 1.0,
+    "has_http_request": 1.0,
+    "references_location": 1.0,
+    "has_error_handling": 1.0,
+    "has_output": 1.0,
+    "executable_structure": 1.0
+  },
+  "notes": ""
+}

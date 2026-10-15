@@ -1,0 +1,11 @@
+{
+  "id": "task_humanizer__nJDkXtP",
+  "agent": "openclaw",
+  "task": "task_humanizer",
+  "score": 0.125,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read the input and attempted to install the humanizer skill, but installation failed. It spent several calls troubleshooting without performing the permitted manual rewrite. No humanized text or humanized_blog.txt was produced, so output quality and content preservation cannot receive credit.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_council_votes__BAcN7L5",
+  "agent": "hermes",
+  "task": "task_meeting_council_votes",
+  "score": 0.075,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent did not create votes_report.md or deliver a completed report. Its keyword-hit audit contains evidence of many votes, including key dissents and Carlson's abstention, but does not consolidate them into distinct vote entries with verified movers, seconders, and results. The raw hits are chronological but include duplicates and irrelevant matches. No summary counts were produced, and tool usage included unnecessary setup and an unsuccessful delegation attempt.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

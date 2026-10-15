@@ -1,0 +1,11 @@
+{
+  "id": "task_multi_file_refactoring__sKjC3ay",
+  "agent": "leon",
+  "task": "task_multi_file_refactoring",
+  "score": 0.26666666666666666,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "Inspect the native criteria and saved outputs.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

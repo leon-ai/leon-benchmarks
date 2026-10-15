@@ -1,0 +1,16 @@
+{
+  "task_id": "task_second_brain",
+  "score": 0.95,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.memory_tool_used": 1.0,
+    "automated.recall_tool_used": 1.0,
+    "llm_judge.memory_storage": 1.0,
+    "llm_judge.same_session_recall": 1.0,
+    "llm_judge.cross_session_memory_retrieval": 0.75,
+    "llm_judge.accuracy_of_recalled_facts": 1.0,
+    "llm_judge.response_quality_and_confidence": 0.75
+  },
+  "notes": "Saved all five facts in the requested file, confirmed storage, and recalled every fact accurately across sessions. Deducted for unnecessary search/discovery steps before direct retrieval, unrequested Git commits and identity troubleshooting, and distracting memory-index diagnostics in user-facing answers."
+}

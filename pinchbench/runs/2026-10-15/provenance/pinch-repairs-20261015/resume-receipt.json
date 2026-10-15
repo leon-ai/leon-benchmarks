@@ -1,0 +1,15 @@
+{
+  "explicit_owner_instruction": "morning, let's continue",
+  "resumed_at": "2026-10-15T00:16:22.873647+00:00",
+  "matched_pinch_tasks": 16,
+  "candidate_reruns_for_timeout_recovery": 0,
+  "source_sha256": {
+    "pinch-repairs-20261015/source-versions/final/native-deadline.py": "13e4acadb9c26a6f2f399e001d755ed84534f4ccb1d29f29b9a1610bf8f3ce16",
+    "pinch-repairs-20261015/source-versions/final/native_transcript.py": "66fc6ede5ab06265c0b69f8a1f0d1ae9028393e32b30978f1ba1f079c34c4b1a",
+    "pinch-repairs-20261015/source-versions/final/pinch_agents.py": "504e46905bd01a003b23bd2ec5b00c654f24b465b5c7da2c69e41fb18e5ad81a",
+    "pinch-repairs-20261015/source-versions/final/pinch_transcript.py": "842e00a6aa5e03f9172bbb4b1322b6f18fb1ba2653bdf7e49b4678ab6f593950",
+    "pinch-repairs-20261015/source-versions/final/pinch_grader.py": "01360d71fe88b84e01cb528933322d1df4d806c45eccc361ba7e30d2e3583949",
+    "pinch-repairs-20261015/source-versions/final/regrading.py": "59a7a9a8debf200cb4c7e27fdd1aa5e86ce98cb49c7c4aac13599a4c243995b9",
+    "pinch-repairs-20261015/source-versions/final/run-hermes.py": "87c3c559c94b1ea2c309c152a4e9dbb9a67fb9036c1443777a8cee3a3b2fe340"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "task_log_apache_top_errors",
+  "score": 0.08,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.output_created": 0.0,
+    "automated.directory_forbidden_top": 0.0,
+    "automated.file_not_exist_counted": 0.0,
+    "automated.invalid_method_identified": 0.0,
+    "automated.internal_errors_included": 0.0,
+    "llm_judge.report_file_created": 0.0,
+    "llm_judge.directory_index_forbidden_identified_as_most_frequent": 0.2,
+    "llm_judge.file_does_not_exist_identified_and_counted": 0.2,
+    "llm_judge.invalid_method_identified_as_distinct_type": 0.1,
+    "llm_judge.server_internal_errors_included": 0.3
+  },
+  "notes": "The agent parsed the log and confirmed 753 error entries, but did not create error_types_report.json or deliver a ranked report with counts, examples, and security explanations. Truncated pattern output provides limited evidence of category-level completion. Research into connector internals shows partial attention to server-internal errors, but the external source downloads were unnecessary before producing the required deliverable."
+}

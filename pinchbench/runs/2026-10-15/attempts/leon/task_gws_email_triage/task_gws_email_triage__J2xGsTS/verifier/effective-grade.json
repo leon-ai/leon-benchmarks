@@ -1,0 +1,20 @@
+{
+  "accepted_score": 0.925,
+  "native_criteria": {
+    "score": 0.925,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_emails": 1.0,
+      "automated.read_messages": 1.0,
+      "automated.created_draft": 1.0,
+      "automated.report_created": 1.0,
+      "automated.priorities_assigned": 1.0,
+      "automated.sorted_by_priority": 1.0,
+      "llm_judge.GWS CLI Discovery and Usage": 0.75,
+      "llm_judge.Triage Quality": 0.95,
+      "llm_judge.Draft Reply Quality": 0.85
+    }
+  },
+  "judge_notes": "Correctly used gws to list and read all three unread emails, create a threaded draft, and verify it without sending. The saved report is priority-sorted, complete, actionable, and appropriately distinguishes stale messages from current incidents. The draft professionally acknowledges the highest-priority CI failure, though its automated-notification recipient may be unmonitored. Unrelated weather lookup, duplicate file searches, setup chatter, and a failed raw-draft verification added unnecessary overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

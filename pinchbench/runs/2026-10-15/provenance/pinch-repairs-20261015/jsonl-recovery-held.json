@@ -1,0 +1,4 @@
+{
+  "requires_review": true,
+  "error": "Command '['__PRIVATE_WORKSPACE__/.venv/bin/python', '-m', 'scripts.benchmarks.campaign', '--output', '__WORKSPACE__']' returned non-zero exit status 1."
+}

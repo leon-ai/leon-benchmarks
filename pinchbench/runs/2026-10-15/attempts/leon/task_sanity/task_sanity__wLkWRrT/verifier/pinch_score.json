@@ -1,0 +1,10 @@
+{
+  "task_id": "task_sanity",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "automated",
+  "breakdown": {
+    "agent_responded": 1.0
+  },
+  "notes": ""
+}

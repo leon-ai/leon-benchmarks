@@ -1,0 +1,374 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 6,
+    "recorded_inference_requests": 6,
+    "completed_inference_requests": 6,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 6,
+    "token_usage": {
+      "input_tokens": 229263,
+      "output_tokens": 3704,
+      "total_tokens": 232967,
+      "cached_input_tokens": 140416,
+      "reasoning_output_tokens": 1455
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 6
+    },
+    "http_statuses": {
+      "200": 6
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 6,
+        "median": 1.7462879419981618,
+        "minimum": 1.481578739003453,
+        "maximum": 2.121905482999864
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 10.251697340998362,
+        "minimum": 4.287619632996211,
+        "maximum": 16.215775049000513
+      },
+      "firstToolActionSeconds": {
+        "count": 4,
+        "median": 9.593478566999693,
+        "minimum": 3.312662837000971,
+        "maximum": 119.8550797880016
+      },
+      "responseSeconds": {
+        "count": 6,
+        "median": 9.974628496500372,
+        "minimum": 3.3758880009991117,
+        "maximum": 119.95637595200242
+      }
+    },
+    "observer_milliseconds": 27.848459183587693,
+    "model_tool_calls": 5,
+    "tool_schema_checks": {
+      "valid": 5
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 41587,
+      "output_tokens": 591,
+      "total_tokens": 42178,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 444
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.3540754480000032,
+        "minimum": 2.3540754480000032,
+        "maximum": 2.3540754480000032
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 16.502030741000453,
+        "minimum": 16.502030741000453,
+        "maximum": 16.502030741000453
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 19.313993724000284,
+        "minimum": 19.313993724000284,
+        "maximum": 19.313993724000284
+      }
+    },
+    "observer_milliseconds": 1.8087349981215084,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "prior_judge_recovery_attempts": [
+    {
+      "attempted_inference_requests": 2,
+      "recorded_inference_requests": 1,
+      "completed_inference_requests": 1,
+      "hosted_image_generation_requests": 0,
+      "reported_hosted_image_usage": [],
+      "requests_with_token_usage": 1,
+      "token_usage": {
+        "input_tokens": 41835,
+        "output_tokens": 363,
+        "total_tokens": 42198,
+        "cached_input_tokens": 0,
+        "reasoning_output_tokens": 216
+      },
+      "token_usage_complete": false,
+      "returned_service_tiers": {
+        "default": 1
+      },
+      "http_statuses": {
+        "200": 1
+      },
+      "latency_seconds": {
+        "headersSeconds": {
+          "count": 1,
+          "median": 3.010671008999907,
+          "minimum": 3.010671008999907,
+          "maximum": 3.010671008999907
+        },
+        "firstTextSeconds": {
+          "count": 1,
+          "median": 9.976185208999937,
+          "minimum": 9.976185208999937,
+          "maximum": 9.976185208999937
+        },
+        "firstToolActionSeconds": {
+          "count": 0,
+          "median": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "responseSeconds": {
+          "count": 1,
+          "median": 12.33002906799993,
+          "minimum": 12.33002906799993,
+          "maximum": 12.33002906799993
+        }
+      },
+      "observer_milliseconds": 3.9480800002138494,
+      "model_tool_calls": 0,
+      "tool_schema_checks": {},
+      "tool_schema_validity": null,
+      "tool_schema_check_coverage": null,
+      "semantic_tool_accuracy": null,
+      "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+    }
+  ],
+  "stage_seconds": {
+    "environment_setup": 2.72494,
+    "agent_setup": 1.91123,
+    "agent_execution": 181.651693,
+    "verifier": 1.758436
+  },
+  "native_task_grade": {
+    "task_id": "task_log_apache_top_errors",
+    "score": 0.95,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.output_created": 1.0,
+      "automated.directory_forbidden_top": 0.5,
+      "automated.file_not_exist_counted": 1.0,
+      "automated.invalid_method_identified": 1.0,
+      "automated.internal_errors_included": 1.0,
+      "llm_judge.report_file_created": 1.0,
+      "llm_judge.directory_index_forbidden_identification": 1.0,
+      "llm_judge.file_does_not_exist_identification_and_counts": 1.0,
+      "llm_judge.invalid_method_distinct_category": 1.0,
+      "llm_judge.server_internal_errors_included": 1.0
+    },
+    "notes": "The report provides all required fields, ranks categories by count, and accounts for all 753 errors while excluding notices. Examples and security explanations are specific and appropriately qualified. Directory-index errors are correctly counted at 224; ranking them second is justified because the actual log contains 295 missing-file errors, contrary to the rubric's approximate ordering. Server-internal categories are comprehensively covered.",
+    "reward": 0.95
+  },
+  "exception": {
+    "exception_type": "AgentTimeoutError",
+    "exception_message": "Agent execution timed out after 180.0 seconds",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 105, in run\n    await super().run(session[\"prompt\"], environment, context)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/harbor_agents.py\", line 557, in run\n    await self.exec_as_agent(environment, command, env=env)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 75, in exec_as_agent\n    return await super().exec_as_agent(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        environment, command, env=variables, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 898, in exec_as_agent\n    return await self._exec(\n           ^^^^^^^^^^^^^^^^^\n        environment, command, env=env, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 849, in _exec\n    result = await environment.exec(\n             ^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1101, in exec\n    return await self._compose_exec(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1178, in _compose_exec\n    return await self._run_docker_compose_command(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 649, in _run_docker_compose_command\n    result = await self._collect_buffered_output(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 679, in _collect_buffered_output\n    stdout_bytes, stderr_bytes = await process.communicate(input=stdin_data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 201, in communicate\n    stdin, stdout, stderr = await tasks.gather(stdin, stdout, stderr)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 181, in _read_stream\n    output = await stream.read()\n             ^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 723, in read\n    block = await self.read(self._limit)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 730, in read\n    await self._wait_for_data('read')\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 539, in _wait_for_data\n    await self._waiter\nasyncio.exceptions.CancelledError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 545, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 506, in wait_for\n    async with timeouts.timeout(timeout):\n               ~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/timeouts.py\", line 116, in __aexit__\n    raise TimeoutError from exc_val\nTimeoutError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 554, in _run_agent_phase\n    raise AgentTimeoutError(\n        f\"Agent execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.AgentTimeoutError: Agent execution timed out after 180.0 seconds\n",
+    "occurred_at": "2026-10-14T15:58:46.876394Z"
+  },
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "transport_repair": "native-causal-deadline-boundary",
+    "candidate_execution_preserved": true,
+    "additional_candidate_inference_calls": 0,
+    "reason": "Exclude an untimestamped tool result whose native parent call began after the published deadline; original candidate timeout and workspace retained",
+    "grade_file": "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/effective-grade.json",
+    "requests_file": "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/requests.jsonl",
+    "deterministic_no_inference": false,
+    "rewards": {
+      "task_id": "task_log_apache_top_errors",
+      "score": 0.95,
+      "max_score": 1.0,
+      "grading_type": "hybrid",
+      "breakdown": {
+        "automated.output_created": 1.0,
+        "automated.directory_forbidden_top": 0.5,
+        "automated.file_not_exist_counted": 1.0,
+        "automated.invalid_method_identified": 1.0,
+        "automated.internal_errors_included": 1.0,
+        "llm_judge.report_file_created": 1.0,
+        "llm_judge.directory_index_forbidden_identification": 1.0,
+        "llm_judge.file_does_not_exist_identification_and_counts": 1.0,
+        "llm_judge.invalid_method_distinct_category": 1.0,
+        "llm_judge.server_internal_errors_included": 1.0
+      },
+      "notes": "The report provides all required fields, ranks categories by count, and accounts for all 753 errors while excluding notices. Examples and security explanations are specific and appropriately qualified. Directory-index errors are correctly counted at 224; ranking them second is justified because the actual log contains 295 missing-file errors, contrary to the rubric's approximate ordering. Server-internal categories are comprehensively covered.",
+      "reward": 0.95
+    },
+    "started_at": "2026-10-15T01:31:11.258974+00:00",
+    "finished_at": "2026-10-15T01:31:33.306971+00:00",
+    "evidence_sha256": {
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/result.json": "ca31dba55e98cbdf488308194c24bbf1bb4ec573acc28cd1be3b2fcc6fa7021a",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/inference-events.jsonl": "62582c97892a0e22712cc51071ee155b9c99aa7852ba4ea1f7b735049c945cfc",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/requests.jsonl": "ab2c825b0caf841e80a613125e98eaac4ba8adb92c9f069fc6a9f42c4fd55062",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/hermes-native-messages.json": "b07b8ce8e1bbb78b82ce9c7aa05875c9c6ce8997dd66b2dfb30c4c652fd5a1ad",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/hermes-config.yaml": "ab24c6f5bd53701f693159fb34387a3cd6aa1a6fd655e1a1c4ef4fba28111c5c",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/hermes-session.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/model-tool-calls.jsonl": "b218e6ae247c55253237b5e11fff6ebaadebcf2d4e398932f3cd489b9f0ac7fd",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/pinch-turns.json": "5c1a0c25dd0f254f4df5623aaa3d0b0829732a7a68ecde0327b70d9503f769eb",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/hermes.txt": "229fdbfd2df35159549dff16fa5f83f91a12f88cf2fb3d38ced174e6b2dae4db",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/tool-schemas.jsonl": "b21aab61370b8aa0e1cb42e85c76e977a5bc31dec95643416c4fa74f26417231",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/turns/01/hermes-result.json": "e230c639d9553d6bab63d4c76e8235483a58d2b511458ccfedc1919747f34122",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/turns/01/nested-tool-calls.jsonl": "39deb65c18c4bf1ef93d6e4244476a2bd26c41ac67c5f57269c6f4c112ebac0e",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/turns/01/task-skills.json": "7a3186ef2ed256eeeb66a826cfca375e6b4e8af4a1ebb2abe6d4c2f2654eef75",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/agent/turns/01/hermes.txt": "4b084bf0b4e7b8b62d3c849c7b7b68a4ddb4901fbff5090437ee5bf385b658a4",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/artifacts/workspace/apache_error.log": "b10ad2ee1537d155a8bd770d08d324060ea5dda3405306e71ae5373bfe8708d2",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/artifacts/workspace/error_types_report.json": "528ff46e51d91bb83f1bbe1bff9ba3e9b4291bd3664f4ed2a8e69ec8cc7471e2",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/judge-responses.jsonl": "a1f986c8758261403ba682ae090d9c598bf0061f994843c0b52c3ffa77d6ec82",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/inference-events.jsonl": "38c8df75dde27f8bc69a84914efa49ea003185c5ea364af4c93ce2ea1c7ff97a",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/reward.json": "04eca325549aeface297455b8ff44045899b2df5bb506c5343ba148231b59f0d",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/requests.jsonl": "d87a8e38698534f2b8bc1de725c7ff331dc0aab54f75dc11430d7d8c8f51b935",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/effective-grade.json": "99f891e8944191048f99cf54dd2f61f36d0a392c2f80d15e212581ebcaba6971",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/judge-reliability.json": "5354cb75f5a6321f4f96f91b5b8f227e65122cb6278f7005e3e256aa3875028c",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/pinch_score.json": "80172d74a3a43d03ac99d74ff188a22c416d611a97fb4ea99d21a001a4887653",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/tool-schemas.jsonl": "60c2d1406e8407a3260fecfceaced5e399eeab6f8df2d1126ed7856291224e3e",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/pinch-transcript.jsonl": "fd8070aaa51f33814ef9138a134fabbb3eae65adb4fa8fa94a98c0efcc3d963d",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/hermes-session.json": "5f40982c319381a028ca732b3cf0ec5f1aaddc2a64a8b3e5909ec10eeca32be0",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/hermes-result.json": "e230c639d9553d6bab63d4c76e8235483a58d2b511458ccfedc1919747f34122",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/nested-tool-calls.jsonl": "39deb65c18c4bf1ef93d6e4244476a2bd26c41ac67c5f57269c6f4c112ebac0e",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/deadline.json": "345f607f0bf431e3d7ab8a9f8fc7d6977860bc7592866d43d7a2c06127c5f5ba",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/task-skills.json": "7a3186ef2ed256eeeb66a826cfca375e6b4e8af4a1ebb2abe6d4c2f2654eef75",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/hermes-native-messages.json": "b07b8ce8e1bbb78b82ce9c7aa05875c9c6ce8997dd66b2dfb30c4c652fd5a1ad",
+      "pinch-repairs-20261015/causal-deadline-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/agent/turns/01/hermes.txt": "4b084bf0b4e7b8b62d3c849c7b7b68a4ddb4901fbff5090437ee5bf385b658a4",
+      "tasks/pinch/task_log_apache_top_errors/tests/tasks/task_log_apache_top_errors.md": "1e3ec0ab185206ebfdf8d0b2083be6d464b0ff76d7e76c61a9c03d94b94373c3",
+      "pinch-repairs-20261015/source-versions/causal-deadline-review/native_transcript.py": "9cfbba33dc970825e73df5c812ea64c2111d3f326c7ca71efbb5f7cc8c31b83f",
+      "pinch-repairs-20261015/source-versions/causal-deadline-review/pinch_transcript.py": "1fc88be7d14b22a9144ad5466de3ae4f3438557e035b720accb0c15b4045c9a2",
+      "pinch-repairs-20261015/source-versions/causal-deadline-review/regrading.py": "e997fa96865ff88b4e50ec25201346eaccba3370323e9006fec1e6282e012b18",
+      "jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF/verifier/pinch_score.json": "998c5d3d4369283fa4785b8be1d5490252cb120844fe8853e1e03e894cc166ca",
+      "selection.json": "7de327f6df2e50adc3b120f248341e7237d4003bfcb9045c689d853223956e4a",
+      "pinch-repairs-20261015/apache-receipt-before-causal-deadline-review.json": "a6985516f76e45f30e46f25d49be85412bd996a18905f7f1b27f0d2adcb4e86e",
+      "pinch-repairs-20261014/transcript-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/requests.jsonl": "769b8cdc532ad48857ab19e31e659091003a3d60e31c95eb9234e645692e7d98"
+    },
+    "deadline_outcome_preserved": true,
+    "deadline_epoch": 1791993525.222838,
+    "prior_recovery_requests_files": [
+      "pinch-repairs-20261014/transcript-grades/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF/verifier/requests.jsonl"
+    ]
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

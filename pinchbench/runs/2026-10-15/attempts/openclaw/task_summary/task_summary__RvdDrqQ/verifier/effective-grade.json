@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.85,
+  "native_criteria": {
+    "score": 0.85,
+    "max_score": 1.0,
+    "breakdown": {
+      "Accuracy and Completeness": 1.0,
+      "Conciseness": 0.85,
+      "Structure and Coherence": 0.65,
+      "Writing Quality": 1.0,
+      "Task Completion": 0.75
+    },
+    "reward": 0.85
+  },
+  "judge_notes": "Accurate, clear summary covering all major themes, saved to the correct file after reading the source. At approximately 129 words, it is shorter than the rubric's preferred range but preserves essential information. Exactly three paragraphs are present, but applications appear in paragraph 1 and challenges in paragraph 2 rather than the requested organization. Unnecessary skill searches, Git operations, and failed verification attempts reduced execution efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

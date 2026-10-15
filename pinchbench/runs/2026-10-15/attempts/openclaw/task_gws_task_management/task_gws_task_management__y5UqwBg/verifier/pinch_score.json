@@ -1,0 +1,17 @@
+{
+  "task_id": "task_gws_task_management",
+  "score": 0.96,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.listed_tasks": 1.0,
+    "automated.updated_completed": 1.0,
+    "automated.read_emails": 1.0,
+    "automated.created_new_task": 1.0,
+    "automated.summary_created": 1.0,
+    "llm_judge.Information Extraction": 0.95,
+    "llm_judge.Task List Management": 0.85,
+    "llm_judge.Summary Quality": 0.9
+  },
+  "notes": "Identified all four email action items, created specific tasks with source details and appropriate deadlines, and verified the resulting task list. Completed the proposal review using plausible but not definitive email evidence. The summary clearly documents findings, creations, completion, and uncertainty, though it is longer than necessary. Unrequested Git operations, including a failed commit attempt, added avoidable overhead."
+}

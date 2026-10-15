@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_searchable_index__bCkbwAM",
+  "agent": "openclaw",
+  "task": "task_meeting_searchable_index",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read the transcript but did not create meeting_index.md or provide any index content. None of the required metadata, topic, people, keyword, decision, or action-item sections were delivered.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

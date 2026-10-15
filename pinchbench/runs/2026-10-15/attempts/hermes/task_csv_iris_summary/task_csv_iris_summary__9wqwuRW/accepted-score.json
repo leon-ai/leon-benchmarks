@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_iris_summary__9wqwuRW",
+  "agent": "hermes",
+  "task": "task_csv_iris_summary",
+  "score": 0.9092857142857143,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate overall and per-species statistics, complete coverage, and clear markdown tables. Particularly strong interpretation distinguishes pooled from within-species correlations and explains species separability without overstating it. Minor efficiency and concision issues: an unnecessary environment probe failed, and methodological commentary is slightly more extensive than needed.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

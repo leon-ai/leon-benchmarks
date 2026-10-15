@@ -1,0 +1,14 @@
+{
+  "task_id": "task_blog",
+  "score": 0.92,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Content Quality and Relevance": 0.85,
+    "Structure and Organization": 0.9,
+    "Writing Quality": 0.85,
+    "Word Count Compliance": 1.0,
+    "Task Completion": 1.0
+  },
+  "notes": "Complete, professionally written post saved correctly to blog_post.md at 500 words. Covers five distinct benefits with useful developer-specific examples, clear markdown headings, an introduction, and a conclusion. Some sections remain broadly applicable rather than deeply developer-specific, and the prose is more competent than distinctive. Repeated edits and checks to reach exactly 500 words were unnecessary given the acceptable range."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_summary__RG49WBV",
+  "agent": "openclaw",
+  "task": "task_summary",
+  "score": 0.9,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate, concise summary covering all major applications, benefits, challenges, and future directions. The correct output file contains exactly three clear paragraphs. Paragraph focus partly deviates from the requested organization: applications dominate paragraph one, while challenges appear in paragraph two rather than paragraph three. Unnecessary skill searches and failed verification/commit attempts reduced execution efficiency.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

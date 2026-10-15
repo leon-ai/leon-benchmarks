@@ -1,0 +1,22 @@
+{
+  "task_id": "task_spreadsheet_summary",
+  "score": 0.97,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.total_revenue": 1.0,
+    "automated.total_profit": 1.0,
+    "automated.top_region": 1.0,
+    "automated.top_product": 1.0,
+    "automated.total_expenses": 1.0,
+    "automated.top_department": 1.0,
+    "automated.top_employee": 1.0,
+    "automated.budget_comparison": 1.0,
+    "llm_judge.Data Reading and Parsing": 0.9,
+    "llm_judge.Analytical Accuracy": 1.0,
+    "llm_judge.Report Quality and Structure": 0.95,
+    "llm_judge.Insights and Synthesis": 0.85
+  },
+  "notes": "Correctly parsed both files and Excel sheets, reported all expected aggregates, and provided clear departmental budget comparisons. The markdown report is well structured and appropriately distinguishes annual sales from Q1 expenses, avoiding unsupported net-profit conclusions. Insights are meaningful but offer limited actionable recommendations. Unnecessary skill searches and unrequested Git commits, including a failed commit attempt, reduced execution efficiency."
+}

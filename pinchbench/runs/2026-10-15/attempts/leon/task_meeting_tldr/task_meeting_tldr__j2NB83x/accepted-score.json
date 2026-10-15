@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_tldr__j2NB83x",
+  "agent": "leon",
+  "task": "task_meeting_tldr",
+  "score": 0.92,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Created the requested file under 150 words with a one-line summary, four bullets, and both actionable deadlines. Captures event assignments, Commit priorities, competitive-sheet guidance, and security messaging, but omits the green-only infographic decision and company-level tagline. The Commit bullet is comparatively dense, and deadlines could stand out more. Execution included an irrelevant weather call, duplicate file searches, and redundant overlapping reads.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

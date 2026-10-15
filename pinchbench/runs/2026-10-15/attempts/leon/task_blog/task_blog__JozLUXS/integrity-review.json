@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_blog/native/task_blog__JozLUXS",
+  "score": 0.91,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "5b3c00c18d2a342fea70b70004a2465f3888af2f09b5565e50df1163565f97fa",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.925,
+  "native_criteria": {
+    "score": 0.925,
+    "max_score": 1.0,
+    "breakdown": {
+      "skill_usage_or_manual_rewrite": 0.85,
+      "output_quality_natural_voice": 0.95,
+      "content_preservation": 0.9,
+      "task_completion": 1.0
+    }
+  },
+  "judge_notes": "Strong manual rewrite with contractions, concrete examples, varied sentences, and substantially less filler. All seven strategies and named frameworks remain, though advice about regularly evaluating new technology is softened. Input was read and output saved correctly. Registry failures justify the fallback, but repeated installation attempts and an unrelated git-status check added unnecessary work; the requested /install command was not used.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

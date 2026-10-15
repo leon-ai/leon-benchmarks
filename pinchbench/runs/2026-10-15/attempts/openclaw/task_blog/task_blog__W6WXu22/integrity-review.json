@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_blog/native/task_blog__W6WXu22",
+  "score": 0.93,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "dac6ab31cfb0f8f995fb135becefd291c8029eeb8905d75a0cff58f3bf31b7bd",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

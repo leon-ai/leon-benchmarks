@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_summary/native/task_summary__UvTZuTr",
+  "score": 0.87,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "291c0267af120243e7a531e2fbefcc6a8d2c4e59c6bc3109c4d51a8536a6fb93",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

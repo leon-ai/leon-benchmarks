@@ -1,0 +1,20 @@
+{
+  "task_id": "task_meeting_tldr",
+  "score": 0.92,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 1.0,
+    "automated.one_line_summary": 1.0,
+    "automated.bullet_points": 1.0,
+    "automated.events_mentioned": 1.0,
+    "automated.messaging_decision": 1.0,
+    "automated.deadline_mentioned": 1.0,
+    "automated.word_count_ok": 1.0,
+    "automated.no_filler": 1.0,
+    "llm_judge.Information Density": 0.7,
+    "llm_judge.Conciseness": 0.9,
+    "llm_judge.Scannability": 0.8
+  },
+  "notes": "Created the requested file under 150 words with a one-line summary, four bullets, and both actionable deadlines. Captures event assignments, Commit priorities, competitive-sheet guidance, and security messaging, but omits the green-only infographic decision and company-level tagline. The Commit bullet is comparatively dense, and deadlines could stand out more. Execution included an irrelevant weather call, duplicate file searches, and redundant overlapping reads."
+}

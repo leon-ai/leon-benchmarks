@@ -1,0 +1,22 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__XFoxNXN",
+  "score": 1.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [
+    {
+      "inference_id": "61c1c8b7-96cd-426e-85a6-fa6c1e72358e",
+      "status": 503,
+      "error_type": null
+    }
+  ],
+  "provider_recovered": true,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "6ef44f3a677398a32ff3bdff189ed81d69ce8b5effbb4c5f27261ba2bbcf2b99",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

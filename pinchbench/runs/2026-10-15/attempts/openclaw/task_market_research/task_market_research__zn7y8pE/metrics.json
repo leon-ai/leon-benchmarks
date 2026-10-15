@@ -1,0 +1,306 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 7,
+    "recorded_inference_requests": 6,
+    "completed_inference_requests": 6,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 3
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 3
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 1
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 2
+        }
+      }
+    ],
+    "requests_with_token_usage": 6,
+    "token_usage": {
+      "input_tokens": 328873,
+      "output_tokens": 10586,
+      "total_tokens": 339459,
+      "cached_input_tokens": 89984,
+      "reasoning_output_tokens": 5145
+    },
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "default": 6
+    },
+    "http_statuses": {
+      "200": 6
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 6,
+        "median": 2.1329865985000085,
+        "minimum": 1.8240849330000002,
+        "maximum": 5.430181524999993
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 4.900234883000001,
+        "minimum": 4.900234883000001,
+        "maximum": 4.900234883000001
+      },
+      "firstToolActionSeconds": {
+        "count": 6,
+        "median": 40.19494962450001,
+        "minimum": 2.666925987999999,
+        "maximum": 129.01000152199998
+      },
+      "responseSeconds": {
+        "count": 6,
+        "median": 40.2804630095,
+        "minimum": 2.7539219049999994,
+        "maximum": 129.046518203
+      }
+    },
+    "observer_milliseconds": 60.56391400078792,
+    "model_tool_calls": 6,
+    "tool_schema_checks": {
+      "valid": 6
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 7203,
+      "output_tokens": 345,
+      "total_tokens": 7548,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 195
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.139153628999793,
+        "minimum": 2.139153628999793,
+        "maximum": 2.139153628999793
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 7.6668173859998205,
+        "minimum": 7.6668173859998205,
+        "maximum": 7.6668173859998205
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 10.233633272000134,
+        "minimum": 10.233633272000134,
+        "maximum": 10.233633272000134
+      }
+    },
+    "observer_milliseconds": 2.2078570018493338,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.359681,
+    "agent_setup": 19.567772,
+    "agent_execution": 300.194797,
+    "verifier": 13.246533
+  },
+  "native_task_grade": {
+    "task_id": "task_market_research",
+    "score": 0.9199999999999999,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.file_created": 1.0,
+      "automated.competitors_identified": 1.0,
+      "automated.has_comparison_table": 1.0,
+      "automated.has_pricing_info": 1.0,
+      "automated.has_trends_section": 1.0,
+      "automated.has_structure": 1.0,
+      "automated.has_executive_summary": 1.0,
+      "automated.used_web_search": 1.0,
+      "llm_judge.Research Depth and Accuracy": 0.7,
+      "llm_judge.Analytical Quality": 0.85,
+      "llm_judge.Market Trends and Context": 0.9,
+      "llm_judge.Report Structure and Presentation": 0.9,
+      "llm_judge.Pricing and Business Model Coverage": 0.85
+    },
+    "notes": "Created the required market_research.md file with five substantive competitor profiles, an executive summary, comparison table, actionable trends, and detailed pricing caveats. Strong differentiation and procurement guidance, though company overviews and noncommercial weaknesses receive less attention. The transcript does not substantiate claims that all sources were checked or that pricing is current as of the stated research date. Unnecessary repository operations and a failed validation/commit attempt reduce execution efficiency."
+  },
+  "exception": {
+    "exception_type": "AgentTimeoutError",
+    "exception_message": "Agent execution timed out after 300.0 seconds",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 146, in run\n    await super().run(session[\"prompt\"], environment, context)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/harbor_agents.py\", line 468, in run\n    await self.exec_as_agent(environment, command, env=env)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 96, in exec_as_agent\n    result = await super().exec_as_agent(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        environment, command, env=variables, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 898, in exec_as_agent\n    return await self._exec(\n           ^^^^^^^^^^^^^^^^^\n        environment, command, env=env, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 849, in _exec\n    result = await environment.exec(\n             ^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1101, in exec\n    return await self._compose_exec(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1178, in _compose_exec\n    return await self._run_docker_compose_command(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 649, in _run_docker_compose_command\n    result = await self._collect_buffered_output(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 679, in _collect_buffered_output\n    stdout_bytes, stderr_bytes = await process.communicate(input=stdin_data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 201, in communicate\n    stdin, stdout, stderr = await tasks.gather(stdin, stdout, stderr)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 181, in _read_stream\n    output = await stream.read()\n             ^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 723, in read\n    block = await self.read(self._limit)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 730, in read\n    await self._wait_for_data('read')\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 539, in _wait_for_data\n    await self._waiter\nasyncio.exceptions.CancelledError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 545, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 506, in wait_for\n    async with timeouts.timeout(timeout):\n               ~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/timeouts.py\", line 116, in __aexit__\n    raise TimeoutError from exc_val\nTimeoutError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 554, in _run_agent_phase\n    raise AgentTimeoutError(\n        f\"Agent execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.AgentTimeoutError: Agent execution timed out after 300.0 seconds\n",
+    "occurred_at": "2026-10-15T00:39:15.512813Z"
+  },
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

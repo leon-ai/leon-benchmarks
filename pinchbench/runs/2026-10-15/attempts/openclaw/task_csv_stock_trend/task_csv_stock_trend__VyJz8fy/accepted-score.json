@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_stock_trend__VyJz8fy",
+  "agent": "openclaw",
+  "task": "task_csv_stock_trend",
+  "score": 0.985,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "Accurate prices, return, monthly averages, and streaks, including the additional tied five-day decline. The report clearly identifies the bullish trend and major sustained movements, correctly noting incomplete December coverage. All requested elements are present. Minor deductions for overly elaborate methodology, unnecessary skill-search calls, the failed Python invocation, and not explicitly highlighting the April 24 breakout.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

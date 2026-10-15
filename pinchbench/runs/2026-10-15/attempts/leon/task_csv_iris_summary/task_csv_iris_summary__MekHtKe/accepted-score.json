@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_iris_summary__MekHtKe",
+  "agent": "leon",
+  "task": "task_csv_iris_summary",
+  "score": 0.9042857142857142,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The report contains accurate overall and per-species statistics, all requested sections, clear tables, and strong interpretations, including setosa separability and the strongest petal correlation. Sample SD conventions and pooled-correlation limitations are explicitly documented. Minor presentation/process deduction for unnecessary weather lookup, repeated tool attempts, and verbose setup commentary.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

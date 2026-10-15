@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "task_blog__F3Hzs82",
+    "agent": "hermes",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.94,
+    "trial": "attempts/hermes/task_blog/task_blog__F3Hzs82"
+  },
+  {
+    "id": "task_blog__WVWuA6N",
+    "agent": "hermes",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.92,
+    "trial": "attempts/hermes/task_blog/task_blog__WVWuA6N"
+  },
+  {
+    "id": "task_blog__fQFwdjP",
+    "agent": "hermes",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.94,
+    "trial": "attempts/hermes/task_blog/task_blog__fQFwdjP"
+  },
+  {
+    "id": "task_blog__DG8f6ds",
+    "agent": "leon",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.92,
+    "trial": "attempts/leon/task_blog/task_blog__DG8f6ds"
+  },
+  {
+    "id": "task_blog__JozLUXS",
+    "agent": "leon",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.91,
+    "trial": "attempts/leon/task_blog/task_blog__JozLUXS"
+  },
+  {
+    "id": "task_blog__zAMs7Up",
+    "agent": "leon",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.92,
+    "trial": "attempts/leon/task_blog/task_blog__zAMs7Up"
+  },
+  {
+    "id": "task_blog__2EEy48i",
+    "agent": "openclaw",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.92,
+    "trial": "attempts/openclaw/task_blog/task_blog__2EEy48i"
+  },
+  {
+    "id": "task_blog__W6WXu22",
+    "agent": "openclaw",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.93,
+    "trial": "attempts/openclaw/task_blog/task_blog__W6WXu22"
+  },
+  {
+    "id": "task_blog__p73gyzH",
+    "agent": "openclaw",
+    "task": "task_blog",
+    "domain": "writing",
+    "score": 0.9,
+    "trial": "attempts/openclaw/task_blog/task_blog__p73gyzH"
+  },
+  {
+    "id": "task_calendar__4mQchY7",
+    "agent": "hermes",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_calendar/task_calendar__4mQchY7"
+  },
+  {
+    "id": "task_calendar__YnbMhv9",
+    "agent": "hermes",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_calendar/task_calendar__YnbMhv9"
+  },
+  {
+    "id": "task_calendar__prWYhhh",
+    "agent": "hermes",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_calendar/task_calendar__prWYhhh"
+  },
+  {
+    "id": "task_calendar__4TNwwjg",
+    "agent": "leon",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_calendar/task_calendar__4TNwwjg"
+  },
+  {
+    "id": "task_calendar__s4H6zeG",
+    "agent": "leon",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_calendar/task_calendar__s4H6zeG"
+  },
+  {
+    "id": "task_calendar__sREiZ72",
+    "agent": "leon",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_calendar/task_calendar__sREiZ72"
+  },
+  {
+    "id": "task_calendar__SGArTqQ",
+    "agent": "openclaw",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_calendar/task_calendar__SGArTqQ"
+  },
+  {
+    "id": "task_calendar__cCDQV34",
+    "agent": "openclaw",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_calendar/task_calendar__cCDQV34"
+  },
+  {
+    "id": "task_calendar__xbzWydh",
+    "agent": "openclaw",
+    "task": "task_calendar",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_calendar/task_calendar__xbzWydh"
+  },
+  {
+    "id": "task_csv_finance_report__6Sq6KYz",
+    "agent": "hermes",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.9625,
+    "trial": "attempts/hermes/task_csv_finance_report/task_csv_finance_report__6Sq6KYz"
+  },
+  {
+    "id": "task_csv_finance_report__DAXyAqG",
+    "agent": "hermes",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.0,
+    "trial": "attempts/hermes/task_csv_finance_report/task_csv_finance_report__DAXyAqG"
+  },
+  {
+    "id": "task_csv_finance_report__NEhLx9o",
+    "agent": "hermes",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.95,
+    "trial": "attempts/hermes/task_csv_finance_report/task_csv_finance_report__NEhLx9o"
+  },
+  {
+    "id": "task_csv_finance_report__R8XCxsc",
+    "agent": "leon",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.9375,
+    "trial": "attempts/leon/task_csv_finance_report/task_csv_finance_report__R8XCxsc"
+  },
+  {
+    "id": "task_csv_finance_report__i7fzin7",
+    "agent": "leon",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.0625,
+    "trial": "attempts/leon/task_csv_finance_report/task_csv_finance_report__i7fzin7"
+  },
+  {
+    "id": "task_csv_finance_report__oA4JY4D",
+    "agent": "leon",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.95,
+    "trial": "attempts/leon/task_csv_finance_report/task_csv_finance_report__oA4JY4D"
+  },
+  {
+    "id": "task_csv_finance_report__V732n4N",
+    "agent": "openclaw",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.95,
+    "trial": "attempts/openclaw/task_csv_finance_report/task_csv_finance_report__V732n4N"
+  },
+  {
+    "id": "task_csv_finance_report__cDNPj4C",
+    "agent": "openclaw",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.945,
+    "trial": "attempts/openclaw/task_csv_finance_report/task_csv_finance_report__cDNPj4C"
+  },
+  {
+    "id": "task_csv_finance_report__ykchHcd",
+    "agent": "openclaw",
+    "task": "task_csv_finance_report",
+    "domain": "csv_analysis",
+    "score": 0.95,
+    "trial": "attempts/openclaw/task_csv_finance_report/task_csv_finance_report__ykchHcd"
+  },
+  {
+    "id": "task_csv_iris_summary__9wqwuRW",
+    "agent": "hermes",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.9092857142857143,
+    "trial": "attempts/hermes/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW"
+  },
+  {
+    "id": "task_csv_iris_summary__QsunKMJ",
+    "agent": "hermes",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.995,
+    "trial": "attempts/hermes/task_csv_iris_summary/task_csv_iris_summary__QsunKMJ"
+  },
+  {
+    "id": "task_csv_iris_summary__a38WKa3",
+    "agent": "hermes",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_csv_iris_summary/task_csv_iris_summary__a38WKa3"
+  },
+  {
+    "id": "task_csv_iris_summary__MekHtKe",
+    "agent": "leon",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.9042857142857142,
+    "trial": "attempts/leon/task_csv_iris_summary/task_csv_iris_summary__MekHtKe"
+  },
+  {
+    "id": "task_csv_iris_summary__Z3rTBPQ",
+    "agent": "leon",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.9042857142857142,
+    "trial": "attempts/leon/task_csv_iris_summary/task_csv_iris_summary__Z3rTBPQ"
+  },
+  {
+    "id": "task_csv_iris_summary__mYA7V9E",
+    "agent": "leon",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.99,
+    "trial": "attempts/leon/task_csv_iris_summary/task_csv_iris_summary__mYA7V9E"
+  },
+  {
+    "id": "task_csv_iris_summary__6UC56Zr",
+    "agent": "openclaw",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.9685714285714285,
+    "trial": "attempts/openclaw/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr"
+  },
+  {
+    "id": "task_csv_iris_summary__gbRMKEX",
+    "agent": "openclaw",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.9042857142857142,
+    "trial": "attempts/openclaw/task_csv_iris_summary/task_csv_iris_summary__gbRMKEX"
+  },
+  {
+    "id": "task_csv_iris_summary__qJgWvny",
+    "agent": "openclaw",
+    "task": "task_csv_iris_summary",
+    "domain": "csv_analysis",
+    "score": 0.995,
+    "trial": "attempts/openclaw/task_csv_iris_summary/task_csv_iris_summary__qJgWvny"
+  },
+  {
+    "id": "task_csv_stock_trend__3btLqkN",
+    "agent": "hermes",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.99,
+    "trial": "attempts/hermes/task_csv_stock_trend/task_csv_stock_trend__3btLqkN"
+  },
+  {
+    "id": "task_csv_stock_trend__KTHmQqJ",
+    "agent": "hermes",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_csv_stock_trend/task_csv_stock_trend__KTHmQqJ"
+  },
+  {
+    "id": "task_csv_stock_trend__vXFNorX",
+    "agent": "hermes",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.995,
+    "trial": "attempts/hermes/task_csv_stock_trend/task_csv_stock_trend__vXFNorX"
+  },
+  {
+    "id": "task_csv_stock_trend__c9D3iMi",
+    "agent": "leon",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.99,
+    "trial": "attempts/leon/task_csv_stock_trend/task_csv_stock_trend__c9D3iMi"
+  },
+  {
+    "id": "task_csv_stock_trend__qWWzEEx",
+    "agent": "leon",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.985,
+    "trial": "attempts/leon/task_csv_stock_trend/task_csv_stock_trend__qWWzEEx"
+  },
+  {
+    "id": "task_csv_stock_trend__tB7oZxM",
+    "agent": "leon",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.010000000000000002,
+    "trial": "attempts/leon/task_csv_stock_trend/task_csv_stock_trend__tB7oZxM"
+  },
+  {
+    "id": "task_csv_stock_trend__4vvtj5M",
+    "agent": "openclaw",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.99,
+    "trial": "attempts/openclaw/task_csv_stock_trend/task_csv_stock_trend__4vvtj5M"
+  },
+  {
+    "id": "task_csv_stock_trend__VyJz8fy",
+    "agent": "openclaw",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.985,
+    "trial": "attempts/openclaw/task_csv_stock_trend/task_csv_stock_trend__VyJz8fy"
+  },
+  {
+    "id": "task_csv_stock_trend__veKLCXf",
+    "agent": "openclaw",
+    "task": "task_csv_stock_trend",
+    "domain": "csv_analysis",
+    "score": 0.8416666666666667,
+    "trial": "attempts/openclaw/task_csv_stock_trend/task_csv_stock_trend__veKLCXf"
+  },
+  {
+    "id": "task_email__7u6WySa",
+    "agent": "hermes",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_email/task_email__7u6WySa"
+  },
+  {
+    "id": "task_email__9fDSeUj",
+    "agent": "hermes",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_email/task_email__9fDSeUj"
+  },
+  {
+    "id": "task_email__Dmbpdnp",
+    "agent": "hermes",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_email/task_email__Dmbpdnp"
+  },
+  {
+    "id": "task_email__6kjeQP3",
+    "agent": "leon",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 0.95,
+    "trial": "attempts/leon/task_email/task_email__6kjeQP3"
+  },
+  {
+    "id": "task_email__mskJitF",
+    "agent": "leon",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 0.94,
+    "trial": "attempts/leon/task_email/task_email__mskJitF"
+  },
+  {
+    "id": "task_email__zzdZHp2",
+    "agent": "leon",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 0.97,
+    "trial": "attempts/leon/task_email/task_email__zzdZHp2"
+  },
+  {
+    "id": "task_email__Bqi7iuA",
+    "agent": "openclaw",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 0.96,
+    "trial": "attempts/openclaw/task_email/task_email__Bqi7iuA"
+  },
+  {
+    "id": "task_email__N6pKej8",
+    "agent": "openclaw",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 0.97,
+    "trial": "attempts/openclaw/task_email/task_email__N6pKej8"
+  },
+  {
+    "id": "task_email__NMLahuK",
+    "agent": "openclaw",
+    "task": "task_email",
+    "domain": "writing",
+    "score": 0.94,
+    "trial": "attempts/openclaw/task_email/task_email__NMLahuK"
+  },
+  {
+    "id": "task_files__XrXyv4Y",
+    "agent": "hermes",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 0.8571428571428571,
+    "trial": "attempts/hermes/task_files/task_files__XrXyv4Y"
+  },
+  {
+    "id": "task_files__aco86MZ",
+    "agent": "hermes",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 0.8571428571428571,
+    "trial": "attempts/hermes/task_files/task_files__aco86MZ"
+  },
+  {
+    "id": "task_files__i3kMdmo",
+    "agent": "hermes",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_files/task_files__i3kMdmo"
+  },
+  {
+    "id": "task_files__VryCTnE",
+    "agent": "leon",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/leon/task_files/task_files__VryCTnE"
+  },
+  {
+    "id": "task_files__YaCTEWv",
+    "agent": "leon",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/leon/task_files/task_files__YaCTEWv"
+  },
+  {
+    "id": "task_files__tzmNca7",
+    "agent": "leon",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/leon/task_files/task_files__tzmNca7"
+  },
+  {
+    "id": "task_files__faNQdYL",
+    "agent": "openclaw",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_files/task_files__faNQdYL"
+  },
+  {
+    "id": "task_files__oCRPvc2",
+    "agent": "openclaw",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_files/task_files__oCRPvc2"
+  },
+  {
+    "id": "task_files__vArL28Y",
+    "agent": "openclaw",
+    "task": "task_files",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_files/task_files__vArL28Y"
+  },
+  {
+    "id": "task_gws_cross_service__fuSxoV4",
+    "agent": "hermes",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.76,
+    "trial": "attempts/hermes/task_gws_cross_service/task_gws_cross_service__fuSxoV4"
+  },
+  {
+    "id": "task_gws_cross_service__gziEKph",
+    "agent": "hermes",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.8899999999999999,
+    "trial": "attempts/hermes/task_gws_cross_service/task_gws_cross_service__gziEKph"
+  },
+  {
+    "id": "task_gws_cross_service__nCdYXC6",
+    "agent": "hermes",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.73,
+    "trial": "attempts/hermes/task_gws_cross_service/task_gws_cross_service__nCdYXC6"
+  },
+  {
+    "id": "task_gws_cross_service__92GxNPj",
+    "agent": "leon",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.71,
+    "trial": "attempts/leon/task_gws_cross_service/task_gws_cross_service__92GxNPj"
+  },
+  {
+    "id": "task_gws_cross_service__FyVFgDG",
+    "agent": "leon",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.72,
+    "trial": "attempts/leon/task_gws_cross_service/task_gws_cross_service__FyVFgDG"
+  },
+  {
+    "id": "task_gws_cross_service__ixFnNag",
+    "agent": "leon",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.73,
+    "trial": "attempts/leon/task_gws_cross_service/task_gws_cross_service__ixFnNag"
+  },
+  {
+    "id": "task_gws_cross_service__sSUERWP",
+    "agent": "openclaw",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.73,
+    "trial": "attempts/openclaw/task_gws_cross_service/task_gws_cross_service__sSUERWP"
+  },
+  {
+    "id": "task_gws_cross_service__xXQtbUS",
+    "agent": "openclaw",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.73,
+    "trial": "attempts/openclaw/task_gws_cross_service/task_gws_cross_service__xXQtbUS"
+  },
+  {
+    "id": "task_gws_cross_service__z4u4MAf",
+    "agent": "openclaw",
+    "task": "task_gws_cross_service",
+    "domain": "integrations",
+    "score": 0.73,
+    "trial": "attempts/openclaw/task_gws_cross_service/task_gws_cross_service__z4u4MAf"
+  },
+  {
+    "id": "task_gws_email_triage__Q6byXBs",
+    "agent": "hermes",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.9166666666666667,
+    "trial": "attempts/hermes/task_gws_email_triage/task_gws_email_triage__Q6byXBs"
+  },
+  {
+    "id": "task_gws_email_triage__RQm9ufb",
+    "agent": "hermes",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.9166666666500001,
+    "trial": "attempts/hermes/task_gws_email_triage/task_gws_email_triage__RQm9ufb"
+  },
+  {
+    "id": "task_gws_email_triage__gmfBhPP",
+    "agent": "hermes",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.925,
+    "trial": "attempts/hermes/task_gws_email_triage/task_gws_email_triage__gmfBhPP"
+  },
+  {
+    "id": "task_gws_email_triage__J2xGsTS",
+    "agent": "leon",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.925,
+    "trial": "attempts/leon/task_gws_email_triage/task_gws_email_triage__J2xGsTS"
+  },
+  {
+    "id": "task_gws_email_triage__LEppryE",
+    "agent": "leon",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.90833333335,
+    "trial": "attempts/leon/task_gws_email_triage/task_gws_email_triage__LEppryE"
+  },
+  {
+    "id": "task_gws_email_triage__kXtd3mb",
+    "agent": "leon",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.9,
+    "trial": "attempts/leon/task_gws_email_triage/task_gws_email_triage__kXtd3mb"
+  },
+  {
+    "id": "task_gws_email_triage__Nw3NrAW",
+    "agent": "openclaw",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.925,
+    "trial": "attempts/openclaw/task_gws_email_triage/task_gws_email_triage__Nw3NrAW"
+  },
+  {
+    "id": "task_gws_email_triage__mciMzFx",
+    "agent": "openclaw",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.925,
+    "trial": "attempts/openclaw/task_gws_email_triage/task_gws_email_triage__mciMzFx"
+  },
+  {
+    "id": "task_gws_email_triage__vZz22NG",
+    "agent": "openclaw",
+    "task": "task_gws_email_triage",
+    "domain": "integrations",
+    "score": 0.93333333335,
+    "trial": "attempts/openclaw/task_gws_email_triage/task_gws_email_triage__vZz22NG"
+  },
+  {
+    "id": "task_gws_task_management__4dSmBGW",
+    "agent": "hermes",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.9466666666666667,
+    "trial": "attempts/hermes/task_gws_task_management/task_gws_task_management__4dSmBGW"
+  },
+  {
+    "id": "task_gws_task_management__f9vg3ak",
+    "agent": "hermes",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.94,
+    "trial": "attempts/hermes/task_gws_task_management/task_gws_task_management__f9vg3ak"
+  },
+  {
+    "id": "task_gws_task_management__oQsse7p",
+    "agent": "hermes",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.948,
+    "trial": "attempts/hermes/task_gws_task_management/task_gws_task_management__oQsse7p"
+  },
+  {
+    "id": "task_gws_task_management__B5uBtmK",
+    "agent": "leon",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.8466666666666667,
+    "trial": "attempts/leon/task_gws_task_management/task_gws_task_management__B5uBtmK"
+  },
+  {
+    "id": "task_gws_task_management__MFvRrgw",
+    "agent": "leon",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.9533333333333334,
+    "trial": "attempts/leon/task_gws_task_management/task_gws_task_management__MFvRrgw"
+  },
+  {
+    "id": "task_gws_task_management__ZzXddeh",
+    "agent": "leon",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.92,
+    "trial": "attempts/leon/task_gws_task_management/task_gws_task_management__ZzXddeh"
+  },
+  {
+    "id": "task_gws_task_management__KZm6RTA",
+    "agent": "openclaw",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.9466666666666667,
+    "trial": "attempts/openclaw/task_gws_task_management/task_gws_task_management__KZm6RTA"
+  },
+  {
+    "id": "task_gws_task_management__ZHtT9v2",
+    "agent": "openclaw",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.96666666668,
+    "trial": "attempts/openclaw/task_gws_task_management/task_gws_task_management__ZHtT9v2"
+  },
+  {
+    "id": "task_gws_task_management__y5UqwBg",
+    "agent": "openclaw",
+    "task": "task_gws_task_management",
+    "domain": "integrations",
+    "score": 0.96,
+    "trial": "attempts/openclaw/task_gws_task_management/task_gws_task_management__y5UqwBg"
+  },
+  {
+    "id": "task_humanizer__4brjnoq",
+    "agent": "hermes",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.9,
+    "trial": "attempts/hermes/task_humanizer/task_humanizer__4brjnoq"
+  },
+  {
+    "id": "task_humanizer__JU7Lbcy",
+    "agent": "hermes",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.9375,
+    "trial": "attempts/hermes/task_humanizer/task_humanizer__JU7Lbcy"
+  },
+  {
+    "id": "task_humanizer__ffteecf",
+    "agent": "hermes",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.925,
+    "trial": "attempts/hermes/task_humanizer/task_humanizer__ffteecf"
+  },
+  {
+    "id": "task_humanizer__9vuasXZ",
+    "agent": "leon",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.95,
+    "trial": "attempts/leon/task_humanizer/task_humanizer__9vuasXZ"
+  },
+  {
+    "id": "task_humanizer__PzfWYE2",
+    "agent": "leon",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.9375,
+    "trial": "attempts/leon/task_humanizer/task_humanizer__PzfWYE2"
+  },
+  {
+    "id": "task_humanizer__oB5Miig",
+    "agent": "leon",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.9125,
+    "trial": "attempts/leon/task_humanizer/task_humanizer__oB5Miig"
+  },
+  {
+    "id": "task_humanizer__Ch3URDh",
+    "agent": "openclaw",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.9125,
+    "trial": "attempts/openclaw/task_humanizer/task_humanizer__Ch3URDh"
+  },
+  {
+    "id": "task_humanizer__nJDkXtP",
+    "agent": "openclaw",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.125,
+    "trial": "attempts/openclaw/task_humanizer/task_humanizer__nJDkXtP"
+  },
+  {
+    "id": "task_humanizer__rTX7Jc5",
+    "agent": "openclaw",
+    "task": "task_humanizer",
+    "domain": "writing",
+    "score": 0.925,
+    "trial": "attempts/openclaw/task_humanizer/task_humanizer__rTX7Jc5"
+  },
+  {
+    "id": "task_image_identification__9ou52ZE",
+    "agent": "hermes",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_image_identification/task_image_identification__9ou52ZE"
+  },
+  {
+    "id": "task_image_identification__CV9XteK",
+    "agent": "hermes",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_image_identification/task_image_identification__CV9XteK"
+  },
+  {
+    "id": "task_image_identification__gBQ8Tao",
+    "agent": "hermes",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_image_identification/task_image_identification__gBQ8Tao"
+  },
+  {
+    "id": "task_image_identification__LguSwWw",
+    "agent": "leon",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/leon/task_image_identification/task_image_identification__LguSwWw"
+  },
+  {
+    "id": "task_image_identification__hifp5xB",
+    "agent": "leon",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/leon/task_image_identification/task_image_identification__hifp5xB"
+  },
+  {
+    "id": "task_image_identification__v2sEFii",
+    "agent": "leon",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/leon/task_image_identification/task_image_identification__v2sEFii"
+  },
+  {
+    "id": "task_image_identification__6sbG3gi",
+    "agent": "openclaw",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_image_identification/task_image_identification__6sbG3gi"
+  },
+  {
+    "id": "task_image_identification__DauvuqV",
+    "agent": "openclaw",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_image_identification/task_image_identification__DauvuqV"
+  },
+  {
+    "id": "task_image_identification__DqvWLvF",
+    "agent": "openclaw",
+    "task": "task_image_identification",
+    "domain": "analysis",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_image_identification/task_image_identification__DqvWLvF"
+  },
+  {
+    "id": "task_it_procurement__CnjBDFC",
+    "agent": "hermes",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.15,
+    "trial": "attempts/hermes/task_it_procurement/task_it_procurement__CnjBDFC"
+  },
+  {
+    "id": "task_it_procurement__DFNjcVS",
+    "agent": "hermes",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.1,
+    "trial": "attempts/hermes/task_it_procurement/task_it_procurement__DFNjcVS"
+  },
+  {
+    "id": "task_it_procurement__tzm9onu",
+    "agent": "hermes",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.09,
+    "trial": "attempts/hermes/task_it_procurement/task_it_procurement__tzm9onu"
+  },
+  {
+    "id": "task_it_procurement__9ryFXqT",
+    "agent": "leon",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.05,
+    "trial": "attempts/leon/task_it_procurement/task_it_procurement__9ryFXqT"
+  },
+  {
+    "id": "task_it_procurement__JEkeFso",
+    "agent": "leon",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.05,
+    "trial": "attempts/leon/task_it_procurement/task_it_procurement__JEkeFso"
+  },
+  {
+    "id": "task_it_procurement__Ltx32RL",
+    "agent": "leon",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.05,
+    "trial": "attempts/leon/task_it_procurement/task_it_procurement__Ltx32RL"
+  },
+  {
+    "id": "task_it_procurement__UXDGRcj",
+    "agent": "openclaw",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_it_procurement/task_it_procurement__UXDGRcj"
+  },
+  {
+    "id": "task_it_procurement__VeL5spG",
+    "agent": "openclaw",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_it_procurement/task_it_procurement__VeL5spG"
+  },
+  {
+    "id": "task_it_procurement__z9B6LbR",
+    "agent": "openclaw",
+    "task": "task_it_procurement",
+    "domain": "research",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_it_procurement/task_it_procurement__z9B6LbR"
+  },
+  {
+    "id": "task_log_apache_top_errors__598r2Wu",
+    "agent": "hermes",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.02,
+    "trial": "attempts/hermes/task_log_apache_top_errors/task_log_apache_top_errors__598r2Wu"
+  },
+  {
+    "id": "task_log_apache_top_errors__NCaw7sF",
+    "agent": "hermes",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.95,
+    "trial": "attempts/hermes/task_log_apache_top_errors/task_log_apache_top_errors__NCaw7sF"
+  },
+  {
+    "id": "task_log_apache_top_errors__UDwajRv",
+    "agent": "hermes",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.08,
+    "trial": "attempts/hermes/task_log_apache_top_errors/task_log_apache_top_errors__UDwajRv"
+  },
+  {
+    "id": "task_log_apache_top_errors__UeLvAbx",
+    "agent": "leon",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.925,
+    "trial": "attempts/leon/task_log_apache_top_errors/task_log_apache_top_errors__UeLvAbx"
+  },
+  {
+    "id": "task_log_apache_top_errors__bQxadud",
+    "agent": "leon",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.9199999999999999,
+    "trial": "attempts/leon/task_log_apache_top_errors/task_log_apache_top_errors__bQxadud"
+  },
+  {
+    "id": "task_log_apache_top_errors__ugL4xuC",
+    "agent": "leon",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.9450000000000001,
+    "trial": "attempts/leon/task_log_apache_top_errors/task_log_apache_top_errors__ugL4xuC"
+  },
+  {
+    "id": "task_log_apache_top_errors__B59Qymx",
+    "agent": "openclaw",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.9299999999999999,
+    "trial": "attempts/openclaw/task_log_apache_top_errors/task_log_apache_top_errors__B59Qymx"
+  },
+  {
+    "id": "task_log_apache_top_errors__BEHKzg6",
+    "agent": "openclaw",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.04,
+    "trial": "attempts/openclaw/task_log_apache_top_errors/task_log_apache_top_errors__BEHKzg6"
+  },
+  {
+    "id": "task_log_apache_top_errors__Wu4wzbk",
+    "agent": "openclaw",
+    "task": "task_log_apache_top_errors",
+    "domain": "log_analysis",
+    "score": 0.06,
+    "trial": "attempts/openclaw/task_log_apache_top_errors/task_log_apache_top_errors__Wu4wzbk"
+  },
+  {
+    "id": "task_log_hdfs_failures__L7iubCs",
+    "agent": "hermes",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.9299999999999999,
+    "trial": "attempts/hermes/task_log_hdfs_failures/task_log_hdfs_failures__L7iubCs"
+  },
+  {
+    "id": "task_log_hdfs_failures__oop4Cz9",
+    "agent": "hermes",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.985,
+    "trial": "attempts/hermes/task_log_hdfs_failures/task_log_hdfs_failures__oop4Cz9"
+  },
+  {
+    "id": "task_log_hdfs_failures__zzdZN8m",
+    "agent": "hermes",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.06,
+    "trial": "attempts/hermes/task_log_hdfs_failures/task_log_hdfs_failures__zzdZN8m"
+  },
+  {
+    "id": "task_log_hdfs_failures__BcT6d7w",
+    "agent": "leon",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.17,
+    "trial": "attempts/leon/task_log_hdfs_failures/task_log_hdfs_failures__BcT6d7w"
+  },
+  {
+    "id": "task_log_hdfs_failures__kpPqkn7",
+    "agent": "leon",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.335,
+    "trial": "attempts/leon/task_log_hdfs_failures/task_log_hdfs_failures__kpPqkn7"
+  },
+  {
+    "id": "task_log_hdfs_failures__sPYSv8m",
+    "agent": "leon",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.95,
+    "trial": "attempts/leon/task_log_hdfs_failures/task_log_hdfs_failures__sPYSv8m"
+  },
+  {
+    "id": "task_log_hdfs_failures__aAHbAE2",
+    "agent": "openclaw",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.985,
+    "trial": "attempts/openclaw/task_log_hdfs_failures/task_log_hdfs_failures__aAHbAE2"
+  },
+  {
+    "id": "task_log_hdfs_failures__aS4G8zZ",
+    "agent": "openclaw",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.977,
+    "trial": "attempts/openclaw/task_log_hdfs_failures/task_log_hdfs_failures__aS4G8zZ"
+  },
+  {
+    "id": "task_log_hdfs_failures__oVP3osY",
+    "agent": "openclaw",
+    "task": "task_log_hdfs_failures",
+    "domain": "log_analysis",
+    "score": 0.98,
+    "trial": "attempts/openclaw/task_log_hdfs_failures/task_log_hdfs_failures__oVP3osY"
+  },
+  {
+    "id": "task_log_syslog_boot__JXgj6rS",
+    "agent": "hermes",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.996,
+    "trial": "attempts/hermes/task_log_syslog_boot/task_log_syslog_boot__JXgj6rS"
+  },
+  {
+    "id": "task_log_syslog_boot__wmSrtRv",
+    "agent": "hermes",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.994,
+    "trial": "attempts/hermes/task_log_syslog_boot/task_log_syslog_boot__wmSrtRv"
+  },
+  {
+    "id": "task_log_syslog_boot__yzKCLPL",
+    "agent": "hermes",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.996,
+    "trial": "attempts/hermes/task_log_syslog_boot/task_log_syslog_boot__yzKCLPL"
+  },
+  {
+    "id": "task_log_syslog_boot__967ZC3o",
+    "agent": "leon",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_log_syslog_boot/task_log_syslog_boot__967ZC3o"
+  },
+  {
+    "id": "task_log_syslog_boot__SZBuZEy",
+    "agent": "leon",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.04000000000000001,
+    "trial": "attempts/leon/task_log_syslog_boot/task_log_syslog_boot__SZBuZEy"
+  },
+  {
+    "id": "task_log_syslog_boot__gQHiU6Y",
+    "agent": "leon",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.996,
+    "trial": "attempts/leon/task_log_syslog_boot/task_log_syslog_boot__gQHiU6Y"
+  },
+  {
+    "id": "task_log_syslog_boot__2CRA69z",
+    "agent": "openclaw",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.996,
+    "trial": "attempts/openclaw/task_log_syslog_boot/task_log_syslog_boot__2CRA69z"
+  },
+  {
+    "id": "task_log_syslog_boot__XFoxNXN",
+    "agent": "openclaw",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_log_syslog_boot/task_log_syslog_boot__XFoxNXN"
+  },
+  {
+    "id": "task_log_syslog_boot__yWnLbHZ",
+    "agent": "openclaw",
+    "task": "task_log_syslog_boot",
+    "domain": "log_analysis",
+    "score": 0.996,
+    "trial": "attempts/openclaw/task_log_syslog_boot/task_log_syslog_boot__yWnLbHZ"
+  },
+  {
+    "id": "task_market_research__B2RPxoY",
+    "agent": "hermes",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.948,
+    "trial": "attempts/hermes/task_market_research/task_market_research__B2RPxoY"
+  },
+  {
+    "id": "task_market_research__VSXjnYw",
+    "agent": "hermes",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.966,
+    "trial": "attempts/hermes/task_market_research/task_market_research__VSXjnYw"
+  },
+  {
+    "id": "task_market_research__YnTS564",
+    "agent": "hermes",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.9490000000000001,
+    "trial": "attempts/hermes/task_market_research/task_market_research__YnTS564"
+  },
+  {
+    "id": "task_market_research__5BY4ttP",
+    "agent": "leon",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.9550000000000001,
+    "trial": "attempts/leon/task_market_research/task_market_research__5BY4ttP"
+  },
+  {
+    "id": "task_market_research__8t6aEpN",
+    "agent": "leon",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.9550000000000001,
+    "trial": "attempts/leon/task_market_research/task_market_research__8t6aEpN"
+  },
+  {
+    "id": "task_market_research__uxUevFp",
+    "agent": "leon",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.96,
+    "trial": "attempts/leon/task_market_research/task_market_research__uxUevFp"
+  },
+  {
+    "id": "task_market_research__TQzG4DC",
+    "agent": "openclaw",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.895,
+    "trial": "attempts/openclaw/task_market_research/task_market_research__TQzG4DC"
+  },
+  {
+    "id": "task_market_research__qYsJf8P",
+    "agent": "openclaw",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.89,
+    "trial": "attempts/openclaw/task_market_research/task_market_research__qYsJf8P"
+  },
+  {
+    "id": "task_market_research__zn7y8pE",
+    "agent": "openclaw",
+    "task": "task_market_research",
+    "domain": "research",
+    "score": 0.9199999999999999,
+    "trial": "attempts/openclaw/task_market_research/task_market_research__zn7y8pE"
+  },
+  {
+    "id": "task_meeting_council_votes__BAcN7L5",
+    "agent": "hermes",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.075,
+    "trial": "attempts/hermes/task_meeting_council_votes/task_meeting_council_votes__BAcN7L5"
+  },
+  {
+    "id": "task_meeting_council_votes__rEytQsW",
+    "agent": "hermes",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/hermes/task_meeting_council_votes/task_meeting_council_votes__rEytQsW"
+  },
+  {
+    "id": "task_meeting_council_votes__yPyChEN",
+    "agent": "hermes",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/hermes/task_meeting_council_votes/task_meeting_council_votes__yPyChEN"
+  },
+  {
+    "id": "task_meeting_council_votes__9z8SJ4J",
+    "agent": "leon",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_meeting_council_votes/task_meeting_council_votes__9z8SJ4J"
+  },
+  {
+    "id": "task_meeting_council_votes__BXmtJiZ",
+    "agent": "leon",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_meeting_council_votes/task_meeting_council_votes__BXmtJiZ"
+  },
+  {
+    "id": "task_meeting_council_votes__DEnz9Tg",
+    "agent": "leon",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_meeting_council_votes/task_meeting_council_votes__DEnz9Tg"
+  },
+  {
+    "id": "task_meeting_council_votes__VNmShxg",
+    "agent": "openclaw",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_meeting_council_votes/task_meeting_council_votes__VNmShxg"
+  },
+  {
+    "id": "task_meeting_council_votes__gJngtrv",
+    "agent": "openclaw",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_meeting_council_votes/task_meeting_council_votes__gJngtrv"
+  },
+  {
+    "id": "task_meeting_council_votes__sac3nro",
+    "agent": "openclaw",
+    "task": "task_meeting_council_votes",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_meeting_council_votes/task_meeting_council_votes__sac3nro"
+  },
+  {
+    "id": "task_meeting_searchable_index__TZV4Yhy",
+    "agent": "hermes",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/hermes/task_meeting_searchable_index/task_meeting_searchable_index__TZV4Yhy"
+  },
+  {
+    "id": "task_meeting_searchable_index__sGPEDFP",
+    "agent": "hermes",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/hermes/task_meeting_searchable_index/task_meeting_searchable_index__sGPEDFP"
+  },
+  {
+    "id": "task_meeting_searchable_index__wCkf6Hi",
+    "agent": "hermes",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/hermes/task_meeting_searchable_index/task_meeting_searchable_index__wCkf6Hi"
+  },
+  {
+    "id": "task_meeting_searchable_index__AxNtum3",
+    "agent": "leon",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_meeting_searchable_index/task_meeting_searchable_index__AxNtum3"
+  },
+  {
+    "id": "task_meeting_searchable_index__KgsXwcG",
+    "agent": "leon",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_meeting_searchable_index/task_meeting_searchable_index__KgsXwcG"
+  },
+  {
+    "id": "task_meeting_searchable_index__upbobEL",
+    "agent": "leon",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/leon/task_meeting_searchable_index/task_meeting_searchable_index__upbobEL"
+  },
+  {
+    "id": "task_meeting_searchable_index__FGqLtm8",
+    "agent": "openclaw",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_meeting_searchable_index/task_meeting_searchable_index__FGqLtm8"
+  },
+  {
+    "id": "task_meeting_searchable_index__bCkbwAM",
+    "agent": "openclaw",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_meeting_searchable_index/task_meeting_searchable_index__bCkbwAM"
+  },
+  {
+    "id": "task_meeting_searchable_index__j4KbrzZ",
+    "agent": "openclaw",
+    "task": "task_meeting_searchable_index",
+    "domain": "meeting_analysis",
+    "score": 0.0,
+    "trial": "attempts/openclaw/task_meeting_searchable_index/task_meeting_searchable_index__j4KbrzZ"
+  },
+  {
+    "id": "task_meeting_tldr__XHNDvt9",
+    "agent": "hermes",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.94,
+    "trial": "attempts/hermes/task_meeting_tldr/task_meeting_tldr__XHNDvt9"
+  },
+  {
+    "id": "task_meeting_tldr__uwp3ePs",
+    "agent": "hermes",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.95333333332,
+    "trial": "attempts/hermes/task_meeting_tldr/task_meeting_tldr__uwp3ePs"
+  },
+  {
+    "id": "task_meeting_tldr__vDBphF9",
+    "agent": "hermes",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.94,
+    "trial": "attempts/hermes/task_meeting_tldr/task_meeting_tldr__vDBphF9"
+  },
+  {
+    "id": "task_meeting_tldr__dSSzt5H",
+    "agent": "leon",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.92,
+    "trial": "attempts/leon/task_meeting_tldr/task_meeting_tldr__dSSzt5H"
+  },
+  {
+    "id": "task_meeting_tldr__iNhopEt",
+    "agent": "leon",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.92,
+    "trial": "attempts/leon/task_meeting_tldr/task_meeting_tldr__iNhopEt"
+  },
+  {
+    "id": "task_meeting_tldr__j2NB83x",
+    "agent": "leon",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.92,
+    "trial": "attempts/leon/task_meeting_tldr/task_meeting_tldr__j2NB83x"
+  },
+  {
+    "id": "task_meeting_tldr__6hE5EJ4",
+    "agent": "openclaw",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.9533333333333334,
+    "trial": "attempts/openclaw/task_meeting_tldr/task_meeting_tldr__6hE5EJ4"
+  },
+  {
+    "id": "task_meeting_tldr__RZgA7hw",
+    "agent": "openclaw",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.9533333333333334,
+    "trial": "attempts/openclaw/task_meeting_tldr/task_meeting_tldr__RZgA7hw"
+  },
+  {
+    "id": "task_meeting_tldr__nNk6qcv",
+    "agent": "openclaw",
+    "task": "task_meeting_tldr",
+    "domain": "meeting_analysis",
+    "score": 0.95333333332,
+    "trial": "attempts/openclaw/task_meeting_tldr/task_meeting_tldr__nNk6qcv"
+  },
+  {
+    "id": "task_memory__6cG8F94",
+    "agent": "hermes",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_memory/task_memory__6cG8F94"
+  },
+  {
+    "id": "task_memory__BQgCubo",
+    "agent": "hermes",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_memory/task_memory__BQgCubo"
+  },
+  {
+    "id": "task_memory__UYssDFJ",
+    "agent": "hermes",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_memory/task_memory__UYssDFJ"
+  },
+  {
+    "id": "task_memory__6hTtgdg",
+    "agent": "leon",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/leon/task_memory/task_memory__6hTtgdg"
+  },
+  {
+    "id": "task_memory__Nmte4qm",
+    "agent": "leon",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/leon/task_memory/task_memory__Nmte4qm"
+  },
+  {
+    "id": "task_memory__ZSc4mGc",
+    "agent": "leon",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/leon/task_memory/task_memory__ZSc4mGc"
+  },
+  {
+    "id": "task_memory__JkS4u6Y",
+    "agent": "openclaw",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_memory/task_memory__JkS4u6Y"
+  },
+  {
+    "id": "task_memory__eAC9xTW",
+    "agent": "openclaw",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_memory/task_memory__eAC9xTW"
+  },
+  {
+    "id": "task_memory__gBtdPCK",
+    "agent": "openclaw",
+    "task": "task_memory",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_memory/task_memory__gBtdPCK"
+  },
+  {
+    "id": "task_multi_file_refactoring__UFHdSzb",
+    "agent": "hermes",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_multi_file_refactoring/task_multi_file_refactoring__UFHdSzb"
+  },
+  {
+    "id": "task_multi_file_refactoring__YcWdJag",
+    "agent": "hermes",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_multi_file_refactoring/task_multi_file_refactoring__YcWdJag"
+  },
+  {
+    "id": "task_multi_file_refactoring__s3fvU27",
+    "agent": "hermes",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_multi_file_refactoring/task_multi_file_refactoring__s3fvU27"
+  },
+  {
+    "id": "task_multi_file_refactoring__BJRb3fo",
+    "agent": "leon",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_multi_file_refactoring/task_multi_file_refactoring__BJRb3fo"
+  },
+  {
+    "id": "task_multi_file_refactoring__sKjC3ay",
+    "agent": "leon",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 0.26666666666666666,
+    "trial": "attempts/leon/task_multi_file_refactoring/task_multi_file_refactoring__sKjC3ay"
+  },
+  {
+    "id": "task_multi_file_refactoring__yQTzKt6",
+    "agent": "leon",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_multi_file_refactoring/task_multi_file_refactoring__yQTzKt6"
+  },
+  {
+    "id": "task_multi_file_refactoring__5z6YjM7",
+    "agent": "openclaw",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_multi_file_refactoring/task_multi_file_refactoring__5z6YjM7"
+  },
+  {
+    "id": "task_multi_file_refactoring__Qib6dVj",
+    "agent": "openclaw",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_multi_file_refactoring/task_multi_file_refactoring__Qib6dVj"
+  },
+  {
+    "id": "task_multi_file_refactoring__Y7UStDL",
+    "agent": "openclaw",
+    "task": "task_multi_file_refactoring",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_multi_file_refactoring/task_multi_file_refactoring__Y7UStDL"
+  },
+  {
+    "id": "task_sanity__KHYA3yP",
+    "agent": "hermes",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_sanity/task_sanity__KHYA3yP"
+  },
+  {
+    "id": "task_sanity__ZBnRLFD",
+    "agent": "hermes",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_sanity/task_sanity__ZBnRLFD"
+  },
+  {
+    "id": "task_sanity__mgTHoCU",
+    "agent": "hermes",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_sanity/task_sanity__mgTHoCU"
+  },
+  {
+    "id": "task_sanity__73xSpqy",
+    "agent": "leon",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_sanity/task_sanity__73xSpqy"
+  },
+  {
+    "id": "task_sanity__oyjToda",
+    "agent": "leon",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_sanity/task_sanity__oyjToda"
+  },
+  {
+    "id": "task_sanity__wLkWRrT",
+    "agent": "leon",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_sanity/task_sanity__wLkWRrT"
+  },
+  {
+    "id": "task_sanity__54iF3xY",
+    "agent": "openclaw",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_sanity/task_sanity__54iF3xY"
+  },
+  {
+    "id": "task_sanity__iLVh2uX",
+    "agent": "openclaw",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_sanity/task_sanity__iLVh2uX"
+  },
+  {
+    "id": "task_sanity__xMTj8AF",
+    "agent": "openclaw",
+    "task": "task_sanity",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_sanity/task_sanity__xMTj8AF"
+  },
+  {
+    "id": "task_second_brain__3THBvyc",
+    "agent": "hermes",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.995,
+    "trial": "attempts/hermes/task_second_brain/task_second_brain__3THBvyc"
+  },
+  {
+    "id": "task_second_brain__E6jFFLG",
+    "agent": "hermes",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.995,
+    "trial": "attempts/hermes/task_second_brain/task_second_brain__E6jFFLG"
+  },
+  {
+    "id": "task_second_brain__Q875Rxa",
+    "agent": "hermes",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_second_brain/task_second_brain__Q875Rxa"
+  },
+  {
+    "id": "task_second_brain__GScGZBu",
+    "agent": "leon",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.75,
+    "trial": "attempts/leon/task_second_brain/task_second_brain__GScGZBu"
+  },
+  {
+    "id": "task_second_brain__HyAYM2V",
+    "agent": "leon",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.95,
+    "trial": "attempts/leon/task_second_brain/task_second_brain__HyAYM2V"
+  },
+  {
+    "id": "task_second_brain__ma4toxg",
+    "agent": "leon",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.75,
+    "trial": "attempts/leon/task_second_brain/task_second_brain__ma4toxg"
+  },
+  {
+    "id": "task_second_brain__WfSUJ7k",
+    "agent": "openclaw",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.9550000000000001,
+    "trial": "attempts/openclaw/task_second_brain/task_second_brain__WfSUJ7k"
+  },
+  {
+    "id": "task_second_brain__nzE5VAm",
+    "agent": "openclaw",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.95,
+    "trial": "attempts/openclaw/task_second_brain/task_second_brain__nzE5VAm"
+  },
+  {
+    "id": "task_second_brain__uoCLab2",
+    "agent": "openclaw",
+    "task": "task_second_brain",
+    "domain": "memory",
+    "score": 0.95,
+    "trial": "attempts/openclaw/task_second_brain/task_second_brain__uoCLab2"
+  },
+  {
+    "id": "task_shell_command_generator__YBTsZ3t",
+    "agent": "hermes",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_shell_command_generator/task_shell_command_generator__YBTsZ3t"
+  },
+  {
+    "id": "task_shell_command_generator__jDhUKZ4",
+    "agent": "hermes",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_shell_command_generator/task_shell_command_generator__jDhUKZ4"
+  },
+  {
+    "id": "task_shell_command_generator__oA8ULhh",
+    "agent": "hermes",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_shell_command_generator/task_shell_command_generator__oA8ULhh"
+  },
+  {
+    "id": "task_shell_command_generator__hrAXET5",
+    "agent": "leon",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_shell_command_generator/task_shell_command_generator__hrAXET5"
+  },
+  {
+    "id": "task_shell_command_generator__mgKDpwR",
+    "agent": "leon",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_shell_command_generator/task_shell_command_generator__mgKDpwR"
+  },
+  {
+    "id": "task_shell_command_generator__nWD7ZQY",
+    "agent": "leon",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_shell_command_generator/task_shell_command_generator__nWD7ZQY"
+  },
+  {
+    "id": "task_shell_command_generator__Q2hPphQ",
+    "agent": "openclaw",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_shell_command_generator/task_shell_command_generator__Q2hPphQ"
+  },
+  {
+    "id": "task_shell_command_generator__ZAu23ko",
+    "agent": "openclaw",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_shell_command_generator/task_shell_command_generator__ZAu23ko"
+  },
+  {
+    "id": "task_shell_command_generator__uYzTsVN",
+    "agent": "openclaw",
+    "task": "task_shell_command_generator",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_shell_command_generator/task_shell_command_generator__uYzTsVN"
+  },
+  {
+    "id": "task_skill_search__jrNLF2F",
+    "agent": "hermes",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_skill_search/task_skill_search__jrNLF2F"
+  },
+  {
+    "id": "task_skill_search__mEZj98E",
+    "agent": "hermes",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_skill_search/task_skill_search__mEZj98E"
+  },
+  {
+    "id": "task_skill_search__oTFbV7c",
+    "agent": "hermes",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_skill_search/task_skill_search__oTFbV7c"
+  },
+  {
+    "id": "task_skill_search__VKKmUEw",
+    "agent": "leon",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/leon/task_skill_search/task_skill_search__VKKmUEw"
+  },
+  {
+    "id": "task_skill_search__Vu2gRDS",
+    "agent": "leon",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/leon/task_skill_search/task_skill_search__Vu2gRDS"
+  },
+  {
+    "id": "task_skill_search__uJop5HF",
+    "agent": "leon",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/leon/task_skill_search/task_skill_search__uJop5HF"
+  },
+  {
+    "id": "task_skill_search__7AxqsVV",
+    "agent": "openclaw",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_skill_search/task_skill_search__7AxqsVV"
+  },
+  {
+    "id": "task_skill_search__MF4VGAP",
+    "agent": "openclaw",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_skill_search/task_skill_search__MF4VGAP"
+  },
+  {
+    "id": "task_skill_search__yVSFUSd",
+    "agent": "openclaw",
+    "task": "task_skill_search",
+    "domain": "skills",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_skill_search/task_skill_search__yVSFUSd"
+  },
+  {
+    "id": "task_spreadsheet_summary__WkyYhZF",
+    "agent": "hermes",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.98,
+    "trial": "attempts/hermes/task_spreadsheet_summary/task_spreadsheet_summary__WkyYhZF"
+  },
+  {
+    "id": "task_spreadsheet_summary__d27uPBQ",
+    "agent": "hermes",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.985,
+    "trial": "attempts/hermes/task_spreadsheet_summary/task_spreadsheet_summary__d27uPBQ"
+  },
+  {
+    "id": "task_spreadsheet_summary__eW2LSMn",
+    "agent": "hermes",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.985,
+    "trial": "attempts/hermes/task_spreadsheet_summary/task_spreadsheet_summary__eW2LSMn"
+  },
+  {
+    "id": "task_spreadsheet_summary__MrzBvSt",
+    "agent": "leon",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.98,
+    "trial": "attempts/leon/task_spreadsheet_summary/task_spreadsheet_summary__MrzBvSt"
+  },
+  {
+    "id": "task_spreadsheet_summary__UNsrYnp",
+    "agent": "leon",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.975,
+    "trial": "attempts/leon/task_spreadsheet_summary/task_spreadsheet_summary__UNsrYnp"
+  },
+  {
+    "id": "task_spreadsheet_summary__nDZUDuu",
+    "agent": "leon",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.975,
+    "trial": "attempts/leon/task_spreadsheet_summary/task_spreadsheet_summary__nDZUDuu"
+  },
+  {
+    "id": "task_spreadsheet_summary__9uGLGcR",
+    "agent": "openclaw",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.97,
+    "trial": "attempts/openclaw/task_spreadsheet_summary/task_spreadsheet_summary__9uGLGcR"
+  },
+  {
+    "id": "task_spreadsheet_summary__mLMAZUq",
+    "agent": "openclaw",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.975,
+    "trial": "attempts/openclaw/task_spreadsheet_summary/task_spreadsheet_summary__mLMAZUq"
+  },
+  {
+    "id": "task_spreadsheet_summary__sKca5xt",
+    "agent": "openclaw",
+    "task": "task_spreadsheet_summary",
+    "domain": "analysis",
+    "score": 0.975,
+    "trial": "attempts/openclaw/task_spreadsheet_summary/task_spreadsheet_summary__sKca5xt"
+  },
+  {
+    "id": "task_stock__afzGhYz",
+    "agent": "hermes",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_stock/task_stock__afzGhYz"
+  },
+  {
+    "id": "task_stock__sMzAQYw",
+    "agent": "hermes",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_stock/task_stock__sMzAQYw"
+  },
+  {
+    "id": "task_stock__wLxAiqN",
+    "agent": "hermes",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_stock/task_stock__wLxAiqN"
+  },
+  {
+    "id": "task_stock__2LvweL3",
+    "agent": "leon",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/leon/task_stock/task_stock__2LvweL3"
+  },
+  {
+    "id": "task_stock__VcTWGys",
+    "agent": "leon",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/leon/task_stock/task_stock__VcTWGys"
+  },
+  {
+    "id": "task_stock__XHBg6vV",
+    "agent": "leon",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/leon/task_stock/task_stock__XHBg6vV"
+  },
+  {
+    "id": "task_stock__M2BbdSt",
+    "agent": "openclaw",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_stock/task_stock__M2BbdSt"
+  },
+  {
+    "id": "task_stock__YGDN3aZ",
+    "agent": "openclaw",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_stock/task_stock__YGDN3aZ"
+  },
+  {
+    "id": "task_stock__ajFEDqL",
+    "agent": "openclaw",
+    "task": "task_stock",
+    "domain": "research",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_stock/task_stock__ajFEDqL"
+  },
+  {
+    "id": "task_summary__E33QHov",
+    "agent": "hermes",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.9,
+    "trial": "attempts/hermes/task_summary/task_summary__E33QHov"
+  },
+  {
+    "id": "task_summary__JwV6WKs",
+    "agent": "hermes",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.93,
+    "trial": "attempts/hermes/task_summary/task_summary__JwV6WKs"
+  },
+  {
+    "id": "task_summary__pAz965k",
+    "agent": "hermes",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.88,
+    "trial": "attempts/hermes/task_summary/task_summary__pAz965k"
+  },
+  {
+    "id": "task_summary__UvTZuTr",
+    "agent": "leon",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.87,
+    "trial": "attempts/leon/task_summary/task_summary__UvTZuTr"
+  },
+  {
+    "id": "task_summary__hbzpSaG",
+    "agent": "leon",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.9,
+    "trial": "attempts/leon/task_summary/task_summary__hbzpSaG"
+  },
+  {
+    "id": "task_summary__nPUfEKa",
+    "agent": "leon",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.9,
+    "trial": "attempts/leon/task_summary/task_summary__nPUfEKa"
+  },
+  {
+    "id": "task_summary__RG49WBV",
+    "agent": "openclaw",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.9,
+    "trial": "attempts/openclaw/task_summary/task_summary__RG49WBV"
+  },
+  {
+    "id": "task_summary__RvdDrqQ",
+    "agent": "openclaw",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.85,
+    "trial": "attempts/openclaw/task_summary/task_summary__RvdDrqQ"
+  },
+  {
+    "id": "task_summary__fWLvBTa",
+    "agent": "openclaw",
+    "task": "task_summary",
+    "domain": "analysis",
+    "score": 0.88,
+    "trial": "attempts/openclaw/task_summary/task_summary__fWLvBTa"
+  },
+  {
+    "id": "task_todo_list_cleanup__3Ye8543",
+    "agent": "hermes",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_todo_list_cleanup/task_todo_list_cleanup__3Ye8543"
+  },
+  {
+    "id": "task_todo_list_cleanup__ZBVDrrW",
+    "agent": "hermes",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_todo_list_cleanup/task_todo_list_cleanup__ZBVDrrW"
+  },
+  {
+    "id": "task_todo_list_cleanup__hU6GybC",
+    "agent": "hermes",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_todo_list_cleanup/task_todo_list_cleanup__hU6GybC"
+  },
+  {
+    "id": "task_todo_list_cleanup__Dueoxcz",
+    "agent": "leon",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_todo_list_cleanup/task_todo_list_cleanup__Dueoxcz"
+  },
+  {
+    "id": "task_todo_list_cleanup__QTF5qBE",
+    "agent": "leon",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_todo_list_cleanup/task_todo_list_cleanup__QTF5qBE"
+  },
+  {
+    "id": "task_todo_list_cleanup__sxBCnUf",
+    "agent": "leon",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/leon/task_todo_list_cleanup/task_todo_list_cleanup__sxBCnUf"
+  },
+  {
+    "id": "task_todo_list_cleanup__5b2fwmW",
+    "agent": "openclaw",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_todo_list_cleanup/task_todo_list_cleanup__5b2fwmW"
+  },
+  {
+    "id": "task_todo_list_cleanup__VUdR88e",
+    "agent": "openclaw",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_todo_list_cleanup/task_todo_list_cleanup__VUdR88e"
+  },
+  {
+    "id": "task_todo_list_cleanup__WyKNTU5",
+    "agent": "openclaw",
+    "task": "task_todo_list_cleanup",
+    "domain": "productivity",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_todo_list_cleanup/task_todo_list_cleanup__WyKNTU5"
+  },
+  {
+    "id": "task_weather__g8PGWbU",
+    "agent": "hermes",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_weather/task_weather__g8PGWbU"
+  },
+  {
+    "id": "task_weather__g9yJ8er",
+    "agent": "hermes",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_weather/task_weather__g9yJ8er"
+  },
+  {
+    "id": "task_weather__jT855KE",
+    "agent": "hermes",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/hermes/task_weather/task_weather__jT855KE"
+  },
+  {
+    "id": "task_weather__EjQdbCj",
+    "agent": "leon",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_weather/task_weather__EjQdbCj"
+  },
+  {
+    "id": "task_weather__KLvKyXk",
+    "agent": "leon",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_weather/task_weather__KLvKyXk"
+  },
+  {
+    "id": "task_weather__hPcbHKP",
+    "agent": "leon",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/leon/task_weather/task_weather__hPcbHKP"
+  },
+  {
+    "id": "task_weather__KFQbKSA",
+    "agent": "openclaw",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_weather/task_weather__KFQbKSA"
+  },
+  {
+    "id": "task_weather__TNoGyhT",
+    "agent": "openclaw",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_weather/task_weather__TNoGyhT"
+  },
+  {
+    "id": "task_weather__xVwiWxr",
+    "agent": "openclaw",
+    "task": "task_weather",
+    "domain": "coding",
+    "score": 1.0,
+    "trial": "attempts/openclaw/task_weather/task_weather__xVwiWxr"
+  },
+  {
+    "id": "task_workflow__KQnZT3Y",
+    "agent": "hermes",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.975,
+    "trial": "attempts/hermes/task_workflow/task_workflow__KQnZT3Y"
+  },
+  {
+    "id": "task_workflow__VnXKEou",
+    "agent": "hermes",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.975,
+    "trial": "attempts/hermes/task_workflow/task_workflow__VnXKEou"
+  },
+  {
+    "id": "task_workflow__zCPDW4D",
+    "agent": "hermes",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.975,
+    "trial": "attempts/hermes/task_workflow/task_workflow__zCPDW4D"
+  },
+  {
+    "id": "task_workflow__Bn6Xk8W",
+    "agent": "leon",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.9625,
+    "trial": "attempts/leon/task_workflow/task_workflow__Bn6Xk8W"
+  },
+  {
+    "id": "task_workflow__cksdAed",
+    "agent": "leon",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.9625,
+    "trial": "attempts/leon/task_workflow/task_workflow__cksdAed"
+  },
+  {
+    "id": "task_workflow__teaPuYk",
+    "agent": "leon",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.95,
+    "trial": "attempts/leon/task_workflow/task_workflow__teaPuYk"
+  },
+  {
+    "id": "task_workflow__RaEC9ug",
+    "agent": "openclaw",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.9625,
+    "trial": "attempts/openclaw/task_workflow/task_workflow__RaEC9ug"
+  },
+  {
+    "id": "task_workflow__XdFwPFK",
+    "agent": "openclaw",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.9625,
+    "trial": "attempts/openclaw/task_workflow/task_workflow__XdFwPFK"
+  },
+  {
+    "id": "task_workflow__nwPevdZ",
+    "agent": "openclaw",
+    "task": "task_workflow",
+    "domain": "skills",
+    "score": 0.96875,
+    "trial": "attempts/openclaw/task_workflow/task_workflow__nwPevdZ"
+  }
+]

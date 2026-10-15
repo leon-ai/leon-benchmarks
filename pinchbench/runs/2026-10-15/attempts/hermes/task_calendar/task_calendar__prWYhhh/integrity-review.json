@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_calendar/native/task_calendar__prWYhhh",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "dd2b388d339007368e977f7030539ea4ea68be38034eb10d4c7b3144b48dc1f3",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

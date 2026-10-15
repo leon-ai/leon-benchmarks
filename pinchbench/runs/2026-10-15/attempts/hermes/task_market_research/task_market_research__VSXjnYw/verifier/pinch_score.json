@@ -1,0 +1,22 @@
+{
+  "task_id": "task_market_research",
+  "score": 0.966,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 1.0,
+    "automated.competitors_identified": 1.0,
+    "automated.has_comparison_table": 1.0,
+    "automated.has_pricing_info": 1.0,
+    "automated.has_trends_section": 1.0,
+    "automated.has_structure": 1.0,
+    "automated.has_executive_summary": 1.0,
+    "automated.used_web_search": 1.0,
+    "llm_judge.Research Depth and Accuracy": 0.94,
+    "llm_judge.Analytical Quality": 0.88,
+    "llm_judge.Market Trends and Context": 0.95,
+    "llm_judge.Report Structure and Presentation": 0.93,
+    "llm_judge.Pricing and Business Model Coverage": 0.96
+  },
+  "notes": "Successfully saved market_research.md in the working directory. The report provides five detailed competitor profiles, current primary-source research, a useful comparison table, nuanced pricing distinctions, and market trends tied to procurement implications. Minor deductions for repetitive caveats, weaknesses framed more as diligence questions than direct competitive limitations, and somewhat excessive research and validation steps."
+}

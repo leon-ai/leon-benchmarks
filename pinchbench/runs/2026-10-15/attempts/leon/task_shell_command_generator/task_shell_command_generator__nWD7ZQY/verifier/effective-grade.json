@@ -1,0 +1,16 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "file_created": 1.0,
+      "non_empty_command": 1.0,
+      "executes_successfully": 1.0,
+      "outputs_correct_matches": 1.0,
+      "shell_only_output": 1.0
+    }
+  },
+  "judge_notes": "",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

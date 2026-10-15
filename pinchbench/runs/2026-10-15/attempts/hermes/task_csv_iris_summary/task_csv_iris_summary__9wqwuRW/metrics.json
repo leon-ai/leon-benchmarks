@@ -1,0 +1,314 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 5,
+    "recorded_inference_requests": 5,
+    "completed_inference_requests": 5,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 5,
+    "token_usage": {
+      "input_tokens": 67283,
+      "output_tokens": 2553,
+      "total_tokens": 69836,
+      "cached_input_tokens": 58368,
+      "reasoning_output_tokens": 339
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 5
+    },
+    "http_statuses": {
+      "200": 5
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 5,
+        "median": 1.6154541740033892,
+        "minimum": 1.3325968549979734,
+        "maximum": 3.297943176999979
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 3.8428847745017265,
+        "minimum": 2.7908895229993504,
+        "maximum": 4.8948800260041025
+      },
+      "firstToolActionSeconds": {
+        "count": 3,
+        "median": 7.333148657999118,
+        "minimum": 3.9584092260047328,
+        "maximum": 65.22820625399618
+      },
+      "responseSeconds": {
+        "count": 5,
+        "median": 5.445614184005535,
+        "minimum": 4.397461682005087,
+        "maximum": 65.36029097799474
+      }
+    },
+    "observer_milliseconds": 38.19337508321041,
+    "model_tool_calls": 3,
+    "tool_schema_checks": {
+      "valid": 3
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 5756,
+      "output_tokens": 316,
+      "total_tokens": 6072,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 202
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.5905766130017582,
+        "minimum": 1.5905766130017582,
+        "maximum": 1.5905766130017582
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 12.31899791899923,
+        "minimum": 12.31899791899923,
+        "maximum": 12.31899791899923
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 15.74096696900233,
+        "minimum": 15.74096696900233,
+        "maximum": 15.74096696900233
+      }
+    },
+    "observer_milliseconds": 1.8350909667788073,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 6193,
+      "output_tokens": 264,
+      "total_tokens": 6457,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 153
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.717120719000377,
+        "minimum": 1.717120719000377,
+        "maximum": 1.717120719000377
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 6.3919832910005425,
+        "minimum": 6.3919832910005425,
+        "maximum": 6.3919832910005425
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 8.89990935700007,
+        "minimum": 8.89990935700007,
+        "maximum": 8.89990935700007
+      }
+    },
+    "observer_milliseconds": 1.587078003467468,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "prior_judge_recovery_attempts": [],
+  "stage_seconds": {
+    "environment_setup": 1.938502,
+    "agent_setup": 1.787086,
+    "agent_execution": 112.538473,
+    "verifier": 16.777843
+  },
+  "native_task_grade": {
+    "task_id": "task_csv_iris_summary",
+    "score": 0.9092857142857143,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.dataset_overview": 1.0,
+      "automated.overall_stats": 1.0,
+      "automated.per_species_stats": 1.0,
+      "automated.correlation": 1.0,
+      "automated.separability_insight": 0.0,
+      "automated.formatting": 1.0,
+      "llm_judge.Statistical Accuracy": 1.0,
+      "llm_judge.Analytical Insight": 1.0,
+      "llm_judge.Report Structure and Presentation": 0.95,
+      "llm_judge.Completeness": 1.0
+    },
+    "notes": "Accurate overall and per-species statistics, complete coverage, and clear markdown tables. Particularly strong interpretation distinguishes pooled from within-species correlations and explains species separability without overstating it. Minor efficiency and concision issues: an unnecessary environment probe failed, and methodological commentary is slightly more extensive than needed.",
+    "reward": 0.9092857142857143
+  },
+  "exception": null,
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "transport_repair": "native-content-block-schema",
+    "candidate_execution_preserved": true,
+    "additional_candidate_inference_calls": 0,
+    "reason": "Represent complete native text as content blocks required by the pinned grader; candidate outputs and original deadline outcome preserved",
+    "grade_file": "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/effective-grade.json",
+    "requests_file": "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/requests.jsonl",
+    "deterministic_no_inference": false,
+    "rewards": {
+      "task_id": "task_csv_iris_summary",
+      "score": 0.9092857142857143,
+      "max_score": 1.0,
+      "grading_type": "hybrid",
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.dataset_overview": 1.0,
+        "automated.overall_stats": 1.0,
+        "automated.per_species_stats": 1.0,
+        "automated.correlation": 1.0,
+        "automated.separability_insight": 0.0,
+        "automated.formatting": 1.0,
+        "llm_judge.Statistical Accuracy": 1.0,
+        "llm_judge.Analytical Insight": 1.0,
+        "llm_judge.Report Structure and Presentation": 0.95,
+        "llm_judge.Completeness": 1.0
+      },
+      "notes": "Accurate overall and per-species statistics, complete coverage, and clear markdown tables. Particularly strong interpretation distinguishes pooled from within-species correlations and explains species separability without overstating it. Minor efficiency and concision issues: an unnecessary environment probe failed, and methodological commentary is slightly more extensive than needed.",
+      "reward": 0.9092857142857143
+    },
+    "started_at": "2026-10-15T01:28:44.721757+00:00",
+    "finished_at": "2026-10-15T01:29:03.662360+00:00",
+    "evidence_sha256": {
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/result.json": "551e16618cd36e42a48f488a585720d7307f21fef9cb1a5817670ca68a2f6aa9",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/hermes-result.json": "f3770b411adefc268dc74ce7691510452cc576b6a25e182d7c755742f935c3b1",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/inference-events.jsonl": "a8fa08a23182183513aa061786b141d193bc71e2290c42027c9ee60a0a7b04d9",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/requests.jsonl": "a07596846377372f2ec1a15269a8b2a08965a4938cdbd2dd16def780a99b2775",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/hermes-config.yaml": "ab24c6f5bd53701f693159fb34387a3cd6aa1a6fd655e1a1c4ef4fba28111c5c",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/hermes-session.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/model-tool-calls.jsonl": "9110a4ecd047a32034090eda3dd81a62caa00e81e8287f60e0bd7198c46a8bc8",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/transcript-export.json": "8342862231cd19c8e7e41ab6e45ad47cc3845c2619a53e2e054e2b2000e630be",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/pinch-transcript.jsonl": "d809507e0bbf1b92dcfa275ed0f670e7f0d0ef7398bc0d9960b1841639162237",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/pinch-turns.json": "dbf3cd67226abab5248a1175f3c9d217e92ee252c98cd7b5dc86526d006ec0db",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/hermes.txt": "d45d43970373068cf8a483cd0e1cbcb98bfcb3d1c4951bb7a5e15c4f0cea1aeb",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/tool-schemas.jsonl": "0c4e9dab00088ef330a47c46ba11dcba84ebf8d06d8e88ac33ab74f99cbe0287",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/turns/01/hermes-result.json": "f3770b411adefc268dc74ce7691510452cc576b6a25e182d7c755742f935c3b1",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/turns/01/task-skills.json": "7a3186ef2ed256eeeb66a826cfca375e6b4e8af4a1ebb2abe6d4c2f2654eef75",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/agent/turns/01/hermes.txt": "d45d43970373068cf8a483cd0e1cbcb98bfcb3d1c4951bb7a5e15c4f0cea1aeb",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/artifacts/workspace/iris_flowers.csv": "3af1770fa64ea16ccfa1458de00cfed5741855c02a1979763b09f58452ff4b09",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__9wqwuRW/artifacts/workspace/iris_summary.md": "a50ecbf1eff2e1d579208552e28d04c71b584a841aee137f36b05cd75045149f",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/judge-responses.jsonl": "67ee6ca01ec1f583ea78905f83f1e75766be08856bd087e78bef75894abae320",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/inference-events.jsonl": "f8eac5e4389ae4d6e55dbeffcb85f3323f47a1c5a01c3de557f3c08b5c40e61e",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/reward.json": "cfe610d51592f586e07c9faad65ae7db6d326b8fe09fcaf23f0b28b8e01872c1",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/requests.jsonl": "affcff1e1ee1a77fece4aa0666cc8813a4eb88114e417440de85d7c05edb1bab",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/effective-grade.json": "93a4ae02a5b55d9f9497c056b79078146ac751f2522cd11775cfc1782769d356",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/judge-reliability.json": "5354cb75f5a6321f4f96f91b5b8f227e65122cb6278f7005e3e256aa3875028c",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/pinch_score.json": "55e7d0d314e253239a889bf2d6d24f38f1d6f719ee7db156289956807bd35d2d",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/verifier/tool-schemas.jsonl": "60c2d1406e8407a3260fecfceaced5e399eeab6f8df2d1126ed7856291224e3e",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/agent/pinch-transcript.jsonl": "8ad772886d92655556bfad97a82ed397c1b85cea1b8df5cd85c273ed0f439222",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/agent/turns/01/hermes-result.json": "f3770b411adefc268dc74ce7691510452cc576b6a25e182d7c755742f935c3b1",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/agent/turns/01/task-skills.json": "7a3186ef2ed256eeeb66a826cfca375e6b4e8af4a1ebb2abe6d4c2f2654eef75",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__9wqwuRW/agent/turns/01/hermes.txt": "d45d43970373068cf8a483cd0e1cbcb98bfcb3d1c4951bb7a5e15c4f0cea1aeb",
+      "tasks/pinch/task_csv_iris_summary/tests/tasks/task_csv_iris_summary.md": "6e7ff2e8d940df1a90c3a13cf0da792a1a2fced33826ae892355d1e8c1aebfdc",
+      "pinch-repairs-20261015/source-versions/content-block-review/fairness_audit.py": "557f732be6844834b8fcd2029a2f38d84bc72bf361d0e0d2de29a4c8d44a3391",
+      "pinch-repairs-20261015/source-versions/content-block-review/native_transcript.py": "9cfbba33dc970825e73df5c812ea64c2111d3f326c7ca71efbb5f7cc8c31b83f",
+      "pinch-repairs-20261015/source-versions/content-block-review/pinch_transcript.py": "1fc88be7d14b22a9144ad5466de3ae4f3438557e035b720accb0c15b4045c9a2",
+      "pinch-repairs-20261015/source-versions/content-block-review/regrading.py": "12dfbf0b8accb150781b5605cfdf67f8c4c3c51aad6ac5e907e683fdd395b2a9"
+    }
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

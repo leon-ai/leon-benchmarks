@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_finance_report__DAXyAqG",
+  "agent": "hermes",
+  "task": "task_csv_finance_report",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent located and read the CSV and attempted calculations, but no finance_report.md or substantive analysis was delivered in the provided record. None of the seven required report sections, computed results, professional presentation, or analytical insights are available to evaluate.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

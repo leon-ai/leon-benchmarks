@@ -1,0 +1,11 @@
+{
+  "id": "task_log_syslog_boot__JXgj6rS",
+  "agent": "hermes",
+  "task": "task_log_syslog_boot",
+  "score": 0.996,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The report satisfies all factual criteria, includes all six requested sections, lists 28 literal startup-success messages, and correctly counts 24 BIND listening addresses. Hardware, boot duration, mdmpd failure, and SELinux status are well supported. Minor deduction for an unnecessarily lengthy report and redundant file-reading steps.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

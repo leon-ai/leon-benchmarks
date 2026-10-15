@@ -1,0 +1,7 @@
+{
+  "failed_calls": [
+    "FileNotFoundError: [Errno 2] No such file or directory: '/logs/agent/turns/01/hermes-native-messages.json'"
+  ],
+  "judge_outcomes": [],
+  "native_retry_recovered": false
+}

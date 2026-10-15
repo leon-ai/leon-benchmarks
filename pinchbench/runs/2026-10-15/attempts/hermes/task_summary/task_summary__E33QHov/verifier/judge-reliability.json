@@ -1,0 +1,6 @@
+{
+  "failed_calls": [
+    "APIConnectionError",
+    "RuntimeError: Native judge encountered transport failures"
+  ]
+}

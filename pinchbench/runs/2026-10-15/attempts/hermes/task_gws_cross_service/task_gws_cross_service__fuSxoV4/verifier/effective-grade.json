@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.76,
+  "native_criteria": {
+    "score": 0.76,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.read_email": 1.0,
+      "automated.created_event": 0.0,
+      "automated.found_drive_file": 1.0,
+      "automated.shared_file": 1.0,
+      "automated.actions_summary": 1.0,
+      "llm_judge.Cross-Service Coordination": 0.65,
+      "llm_judge.Task Completeness": 0.75
+    }
+  },
+  "judge_notes": "Found and read Alice’s email, located the agenda, submitted successful reader-permission requests for Bob, and wrote actions.md. Used all three services, but did not create the requested calendar event, instead stopping at an existing matching event and seeking clarification. Sharing remained unverified because subsequent reads contradicted successful write responses. Repeated sharing attempts and numerous verification calls reduced efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

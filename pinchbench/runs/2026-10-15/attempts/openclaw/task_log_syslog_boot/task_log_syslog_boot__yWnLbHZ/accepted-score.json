@@ -1,0 +1,11 @@
+{
+  "id": "task_log_syslog_boot__yWnLbHZ",
+  "agent": "openclaw",
+  "task": "task_log_syslog_boot",
+  "score": 0.996,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The structured report satisfies every substantive criterion, lists 28 exact startup-success messages, and correctly distinguishes 24 BIND listening addresses. Memory totals and boot timing are carefully qualified. Minor deduction for unnecessary skill searches, git commits, and excessive report detail.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

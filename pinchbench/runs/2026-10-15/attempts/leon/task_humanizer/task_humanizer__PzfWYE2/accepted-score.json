@@ -1,0 +1,11 @@
+{
+  "id": "task_humanizer__PzfWYE2",
+  "agent": "leon",
+  "task": "task_humanizer",
+  "score": 0.9375,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Strong manual rewrite with contractions, varied phrasing, concrete examples, and a conversational tone. Preserves all seven core strategies and named frameworks, with only minor supporting details omitted. Input was read and output saved correctly. Deductions reflect the unattempted installation, unrelated weather call, and duplicate file-search calls.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

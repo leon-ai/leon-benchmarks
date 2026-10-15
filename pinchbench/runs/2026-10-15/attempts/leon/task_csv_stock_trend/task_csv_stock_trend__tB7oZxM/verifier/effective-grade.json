@@ -1,0 +1,24 @@
+{
+  "accepted_score": 0.010000000000000002,
+  "native_criteria": {
+    "score": 0.010000000000000002,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 0.0,
+      "automated.trend_direction": 0.0,
+      "automated.starting_price": 0.0,
+      "automated.ending_price": 0.0,
+      "automated.percentage_change": 0.0,
+      "automated.monthly_breakdown": 0.0,
+      "automated.up_streak": 0.0,
+      "automated.down_streak": 0.0,
+      "automated.trend_periods": 0.0,
+      "llm_judge.Data Analysis Accuracy": 0.1,
+      "llm_judge.Trend Identification Quality": 0.0,
+      "llm_judge.Report Structure and Presentation": 0.0,
+      "llm_judge.Completeness": 0.0
+    }
+  },
+  "judge_notes": "The transcript confirms 240 observations and the December 12 coverage limit, but provides no visible computed prices, percentage change, monthly averages, or streak results. No bullish-trend analysis or sustained-movement findings are shown, and stock_trend_report.md is absent from the supplied workspace files. The unrelated weather call and repeated tool initialization attempts also added unnecessary overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

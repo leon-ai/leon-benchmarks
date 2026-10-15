@@ -1,0 +1,22 @@
+{
+  "accepted_score": 0.95,
+  "native_criteria": {
+    "score": 0.95,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 1.0,
+      "automated.directory_forbidden_top": 0.5,
+      "automated.file_not_exist_counted": 1.0,
+      "automated.invalid_method_identified": 1.0,
+      "automated.internal_errors_included": 1.0,
+      "llm_judge.report_file_created": 1.0,
+      "llm_judge.directory_index_forbidden_identification": 1.0,
+      "llm_judge.file_does_not_exist_identification_and_counts": 1.0,
+      "llm_judge.invalid_method_distinct_category": 1.0,
+      "llm_judge.server_internal_errors_included": 1.0
+    },
+    "reward": 0.95
+  },
+  "judge_notes": "The report provides all required fields, ranks categories by count, and accounts for all 753 errors while excluding notices. Examples and security explanations are specific and appropriately qualified. Directory-index errors are correctly counted at 224; ranking them second is justified because the actual log contains 295 missing-file errors, contrary to the rubric's approximate ordering. Server-internal categories are comprehensively covered.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

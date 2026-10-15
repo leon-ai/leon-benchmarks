@@ -1,0 +1,223 @@
+{
+  "checked": [
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__SZBuZEy",
+      "agent": "leon",
+      "known_message_timestamps": 27,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__gQHiU6Y",
+      "agent": "leon",
+      "known_message_timestamps": 33,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__967ZC3o",
+      "agent": "leon",
+      "known_message_timestamps": 32,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__XFoxNXN",
+      "agent": "openclaw",
+      "known_message_timestamps": 35,
+      "late_message_events": [
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791990724.212,
+          "role": "assistant"
+        }
+      ]
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__mYA7V9E",
+      "agent": "leon",
+      "known_message_timestamps": 26,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__BJRb3fo",
+      "agent": "leon",
+      "known_message_timestamps": 28,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__sKjC3ay",
+      "agent": "leon",
+      "known_message_timestamps": 18,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__yQTzKt6",
+      "agent": "leon",
+      "known_message_timestamps": 34,
+      "late_message_events": [
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791988892.204,
+          "role": "assistant"
+        }
+      ]
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__veKLCXf",
+      "agent": "openclaw",
+      "known_message_timestamps": 35,
+      "late_message_events": [
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993025.355,
+          "role": "assistant"
+        },
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993025.38,
+          "role": null
+        }
+      ]
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__4vvtj5M",
+      "agent": "openclaw",
+      "known_message_timestamps": 28,
+      "late_message_events": [
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993017.531,
+          "role": "assistant"
+        },
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993017.906,
+          "role": "toolResult"
+        },
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993017.956,
+          "role": null
+        }
+      ]
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__qWWzEEx",
+      "agent": "leon",
+      "known_message_timestamps": 20,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__VyJz8fy",
+      "agent": "openclaw",
+      "known_message_timestamps": 25,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__c9D3iMi",
+      "agent": "leon",
+      "known_message_timestamps": 19,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__tB7oZxM",
+      "agent": "leon",
+      "known_message_timestamps": 26,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__Ch3URDh",
+      "agent": "openclaw",
+      "known_message_timestamps": 39,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__rTX7Jc5",
+      "agent": "openclaw",
+      "known_message_timestamps": 36,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__nJDkXtP",
+      "agent": "openclaw",
+      "known_message_timestamps": 33,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__UDwajRv",
+      "agent": "hermes",
+      "known_message_timestamps": 14,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__598r2Wu",
+      "agent": "hermes",
+      "known_message_timestamps": 11,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__B59Qymx",
+      "agent": "openclaw",
+      "known_message_timestamps": 25,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF",
+      "agent": "hermes",
+      "known_message_timestamps": 10,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__BEHKzg6",
+      "agent": "openclaw",
+      "known_message_timestamps": 22,
+      "late_message_events": [
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993545.241,
+          "role": "assistant"
+        },
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993545.721,
+          "role": "toolResult"
+        },
+        {
+          "file": "agent/turns/01/native-transcript.jsonl",
+          "timestamp": 1791993545.784,
+          "role": null
+        }
+      ]
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__UeLvAbx",
+      "agent": "leon",
+      "known_message_timestamps": 21,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__bQxadud",
+      "agent": "leon",
+      "known_message_timestamps": 21,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__Wu4wzbk",
+      "agent": "openclaw",
+      "known_message_timestamps": 19,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_stock/native/task_stock__ajFEDqL",
+      "agent": "openclaw",
+      "known_message_timestamps": 69,
+      "late_message_events": []
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_stock/native/task_stock__YGDN3aZ",
+      "agent": "openclaw",
+      "known_message_timestamps": 54,
+      "late_message_events": []
+    }
+  ],
+  "additional_inference_calls": 0,
+  "method": "Available native message timestamps after task deadline plus one second; unknown timestamp coverage remains unknown"
+}

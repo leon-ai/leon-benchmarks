@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__c9D3iMi",
+  "score": 0.99,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "2e846ad33943bdeb6b8c3cdafb143c9e6feb60dc232ab6db8b48e06dc433f51d",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

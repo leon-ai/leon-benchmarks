@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__SZBuZEy",
+  "score": 0.04000000000000001,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "37fb86f34c3868867acce6875c1702112109f6577483d054814be98e45e0d075",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

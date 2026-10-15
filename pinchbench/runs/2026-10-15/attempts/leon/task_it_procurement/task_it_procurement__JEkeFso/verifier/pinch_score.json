@@ -1,0 +1,14 @@
+{
+  "task_id": "task_it_procurement",
+  "score": 0.05,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Product Research Quality": 0.25,
+    "Practical Procurement Value": 0.0,
+    "Linux Compatibility Assessment": 0.0,
+    "Fleet Recommendation": 0.0,
+    "Comparison Quality": 0.0
+  },
+  "notes": "Some model-specific research was attempted, but the transcript contains no completed report or evidence that laptop_procurement.md was saved. Five qualifying configurations with current prices were not documented. No substantive warranty, repairability, bulk purchasing, or Linux compatibility assessment was delivered, and there is no comparison table, fleet mix, or total budget. Unrelated weather lookup and duplicate file searches added unnecessary steps."
+}

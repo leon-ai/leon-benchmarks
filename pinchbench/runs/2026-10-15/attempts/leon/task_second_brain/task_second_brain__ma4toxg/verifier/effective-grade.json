@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.75,
+  "native_criteria": {
+    "score": 0.75,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.memory_tool_used": 1.0,
+      "automated.recall_tool_used": 1.0,
+      "llm_judge.memory_storage": 1.0,
+      "llm_judge.same_session_recall": 1.0,
+      "llm_judge.cross_session_memory_retrieval": 0.25,
+      "llm_judge.accuracy_of_recalled_facts": 0.0,
+      "llm_judge.response_quality_and_confidence": 0.25
+    }
+  },
+  "judge_notes": "Stored all five facts correctly in memory/MEMORY.md and answered both same-session questions accurately. Cross-session retrieval failed: the agent tried an incorrect absolute path and repeated broad searches rather than reading the requested relative path or /task_workspace/memory/MEMORY.md. It answered none of the five final questions. The final response honestly acknowledged failure, but unrelated weather usage, duplicate searches, and verbose setup messages reduced efficiency and quality.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.9375,
+  "native_criteria": {
+    "score": 0.9375,
+    "max_score": 1.0,
+    "breakdown": {
+      "Skill Usage or Manual Rewrite": 0.85,
+      "Output Quality - Natural Voice": 0.95,
+      "Content Preservation": 0.95,
+      "Task Completion": 1.0
+    }
+  },
+  "judge_notes": "Strong manual rewrite with contractions, varied phrasing, concrete examples, and a conversational tone. Preserves all seven core strategies and named frameworks, with only minor supporting details omitted. Input was read and output saved correctly. Deductions reflect the unattempted installation, unrelated weather call, and duplicate file-search calls.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

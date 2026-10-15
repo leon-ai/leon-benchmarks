@@ -1,0 +1,13 @@
+{
+  "task_id": "task_humanizer",
+  "score": 0.125,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Skill Usage or Manual Rewrite": 0.5,
+    "Output Quality - Natural Voice": 0.0,
+    "Content Preservation": 0.0,
+    "Task Completion": 0.0
+  },
+  "notes": "The agent read the input and attempted to install the humanizer skill, but installation failed. It spent several calls troubleshooting without performing the permitted manual rewrite. No humanized text or humanized_blog.txt was produced, so output quality and content preservation cannot receive credit."
+}

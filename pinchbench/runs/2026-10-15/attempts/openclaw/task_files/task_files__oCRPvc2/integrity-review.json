@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_files/native/task_files__oCRPvc2",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "4e93d491dc88c6d11ef3358d41a42e3ae739e45a8cfefdde25d2969002f61d5b",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

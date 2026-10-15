@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_tldr__iNhopEt",
+  "agent": "leon",
+  "task": "task_meeting_tldr",
+  "score": 0.92,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Captures all major outcomes and both actionable deadlines in approximately 132 words, with a clear opening line and four bullets. Some secondary details make the bullets denser than necessary; bold labels and separately highlighted deadlines would improve scanning. Execution included an irrelevant weather call, duplicate file searches, and numerous overlapping transcript reads.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

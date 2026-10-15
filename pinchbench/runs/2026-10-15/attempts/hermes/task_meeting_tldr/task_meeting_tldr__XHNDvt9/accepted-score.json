@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_tldr__XHNDvt9",
+  "agent": "hermes",
+  "task": "task_meeting_tldr",
+  "score": 0.94,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Created the requested file with 124 words, a one-line summary, five bullets, and both actionable deadlines. Captures event assignments, Commit priorities, competitive-sheet guidance, and the selected tagline accurately. Omits the green-only infographic decision and company-level messaging; two Commit bullets crowd out those outcomes. Clear and concise overall, though bolded deadlines and less detail within bullets would improve scanning. The extra code check was modestly unnecessary.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

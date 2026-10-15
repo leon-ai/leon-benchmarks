@@ -1,0 +1,11 @@
+{
+  "id": "task_second_brain__3THBvyc",
+  "agent": "hermes",
+  "task": "task_second_brain",
+  "score": 0.995,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All information was stored clearly in memory/MEMORY.md, storage was confirmed, and both recall sessions answered accurately and confidently. The new session explicitly read the memory file and recalled all five facts. Minor deduction for the unnecessary initial file search before writing.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

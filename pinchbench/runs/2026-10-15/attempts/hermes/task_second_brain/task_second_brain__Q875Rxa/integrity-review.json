@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_second_brain/native/task_second_brain__Q875Rxa",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "b8bbba2eac20de50d4f7f52018ff79c8b999f86e54ec0d9c4b4e1124d97c3ec1",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

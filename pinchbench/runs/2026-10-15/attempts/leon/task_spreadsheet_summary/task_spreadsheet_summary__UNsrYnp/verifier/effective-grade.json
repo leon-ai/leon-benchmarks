@@ -1,0 +1,24 @@
+{
+  "accepted_score": 0.975,
+  "native_criteria": {
+    "score": 0.975,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.total_revenue": 1.0,
+      "automated.total_profit": 1.0,
+      "automated.top_region": 1.0,
+      "automated.top_product": 1.0,
+      "automated.total_expenses": 1.0,
+      "automated.top_department": 1.0,
+      "automated.top_employee": 1.0,
+      "automated.budget_comparison": 1.0,
+      "llm_judge.Data Reading and Parsing": 0.9,
+      "llm_judge.Analytical Accuracy": 1.0,
+      "llm_judge.Report Quality and Structure": 0.95,
+      "llm_judge.Insights and Synthesis": 0.9
+    }
+  },
+  "judge_notes": "Successfully parsed both files, including both Excel sheets, and created a clear Markdown report containing all requested results. Key totals, rankings, and budget comparisons are correct. Period-aligned cross-file analysis and explicit caveats about expense coverage and double-counting are valuable. Minor deductions for the unrelated weather call, duplicate file listing, initial failed parsing attempt, and slightly more detail than necessary.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

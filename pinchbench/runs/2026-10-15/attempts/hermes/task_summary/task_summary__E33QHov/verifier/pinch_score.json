@@ -1,0 +1,15 @@
+{
+  "task_id": "task_summary",
+  "score": 0.9,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Accuracy and Completeness": 0.9,
+    "Conciseness": 0.85,
+    "Structure and Coherence": 0.75,
+    "Writing Quality": 1.0,
+    "Task Completion": 1.0
+  },
+  "notes": "Accurately captures the major applications, challenges, and future outlook without factual errors, though cost-reduction benefits are omitted. At approximately 118 words, it is informative and concise but below the rubric's preferred 150–250 words. Exactly three coherent paragraphs are present, but challenges appear in paragraph two rather than paragraph three. Prose is clear and professional. The source was read and the correctly named output file was created with no unnecessary tool use.",
+  "error": "RuntimeError: Native judge encountered transport failures"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_spreadsheet_summary__nDZUDuu",
+  "agent": "leon",
+  "task": "task_spreadsheet_summary",
+  "score": 0.975,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Successfully parsed both files and Excel sheets, produced all required figures correctly, and wrote a clear markdown report with departmental budget comparisons. Strong synthesis distinguishes full-year sales from Q1 expenses and appropriately qualifies the combined-profit comparison. Minor deductions for an irrelevant weather call, duplicate file discovery, a failed initial parsing approach, and limited actionable recommendations.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

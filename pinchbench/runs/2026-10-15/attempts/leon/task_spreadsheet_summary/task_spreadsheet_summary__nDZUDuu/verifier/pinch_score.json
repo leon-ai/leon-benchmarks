@@ -1,0 +1,22 @@
+{
+  "task_id": "task_spreadsheet_summary",
+  "score": 0.975,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.total_revenue": 1.0,
+    "automated.total_profit": 1.0,
+    "automated.top_region": 1.0,
+    "automated.top_product": 1.0,
+    "automated.total_expenses": 1.0,
+    "automated.top_department": 1.0,
+    "automated.top_employee": 1.0,
+    "automated.budget_comparison": 1.0,
+    "llm_judge.Data Reading and Parsing": 0.9,
+    "llm_judge.Analytical Accuracy": 1.0,
+    "llm_judge.Report Quality and Structure": 0.95,
+    "llm_judge.Insights and Synthesis": 0.9
+  },
+  "notes": "Successfully parsed both files and Excel sheets, produced all required figures correctly, and wrote a clear markdown report with departmental budget comparisons. Strong synthesis distinguishes full-year sales from Q1 expenses and appropriately qualifies the combined-profit comparison. Minor deductions for an irrelevant weather call, duplicate file discovery, a failed initial parsing approach, and limited actionable recommendations."
+}

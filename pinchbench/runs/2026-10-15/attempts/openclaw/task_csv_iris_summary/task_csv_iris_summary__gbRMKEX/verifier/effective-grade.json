@@ -1,0 +1,23 @@
+{
+  "accepted_score": 0.9042857142857142,
+  "native_criteria": {
+    "score": 0.9042857142857142,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.dataset_overview": 1.0,
+      "automated.overall_stats": 1.0,
+      "automated.per_species_stats": 1.0,
+      "automated.correlation": 1.0,
+      "automated.separability_insight": 0.0,
+      "automated.formatting": 1.0,
+      "llm_judge.Statistical Accuracy": 1.0,
+      "llm_judge.Analytical Insight": 1.0,
+      "llm_judge.Report Structure and Presentation": 0.9,
+      "llm_judge.Completeness": 1.0
+    },
+    "reward": 0.9042857142857142
+  },
+  "judge_notes": "All statistics are correct for the supplied CSV, and every requested section is present. The report clearly explains the strongest correlation and demonstrates setosa separability with observed ranges. Minor deductions for repetitive key findings and unnecessary workflow steps, including skill searches and unrequested Git commits with a failed initial attempt.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

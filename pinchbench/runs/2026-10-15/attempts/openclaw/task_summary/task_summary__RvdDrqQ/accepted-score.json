@@ -1,0 +1,11 @@
+{
+  "id": "task_summary__RvdDrqQ",
+  "agent": "openclaw",
+  "task": "task_summary",
+  "score": 0.85,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate, clear summary covering all major themes, saved to the correct file after reading the source. At approximately 129 words, it is shorter than the rubric's preferred range but preserves essential information. Exactly three paragraphs are present, but applications appear in paragraph 1 and challenges in paragraph 2 rather than the requested organization. Unnecessary skill searches, Git operations, and failed verification attempts reduced execution efficiency.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_files/native/task_files__YaCTEWv",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "e8c8c000411ae206efc1f7de6291d9c0b970549964f0e29ed0db0c655d9b8c92",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

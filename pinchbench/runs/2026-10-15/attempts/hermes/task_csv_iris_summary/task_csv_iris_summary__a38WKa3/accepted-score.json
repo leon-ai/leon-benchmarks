@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_iris_summary__a38WKa3",
+  "agent": "hermes",
+  "task": "task_csv_iris_summary",
+  "score": 1.0,
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "All requested statistics are correct for the supplied CSV, with sample standard deviations explicitly documented. The report confirms 150 rows, five columns, and 50 observations per species; identifies the strongest correlation correctly; explains setosa separability and species overlap; and adds useful within-species correlation context. The markdown is complete, clearly organized, and appropriately concise. Tool usage was efficient.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

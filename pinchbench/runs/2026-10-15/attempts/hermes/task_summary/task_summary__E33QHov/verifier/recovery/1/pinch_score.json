@@ -1,0 +1,14 @@
+{
+  "task_id": "task_summary",
+  "score": 0.9,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Accuracy and Completeness": 0.9,
+    "Conciseness": 0.85,
+    "Structure and Coherence": 0.75,
+    "Writing Quality": 1.0,
+    "Task Completion": 1.0
+  },
+  "notes": "Accurate, clear summary covering the major applications, challenges, and future outlook, though cost-reduction benefits are omitted. At roughly 140 words, it is slightly below the rubric’s preferred range. Exactly three coherent paragraphs, but challenges appear in paragraph two rather than paragraph three. Source was read and the correctly named output file was saved efficiently."
+}

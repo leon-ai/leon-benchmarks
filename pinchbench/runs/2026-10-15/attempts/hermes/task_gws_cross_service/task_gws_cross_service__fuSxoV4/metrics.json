@@ -1,0 +1,186 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 10,
+    "recorded_inference_requests": 10,
+    "completed_inference_requests": 10,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 10,
+    "token_usage": {
+      "input_tokens": 241212,
+      "output_tokens": 2350,
+      "total_tokens": 243562,
+      "cached_input_tokens": 211072,
+      "reasoning_output_tokens": 504
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 10
+    },
+    "http_statuses": {
+      "200": 10
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 10,
+        "median": 1.5845857099993736,
+        "minimum": 1.3230179629972554,
+        "maximum": 7.6965296950002084
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 9.009502921500825,
+        "minimum": 8.22346926300088,
+        "maximum": 9.795536580000771
+      },
+      "firstToolActionSeconds": {
+        "count": 8,
+        "median": 10.617640350999864,
+        "minimum": 4.612560025001585,
+        "maximum": 17.65576158699696
+      },
+      "responseSeconds": {
+        "count": 10,
+        "median": 10.668886058501812,
+        "minimum": 4.815680569001415,
+        "maximum": 17.67718881699693
+      }
+    },
+    "observer_milliseconds": 38.349766946339514,
+    "model_tool_calls": 10,
+    "tool_schema_checks": {
+      "valid": 10
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 4999,
+      "output_tokens": 256,
+      "total_tokens": 5255,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 148
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.5316050190012902,
+        "minimum": 1.5316050190012902,
+        "maximum": 1.5316050190012902
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 10.216500098002143,
+        "minimum": 10.216500098002143,
+        "maximum": 10.216500098002143
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 12.44168847399851,
+        "minimum": 12.44168847399851,
+        "maximum": 12.44168847399851
+      }
+    },
+    "observer_milliseconds": 1.7700470343697816,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.495316,
+    "agent_setup": 6.78671,
+    "agent_execution": 123.992464,
+    "verifier": 13.391299
+  },
+  "native_task_grade": {
+    "task_id": "task_gws_cross_service",
+    "score": 0.76,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.read_email": 1.0,
+      "automated.created_event": 0.0,
+      "automated.found_drive_file": 1.0,
+      "automated.shared_file": 1.0,
+      "automated.actions_summary": 1.0,
+      "llm_judge.Cross-Service Coordination": 0.65,
+      "llm_judge.Task Completeness": 0.75
+    },
+    "notes": "Found and read Alice’s email, located the agenda, submitted successful reader-permission requests for Bob, and wrote actions.md. Used all three services, but did not create the requested calendar event, instead stopping at an existing matching event and seeking clarification. Sharing remained unverified because subsequent reads contradicted successful write responses. Repeated sharing attempts and numerous verification calls reduced efficiency."
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

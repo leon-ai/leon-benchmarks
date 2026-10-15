@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-14T13:51:42.245718+00:00",
+  "authorized_by_owner": true,
+  "phase": "pinch",
+  "changes": [
+    {
+      "module": "pinch.py",
+      "original_sha256": "110ff6e57c33fe1fc2505db3572d9779aba6d0189565bf59404bb3fda1574210",
+      "sha256": "8c96b601d1ef40571ebf7ecbebdc0eeaafa3ef0f1d7fd8c92fbed0dbc3416172"
+    },
+    {
+      "module": "balanced.py",
+      "original_sha256": "00b1d35627ab278ca8efb629e5f38aeba559fc841d54171aefab6943c8e3b228",
+      "sha256": "e413b2b24fbbed17c1ed97281d68424eb659a41f3ae2060c1b5ec9d60a8b16a6"
+    },
+    {
+      "module": "pinch_agents.py",
+      "original_sha256": "8312e29a3cede09c8846f44685ec90bde29daed31296c26900563f0182ca10a7",
+      "sha256": "3ed1dbe43cbcf2e03af732db646f9691fc6f3dd68826268dd589a7e9b0274ca9"
+    },
+    {
+      "module": "task_integrity.py",
+      "original_sha256": "d12f60d3851744f429eadcf3aad04bc896358737922cdea37f4d36b8f483ba38",
+      "sha256": "02af47756bf96b5281d5055b1aca5deeab6c9cc6871ee5580ef2fba34b3bafe9"
+    },
+    {
+      "module": "pinch_transcript.py",
+      "original_sha256": "b73fb00d2bf532569219488a13de5f9dc8ccd87bdea921d29059c69d012d1e5b",
+      "sha256": "3fa78caa0e6dc25df69865f1a2ec3f867dbf4d680c7122fef66a0432cb440046"
+    },
+    {
+      "module": "pinch_grader.py",
+      "original_sha256": "f077e36359ebcd339967df55a91f67fbdef44f65d45a743d23978b564c2be18a",
+      "sha256": "51f7debd1aaf01de1b48b51da0bc920be8a5d81ece92eb8eba7a27c9dffa591b"
+    }
+  ],
+  "conditions_unchanged": [
+    "Frozen task bytes and native rubrics",
+    "All frozen agent source versions",
+    "GPT-6.1 Sol/high/priority requested via subscription only",
+    "Native task deadlines and repetitions",
+    "CPU/RAM limits"
+  ],
+  "repairs": [
+    "Pinch grader imports pinned PyYAML from common read-only dependency modules",
+    "Native Leon tool workers resolve task-relative paths inside the assigned workspace",
+    "Portable transcript aliases retain native identities for equivalent file-read functions",
+    "Pinch grade files are inspected by existing integrity/report helpers",
+    "Quick cohort integrity reviews gate acceptance and phase advancement",
+    "Subscription export verifies account equality, then uses the working native Leon-renewed short-lived access token for every candidate and judge; no refresh tokens copied to trials."
+  ],
+  "raw_controls_retained": true,
+  "captured_public_harness_changed": false
+}

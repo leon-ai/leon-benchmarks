@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_multi_file_refactoring/native/task_multi_file_refactoring__UFHdSzb",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "6a50666fc637d890ca013ce22ab284e85f229b7b4770354ea3ccf0e4d7a13960",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

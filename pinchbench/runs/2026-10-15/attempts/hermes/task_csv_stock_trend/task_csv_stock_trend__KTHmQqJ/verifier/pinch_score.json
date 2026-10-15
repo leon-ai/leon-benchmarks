@@ -1,0 +1,22 @@
+{
+  "task_id": "task_csv_stock_trend",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.trend_direction": 1.0,
+    "automated.starting_price": 1.0,
+    "automated.ending_price": 1.0,
+    "automated.percentage_change": 1.0,
+    "automated.monthly_breakdown": 1.0,
+    "automated.up_streak": 1.0,
+    "automated.down_streak": 1.0,
+    "automated.trend_periods": 1.0,
+    "llm_judge.Data Analysis Accuracy": 1.0,
+    "llm_judge.Trend Identification Quality": 1.0,
+    "llm_judge.Report Structure and Presentation": 1.0,
+    "llm_judge.Completeness": 1.0
+  },
+  "notes": "Accurate prices, return, monthly averages, and longest streaks, including the tied five-day declines. Clearly identifies the bullish trend and documents major rallies, corrections, and dated inflection points. The well-structured Markdown report includes every requested element and appropriately distinguishes the December 12 endpoint from full-year coverage. Tool usage was efficient."
+}

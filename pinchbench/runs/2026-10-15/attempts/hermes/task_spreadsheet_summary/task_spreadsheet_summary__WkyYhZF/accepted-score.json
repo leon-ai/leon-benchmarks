@@ -1,0 +1,11 @@
+{
+  "id": "task_spreadsheet_summary__WkyYhZF",
+  "agent": "hermes",
+  "task": "task_spreadsheet_summary",
+  "score": 0.98,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Successfully analyzed both files and Excel sheets, created the requested report, and matched all expected key figures. Departmental budget comparisons are clear and internally consistent. Strong synthesis correctly distinguishes full-year sales from Q1 expenses and qualifies the conditional profitability comparison. Minor deductions for two failed execution attempts and somewhat excessive report detail.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

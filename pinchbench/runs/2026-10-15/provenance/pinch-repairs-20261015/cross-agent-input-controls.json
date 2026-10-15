@@ -1,0 +1,391 @@
+{
+  "checked_tasks": 32,
+  "findings": [],
+  "checks": [
+    {
+      "task": "task_calendar",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_sanity",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_todo_list_cleanup",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_stock",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_market_research",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_it_procurement",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_humanizer",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_email",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_blog",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_multi_file_refactoring",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_shell_command_generator",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_weather",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_summary",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_spreadsheet_summary",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_image_identification",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_csv_iris_summary",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_csv_stock_trend",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_csv_finance_report",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_log_syslog_boot",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_log_apache_top_errors",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_log_hdfs_failures",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_meeting_tldr",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_meeting_council_votes",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_meeting_searchable_index",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_memory",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_second_brain",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_files",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_skill_search",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_workflow",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_gws_email_triage",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_gws_cross_service",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    },
+    {
+      "task": "task_gws_task_management",
+      "checks": {
+        "source_task": true,
+        "grader_task": true,
+        "input_fixtures": true,
+        "native_deadline": true,
+        "cpu": true,
+        "ram": true,
+        "native_grader_library": true
+      }
+    }
+  ],
+  "additional_inference_calls": 0
+}

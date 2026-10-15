@@ -1,0 +1,19 @@
+{
+  "accepted_score": 0.948,
+  "native_criteria": {
+    "score": 0.948,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_tasks": 1.0,
+      "automated.updated_completed": 1.0,
+      "automated.read_emails": 1.0,
+      "automated.created_new_task": 1.0,
+      "automated.summary_created": 1.0,
+      "llm_judge.information_extraction": 0.95,
+      "llm_judge.task_list_management": 0.8,
+      "llm_judge.summary_quality": 0.86
+    }
+  },
+  "judge_notes": "Identified all four inbox action items and created specific, source-linked tasks with appropriate date handling. Reviewed existing tasks and verified changes, but completing the Q3 proposal relied on an uncertain match to a generic approval email. The summary clearly documents findings, creations, completions, and assumptions, though it is unnecessarily lengthy. Redundant searches and repeated readbacks reduced efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

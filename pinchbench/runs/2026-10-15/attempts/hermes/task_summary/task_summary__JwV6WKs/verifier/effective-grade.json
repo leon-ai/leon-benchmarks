@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.93,
+  "native_criteria": {
+    "score": 0.93,
+    "max_score": 1.0,
+    "breakdown": {
+      "Accuracy and Completeness": 1.0,
+      "Conciseness": 0.9,
+      "Structure and Coherence": 0.75,
+      "Writing Quality": 1.0,
+      "Task Completion": 1.0
+    },
+    "reward": 0.93
+  },
+  "judge_notes": "Accurately captures all major applications, benefits, challenges, and future themes in clear, professional prose. The summary is concise at approximately 130 words, slightly below the rubric's ideal range. Exactly three paragraphs are present, but challenges appear in paragraph two rather than being grouped with the future outlook in paragraph three. The source was read and summary_output.txt was successfully created with no unnecessary tool use.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

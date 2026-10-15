@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_finance_report__NEhLx9o",
+  "agent": "hermes",
+  "task": "task_csv_finance_report",
+  "score": 0.95,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The saved report substantively covers all seven sections with accurate calculations matching the expected results, clear tables, explicit return conventions, and appropriate handling of partial-year coverage. Trend and risk interpretations are thoughtful and grounded in the CSV rather than speculative news attribution. Minor deductions reflect repetitive methodological caveats, somewhat excessive length, and unnecessary environment probing; investor implications could also be more concise and focused.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

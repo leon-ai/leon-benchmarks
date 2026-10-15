@@ -1,0 +1,21 @@
+{
+  "accepted_score": 0.06,
+  "native_criteria": {
+    "score": 0.06,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 0.0,
+      "automated.log_overview": 0.0,
+      "automated.operations_counted": 0.0,
+      "automated.error_status": 0.0,
+      "automated.health_assessment": 0.0,
+      "llm_judge.report_created": 0.0,
+      "llm_judge.log_overview": 0.25,
+      "llm_judge.block_operation_counts": 0.15,
+      "llm_judge.warning_and_error_analysis": 0.2,
+      "llm_judge.health_assessment": 0.0
+    }
+  },
+  "judge_notes": "The agent parsed 2,000 entries and identified an all-INFO distribution, but execution ended with an error before hdfs_failure_report.md was created. Partial analytical work is visible, but no completed overview, operation summary, replication details, incomplete-operation analysis, or health assessment was delivered.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

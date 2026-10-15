@@ -1,0 +1,23 @@
+{
+  "accepted_score": 0.99,
+  "native_criteria": {
+    "score": 0.99,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.dataset_overview": 1.0,
+      "automated.overall_stats": 1.0,
+      "automated.per_species_stats": 1.0,
+      "automated.correlation": 1.0,
+      "automated.separability_insight": 1.0,
+      "automated.formatting": 1.0,
+      "llm_judge.Statistical Accuracy": 1.0,
+      "llm_judge.Analytical Insight": 1.0,
+      "llm_judge.Report Structure and Presentation": 0.9,
+      "llm_judge.Completeness": 1.0
+    },
+    "reward": 0.99
+  },
+  "judge_notes": "The report contains accurate overall and per-species statistics, all requested sections, and clear markdown tables. It correctly identifies the strongest correlation, explains setosa separability, and distinguishes pooled from within-species relationships. Minor deduction for execution inefficiency and unnecessary presentation noise: an unrelated weather call, repeated file searches, and restarting the database inspection while it was already running.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

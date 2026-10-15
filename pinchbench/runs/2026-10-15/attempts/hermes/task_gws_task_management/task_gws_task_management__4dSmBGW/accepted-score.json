@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_task_management__4dSmBGW",
+  "agent": "hermes",
+  "task": "task_gws_task_management",
+  "score": 0.9466666666666667,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Identified all four inbox action items and created specific, contextualized tasks. Reviewed existing tasks and preserved the already-completed item, but marked the proposal review complete using evidence that did not definitively identify that task. The summary thoroughly documents findings, creations, completions, and historical dates, though it is unnecessarily lengthy. Repeated individual verification calls added avoidable overhead.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

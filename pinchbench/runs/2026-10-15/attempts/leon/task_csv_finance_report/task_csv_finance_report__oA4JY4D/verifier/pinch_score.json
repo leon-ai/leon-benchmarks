@@ -1,0 +1,13 @@
+{
+  "task_id": "task_csv_finance_report",
+  "score": 0.95,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Analytical Depth and Accuracy": 1.0,
+    "Completeness of Sections": 1.0,
+    "Professional Presentation": 0.9,
+    "Insight Quality": 0.9
+  },
+  "notes": "All seven sections are substantive, and the calculations match the expected results. Particularly strong treatment of partial-year coverage, return boundaries, volatility conventions, drawdown recovery, and streak definitions. Tables and price-based interpretations support investor review without inventing news causes. Minor deductions for excessive caveats and methodological detail, somewhat cautious rather than decision-oriented takeaways, and unnecessary tool activity, including a weather request and duplicate file search."
+}

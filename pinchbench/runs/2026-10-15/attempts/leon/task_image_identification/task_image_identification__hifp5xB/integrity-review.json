@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_image_identification/native/task_image_identification__hifp5xB",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "735c11f3c03119fc90d433ca40a00a43a0b5550e4824ab33d6cda5203d3e4c87",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

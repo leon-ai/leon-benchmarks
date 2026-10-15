@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "trial": "task_log_apache_top_errors__UDwajRv",
+      "native_automated_score": 0.0,
+      "transcript_rows": 14,
+      "deadline_epoch": 1791993524.322707
+    },
+    {
+      "trial": "task_log_apache_top_errors__598r2Wu",
+      "native_automated_score": 0.0,
+      "transcript_rows": 15,
+      "deadline_epoch": 1791993524.214254
+    },
+    {
+      "trial": "task_log_apache_top_errors__NCaw7sF",
+      "native_automated_score": 0.9,
+      "transcript_rows": 13,
+      "deadline_epoch": 1791993525.222838
+    }
+  ],
+  "additional_inference_calls": 0
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_spreadsheet_summary__eW2LSMn",
+  "agent": "hermes",
+  "task": "task_spreadsheet_summary",
+  "score": 0.985,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Successfully analyzed the CSV and both Excel sheets, created the requested report, and matched all expected numerical results. Clear tables include department-level budget comparisons. Strong synthesis distinguishes annual sales from Q1 expenses and appropriately qualifies the illustrative combined result. Minor deductions for the failed initial dependency attempt and somewhat lengthy caveats relative to the requested brief summary.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

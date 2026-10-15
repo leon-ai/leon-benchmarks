@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_task_management__oQsse7p",
+  "agent": "hermes",
+  "task": "task_gws_task_management",
+  "score": 0.948,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Identified all four inbox action items and created specific, source-linked tasks with appropriate date handling. Reviewed existing tasks and verified changes, but completing the Q3 proposal relied on an uncertain match to a generic approval email. The summary clearly documents findings, creations, completions, and assumptions, though it is unnecessarily lengthy. Redundant searches and repeated readbacks reduced efficiency.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

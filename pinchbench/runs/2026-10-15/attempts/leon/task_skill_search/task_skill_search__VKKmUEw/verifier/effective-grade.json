@@ -1,0 +1,17 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "settings_host_updated": 1.0,
+      "settings_db_updated": 1.0,
+      "settings_loglevel_updated": 1.0,
+      "settings_api_updated": 1.0,
+      "yaml_host_updated": 1.0,
+      "yaml_db_updated": 1.0
+    }
+  },
+  "judge_notes": "",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

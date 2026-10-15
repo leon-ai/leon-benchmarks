@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_email_triage__gmfBhPP",
+  "agent": "hermes",
+  "task": "task_gws_email_triage",
+  "score": 0.925,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Successfully discovered and used Gmail list, get, and draft commands, reviewed all three unread messages, and saved a complete priority-sorted triage_report.md. Priorities and recommendations appropriately account for the messages' age without inventing an active outage. The professional reply was saved and verified in the correct thread without sending. Deductions reflect unnecessary verification calls, a failed draft-parsing step, an overly detailed report, and the draft's automated notification recipient, although that limitation was explicitly flagged.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

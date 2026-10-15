@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_sanity/native/task_sanity__54iF3xY",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "6733b0514b7180f9b5edd6e8eb928dfcb0146083d04fef87d98e4abfba10fe51",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

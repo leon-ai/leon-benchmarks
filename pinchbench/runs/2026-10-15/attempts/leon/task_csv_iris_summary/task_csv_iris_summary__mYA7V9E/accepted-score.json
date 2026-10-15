@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_iris_summary__mYA7V9E",
+  "agent": "leon",
+  "task": "task_csv_iris_summary",
+  "score": 0.99,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The report contains accurate overall and per-species statistics, all requested sections, and clear markdown tables. It correctly identifies the strongest correlation, explains setosa separability, and distinguishes pooled from within-species relationships. Minor deduction for execution inefficiency and unnecessary presentation noise: an unrelated weather call, repeated file searches, and restarting the database inspection while it was already running.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

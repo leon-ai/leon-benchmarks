@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_cross_service__ixFnNag",
+  "agent": "leon",
+  "task": "task_gws_cross_service",
+  "score": 0.73,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Used Gmail, Calendar, and Drive in a logical workflow, but included an unrelated weather call and some redundant checks. Successfully read Alice's email and saved an accurate actions.md summary. Verified an existing calendar event rather than creating the requested event, and Bob's reader access remained unconfirmed despite two sharing attempts. Transparently documented the incomplete outcomes.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

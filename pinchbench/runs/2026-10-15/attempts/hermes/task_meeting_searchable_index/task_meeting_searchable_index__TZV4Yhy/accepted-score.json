@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_searchable_index__TZV4Yhy",
+  "agent": "hermes",
+  "task": "task_meeting_searchable_index",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read the transcript, but no meeting_index.md or index content was produced in the provided execution record. The required metadata, topic and people indexes, alphabetical keyword index, decisions log, and action items log are therefore missing.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

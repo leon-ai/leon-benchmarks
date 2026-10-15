@@ -1,0 +1,22 @@
+{
+  "task_id": "task_csv_stock_trend",
+  "score": 0.99,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.trend_direction": 1.0,
+    "automated.starting_price": 1.0,
+    "automated.ending_price": 1.0,
+    "automated.percentage_change": 1.0,
+    "automated.monthly_breakdown": 1.0,
+    "automated.up_streak": 1.0,
+    "automated.down_streak": 1.0,
+    "automated.trend_periods": 1.0,
+    "llm_judge.Data Analysis Accuracy": 1.0,
+    "llm_judge.Trend Identification Quality": 1.0,
+    "llm_judge.Report Structure and Presentation": 0.9,
+    "llm_judge.Completeness": 1.0
+  },
+  "notes": "All expected figures and streak dates are correct, including the additional tied five-day down streak. The report thoroughly covers monthly averages, dated rallies and declines, and the December 12 coverage limitation. Markdown organization is strong, though methodology and repeated findings add unnecessary length. Skill discovery and the attempted Git commit were unnecessary execution steps."
+}

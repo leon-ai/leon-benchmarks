@@ -1,0 +1,11 @@
+{
+  "id": "task_it_procurement__DFNjcVS",
+  "agent": "hermes",
+  "task": "task_it_procurement",
+  "score": 0.1,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The visible work is incomplete. A saved System76 evidence file provides one exact configuration, price, specifications, and warranty options, while searches target other relevant models and Linux issues. However, no completed laptop_procurement.md is present, five fully researched models are not documented, and there is no actionable procurement recommendation, per-model Linux assessment, fleet mix, total budget, or comparison table.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

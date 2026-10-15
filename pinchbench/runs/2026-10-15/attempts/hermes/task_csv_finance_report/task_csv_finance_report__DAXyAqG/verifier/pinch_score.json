@@ -1,0 +1,13 @@
+{
+  "task_id": "task_csv_finance_report",
+  "score": 0.0,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Analytical Depth and Accuracy": 0.0,
+    "Completeness of Sections": 0.0,
+    "Professional Presentation": 0.0,
+    "Insight Quality": 0.0
+  },
+  "notes": "The agent located and read the CSV and attempted calculations, but no finance_report.md or substantive analysis was delivered in the provided record. None of the seven required report sections, computed results, professional presentation, or analytical insights are available to evaluate."
+}

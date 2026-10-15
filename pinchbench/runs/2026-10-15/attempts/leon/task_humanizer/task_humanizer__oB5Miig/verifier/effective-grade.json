@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.9125,
+  "native_criteria": {
+    "score": 0.9125,
+    "max_score": 1.0,
+    "breakdown": {
+      "Skill Usage or Manual Rewrite": 0.8,
+      "Output Quality - Natural Voice": 0.9,
+      "Content Preservation": 0.95,
+      "Task Completion": 1.0
+    }
+  },
+  "judge_notes": "The manual rewrite substantially improves tone, contractions, sentence variety, and specificity while preserving all seven strategies and named frameworks. The input was read and the output correctly saved and verified. Deductions reflect the lack of an installation attempt or demonstrated registry unavailability, an irrelevant weather call, duplicate file searches, and excessive setup messages.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

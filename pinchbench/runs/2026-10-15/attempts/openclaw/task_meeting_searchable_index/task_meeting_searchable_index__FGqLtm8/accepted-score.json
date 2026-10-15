@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_searchable_index__FGqLtm8",
+  "agent": "openclaw",
+  "task": "task_meeting_searchable_index",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read and inspected the transcript but did not create meeting_index.md or provide any index content. All six requested sections are missing. The skill searches and workspace inspection did not produce a usable deliverable.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

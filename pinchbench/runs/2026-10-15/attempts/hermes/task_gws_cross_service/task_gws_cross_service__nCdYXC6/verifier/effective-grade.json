@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.73,
+  "native_criteria": {
+    "score": 0.73,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.read_email": 1.0,
+      "automated.created_event": 0.0,
+      "automated.found_drive_file": 1.0,
+      "automated.shared_file": 1.0,
+      "automated.actions_summary": 1.0,
+      "llm_judge.Cross-Service Coordination": 0.75,
+      "llm_judge.Task Completeness": 0.5
+    }
+  },
+  "judge_notes": "Located and read Alice’s email, consulted Calendar, found the agenda in Drive, and wrote a detailed actions.md. Coordination was logical but involved repeated verification calls. Only two steps were fully completed: no event was created because a matching event already existed, and Bob’s sharing permission could not be confirmed after the creation request. The agent accurately disclosed both limitations.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,16 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "Professional Tone and Courtesy": 1.0,
+      "Completeness and Clarity": 1.0,
+      "Structure and Format": 1.0,
+      "Conciseness and Appropriateness": 1.0,
+      "Task Completion": 1.0
+    }
+  },
+  "judge_notes": "The email politely and clearly declines due to a scheduling conflict, offers to reschedule, and includes a subject, greeting, organized body, and professional closing. It is concise and complete, and the correctly named file was successfully created with one efficient tool call.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

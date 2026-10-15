@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_email_triage__vZz22NG",
+  "agent": "openclaw",
+  "task": "task_gws_email_triage",
+  "score": 0.93333333335,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Correctly listed and read all unread emails, created and verified an unsent threaded draft, and saved a structured, priority-sorted report with specific recommendations and careful treatment of stale dates. The draft appropriately addresses the CI failure but targets an automated notification address with unverified reply routing. Unnecessary skill discovery and Git commit attempts added overhead.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

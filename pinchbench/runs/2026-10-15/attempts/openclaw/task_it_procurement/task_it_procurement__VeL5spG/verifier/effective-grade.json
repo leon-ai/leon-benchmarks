@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.0,
+  "native_criteria": {
+    "score": 0.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "Product Research Quality": 0.0,
+      "Practical Procurement Value": 0.0,
+      "Linux Compatibility Assessment": 0.0,
+      "Fleet Recommendation": 0.0,
+      "Comparison Quality": 0.0
+    }
+  },
+  "judge_notes": "The provided transcript shows only setup and delegated research instructions, not completed research or a procurement deliverable. No verified configurations, prices, Linux compatibility findings, comparison table, fleet mix, or budget are provided, and laptop_procurement.md is not shown as created. Planned work does not satisfy the criteria.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

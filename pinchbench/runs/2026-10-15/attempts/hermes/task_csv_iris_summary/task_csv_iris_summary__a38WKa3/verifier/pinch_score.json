@@ -1,0 +1,20 @@
+{
+  "task_id": "task_csv_iris_summary",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.dataset_overview": 1.0,
+    "automated.overall_stats": 1.0,
+    "automated.per_species_stats": 1.0,
+    "automated.correlation": 1.0,
+    "automated.separability_insight": 1.0,
+    "automated.formatting": 1.0,
+    "llm_judge.Statistical Accuracy": 1.0,
+    "llm_judge.Analytical Insight": 1.0,
+    "llm_judge.Report Structure and Presentation": 1.0,
+    "llm_judge.Completeness": 1.0
+  },
+  "notes": "All overall and per-species statistics are correct, with sample standard deviations explicitly identified. The report correctly identifies the strongest correlation, explains setosa separability and species overlap, and adds useful within-species correlation context. All requested sections are present in a clear, well-structured Markdown report, with efficient tool usage."
+}

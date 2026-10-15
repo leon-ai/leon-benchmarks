@@ -1,0 +1,177 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 4,
+    "recorded_inference_requests": 4,
+    "completed_inference_requests": 4,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 4,
+    "token_usage": {
+      "input_tokens": 46298,
+      "output_tokens": 1017,
+      "total_tokens": 47315,
+      "cached_input_tokens": 42624,
+      "reasoning_output_tokens": 235
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 4
+    },
+    "http_statuses": {
+      "200": 4
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 4,
+        "median": 1.4474472360000163,
+        "minimum": 1.3153601409999283,
+        "maximum": 2.001663928999733
+      },
+      "firstTextSeconds": {
+        "count": 2,
+        "median": 3.3162424330000704,
+        "minimum": 2.1656503670001257,
+        "maximum": 4.466834499000015
+      },
+      "firstToolActionSeconds": {
+        "count": 2,
+        "median": 8.288484124999968,
+        "minimum": 3.2474783679999746,
+        "maximum": 13.329489881999962
+      },
+      "responseSeconds": {
+        "count": 4,
+        "median": 4.05802098449999,
+        "minimum": 3.442836482000075,
+        "maximum": 13.42391114899965
+      }
+    },
+    "observer_milliseconds": 14.998851994732831,
+    "model_tool_calls": 2,
+    "tool_schema_checks": {
+      "valid": 2
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.958909,
+    "agent_setup": 1.870819,
+    "agent_execution": 49.376066,
+    "verifier": 0.734598
+  },
+  "native_task_grade": {
+    "task_id": "task_todo_list_cleanup",
+    "score": 1.0,
+    "max_score": 1.0,
+    "grading_type": "automated",
+    "breakdown": {
+      "file_created": 1.0,
+      "organized_by_project": 1.0,
+      "all_items_present": 1.0,
+      "duplicates_marked_partial": 1.0,
+      "duplicates_marked_all": 1.0,
+      "no_false_completions": 1.0,
+      "overdue_flagged": 1.0,
+      "overdue_not_over_flagged": 1.0
+    },
+    "notes": ""
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

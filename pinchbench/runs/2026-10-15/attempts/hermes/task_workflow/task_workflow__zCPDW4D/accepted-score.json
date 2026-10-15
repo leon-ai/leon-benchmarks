@@ -1,0 +1,11 @@
+{
+  "id": "task_workflow__zCPDW4D",
+  "agent": "hermes",
+  "task": "task_workflow",
+  "score": 0.975,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All requirements were met. The script reads and validates configuration, honors method, headers, and timeout, handles common failures, and outputs response bytes. Documentation clearly covers implementation, usage, configuration, and verification. Local tests provide strong evidence of functionality; the remote DNS failure is transparently reported. Minor deductions reflect a redundant workspace search and somewhat lengthy documentation for a small task.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

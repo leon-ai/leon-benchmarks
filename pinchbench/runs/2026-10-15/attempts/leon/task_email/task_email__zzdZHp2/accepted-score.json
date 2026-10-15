@@ -1,0 +1,11 @@
+{
+  "id": "task_email__zzdZHp2",
+  "agent": "leon",
+  "task": "task_email",
+  "score": 0.97,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The saved email is concise, professional, clearly explains the scheduling conflict, and offers to reschedule. It includes all required structural elements and uses the correct filename. The unrelated weather lookup was unnecessary and reduced execution efficiency.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

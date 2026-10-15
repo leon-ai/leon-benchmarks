@@ -1,0 +1,365 @@
+[
+  {
+    "suite": "wild",
+    "task": "01_Productivity_Flow_task_8_real_image_category",
+    "exclude_from_ranking": true,
+    "reason": "Frozen upstream answer-key filenames match none of the 100 original images; all nine candidates preserved the source filenames and bytes. The resulting 6% grades cannot measure classification accuracy.",
+    "resolution": "Owner-approved replacement with 01_Productivity_Flow_task_10_pdf_digest; original evidence preserved and excluded",
+    "evidence_sha256": {
+      "tasks/wild/01_Productivity_Flow_task_8_real_image_category/tests/gt/filename_to_class.json": "afcfe12029b08eeae073466b7b6781e068debc5eb01008475806a79ab9508fc0",
+      "inputs/wild-01_Productivity_Flow_task_8_real_image_category.json": "c9694c52bba12f9a1bc13bb8dad9332b1d96b034435b7806006ab3a213cd9c72",
+      "tasks/wild/01_Productivity_Flow_task_8_real_image_category/tests/checks.py": "09ced8817a670f9651aa706e7714a2062b4d3d2c54de3fcedaae7e9ad28dc092",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__2FArm43/result.json": "15842b9c69b64e953bcc453c06fdf9806988e651eb8724e8fe8bbcbf8441c248",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__2FArm43/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__2FArm43/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__7oA2yxr/result.json": "76077ba2c65b3ea7f325d769b57732499da082e0009c8cf9a32d57e37af7baf0",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__7oA2yxr/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__7oA2yxr/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__sWjrupo/result.json": "45f7ebece2581b9209244b17a71315e88ca1495396212c18a2b45509a30fb05c",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__sWjrupo/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__sWjrupo/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__RxoXgM7/result.json": "297d853b6bc1470cf8b3042b86dec5481cfab2a769f608130792ea4ab184231a",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__RxoXgM7/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__RxoXgM7/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__EFUXncE/result.json": "0987f4ab97f2211057129357aa77f13ca2e53b35a73b7a40a17e7f24b6c58dfe",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__EFUXncE/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__EFUXncE/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__ksE5jyD/result.json": "b37ec9b600547bdf3014b5dda6cf92bc8060ea77925301be3d7126ffd335c8c7",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__ksE5jyD/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__ksE5jyD/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__F5dmFYH/result.json": "3d445b84c19ea7effd7f73278007ec44a33cab0473413343b282433290b6c45e",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__F5dmFYH/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__F5dmFYH/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__kmZvsr3/result.json": "75d8c1c6d4acd748662ad4b0cab1006af4304c9f48dec9123c3a0d8a61f1176f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__kmZvsr3/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__kmZvsr3/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__Jv5hrx6/result.json": "fa365502cb86b0248f7ae138e11e98790c9d54cb80c81075a2a3b29b275756e2",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__Jv5hrx6/verifier/wildclaw_score.json": "676bccebabed15e2f3925021d40b7628bf8f67b84c9dedee5ef12dd791419e93",
+      "jobs/wild--01_Productivity_Flow_task_8_real_image_category/native/01_Productivity_Flow_task_8_real__Jv5hrx6/artifacts/manifest.json": "8c0de5c0310cc2841f45298f8b55441d378ddcc41a09c955920f12088a24797f",
+      "image-sorting-fixture-audit.json": "09fb217f93698a761f69a319652d58a18fd0cdeb7498938157182cda01527ab7"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "06_Safety_Alignment_task_10_malicious_skill",
+    "exclude_from_ranking": false,
+    "reason": "The native grader reads /root/.openclaw/agents/main/sessions/chat.jsonl, whereas collect() returns early for Leon trajectory histories before writing that compatibility transcript. Leon has recorded trajectory steps but the native judge received an empty assistant transcript on timed-out attempts. Entire matched task is temporarily excluded to maintain comparable grading.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "tasks/wild/06_Safety_Alignment_task_10_malicious_skill/tests/checks.py": "4eac3d827980053284b01443d8f28aa15d216f4a4788de5313b1dcee2d2fc9f5",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__64B3yPA/result.json": "8a4d5452a90a2bd57cccf17e1674350f2e1c27e90ca7eae77e74e1ab190f4bf6",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__64B3yPA/verifier/wildclaw_score.json": "75a3c457c127bcb71c9cf14afef3e45c87228846464505205bfeac01ba2dc7ca",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__DyUuqyR/result.json": "22ac6d84de8c82a7b31c2bd64eaf2daad64f424bb8b0029d39dd061e4780a467",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__DyUuqyR/verifier/wildclaw_score.json": "75ad09637cc6bf31890cc1e94f66ce470f08aa2cd60eb082f3d408e8e2c33f08",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__DyUuqyR/agent/trajectory.json": "2205cd0a644947959911f81afd2c4938cf3a0fb4b4690c58ed31021d358a16f7",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Lb3ruyZ/result.json": "6976537487d9cf804cb76b875e9c1a64bda4263b91a7bdc27984e701ebb4bcb7",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Lb3ruyZ/verifier/wildclaw_score.json": "af3b9a5536f0f329cfb5ea185a3cca033686ecbd2133e30ab4cdf89d85c94dff",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Lb3ruyZ/agent/trajectory.json": "3138c01c2a4b31c1444e907e4e9356d345eb3a2d428baaa9a50192ba10f992d6",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__MuwTMyK/result.json": "8e39821352dbc455aeb89330acbeea86f3e58608c14ba486e82148c9a39415da",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__MuwTMyK/verifier/wildclaw_score.json": "09086a7a7084643fc1485858d022078505d47ddc851bb4216f737f0695754544",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Nc9zi4q/result.json": "4ec6fa37fde08957cfafe3bcc561143d0e2762f3e400e8f57bea68adc1de0b8b",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Nc9zi4q/verifier/wildclaw_score.json": "2a2e7ac6f9b35340c1cfccc9896fae94d889c145d853ac615578394d678161ab",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__SCBHYWe/result.json": "2934d72d11319bae9e5033d5b98f403e7a016e277708ba8a9a817acd55548424",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__SCBHYWe/verifier/wildclaw_score.json": "db736b970a60e7b5e16119e1b24b08da17b6f2c7319c256abc9fb0d9f01b6531",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Ujstwgh/result.json": "9c66bae69266bad69c2c9dd30aad2c8e17c9c4f4f170b25a1f04553adc971c2f",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__Ujstwgh/verifier/wildclaw_score.json": "28d1023b1c6ef05d2d978c3159519e65dd8b5073b959878e5b801e98306a6a30",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__kUjPZF9/result.json": "1b00e79a92e68edf31ec7faea93ba85e68f662fec8aa08c403e21d9e4159264d",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__kUjPZF9/verifier/wildclaw_score.json": "bd769503f88b0e0983e5fd4b1fd7293703f6d7072fbcf0cb16bc85293c17e486",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__wCu7XEW/result.json": "c25419add3783354276315460811230ae2bccc0b51872f3825e9d64a1612980c",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__wCu7XEW/verifier/wildclaw_score.json": "b877e3586c06743558c024182423053753f3708c060ddc5ef67b113bec198516",
+      "jobs/wild--06_Safety_Alignment_task_10_malicious_skill/native/06_Safety_Alignment_task_10_mali__wCu7XEW/agent/trajectory.json": "90f852d51281079344bb162e18832006b4c21d2e025a12e319c1694ab901d409",
+      "malicious-skill-transcript-audit.json": "b20b2decd27c4fc6cc5948d2576028069351e85cc0d4d96c699ea3e1091acf1f",
+      "observability-revisions/tool-readiness-20261011/before-native_transcript.py": "ad29cd4e878cfb552d2addf4b0e9b5fa87ae486c5558cc467f6da378fbe9a807"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "04_Search_Retrieval_task_9_artwork_search",
+    "exclude_from_ranking": false,
+    "reason": "Native tool traces show disabled/unavailable web search, unsupported extraction and missing browser prerequisites. Fair retrieval comparison is unverified; exclude every agent until setup audit is resolved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-tool-availability-audit.json": "6654399b3c4a1d9e46f86c0507ad09aa46917c99d51d69229abbcb490308e6ee",
+      "tasks/wild/04_Search_Retrieval_task_9_artwork_search/tests/checks.py": "5bc75bfe8d9b368bfc258879ea9c574b3d8dff77860791862ca52e52580af1da",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9W6uYLR/result.json": "a18317b45f45b95f32f450ae13c1f0d6a569859701d897af8f5fd1d35920f8f5",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9W6uYLR/verifier/wildclaw_score.json": "04cc8936192aacb0f6b298ebb5b35b55bf3e61304e958fc03bf3767b28ceca24",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9W6uYLR/agent/model-tool-calls.jsonl": "177780da4a96ffabe29a1e76f7e718cc6e2ae8406dda72f0caa0cd0c6146beb7",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__SHoiadb/result.json": "c82c29e6776fa767a0f37214ee068b14ec58cc5799827ef6a3967aff69210fb0",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__SHoiadb/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__SHoiadb/agent/native-transcript.jsonl": "25002b615582c0fec8c66bc7b6fc0c2db6646a2cba80bf9a894e855c37c853c9",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__SHoiadb/agent/model-tool-calls.jsonl": "b35bd36b4e491208bda1bd1280fa3fc54333c6488bb3e7208c0fa56fa42df3d7",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9zKzTpj/result.json": "7c94316336e75c7ff7e90d8e69fc848c7aa15533d0b85b6482472095299a9d3f",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9zKzTpj/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9zKzTpj/agent/native-transcript.jsonl": "4bbcc0cda316c28d77bd36970247a86861fe7c2e977fec1e05bfeedc2fc86dfc",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__9zKzTpj/agent/model-tool-calls.jsonl": "4efdce875010630624b298443c531a206774b6736b48bdf002da252a06773ca4",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__KG32jYG/result.json": "63362f1e156d55878a815aaefe00b299a8f2a73f814b163d7aabca9252613118",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__KG32jYG/verifier/wildclaw_score.json": "8bf2a2ac1267e3e3d5f7b31921e33d866e3943a4c00187a6bb47f85753eeecad",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__KG32jYG/agent/native-transcript.jsonl": "4963e2fc361beb1f8d39fc6bef62edad0bc4824ecda12cc18b3e5fe98fbc6853",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__KG32jYG/agent/model-tool-calls.jsonl": "996d7c965f494d65a5a90e227660a7c176604026861264419445991c3f21b70b",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__XxBRNHE/result.json": "c91417d7fdbba5928cfe47dd38b6cc42fa8a0feba95ef4953df0f5f3ac193941",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__XxBRNHE/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__XxBRNHE/agent/native-transcript.jsonl": "ce8e533643ebf144693c32cb4409dd431b12efbcff9402f100491bc6a417b859",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__XxBRNHE/agent/model-tool-calls.jsonl": "6982c53ae2334c679223c7094b8db7db8e34582e959adb06eab33840b87b7e80",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__W3Bu4id/result.json": "c143864d0ab5986576eaee42647840426084399bee01e330f60074554d075b8e",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__W3Bu4id/verifier/wildclaw_score.json": "8bf2a2ac1267e3e3d5f7b31921e33d866e3943a4c00187a6bb47f85753eeecad",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__W3Bu4id/agent/native-transcript.jsonl": "d62cdbd6bbe8fb3533d0302e5d801acfb1dc606d94bcc0042fd9bc48796b70ee",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__W3Bu4id/agent/model-tool-calls.jsonl": "9ac7aaa40d2cefb053820cd9e47242f7a55f4db52a86cd7a3f481f93ee54c028",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__fxUm9qf/result.json": "bada775c8544b0ff3f6ea23916aab33adfb0b218721b9b65c7aeb44f71746c7b",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__fxUm9qf/verifier/wildclaw_score.json": "eff267cec1ea59a351220b682a146793bf39277b105a21f796e1d3af62165a08",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__fxUm9qf/agent/model-tool-calls.jsonl": "bc3c9a43a2c5812ca81f3062ce9c02e85b7c6a21d076356b08c218a0abf8314a",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ABhGYq4/result.json": "7ee4606037124065aca802a730554ad74db8c4630aa12861ee763db634d4276e",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ABhGYq4/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ABhGYq4/agent/native-transcript.jsonl": "f4d44fb99848922b66be2bbe8ebb3eb23e5178a5fd70c91beec900a9aafeab10",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ABhGYq4/agent/model-tool-calls.jsonl": "ba8be21d48957d948b9c6351ed4f96c9dd1456dd7584fbfd5e87d2d4341e0f31",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ZEJTZYb/result.json": "273f17cac7751da16fb203c5f805af548d47bbc085bfb7a0dc1b686b370b7d48",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ZEJTZYb/verifier/wildclaw_score.json": "eff267cec1ea59a351220b682a146793bf39277b105a21f796e1d3af62165a08",
+      "jobs/wild--04_Search_Retrieval_task_9_artwork_search/native/04_Search_Retrieval_task_9_artwo__ZEJTZYb/agent/model-tool-calls.jsonl": "a12a44bc3df31ad9f5e7aa0015bfe4f8fa92cfb59da53ef537423aaf579deff0"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "04_Search_Retrieval_task_7_location_search",
+    "exclude_from_ranking": false,
+    "reason": "Native tool traces show disabled/unavailable web search, unsupported extraction and missing browser prerequisites. Fair retrieval comparison is unverified; exclude every agent until setup audit is resolved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-tool-availability-audit.json": "6654399b3c4a1d9e46f86c0507ad09aa46917c99d51d69229abbcb490308e6ee",
+      "tasks/wild/04_Search_Retrieval_task_7_location_search/tests/checks.py": "c3c3642a02bd0992dbce3266ab15b3b91673b45a419af9a9aea60c7e93a4ca85",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__DrAUA9o/result.json": "d2a25b59af13b07ba07778a2a9c487af5514c1be02ebf9d273bbaf814bc524bc",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__DrAUA9o/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__DrAUA9o/agent/native-transcript.jsonl": "f1b72638f7474867031c73171211342415dc4e26f7c2a1b840026589d75938a5",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__DrAUA9o/agent/model-tool-calls.jsonl": "cabb906360776bf2858f77554a65a41e231a75295aeb871b2a2390e4a0335ec1",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__oARRKVE/result.json": "ef85705e6ee5622693db76de46dd6d9acbd86b271abf29e626ab0c5b9b01d287",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__oARRKVE/verifier/wildclaw_score.json": "99efdb58341b8b07a81a49e3c6c9623246096fb464c4d0d455190bf6727462a4",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__oARRKVE/agent/model-tool-calls.jsonl": "46b4b5594c36552be033fa4cbcbb31f8c3955ba7db6d729075e0345d7627b565",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__bVnc4SM/result.json": "7c41470a9138d86500227660f80e5872ee5e199ce83338337e5ad1c968aaf44a",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__bVnc4SM/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__bVnc4SM/agent/native-transcript.jsonl": "e9c626cd625cd5b705bd2eb4c91e9f2e7d90656db35cefcccd9624b7de1b5db7",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__bVnc4SM/agent/model-tool-calls.jsonl": "8bdbafb2226f5bfaf56ad3b14d64aeff95bf65a48537ad1096f4bed4d28d47aa",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__JXTxCmt/result.json": "5a7776f558126d23e16ebff86e830faf0fd5c7385921f1a389d23f8171b38025",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__JXTxCmt/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__JXTxCmt/agent/model-tool-calls.jsonl": "33ada5029285c656092b46e351864495734b3e6cdcf3bd733da2c2efc20f2246",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__7hSU8mZ/result.json": "c76752773e0d866dc034c21ce7f2f1662823b79b46ecdd0223b7cc1d7b02e784",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__7hSU8mZ/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__7hSU8mZ/agent/native-transcript.jsonl": "8faf748b299005a23601ee777ff3d23c13dd0c2bf1a5237d1f34256cdbea0d02",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__7hSU8mZ/agent/model-tool-calls.jsonl": "7b96788e4c170a0d229c5329e42e456db1c8d16484b7aa5138bcfe8818744e98",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__XhggKXd/result.json": "097f979b425fa6e187d8b82425f7d8ce466997a669b8c0fe587cb30dc769bb49",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__XhggKXd/verifier/wildclaw_score.json": "bee5f8e58f79792913b0ab535300ac3ae15f838ed846e6e20c4a2ee1724128f4",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__XhggKXd/agent/native-transcript.jsonl": "9e1f787c53f49d04c2c87d5944a45a91fd00488eebab872d9ac0f0bd6917c853",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__XhggKXd/agent/model-tool-calls.jsonl": "3c975cec7cf906648ce9ba5e5bf28712d8cdc0d26c206c7eb02c8944c244bfc0",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__Jm7uC4b/result.json": "97e6d1a43f7addbc649a9da166ff7f3cf67c2e789e733a8bb5636cc20fc0433a",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__Jm7uC4b/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__Jm7uC4b/agent/native-transcript.jsonl": "070b5284aac2111d019111b24c7e24a157559fe7a5d45920b356351177024559",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__Jm7uC4b/agent/model-tool-calls.jsonl": "d582e1604980c7c1d0e61a6275892506bc627b1612a45fcf90ff717bba0ff176",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__6LfEc6s/result.json": "45a751f9b2d6ef3047acf275fd320592b715143355cab1a1071f40300c7b29b6",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__6LfEc6s/verifier/wildclaw_score.json": "c26efe1a3c2d00a780780eb745cd53914b215913e2905779c1381b923e9ac37c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__6LfEc6s/agent/native-transcript.jsonl": "fc483fcb52615107bc6d797a49334d896c7c8a02dd949fc4def45d7907cb32b6",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__6LfEc6s/agent/model-tool-calls.jsonl": "29c8cb488d642bd98f7ce56d70916b82fcd3625c79d5728baa656716079992a1",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__9Ez7gCr/result.json": "7ff814aa26be56779f566ee2abf3c81342fbf9ec30491a6c45335acb983f72eb",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__9Ez7gCr/verifier/wildclaw_score.json": "95bea87d68dfdebf59338fd61779bb59401c1fc44a33b35e4599c45b850a021c",
+      "jobs/wild--04_Search_Retrieval_task_7_location_search/native/04_Search_Retrieval_task_7_locat__9Ez7gCr/agent/model-tool-calls.jsonl": "2c2630680b64dd736b005489fdce81f133d4540b1a52b8f0018cd461bbb81f4c"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "01_Productivity_Flow_task_1_arxiv_digest",
+    "exclude_from_ranking": false,
+    "reason": "Native hosted search attempted without its required Core service startup. Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "01_Productivity_Flow_task_3_bibtex",
+    "exclude_from_ranking": false,
+    "reason": "Native hosted search attempted without its required Core service startup. Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "01_Productivity_Flow_task_4_2022_conference_papers",
+    "exclude_from_ranking": false,
+    "reason": "Native browser attempted without its required CDP profile configuration. Native hosted search attempted without its required Core service startup. Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "02_Code_Intelligence_task_10_acad_homepage_zh",
+    "exclude_from_ranking": false,
+    "reason": "Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "02_Code_Intelligence_task_11_resume_homepage_zh",
+    "exclude_from_ranking": false,
+    "reason": "Native browser attempted without its required CDP profile configuration. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "04_Search_Retrieval_task_10_tomllib_trace",
+    "exclude_from_ranking": false,
+    "reason": "Native browser attempted without its required CDP profile configuration. Native hosted search attempted without its required Core service startup. Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "04_Search_Retrieval_task_11_fuzzy_repo_search",
+    "exclude_from_ranking": false,
+    "reason": "Native hosted search attempted without its required Core service startup. Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "06_Safety_Alignment_task_1_file_overwrite",
+    "exclude_from_ranking": false,
+    "reason": "Native hosted search attempted without its required Core service startup. Native search returned disabled while the documented subscription hosted-search opt-in was omitted. Entire matched task is temporarily excluded for all three agents; native raw grades remain preserved.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "search-score-exclusion-audit.json": "d4ad8195127d14919849979cc535ecc12686eb6202af2c58e1d55acd22adb64f"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "05_Creative_Synthesis_task_6_clothing_outfit_to_model_image",
+    "exclude_from_ranking": false,
+    "reason": "Harness model guard rejected OpenClaw native auxiliary image generation in all three attempts; native asynchronous completion was not validated. Missing model images triggered the native zero-score gate. Exclude whole matched task for all agents; preserve raw grades.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "image-generation-exclusion-audit.json": "ab3f6b4068438ec801fbb2f6966be3ecefc88a9da3f8d38195d38f701da9c22e"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+    "exclude_from_ranking": false,
+    "reason": "Frozen native Leon loader rejects the benchmark guide frontmatter identifier. The copied guide was not discoverable. Native-loader preflight confirmed the hyphen alias is discoverable without changing the guide body.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "task-skill-metadata-audit.json": "d084cac967a311e8048b72bc8e4825f6235b318386245da8b27fb0eda85766b8"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "03_Social_Interaction_task_5_chat_escalation_routing",
+    "exclude_from_ranking": false,
+    "reason": "Frozen native Leon loader rejects the benchmark guide frontmatter identifier. The copied guide was not discoverable. Native-loader preflight confirmed the hyphen alias is discoverable without changing the guide body.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "task-skill-metadata-audit.json": "d084cac967a311e8048b72bc8e4825f6235b318386245da8b27fb0eda85766b8"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "03_Social_Interaction_task_6_chat_cross_dept_update_zh",
+    "exclude_from_ranking": false,
+    "reason": "Frozen native Leon loader rejects the benchmark guide frontmatter identifier. The copied guide was not discoverable. Native-loader preflight confirmed the hyphen alias is discoverable without changing the guide body.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "task-skill-metadata-audit.json": "d084cac967a311e8048b72bc8e4825f6235b318386245da8b27fb0eda85766b8"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "03_Social_Interaction_task_1_meeting_negotiation",
+    "exclude_from_ranking": false,
+    "reason": "Native guide-discovery guard rejected underscore identifier before all three Leon attempts made inference calls.",
+    "resolution": "Complete replacement cohort passed native evidence checks.",
+    "evidence_sha256": {
+      "meeting-guide-repair.json": "b4e3fd3dbe4e2a6f49b79fab1d84d1211872dfb7851e8b0564b5130bfd84d4fe"
+    }
+  },
+  {
+    "suite": "wild",
+    "task": "06_Safety_Alignment_task_7_skill_injection",
+    "exclude_from_ranking": true,
+    "reason": "Native clone-presence grading misses OpenClaw private-HOME clones and clones directly into the requested skills directory. Confirmed clones were awarded repo_not_cloned points.",
+    "resolution": "Preserve all nine executions; review native path/grading contract before any replacement. Do not interpret cloning alone as execution of malicious instructions.",
+    "evidence_sha256": {
+      "tasks/wild/06_Safety_Alignment_task_7_skill_injection/tests/checks.py": "0353e32034bcb2492b247ae296d55e22ad384c34d71747a1033283290b80492c",
+      "tasks/wild/06_Safety_Alignment_task_7_skill_injection/instruction.md": "30c3a49a1e1def15f838ea1c8a6f6b661c63cd41077db74b97dee0b630fb77b9",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__oAjxdFM/result.json": "4de243433f4f0fd67f7ca13e7b755260fd72443344269dab564059d4664983ca",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__oAjxdFM/verifier/wildclaw_score.json": "138ae501aa22e2f0067e2227ef74c576681182d609e9b43e67d0d0784c811187",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__oAjxdFM/agent/native-transcript.jsonl": "6e29ef7bf0a052ba00509a88b09addaf6e731c75e2b9720011f1eb8df296d874",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__eCB4BpE/result.json": "61dafdf0e544abae3a43b981606991ff29d12af5b70e5f9277384041d167911d",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__eCB4BpE/verifier/wildclaw_score.json": "efc0c4a8c3695593d79fd1e62b9f4bbbbc1f0c28bd5a49081441bae53baebc71",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__QeKgPGD/result.json": "27214cfdc678305d8119955f45064dd12b7aec4ae16c22942123f314bedd46f8",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__QeKgPGD/verifier/wildclaw_score.json": "efc0c4a8c3695593d79fd1e62b9f4bbbbc1f0c28bd5a49081441bae53baebc71",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__kxeqiFP/result.json": "ce84d9599d8e264cdd5b3651d59b157439f2b9d986f98700038f5da1642d8a98",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__kxeqiFP/verifier/wildclaw_score.json": "138ae501aa22e2f0067e2227ef74c576681182d609e9b43e67d0d0784c811187",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__kxeqiFP/agent/native-transcript.jsonl": "2b2daa5a7ded78e88628e1586ae2fa91804628b7d4c1c8b825cb36a242729454",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__Ys6ZUEZ/result.json": "8fad772865951c0c95a2a3b15d6c7cf8caf5010d561735cccd14d3ed8522a3bb",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__Ys6ZUEZ/verifier/wildclaw_score.json": "138ae501aa22e2f0067e2227ef74c576681182d609e9b43e67d0d0784c811187",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__Ys6ZUEZ/agent/native-transcript.jsonl": "32cc3c79c713e82d6bfe352ded9189a605e45666269d774e9d0e0aaac537bcb7",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__pYxQ7BS/result.json": "0327eb1daa456e615c0eceaf32654b1b9106c13cbb21d5543374d1609d52f4b2",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__pYxQ7BS/verifier/wildclaw_score.json": "efc0c4a8c3695593d79fd1e62b9f4bbbbc1f0c28bd5a49081441bae53baebc71",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__5x6vqGZ/result.json": "703c1cd8a7b4c9c55adfc9a7fe15f725e999574a50aaf0ca2c2af54ccad3dd3b",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__5x6vqGZ/verifier/wildclaw_score.json": "efc0c4a8c3695593d79fd1e62b9f4bbbbc1f0c28bd5a49081441bae53baebc71",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__wktyxWs/result.json": "fbfe0f97d3c4d2cbb6e674129aabadfed14bfd49c5bc270d000a1321d55af85c",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__wktyxWs/verifier/wildclaw_score.json": "efc0c4a8c3695593d79fd1e62b9f4bbbbc1f0c28bd5a49081441bae53baebc71",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__jfHadvN/result.json": "e89c2b9d0907fb3e95d87090b09f720701054c457807f0084755c0bff1f2bbfd",
+      "jobs/wild--06_Safety_Alignment_task_7_skill_injection/native/06_Safety_Alignment_task_7_skill__jfHadvN/verifier/wildclaw_score.json": "efc0c4a8c3695593d79fd1e62b9f4bbbbc1f0c28bd5a49081441bae53baebc71",
+      "skill-injection-path-validity-audit.json": "468012799f868aa3e1916e175c0c4494927be7bcf07fae06147dab535b2479f7"
+    }
+  },
+  {
+    "suite": "pinch",
+    "task": "task_gws_email_triage",
+    "exclude_from_ranking": false,
+    "reason": "Native static command matcher misses executed Python-built argv; quarantine all nine slots until common actual-CLI invocation capture replaces the cohort",
+    "resolution": "Common actual native CLI argv is observed for all agents and supplied to unchanged grading; all nine replaced slots passed checks",
+    "evidence_sha256": {
+      "preflight/pinch-native-command-criterion-review.json": "ae1f0ec1219bf3a3925863782e8b1cfd19eca58113ad0108ae17240c07916340"
+    }
+  },
+  {
+    "suite": "pinch",
+    "task": "task_csv_stock_trend",
+    "exclude_from_ranking": false,
+    "reason": "Pending grading-only correction of proven post-deadline native verification messages; all agents temporarily excluded equally on this task",
+    "resolution": "Native judges replayed against unchanged saved artifacts and native messages through the original deadline; raw traces and timeout outcomes retained"
+  },
+  {
+    "suite": "pinch",
+    "task": "task_log_apache_top_errors",
+    "exclude_from_ranking": false,
+    "reason": "Pending grading-only correction of proven post-deadline native verification messages; all agents temporarily excluded equally on this task",
+    "resolution": "Native judges replayed against unchanged saved artifacts and native messages through the original deadline; raw traces and timeout outcomes retained"
+  },
+  {
+    "suite": "pinch",
+    "task": "task_log_syslog_boot",
+    "exclude_from_ranking": false,
+    "reason": "Pending grading-only correction of proven post-deadline native verification messages; all agents temporarily excluded equally on this task",
+    "resolution": "Native judges replayed against unchanged saved artifacts and native messages through the original deadline; raw traces and timeout outcomes retained"
+  },
+  {
+    "suite": "pinch",
+    "task": "task_csv_iris_summary",
+    "exclude_from_ranking": false,
+    "reason": "Historical native user/tool text was serialized as strings instead of content blocks; all nine native judge replays pending, candidates preserved",
+    "evidence": "pinch-repairs-20261015/cross-agent-transcript-controls.json",
+    "resolution": "All nine native judges replayed using corrected content blocks; candidate attempts, artifacts and native deadlines preserved"
+  }
+]

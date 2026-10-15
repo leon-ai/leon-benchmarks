@@ -1,0 +1,6 @@
+{
+  "wait_for_controller_pid": 299989,
+  "task": "task_gws_email_triage",
+  "replaced_agent_slots": 9,
+  "native_rubric_unchanged": true
+}

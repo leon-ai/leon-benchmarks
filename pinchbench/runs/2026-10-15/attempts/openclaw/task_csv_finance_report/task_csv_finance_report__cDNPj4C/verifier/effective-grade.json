@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.945,
+  "native_criteria": {
+    "score": 0.945,
+    "max_score": 1.0,
+    "breakdown": {
+      "Analytical Depth and Accuracy": 1.0,
+      "Completeness of Sections": 1.0,
+      "Professional Presentation": 0.88,
+      "Insight Quality": 0.9
+    }
+  },
+  "judge_notes": "The saved report substantively covers all seven sections and accurately matches the expected returns, extrema, volatility, notable trading days, streaks, and maximum drawdown. It clearly distinguishes the partial-year sample from full-year results and explains calculation conventions. Interpretation is thoughtful and appropriately avoids unsupported news attribution. Minor deductions reflect excessive price precision, repetitive caveats, and some unnecessary workflow overhead, including skill lookup and Git commits.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

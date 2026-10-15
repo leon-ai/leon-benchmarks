@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_stock_trend__c9D3iMi",
+  "agent": "leon",
+  "task": "task_csv_stock_trend",
+  "score": 0.99,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "Accurate, complete markdown report with correct prices, return, monthly averages, and streaks, including the tied April down streak. Clearly explains sustained rallies and corrections and appropriately flags incomplete December coverage. Minor shortcomings: the April breakout is not highlighted explicitly, some methodology is unnecessarily detailed, and tool usage includes an irrelevant weather call and duplicate file searches.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

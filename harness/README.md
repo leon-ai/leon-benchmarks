@@ -66,8 +66,13 @@ folder or copy historical completion markers into a new experiment.
 
 A fresh-machine end-to-end reproduction has **not** been executed from this
 public package. It is an evidence-backed recipe and captured implementation, not
-a verified one-command installer. PinchBench remains gated on native session
-controls; its preparation is not proof of successful scored execution.
+a verified one-command installer. PinchBench's completed dated run includes
+successful native session controls, scored results and a run-local harness.
+Its captured dependency locks, CLI observer and task text live beside that harness.
+Use `prepare.py --run pinchbench/runs/2026-10-15 --workspace <empty-dir>`
+to stage its controller and reference conditions. Install dependencies, render
+portable paths, restore phase-specific runtime wrappers and repeat the declared
+preflights before scoring; historical completion markers are never staged.
 
 `validation/browser.mjs <disposable-chromium-profile>` checks a report already
 opened in headless Chromium with remote debugging enabled. It checks sections,
@@ -75,7 +80,7 @@ filters, dialogs and mobile width, writes screenshots into that temporary profil
 and closes that test browser. Node.js must provide its built-in WebSocket API.
 It neither accesses a personal browser profile nor starts model inference.
 
-Public report presentation uses `reporting/wild_report.html` and
+Public report presentation uses `reporting/wild_report.html`, `reporting/pinch_report.html` and
 `reporting/agent-colors.json`; the captured reference template under `src/` stays
 unchanged. The exporter embeds metrics and colors into a self-contained HTML
 report. Presentation changes must preserve all numeric evidence and be checked

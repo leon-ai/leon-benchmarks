@@ -1,0 +1,19 @@
+{
+  "accepted_score": 0.8466666666666667,
+  "native_criteria": {
+    "score": 0.8466666666666667,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_tasks": 1.0,
+      "automated.updated_completed": 0.0,
+      "automated.read_emails": 1.0,
+      "automated.created_new_task": 1.0,
+      "automated.summary_created": 1.0,
+      "llm_judge.information_extraction": 0.95,
+      "llm_judge.task_list_management": 0.9,
+      "llm_judge.summary_quality": 0.9
+    }
+  },
+  "judge_notes": "Identified four actionable emails and created specific, source-linked tasks with carefully qualified historical deadlines. Correctly preserved the already-completed documentation task and left the proposal review open without evidence of completion. The saved summary clearly documents findings, creations, statuses, and verification. Minor deductions for unnecessary weather lookup, repeated file searches and setup chatter, and an overly detailed summary.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

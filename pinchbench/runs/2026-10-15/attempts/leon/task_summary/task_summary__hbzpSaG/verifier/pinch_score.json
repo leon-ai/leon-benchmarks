@@ -1,0 +1,9 @@
+{
+  "task_id": "task_summary",
+  "score": 0.0,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {},
+  "notes": "LLM judge failed: no parseable response after all attempts",
+  "error": "RuntimeError: LLM judge failed: no parseable response after all attempts"
+}

@@ -1,0 +1,15 @@
+{
+  "failed_calls": [
+    "RemoteProtocolError"
+  ],
+  "judge_outcomes": [
+    {
+      "status": "error",
+      "error": "RemoteProtocolError"
+    },
+    {
+      "status": "success"
+    }
+  ],
+  "native_retry_recovered": true
+}

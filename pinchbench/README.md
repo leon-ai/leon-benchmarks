@@ -1,12 +1,18 @@
-# PinchBench — frozen plan
+# PinchBench
 
-32 tasks: three in each of ten domains and two in Memory, which has only two
-eligible frozen tasks. Three attempts per task per agent: 288 planned candidate
-slots. See `frozen-plan.json` for exact identifiers, domains and revision.
+Frozen comparisons using each agent's configured native loop and tools, with
+unchanged PinchBench task rubrics and documented environment/capture repairs.
 
-No accepted scored runs are published. Three unscored native session controls
-failed before the owner pause. Ordinary native conversation reuse and file
-persistence across fresh sessions must pass before scoring. Do not interpret
-prepared fixtures or historical preflight receipts as successful benchmark runs.
+| Run | Coverage | Results |
+| --- | --- | --- |
+| 2026-10-15 | 32 tasks · 11 domains · 288 attempts | [Report](runs/2026-10-15/report/index.html) · [Methods and findings](runs/2026-10-15/README.md) · [Metrics](runs/2026-10-15/metrics.json) |
 
-Run after WildClawBench, before Terminal-Bench, with one suite active at a time.
+The selection has three tasks in each of ten domains and two in Memory, which
+has two eligible frozen tasks. Every task has three attempts per agent.
+Overall scores weight domains equally. Native session reuse and persistence
+controls passed before scoring; the final cross-agent fairness review passed
+after repairing demonstrated capture/grading defects.
+
+See the dated run for exact versions, task IDs, presets, limitations and the
+reproduction prompt. This local subset is not an official leaderboard result.
+The original [frozen plan](frozen-plan.json) remains available as provenance.

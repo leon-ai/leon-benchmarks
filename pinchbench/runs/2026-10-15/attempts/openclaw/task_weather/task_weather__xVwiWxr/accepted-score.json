@@ -1,0 +1,11 @@
+{
+  "id": "task_weather__xVwiWxr",
+  "agent": "openclaw",
+  "task": "task_weather",
+  "score": 1.0,
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "Inspect the native criteria and saved outputs.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

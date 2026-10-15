@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.75,
+  "native_criteria": {
+    "score": 0.75,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.memory_tool_used": 1.0,
+      "automated.recall_tool_used": 1.0,
+      "llm_judge.memory_storage": 1.0,
+      "llm_judge.same_session_recall": 1.0,
+      "llm_judge.cross_session_memory_retrieval": 0.25,
+      "llm_judge.accuracy_of_recalled_facts": 0.0,
+      "llm_judge.response_quality_and_confidence": 0.25
+    }
+  },
+  "judge_notes": "Stored all five facts correctly in memory/MEMORY.md and accurately answered both same-session questions. In the new session, attempted an incorrect absolute path and repeated broad searches without successfully reading the saved file or answering the five questions. Unrelated weather lookup and verbose tool-setup messages added unnecessary overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

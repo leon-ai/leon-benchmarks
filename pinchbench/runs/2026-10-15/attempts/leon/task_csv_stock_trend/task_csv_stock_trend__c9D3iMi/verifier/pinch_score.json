@@ -1,0 +1,22 @@
+{
+  "task_id": "task_csv_stock_trend",
+  "score": 0.99,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.trend_direction": 1.0,
+    "automated.starting_price": 1.0,
+    "automated.ending_price": 1.0,
+    "automated.percentage_change": 1.0,
+    "automated.monthly_breakdown": 1.0,
+    "automated.up_streak": 1.0,
+    "automated.down_streak": 1.0,
+    "automated.trend_periods": 1.0,
+    "llm_judge.data_analysis_accuracy": 1.0,
+    "llm_judge.trend_identification_quality": 0.95,
+    "llm_judge.report_structure_and_presentation": 0.95,
+    "llm_judge.completeness": 1.0
+  },
+  "notes": "Accurate, complete markdown report with correct prices, return, monthly averages, and streaks, including the tied April down streak. Clearly explains sustained rallies and corrections and appropriately flags incomplete December coverage. Minor shortcomings: the April breakout is not highlighted explicitly, some methodology is unnecessarily detailed, and tool usage includes an irrelevant weather call and duplicate file searches."
+}

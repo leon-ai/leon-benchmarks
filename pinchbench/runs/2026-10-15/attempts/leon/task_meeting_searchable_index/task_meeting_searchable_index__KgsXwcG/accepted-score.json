@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_searchable_index__KgsXwcG",
+  "agent": "leon",
+  "task": "task_meeting_searchable_index",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read the transcript but never created meeting_index.md or supplied any index content. None of the required metadata, topic, people, keyword, decision, or action-item sections were delivered. Repeated overlapping reads and an unrelated weather call added unnecessary work without producing the requested artifact.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

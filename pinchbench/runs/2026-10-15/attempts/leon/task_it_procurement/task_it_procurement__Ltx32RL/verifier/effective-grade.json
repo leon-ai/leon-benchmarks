@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.05,
+  "native_criteria": {
+    "score": 0.05,
+    "max_score": 1.0,
+    "breakdown": {
+      "Product Research Quality": 0.25,
+      "Practical Procurement Value": 0.0,
+      "Linux Compatibility Assessment": 0.0,
+      "Fleet Recommendation": 0.0,
+      "Comparison Quality": 0.0
+    },
+    "reward": 0.05
+  },
+  "judge_notes": "The transcript shows preliminary research into several laptop families and some specific configurations, but no completed report or saved laptop_procurement.md. It provides no documented current prices, warranty or bulk-purchase analysis, substantive Linux compatibility findings, comparison table, fleet mix, or total budget. Unrelated tool calls also reduced efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

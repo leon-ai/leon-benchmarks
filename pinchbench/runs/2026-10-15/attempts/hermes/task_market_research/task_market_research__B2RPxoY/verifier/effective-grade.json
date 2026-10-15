@@ -1,0 +1,24 @@
+{
+  "accepted_score": 0.948,
+  "native_criteria": {
+    "score": 0.948,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.file_created": 1.0,
+      "automated.competitors_identified": 1.0,
+      "automated.has_comparison_table": 1.0,
+      "automated.has_pricing_info": 1.0,
+      "automated.has_trends_section": 1.0,
+      "automated.has_structure": 1.0,
+      "automated.has_executive_summary": 1.0,
+      "automated.used_web_search": 1.0,
+      "llm_judge.Research Depth and Accuracy": 0.86,
+      "llm_judge.Analytical Quality": 0.85,
+      "llm_judge.Market Trends and Context": 0.9,
+      "llm_judge.Report Structure and Presentation": 0.93,
+      "llm_judge.Pricing and Business Model Coverage": 0.94
+    }
+  },
+  "judge_notes": "The required market_research.md file was successfully written in the current working directory. The report provides five substantive competitor profiles, detailed pricing models, official-source references, a useful comparison table, and strategically relevant market trends. It carefully distinguishes vendor claims from analytical judgments and addresses procurement trade-offs. Deductions reflect limited company-level market-position evidence, some generic rather than sharply comparative weaknesses, repetitive caveats, and repeated retrieval of several sources.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

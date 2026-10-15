@@ -1,0 +1,16 @@
+{
+  "task_id": "task_gws_cross_service",
+  "score": 0.73,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.read_email": 1.0,
+    "automated.created_event": 0.0,
+    "automated.found_drive_file": 1.0,
+    "automated.shared_file": 1.0,
+    "automated.actions_summary": 1.0,
+    "llm_judge.Cross-Service Coordination": 0.75,
+    "llm_judge.Task Completeness": 0.5
+  },
+  "notes": "Used Gmail, Calendar, and Drive in a logical workflow, but included an unrelated weather call and some redundant checks. Successfully read Alice's email and saved an accurate actions.md summary. Verified an existing calendar event rather than creating the requested event, and Bob's reader access remained unconfirmed despite two sharing attempts. Transparently documented the incomplete outcomes."
+}

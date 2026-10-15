@@ -1,0 +1,11 @@
+{
+  "id": "task_files__XrXyv4Y",
+  "agent": "hermes",
+  "task": "task_files",
+  "score": 0.8571428571428571,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Inspect the native criteria and saved outputs.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

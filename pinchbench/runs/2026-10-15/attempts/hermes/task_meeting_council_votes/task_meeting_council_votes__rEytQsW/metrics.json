@@ -1,0 +1,200 @@
+{
+  "agent": "hermes",
+  "candidate": {
+    "attempted_inference_requests": 11,
+    "recorded_inference_requests": 10,
+    "completed_inference_requests": 9,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 9,
+    "token_usage": {
+      "input_tokens": 379791,
+      "output_tokens": 2250,
+      "total_tokens": 382041,
+      "cached_input_tokens": 188032,
+      "reasoning_output_tokens": 849
+    },
+    "token_usage_complete": false,
+    "returned_service_tiers": {
+      "default": 9,
+      "unreported": 1
+    },
+    "http_statuses": {
+      "200": 9,
+      "502": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 10,
+        "median": 1.6772214654999402,
+        "minimum": 0.9596221570000125,
+        "maximum": 2.623385290999977
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 5.458488206999959,
+        "minimum": 5.458488206999959,
+        "maximum": 5.458488206999959
+      },
+      "firstToolActionSeconds": {
+        "count": 8,
+        "median": 4.7684147120000375,
+        "minimum": 2.2112287290000268,
+        "maximum": 22.246134296999912
+      },
+      "responseSeconds": {
+        "count": 9,
+        "median": 5.103566301000001,
+        "minimum": 2.276116620000039,
+        "maximum": 22.252840542999934
+      }
+    },
+    "observer_milliseconds": 34.71210200063979,
+    "model_tool_calls": 13,
+    "tool_schema_checks": {
+      "valid": 13
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 70092,
+      "output_tokens": 147,
+      "total_tokens": 70239,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 56
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.5504367920000277,
+        "minimum": 2.5504367920000277,
+        "maximum": 2.5504367920000277
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 4.890628952000043,
+        "minimum": 4.890628952000043,
+        "maximum": 4.890628952000043
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 6.009925949000035,
+        "minimum": 6.009925949000035,
+        "maximum": 6.009925949000035
+      }
+    },
+    "observer_milliseconds": 1.67764300044837,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 2.550381,
+    "agent_setup": 1.810244,
+    "agent_execution": 181.719135,
+    "verifier": 8.100824
+  },
+  "native_task_grade": {
+    "task_id": "task_meeting_council_votes",
+    "score": 0.0,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.report_created": 0.0,
+      "automated.minutes_vote": 0.0,
+      "automated.item12_abstain": 0.0,
+      "automated.item14_15_rollcall": 0.0,
+      "automated.item19_unanimous": 0.0,
+      "automated.item22_continued": 0.0,
+      "automated.item23_first_reading": 0.0,
+      "automated.item25_carlson_no": 0.0,
+      "automated.item26_28_reconsider": 0.0,
+      "automated.summary_count": 0.0,
+      "llm_judge.Vote Identification Completeness": 0.0,
+      "llm_judge.Vote Detail Accuracy": 0.0,
+      "llm_judge.Organization": 0.0,
+      "llm_judge.Summary": 0.0
+    },
+    "notes": "The agent located and read the transcript and requested an independent audit, but no votes_report.md or vote analysis was produced in the provided record. There are no extracted vote details, chronological report, or summary totals to evaluate."
+  },
+  "exception": {
+    "exception_type": "AgentTimeoutError",
+    "exception_message": "Agent execution timed out after 180.0 seconds",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 96, in exec_as_agent\n    result = await super().exec_as_agent(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        environment, command, env=variables, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 898, in exec_as_agent\n    return await self._exec(\n           ^^^^^^^^^^^^^^^^^\n        environment, command, env=env, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 849, in _exec\n    result = await environment.exec(\n             ^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1101, in exec\n    return await self._compose_exec(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1178, in _compose_exec\n    return await self._run_docker_compose_command(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 649, in _run_docker_compose_command\n    result = await self._collect_buffered_output(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 679, in _collect_buffered_output\n    stdout_bytes, stderr_bytes = await process.communicate(input=stdin_data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 201, in communicate\n    stdin, stdout, stderr = await tasks.gather(stdin, stdout, stderr)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/subprocess.py\", line 181, in _read_stream\n    output = await stream.read()\n             ^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 723, in read\n    block = await self.read(self._limit)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 730, in read\n    await self._wait_for_data('read')\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/streams.py\", line 539, in _wait_for_data\n    await self._waiter\nasyncio.exceptions.CancelledError\n\nThe above exception was the direct cause of the following exception:\n\nTimeoutError\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 545, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"__HOME__/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 146, in run\n    await super().run(session[\"prompt\"], environment, context)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/harbor_agents.py\", line 557, in run\n    await self.exec_as_agent(environment, command, env=env)\n  File \"__PRIVATE_WORKSPACE__/scripts/benchmarks/pinch_agents.py\", line 112, in exec_as_agent\n    raise AgentTimeoutError(\n        \"Published PinchBench task deadline reached\"\n    )\nharbor.trial.errors.AgentTimeoutError: Published PinchBench task deadline reached\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"__PRIVATE_WORKSPACE__/.venv/lib/python3.13/site-packages/harbor/trial/trial.py\", line 554, in _run_agent_phase\n    raise AgentTimeoutError(\n        f\"Agent execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.AgentTimeoutError: Agent execution timed out after 180.0 seconds\n",
+    "occurred_at": "2026-10-15T00:19:44.236785Z"
+  },
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_it_procurement/native/task_it_procurement__Ltx32RL",
+  "score": 0.05,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "62b895f321fbb5ba9d83f35b5a05aaf08c793fabd37288c684432968b6f14f85",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

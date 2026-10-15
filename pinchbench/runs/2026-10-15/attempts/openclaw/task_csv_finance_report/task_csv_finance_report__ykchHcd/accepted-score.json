@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_finance_report__ykchHcd",
+  "agent": "openclaw",
+  "task": "task_csv_finance_report",
+  "score": 0.95,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All seven requested sections are substantive, and the calculations match the supplied data and expected results. Particularly strong handling of partial-year coverage, quarter-boundary returns, drawdown recovery, and both tied losing streaks. Tables and methodological qualifications support analyst review. Minor deductions for repetitive caveats, somewhat limited decision-oriented synthesis, and unnecessary skill-search and git-commit steps, including retrying an unrequested commit.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

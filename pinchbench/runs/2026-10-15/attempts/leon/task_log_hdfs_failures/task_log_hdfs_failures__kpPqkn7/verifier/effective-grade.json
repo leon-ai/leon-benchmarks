@@ -1,0 +1,21 @@
+{
+  "accepted_score": 0.335,
+  "native_criteria": {
+    "score": 0.335,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 0.0,
+      "automated.log_overview": 0.0,
+      "automated.operations_counted": 0.0,
+      "automated.error_status": 0.0,
+      "automated.health_assessment": 0.0,
+      "llm_judge.report_file_created": 0.0,
+      "llm_judge.log_overview": 0.8,
+      "llm_judge.block_operation_counts": 0.85,
+      "llm_judge.error_and_warning_analysis": 0.9,
+      "llm_judge.health_assessment": 0.8
+    }
+  },
+  "judge_notes": "The report-generation script contains accurate counts, time range, INFO-only findings, detailed replication evidence, and a careful distinction between unconfirmed receives and proven failures. However, the script was never executed, and hdfs_failure_report.md was not created; substantive credit is therefore partial. The unrelated weather call, repeated file searches, and oversized planned inventory also reduced efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

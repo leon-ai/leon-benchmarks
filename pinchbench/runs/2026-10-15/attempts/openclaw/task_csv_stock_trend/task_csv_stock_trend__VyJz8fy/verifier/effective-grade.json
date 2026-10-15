@@ -1,0 +1,24 @@
+{
+  "accepted_score": 0.985,
+  "native_criteria": {
+    "score": 0.985,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.trend_direction": 1.0,
+      "automated.starting_price": 1.0,
+      "automated.ending_price": 1.0,
+      "automated.percentage_change": 1.0,
+      "automated.monthly_breakdown": 1.0,
+      "automated.up_streak": 1.0,
+      "automated.down_streak": 1.0,
+      "automated.trend_periods": 1.0,
+      "llm_judge.Data Analysis Accuracy": 1.0,
+      "llm_judge.Trend Identification Quality": 0.95,
+      "llm_judge.Report Structure and Presentation": 0.9,
+      "llm_judge.Completeness": 1.0
+    }
+  },
+  "judge_notes": "Accurate prices, return, monthly averages, and streaks, including the additional tied five-day decline. The report clearly identifies the bullish trend and major sustained movements, correctly noting incomplete December coverage. All requested elements are present. Minor deductions for overly elaborate methodology, unnecessary skill-search calls, the failed Python invocation, and not explicitly highlighting the April 24 breakout.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

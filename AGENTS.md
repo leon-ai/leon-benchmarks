@@ -9,8 +9,10 @@ instructions does not authorize starting, resuming or publishing a campaign.
 - Use the selected dated run's `tasks.json`, `conditions.json`, `metrics-plan.json`,
   `reproduction.txt` and provenance as the experiment specification. Do not infer
   active settings from the historical pilot roster or old status files.
-- The baseline is `wildclawbench/runs/2026-10-12/`. Planned PinchBench and
-  Terminal-Bench selections live in their respective `frozen-plan.json` files.
+- Dated references are `wildclawbench/runs/2026-10-12/` and
+  `pinchbench/runs/2026-10-15/`. Terminal-Bench's selection remains a frozen plan.
+  PinchBench's run-local harness includes its reviewed adapters and runtime wiring;
+  the shared baseline harness remains the WildClawBench reference.
 - Keep captured source under `harness/src/` and raw evidence immutable. Reporting
   templates and publication tools live under `harness/reporting/`.
 - Reproduction instructions are not a verified fresh-machine installer. Rebuild
@@ -23,6 +25,7 @@ instructions does not authorize starting, resuming or publishing a campaign.
    unfinished work. Resolve unclear scope before consuming subscription allowance.
 2. Create an isolated workspace. `python3 harness/prepare.py --workspace <empty-dir>`
    stages the baseline code/selection only; it does not install or launch agents.
+   Use `--run <dated-run-folder>` to select another published reference.
 3. For exact reproduction, retain declared versions and verify source bytes. For a
    new-version comparison, resolve each requested release/branch to an exact commit,
    record it in new manifests, and freeze it for the whole campaign. Never modify
@@ -95,7 +98,7 @@ instructions does not authorize starting, resuming or publishing a campaign.
 - Keep changes minimal, reuse captured helpers and use pnpm for Node tooling.
   Explain lasting behavior in documentation; put campaign-specific facts in the
   dated manifests. Do not alter accepted numeric results for presentation changes.
-- Use `harness/reporting/wild_report.html` for public report presentation and
+- Use `harness/reporting/wild_report.html` or `pinch_report.html` for the matching report and
   `agent-colors.json` for the recorded agent palette. Follow the browser's
   `prefers-color-scheme`; page backgrounds are white in light mode and black in
   dark mode. Keep labels legible, not dependent on color alone.

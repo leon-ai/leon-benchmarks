@@ -1,0 +1,19 @@
+{
+  "task_id": "task_log_apache_top_errors",
+  "score": 0.9450000000000001,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.output_created": 1.0,
+    "automated.directory_forbidden_top": 0.5,
+    "automated.file_not_exist_counted": 1.0,
+    "automated.invalid_method_identified": 1.0,
+    "automated.internal_errors_included": 1.0,
+    "llm_judge.report_created": 0.95,
+    "llm_judge.directory_index_forbidden_identified": 1.0,
+    "llm_judge.file_does_not_exist_identified_and_counted": 1.0,
+    "llm_judge.invalid_method_distinct_category": 1.0,
+    "llm_judge.server_internal_errors_included": 1.0
+  },
+  "notes": "Created a valid report covering all 753 errors with exact counts, authentic examples, and well-qualified security explanations. Ranking missing-file errors (295) above directory-index errors (224) correctly reflects the supplied log despite the rubric's inconsistent expected ordering. Includes all internal error patterns and distinguishes zero-return-code initialization messages. Minor deduction for redundant full-log reading and an unnecessarily detailed final confirmation."
+}

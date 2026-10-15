@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_it_procurement/native/task_it_procurement__JEkeFso",
+  "score": 0.05,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "3ed979676a0c9e19f7c9ec82909bdaa359cb189478572114409303ed2f81452a",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

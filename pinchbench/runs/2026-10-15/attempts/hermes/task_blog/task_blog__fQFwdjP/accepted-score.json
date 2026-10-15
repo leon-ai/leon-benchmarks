@@ -1,0 +1,11 @@
+{
+  "id": "task_blog__fQFwdjP",
+  "agent": "hermes",
+  "task": "task_blog",
+  "score": 0.94,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Complete, professionally written post saved correctly to blog_post.md. Covers four distinct benefits with relevant development examples, clear markdown sections, and an effective conclusion. Meets the word-count target. Some benefits remain broadly applicable rather than deeply developer-specific. Execution involved unnecessary verification steps and an avoidable failed command.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

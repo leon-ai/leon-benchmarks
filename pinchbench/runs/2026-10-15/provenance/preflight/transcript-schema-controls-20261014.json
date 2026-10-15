@@ -1,0 +1,111 @@
+{
+  "automated_native_tasks_checked": [
+    {
+      "task": "task_calendar",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_sanity",
+      "automated_score": 1.0
+    },
+    {
+      "task": "task_todo_list_cleanup",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_stock",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_market_research",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_multi_file_refactoring",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_shell_command_generator",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_weather",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_spreadsheet_summary",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_image_identification",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_csv_iris_summary",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_csv_stock_trend",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_log_syslog_boot",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_log_apache_top_errors",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_log_hdfs_failures",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_meeting_tldr",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_meeting_council_votes",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_meeting_searchable_index",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_memory",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_second_brain",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_files",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_skill_search",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_workflow",
+      "automated_score": 0.0
+    },
+    {
+      "task": "task_gws_email_triage",
+      "automated_score": 0.5
+    },
+    {
+      "task": "task_gws_cross_service",
+      "automated_score": 0.2
+    },
+    {
+      "task": "task_gws_task_management",
+      "automated_score": 0.2
+    }
+  ],
+  "original_tool_evidence": "actual listed/read commands retain native credit; static draft-command criterion limitation preserved",
+  "nested_observer": "allowed dispatch preserved; rejected call not logged",
+  "additional_inference_calls": 0
+}

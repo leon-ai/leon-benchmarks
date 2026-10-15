@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_meeting_searchable_index/native/task_meeting_searchable_index__AxNtum3",
+  "score": 0.0,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "4cb9815df9b4fbd6ab1c8e31e7d82d55ee0ac8a0ef9ba1440278d93b19e6f56b",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

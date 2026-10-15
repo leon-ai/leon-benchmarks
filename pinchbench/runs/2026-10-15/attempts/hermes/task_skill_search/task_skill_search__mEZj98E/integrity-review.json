@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_skill_search/native/task_skill_search__mEZj98E",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "8878f37ef2413c2814d1a59156cc8935a7cffa58879e87bed0537beb7100f0be",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_tldr__RZgA7hw",
+  "agent": "openclaw",
+  "task": "task_meeting_tldr",
+  "score": 0.9533333333333334,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Captures all five major outcomes and both actionable deadlines in 132 words, with a one-line opener and five bullets. Minor omission: the company-level messaging tagline. Some bullets are denser than ideal for Slack. Redundant skill searches, unnecessary Git operations, and failed validation added avoidable execution overhead.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

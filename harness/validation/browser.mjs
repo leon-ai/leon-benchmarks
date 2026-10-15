@@ -5,8 +5,16 @@ const palette = JSON.parse(fs.readFileSync(
   new URL('../reporting/agent-colors.json', import.meta.url), 'utf8'
 ));
 const profile = process.argv[2];
+const benchmark = process.argv[3] || 'wild';
+const expected = {
+  wild: { records: 324, tasks: 36 },
+  pinch: { records: 288, tasks: 32 }
+}[benchmark];
 if (!profile) {
   throw new Error('Provide the disposable Chromium profile directory.');
+}
+if (!expected) {
+  throw new Error('Choose wild or pinch for the report validation.');
 }
 
 const lines = fs.readFileSync(profile + '/DevToolsActivePort', 'utf8')
@@ -100,6 +108,17 @@ async function inspectTheme(scheme) {
 
 await send('Runtime.enable');
 try {
+  let ready = false;
+  for (let attempt = 0; attempt < 150; attempt += 1) {
+    ready = await evaluate('Boolean(window.reportReady)');
+    if (ready) {
+      break;
+    }
+    await new Promise(resolve => setTimeout(resolve, 100));
+  }
+  if (!ready) {
+    throw new Error('Report did not become ready: ' + JSON.stringify(errors));
+  }
   const initial = await evaluate(`({
     ready: window.reportReady,
     records: D.records.length,
@@ -107,7 +126,7 @@ try {
     scoreCards: document.querySelectorAll('#rankCards .card').length,
     charts: document.querySelectorAll('svg').length
   })`);
-  if (!initial.ready || initial.records !== 324 || initial.tasks !== 36 || initial.scoreCards !== 3) {
+  if (!initial.ready || initial.records !== expected.records || initial.tasks !== expected.tasks || initial.scoreCards !== 3) {
     throw new Error(JSON.stringify(initial));
   }
   const panes = await evaluate(`Array.from(document.querySelectorAll('[data-tab]')).map(button => {
@@ -129,7 +148,7 @@ try {
   await capture('efficiency');
   await evaluate(`
     selectPane('tasks');
-    document.getElementById('taskSearch').value = 'escalation';
+    document.getElementById('taskSearch').value = D.tasks[0].id;
     document.getElementById('taskSearch').dispatchEvent(new Event('input'));
   `);
   const filter = await evaluate(`({
@@ -170,7 +189,8 @@ try {
     document.getElementById('failureAgent').dispatchEvent(new Event('change'));
   `);
   const zeroRows = await evaluate("document.querySelectorAll('#failureTable tbody tr').length");
-  if (zeroRows !== 12) {
+  const expectedZeroRows = await evaluate("D.records.filter(r => r.agent === 'leon' && r.score === 0).length");
+  if (zeroRows !== expectedZeroRows) {
     throw new Error('Failure filter mismatch: ' + zeroRows);
   }
   await send('Emulation.setDeviceMetricsOverride', {

@@ -1,0 +1,11 @@
+{
+  "id": "task_second_brain__E6jFFLG",
+  "agent": "hermes",
+  "task": "task_second_brain",
+  "score": 0.995,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Stored all five facts in the requested file, confirmed storage, and read the file for accurate recall in both subsequent sessions. Responses were clear, concise, and confident. Minor deduction for the unnecessary file search before writing.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

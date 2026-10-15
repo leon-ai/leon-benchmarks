@@ -1,0 +1,11 @@
+{
+  "id": "task_email__7u6WySa",
+  "agent": "hermes",
+  "task": "task_email",
+  "score": 1.0,
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "The email politely and clearly declines due to a scheduling conflict, offers rescheduling, and includes a subject, greeting, organized paragraphs, and professional closing. It is concise and complete, was saved to the correct filename, and required only one tool call.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

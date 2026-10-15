@@ -1,0 +1,11 @@
+{
+  "id": "task_log_hdfs_failures__oop4Cz9",
+  "agent": "hermes",
+  "task": "task_log_hdfs_failures",
+  "score": 0.985,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate, comprehensive report with verified counts, all replication sources and targets, storage confirmations, and careful distinction between unobserved completions and failures. All required sections and the output file are present. Minor deductions for an unnecessarily large exhaustive appendix, repetitive caveats, and reading all 2,000 lines before programmatic parsing.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

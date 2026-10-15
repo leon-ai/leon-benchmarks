@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.94,
+  "native_criteria": {
+    "score": 0.94,
+    "max_score": 1.0,
+    "breakdown": {
+      "Professional Tone and Courtesy": 1.0,
+      "Completeness and Clarity": 1.0,
+      "Structure and Format": 1.0,
+      "Conciseness and Appropriateness": 0.9,
+      "Task Completion": 0.8
+    }
+  },
+  "judge_notes": "The saved email is polite, well-structured, concise, and clearly declines due to a scheduling conflict while offering to reschedule. Execution was unnecessarily inefficient: the weather lookup was irrelevant, the initial file read was unnecessary, and the assistant issued redundant completion confirmations.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

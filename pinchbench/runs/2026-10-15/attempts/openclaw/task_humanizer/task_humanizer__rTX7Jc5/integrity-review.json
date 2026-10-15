@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_humanizer/native/task_humanizer__rTX7Jc5",
+  "score": 0.925,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "a32e04eb5d7db2805e80251d04dffb91f539b9f564934713e6ccee20f6c3050e",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

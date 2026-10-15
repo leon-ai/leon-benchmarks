@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_stock_trend__3btLqkN",
+  "agent": "hermes",
+  "task": "task_csv_stock_trend",
+  "score": 0.99,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate endpoint prices, return, monthly averages, and longest streaks, including the tied five-day decline. Correctly identifies the bullish trend and documents sustained rallies and corrections with dates and returns. All requested elements are present in a well-structured Markdown file, with an appropriate December 12 coverage caveat. Minor deductions for somewhat lengthy methodology and not explicitly highlighting the April 24 breakout.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

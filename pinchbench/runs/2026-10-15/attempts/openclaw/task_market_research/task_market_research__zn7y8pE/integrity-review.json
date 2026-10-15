@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_market_research/native/task_market_research__zn7y8pE",
+  "score": 0.9199999999999999,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "957d40ab717808f3468997d51cec6c8fb176ecfb7218436520daee12d8cad6ae",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

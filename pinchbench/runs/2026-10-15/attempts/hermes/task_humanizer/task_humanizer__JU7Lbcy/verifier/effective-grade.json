@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.9375,
+  "native_criteria": {
+    "score": 0.9375,
+    "max_score": 1.0,
+    "breakdown": {
+      "Skill Usage or Manual Rewrite": 0.9,
+      "Output Quality - Natural Voice": 0.95,
+      "Content Preservation": 0.9,
+      "Task Completion": 1.0
+    }
+  },
+  "judge_notes": "Strong manual rewrite after unsuccessful installation attempts. The output uses contractions, varied sentences, practical examples, and a conversational tone without the original filler. All seven strategies remain, though some supporting details, such as explicitly avoiding multitasking, are omitted. The input was read and the output saved to the correct location with verification. The additional unsupported installation command was inefficient.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_workflow__KQnZT3Y",
+  "agent": "hermes",
+  "task": "task_workflow",
+  "score": 0.975,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All requirements were met. The script reads and validates configuration, honors the endpoint, method, headers, and timeout, prints responses, and handles configuration and request failures with clear exit codes. NOTES.md explains implementation, usage, configuration, and verification. Local tests cover success and error paths; the live DNS failure is accurately disclosed rather than misrepresented as success. Minor deductions reflect a redundant workspace search and somewhat lengthy verification documentation for a simple task.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

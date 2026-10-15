@@ -1,0 +1,322 @@
+{
+  "versions": {
+    "leon": {
+      "commit": "111ccc8de5719108eebd4906ed0485cba5de7a50"
+    },
+    "hermes": {
+      "release": "v0.21.6",
+      "commit": "818c13be1dc4fd28987e1e881a9408224afd4535"
+    },
+    "openclaw": {
+      "release": "v2026.10.1",
+      "commit": "e178c39e9aae3fa440735217f9aef9574f286677"
+    }
+  },
+  "files": {
+    "runtime/benchmarks/README.md": "17a13f77202d51dc3ef6dbda53d652d5dbfd1e1ddec6d03167e3c8424dfe2e94",
+    "runtime/benchmarks/audit-openai.mjs": "cb988aa9d2dd17a444da510c11521269a42f6695125e6eae52e70d264af24bd5",
+    "runtime/benchmarks/audit_openai.py": "566c53d8d612ea6c97033eae2195e9f13d19a708db8811345b7a591fe2fb37fa",
+    "runtime/benchmarks/balanced.py": "7fa4993c0a65218d4dfb51a5776738b7d713a8a2f764013db80b54112dbb88db",
+    "runtime/benchmarks/benchmark.py": "47d247f87026cd3ca0476fdd1cf20e58f70f6e318f1d2cbd054974eae47608af",
+    "runtime/benchmarks/campaign.py": "2a2443b9a4d3292f2c6ac0175035f6818998693e02e5536abc90dda3a9d7ea36",
+    "runtime/benchmarks/catchup.py": "046dd28f514f750aaa67605daf1171f3976d12dea0c1fc7352da1d5b940dc99c",
+    "runtime/benchmarks/configure-openclaw.mjs": "914da68a61418062e3de9f0a1b2284373b7662cfc853fc9ff37f83073c1d03f8",
+    "runtime/benchmarks/export-subscription.ts": "c8f8f44844c33cf2fa6eaca26efeb75933202c71600dccb53539dc8baa715ece",
+    "runtime/benchmarks/export_subscription.py": "59532ddcf84e7b7ed63bac0d2ab8b4846a76f5cf55d3269a7e7cf8065bb7f488",
+    "runtime/benchmarks/harbor_agents.py": "361b9fd7901236df05803125e3412d897565b33203a0e6a973aed9c3fd1163c4",
+    "runtime/benchmarks/hermes_recovery.py": "116ff2e733ab1063ecc28dc7956f77469813fec586a716007187474a11523650",
+    "runtime/benchmarks/inference-observer.d.mts": "5a3b79dd5047922fbeac17dd94130cd4b0727512c67c934b155c2787d00839c7",
+    "runtime/benchmarks/inference-observer.mjs": "9186ab7a6d461713c56b0f179be4b0b9e2e726752819728ea22c2526a7bb1d3e",
+    "runtime/benchmarks/leon_variant.py": "123b9900fe0bd67102ec536801100361fa58592741c5c82f220997fab8323293",
+    "runtime/benchmarks/load-wild-image.py": "0b6b06ba8dc1d95381cdd1c8e793f549e5ac86d619c7e46cf35203898bcb1dd7",
+    "runtime/benchmarks/metrics.py": "1dd6124050f86adcc3bd88ed5ac7dca4e560547a4dc6befe96bd73a7e4eb3f6c",
+    "runtime/benchmarks/paths.py": "9740a49efd0c11a4f66ea259de18b0783ec33070c6c526b3fd1135f0087731fc",
+    "runtime/benchmarks/pilot.json": "869638afbc9c87fba7e62b5bdeafcd5c8320dbee80624451a6bd9d45e875641f",
+    "runtime/benchmarks/priority.py": "c2bdcba73488ff105f1691f85232384ea56a9fa3e6fbfdcd761a67f389b18c45",
+    "runtime/benchmarks/run-hermes.py": "b57e5af5f8de17ca34ca6e4d8fe6a2defb696cd8a8d808040cd91060ee1e8dda",
+    "runtime/benchmarks/run-judge.py": "22b09986840899ce7364135a88812e64d10fff0bdc6c421e46b1d49615cecca2",
+    "runtime/benchmarks/run-leon.ts": "34c660afd5200cb0e1320503c407a3ecd5777f1f920fb2d314e655f3a336f589",
+    "runtime/benchmarks/scheduling.py": "e6e04672b02ce0e1b569fe35e9fe8933648afb10b5412d403bba1eb2a591856e",
+    "runtime/benchmarks/shared_admission.py": "bad71bb92bc0de3ccb2f2451521fbb15c000ffaca0f0e5f6f659048ce3c0a5cd",
+    "runtime/benchmarks/test_scheduling.py": "661ca8ae3c2422678da9a01da9be304947fcfb4b1de82658230f0689b00b0b03",
+    "selection.json": "cf2050b564fa108ec0b5d1025bf4b6c7241b4220da582571b9632cf370a48e2e",
+    "mounts.json": "422058f71b2d1344809c40931400381515236aba3b5e98bdf0a055a43b1dda93",
+    "runtime.json": "561e249c2adb2aa383fab5f601f4556ac4abf0978e3813f2e8bebdb437d3d891",
+    "network.yaml": "9807e947d2655f05bc4aa310fb3136188c4f31167002863c6496f7bf1acdb550",
+    "scheduling-policy.json": "ec540afc1ced06d0583efae94704307ba0a3b3a342f24f05a693e11e55eb8d6c",
+    "runtime/benchmarks/native_transcript.py": "b5200bfc751c0e9afc97bd51adce5c5b9fb7ebab9a5c72858d905cb9786fedc5",
+    "runtime/benchmarks/export-openclaw-transcript.mjs": "f64572836a663093a007a31273c97222ecbeee0720f9cec8d9056ac38f8e10d7"
+  },
+  "source_isolation": "Private source/dependency copies; no mutable Leon owner links. Native source frozen to campaign commits.",
+  "configuration_constraints": "One allowed inference model; unavailable alternative-model requests are blocked and retained in native logs. Task-image developer proxies are cleared.",
+  "pinch_phase_gate": "Native multi-session and mock-workspace integration must pass setup checks before PinchBench scored execution.",
+  "native_transcript_export": {
+    "validation": "Hermes native message/tool identity checked offline; OpenClaw native SQLite projection checked in an active isolated trial (77 events/53 messages).",
+    "candidate_changes": false,
+    "additional_inference_calls": 0,
+    "before_first_candidate_grade": true
+  },
+  "observability_revisions": [
+    {
+      "recorded_at": "2026-10-11T07:09:42.220851+00:00",
+      "applies_after_completed_candidate_attempts": 9,
+      "purpose": "Append-only native tool evidence survives published task deadlines. Artifact-only grading receipts validate unchanged outputs without modifying original timeout records.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "additional_candidate_runs": 0,
+      "files": {
+        "run-leon.ts": {
+          "before_sha256": "3b017f53b2a2371051ff2852b8fe17569286afa07adc7268075b1a767db970cc",
+          "after_sha256": "e2f27a77545de32692a5a9eabf41cb44d1b21850ae63ed5550a6bf2f77760310"
+        },
+        "native_transcript.py": {
+          "before_sha256": "b5200bfc751c0e9afc97bd51adce5c5b9fb7ebab9a5c72858d905cb9786fedc5",
+          "after_sha256": "ad29cd4e878cfb552d2addf4b0e9b5fa87ae486c5558cc467f6da378fbe9a807"
+        },
+        "balanced.py": {
+          "before_sha256": "7fa4993c0a65218d4dfb51a5776738b7d713a8a2f764013db80b54112dbb88db",
+          "after_sha256": "64e3ba968c84d6d90af218de70c0c974fc00a261daa308f76cd0fc43ce9184a3"
+        },
+        "metrics.py": {
+          "before_sha256": "1dd6124050f86adcc3bd88ed5ac7dca4e560547a4dc6befe96bd73a7e4eb3f6c",
+          "after_sha256": "b7ac802046e1b0f1de3184b432f99c7d58fc2be444706934dbb676c6efc72838"
+        },
+        "regrading.py": {
+          "before_sha256": null,
+          "after_sha256": "18343ad01d3067ab8366f94db64d16fdf7c8b5f45aa83f24a2452eaf8dfac85a"
+        }
+      }
+    },
+    {
+      "recorded_at": "2026-10-11T07:55:44.898824+00:00",
+      "purpose": "Grade transport errors and verifier exceptions remain excluded rather than becoming candidate zeros. Native grader replays validate saved outputs without candidate reruns.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "files": {
+        "benchmark.py": {
+          "before_sha256": "47d247f87026cd3ca0476fdd1cf20e58f70f6e318f1d2cbd054974eae47608af",
+          "after_sha256": "6a536b75f7a6c4cfeaeace367b5249b278ff7e5e4b412a77abf4871c835bf39d"
+        },
+        "regrading.py": {
+          "before_sha256": "18343ad01d3067ab8366f94db64d16fdf7c8b5f45aa83f24a2452eaf8dfac85a",
+          "after_sha256": "182e7f11b062e81201fbcb34b83a64105d5b38567ec3859433cd0f2817296802"
+        },
+        "balanced.py": {
+          "before_sha256": "64e3ba968c84d6d90af218de70c0c974fc00a261daa308f76cd0fc43ce9184a3",
+          "after_sha256": "84bcbf2e878706b2b302dddfda6fb4ca00965ebea0f7eb62d32bed2b7db332eb"
+        },
+        "metrics.py": {
+          "before_sha256": "b7ac802046e1b0f1de3184b432f99c7d58fc2be444706934dbb676c6efc72838",
+          "after_sha256": "c3c50997254c045c5799e87a9165acbd62eba29ca1904b2748df6cf616b3ef94"
+        },
+        "run-judge.py": {
+          "before_sha256": "22b09986840899ce7364135a88812e64d10fff0bdc6c421e46b1d49615cecca2",
+          "after_sha256": "ec49f9e245cd6df64a567a4e02aec2d0331beb8089c8919e65469670e107d1c3"
+        }
+      }
+    },
+    {
+      "recorded_at": "2026-10-12T11:47:13.575130+00:00",
+      "purpose": "Persist native public progress messages as grading evidence; replay saved native grades with verifiable restored history. Private reasoning excluded.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "additional_candidate_runs": 0,
+      "files": [
+        {
+          "file": "runtime/benchmarks/run-leon.ts",
+          "before_sha256": "9257182394ee5c08006767d25891c071ff547a5a060cb5ca8b13b9eb277a99ba",
+          "after_sha256": "545684b2ff4d70072080b79872d2c924e55e6f01a171de2d2456673d0c6bd9a2"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/run-leon.ts",
+          "before_sha256": "9257182394ee5c08006767d25891c071ff547a5a060cb5ca8b13b9eb277a99ba",
+          "after_sha256": "545684b2ff4d70072080b79872d2c924e55e6f01a171de2d2456673d0c6bd9a2"
+        },
+        {
+          "file": "runtime/benchmarks/network_recovery.py",
+          "before_sha256": null,
+          "after_sha256": "f8659eb29a2d4d3a0caa2f72f9e4b9c0da027a7827de7de127f059165e527c06"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/network_recovery.py",
+          "before_sha256": null,
+          "after_sha256": "f8659eb29a2d4d3a0caa2f72f9e4b9c0da027a7827de7de127f059165e527c06"
+        },
+        {
+          "file": "runtime/benchmarks/leon_transcript_recovery.py",
+          "before_sha256": null,
+          "after_sha256": "6a59c1a7d08ebd7bf919df451c7656a81ce9d7674978129088156366127cc7f0"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/leon_transcript_recovery.py",
+          "before_sha256": null,
+          "after_sha256": "6a59c1a7d08ebd7bf919df451c7656a81ce9d7674978129088156366127cc7f0"
+        }
+      ],
+      "validation": {
+        "owner_pnpm_lint": "passed",
+        "adapter_eslint": "passed",
+        "ruff": "passed",
+        "existing_harness_tests": "24 passed",
+        "native_grader_replay_receipts": "12 verified",
+        "private_reasoning_added_to_grades": false,
+        "recovered_summary_bytes": "All three match complete native read coverage, original file sizes and original native SHA-256."
+      }
+    },
+    {
+      "recorded_at": "2026-10-12T12:06:40.233710+00:00",
+      "purpose": "Native idle inventory must also have zero unsettled subscription streams before container teardown. Export native SQLite history before using any CLI summary.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "files": [
+        {
+          "file": "runtime/benchmarks/run-openclaw-media.py",
+          "before_sha256": "86a864b00c7efe74c8a28f425e31a23e1131d0aaf17ce9f70bc1b31a43e55d83",
+          "after_sha256": "901a51b0efa3dbec778ba2a1accd3f1c2f29238f99a9a798179eb9d01ba5c013"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/run-openclaw-media.py",
+          "before_sha256": "86a864b00c7efe74c8a28f425e31a23e1131d0aaf17ce9f70bc1b31a43e55d83",
+          "after_sha256": "901a51b0efa3dbec778ba2a1accd3f1c2f29238f99a9a798179eb9d01ba5c013"
+        },
+        {
+          "file": "runtime/benchmarks/native_transcript.py",
+          "before_sha256": "8527d510a5300c109ff447128d3edcdd0f89652ba4f4f9a9d80fd80b9cde63a6",
+          "after_sha256": "fbae11934cd68d6de5d23e3f7f95a2d0515bba387b68859aeac1fd03b5e3e25b"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/native_transcript.py",
+          "before_sha256": "8527d510a5300c109ff447128d3edcdd0f89652ba4f4f9a9d80fd80b9cde63a6",
+          "after_sha256": "fbae11934cd68d6de5d23e3f7f95a2d0515bba387b68859aeac1fd03b5e3e25b"
+        },
+        {
+          "file": "runtime/benchmarks/image_preflight.py",
+          "before_sha256": "a7199bedae3070bf78acd21aaeb929eef5406799740dc56be1564af72664ff32",
+          "after_sha256": "44543e5039c2edeb48883196e8e8899fe7058baf5ea1d71fd35b9143441a3a69"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/image_preflight.py",
+          "before_sha256": "a7199bedae3070bf78acd21aaeb929eef5406799740dc56be1564af72664ff32",
+          "after_sha256": "44543e5039c2edeb48883196e8e8899fe7058baf5ea1d71fd35b9143441a3a69"
+        },
+        {
+          "file": "runtime/benchmarks/pilot.json",
+          "before_sha256": "f047a6b7943c54c61aa56c67a52df65c75ceda6e1e1a7c1a6205e086aee0b3b9",
+          "after_sha256": "0ef1cd07b06beea338375d06a9e60f8c887140f7dd7266616469fca0ad0cb400"
+        },
+        {
+          "file": "pinch-runtime/benchmarks/pilot.json",
+          "before_sha256": "f047a6b7943c54c61aa56c67a52df65c75ceda6e1e1a7c1a6205e086aee0b3b9",
+          "after_sha256": "0ef1cd07b06beea338375d06a9e60f8c887140f7dd7266616469fca0ad0cb400"
+        }
+      ]
+    },
+    {
+      "recorded_at": "2026-10-12T12:29:07.344205+00:00",
+      "purpose": "Expose native model-requested shell commands without changing execution; use immutable leakage input fixtures for symmetric grading. Approved two task substitutions keep six tasks per domain.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "files": {
+        "run-leon.ts": {
+          "before_sha256": "545684b2ff4d70072080b79872d2c924e55e6f01a171de2d2456673d0c6bd9a2",
+          "after_sha256": "7e4d052cbbadff961016d3a733e9fe362781eb919944e455a2274188e2e7b3a1"
+        },
+        "native-tool-arguments.mjs": {
+          "before_sha256": null,
+          "after_sha256": "2632d2135abbee483de785efe99a24bb1830f27aa2f61a5fa5985446a445aa05"
+        },
+        "native-tool-arguments.d.mts": {
+          "before_sha256": null,
+          "after_sha256": "79fd8d6a8c598196416df4422d5d87d39bd394888759c233918314112c0878ea"
+        },
+        "balanced.py": {
+          "before_sha256": "829f1e28cb60e4cba78c48458eef2c8c90762b9b0bae67ce0aa49f3c568972de",
+          "after_sha256": "5c882d0057198eec0975bca18dbaa2bacde8219371df74855934f7057e5982b5"
+        },
+        "safety_fixture_grader.py": {
+          "before_sha256": null,
+          "after_sha256": "b692d8364c524655c3d28078100e8c4aac7059e51e6a9a85f1ae1cb91a5534db"
+        },
+        "native_transcript.py": {
+          "before_sha256": "fbae11934cd68d6de5d23e3f7f95a2d0515bba387b68859aeac1fd03b5e3e25b",
+          "after_sha256": "fbae11934cd68d6de5d23e3f7f95a2d0515bba387b68859aeac1fd03b5e3e25b"
+        },
+        "openclaw_stream_recovery.py": {
+          "before_sha256": null,
+          "after_sha256": "0e1286bcd10fb7b22a2fd376387614e8ad1baafd9e728e0000691c9d28b0d222"
+        },
+        "run-openclaw-media.py": {
+          "before_sha256": "a8e2ce1a72220a03123a69056906d4572a719e07c0bec39c0760053a1f3b1ae4",
+          "after_sha256": "a8e2ce1a72220a03123a69056906d4572a719e07c0bec39c0760053a1f3b1ae4"
+        }
+      },
+      "validation_receipt": "safety-fixture-grader-validation.json",
+      "additional_model_calls_for_controls": 0
+    },
+    {
+      "recorded_at": "2026-10-12T12:48:55.024634+00:00",
+      "purpose": "Pair native public shell requests with transport script contents before dispatch; restore historical commands by exact public input/output filename pairs. Preserve existing semantic judgments and recompute only deterministic native gates.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "files": {
+        "run-leon.ts": {
+          "after_sha256": "0d0425db7cb66a036fa23a11caf9b7a8784dec1d76b61db2116e0db2bef61d9f"
+        },
+        "native-tool-arguments.mjs": {
+          "after_sha256": "8b897344411c98713591ef8350f9f09ef04d22c7b49393188bbc17512975860f"
+        },
+        "native-tool-arguments.d.mts": {
+          "after_sha256": "0707712023a69e0ea3b9f850217a7dcaacf3e033a765a562cb65a0ca0b173c3b"
+        },
+        "leon_command_recovery.py": {
+          "after_sha256": "0116a84c5e344a2c9459deaa346a3de4c08dc28b651235c231d063865350dc0c"
+        },
+        "campaign.py": {
+          "after_sha256": "e30a6ff68e506e75908a96634078380422bb1d87ac4c360fea92560db62ebf8a"
+        }
+      },
+      "validation": {
+        "live_native_control": "native-shell-command-export-preflight.json",
+        "offline_impact": "leon-command-transcript-impact-review.json",
+        "lint": "pnpm lint and native-layout adapter ESLint passed",
+        "existing_harness_tests": 24
+      },
+      "new_scored_candidate_attempts": 0
+    },
+    {
+      "recorded_at": "2026-10-12T13:37:11.253098+00:00",
+      "purpose": "Restore canonical native Social service inputs and verify service startup before candidate execution.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "files": {
+        "social_service_recovery.py": {
+          "after_sha256": "198679a063f4cd8c7c1b8e0de0d52ce329217dd5ff4dbca59cbfed8219adeea3"
+        },
+        "service_readiness.py": {
+          "after_sha256": "a0bbf566810f77bb51f7eb882fd2de22864bb2ab6a7c9806c9f4171894594dfd"
+        },
+        "balanced.py": {
+          "after_sha256": "00b1d35627ab278ca8efb629e5f38aeba559fc841d54171aefab6943c8e3b228"
+        },
+        "task_integrity.py": {
+          "after_sha256": "d12f60d3851744f429eadcf3aad04bc896358737922cdea37f4d36b8f483ba38"
+        }
+      },
+      "validation_receipt": "social-service-native-preflight.json",
+      "additional_model_calls_for_controls": 0,
+      "existing_harness_tests": 24
+    },
+    {
+      "recorded_at": "2026-10-12T14:10:41.797318+00:00",
+      "purpose": "Recognize verified missing required output even when partial working files were successfully exported. Preserve native zero and all inference settings.",
+      "native_agent_sources_changed": false,
+      "inference_settings_changed": false,
+      "files": {
+        "regrading.py": {
+          "after_sha256": "93d912d66f2a65bdd9b33b2fa0c2f5d1619f3a98221f459e92b85206eea2e88c"
+        }
+      },
+      "validation_receipt": "social-escalation-output-failure-review.json"
+    }
+  ]
+}

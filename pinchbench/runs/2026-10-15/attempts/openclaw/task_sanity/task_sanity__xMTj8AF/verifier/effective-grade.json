@@ -1,0 +1,12 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "agent_responded": 1.0
+    }
+  },
+  "judge_notes": "",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

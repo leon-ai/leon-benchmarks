@@ -1,0 +1,9 @@
+{
+  "native_binary_sha256": "353a0ae62977fb0b6aa78653683f9516e3f906ade0a4459c844463eeedf9b364",
+  "observer_sha256": "a5bd6081ddaecebe884594b9c7add5c13977440725a3969f9b084b1c79c28812",
+  "control": "preflight/pinch-gws-observer-control.json",
+  "native_binary_unchanged": true,
+  "scope": "Actual CLI argv projected equally for all agents; native rubric, behavior, stdin/stdout and process exit unchanged; invocation intent is not a claim of successful action or a model function call",
+  "initial_observer_sha256": "b0c705d2d4b3d881af7f67f555f6613bfce66513992aed84a3aae636d21b801d",
+  "journal_permissions": "0644, same read access as existing exported native evidence; synthetic benchmark argv only"
+}

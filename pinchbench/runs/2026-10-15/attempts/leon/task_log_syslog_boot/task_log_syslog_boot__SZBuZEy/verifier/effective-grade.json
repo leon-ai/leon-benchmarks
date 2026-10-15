@@ -1,0 +1,31 @@
+{
+  "accepted_score": 0.04000000000000001,
+  "native_criteria": {
+    "score": 0.04000000000000001,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 0.0,
+      "automated.kernel_version": 0.0,
+      "automated.cpu_identified": 0.0,
+      "automated.ram_identified": 0.0,
+      "automated.disk_identified": 0.0,
+      "automated.filesystem_identified": 0.0,
+      "automated.network_card": 0.0,
+      "automated.services_listed": 0.0,
+      "automated.mdmpd_failure": 0.0,
+      "automated.selinux_disabled": 0.0,
+      "llm_judge.report_created": 0.0,
+      "llm_judge.kernel_version_identified": 0.0,
+      "llm_judge.cpu_identified": 0.0,
+      "llm_judge.ram_reported": 0.0,
+      "llm_judge.hard_drive_identified": 0.0,
+      "llm_judge.root_filesystem_identified": 0.0,
+      "llm_judge.network_card_identified": 0.0,
+      "llm_judge.at_least_15_successful_services_listed": 0.0,
+      "llm_judge.mdmpd_failure_noted": 1.0,
+      "llm_judge.selinux_disabled_at_runtime_mentioned": 0.0
+    }
+  },
+  "judge_notes": "The transcript shows log inspection but no creation of boot_report.md. The final message explicitly notes the mdmpd failure, but does not provide the required hardware details, list successful services, or mention SELinux being disabled. Repeated searches and an unrelated weather call also reduced efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

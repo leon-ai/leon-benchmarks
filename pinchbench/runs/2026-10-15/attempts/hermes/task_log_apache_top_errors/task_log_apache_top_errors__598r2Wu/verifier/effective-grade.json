@@ -1,0 +1,22 @@
+{
+  "accepted_score": 0.02,
+  "native_criteria": {
+    "score": 0.02,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 0.0,
+      "automated.directory_forbidden_top": 0.0,
+      "automated.file_not_exist_counted": 0.0,
+      "automated.invalid_method_identified": 0.0,
+      "automated.internal_errors_included": 0.0,
+      "llm_judge.report_file_created": 0.0,
+      "llm_judge.directory_index_forbidden_identified_and_ranked": 0.0,
+      "llm_judge.file_does_not_exist_identified_and_counted": 0.0,
+      "llm_judge.invalid_method_identified_as_distinct_type": 0.0,
+      "llm_judge.server_internal_errors_included": 0.2
+    },
+    "reward": 0.02
+  },
+  "judge_notes": "No error_types_report.json or completed findings are present. The agent verified 753 error lines and investigated connector internals, earning limited partial credit for server-internal analysis. The visible results do not establish category counts, ranking, examples, or security explanations. External source retrieval added unnecessary work without producing the required deliverable.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

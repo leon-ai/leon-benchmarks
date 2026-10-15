@@ -1,0 +1,33 @@
+{
+  "requested_by_owner": true,
+  "required_before": "terminal",
+  "scope": [
+    "Exact pinned task and native rubric hashes",
+    "Equal input fixtures, native deadlines, CPU and RAM",
+    "Model, effort, subscription and requested/returned tier audits",
+    "Every failed, low-scoring and timed-out attempt",
+    "Transcript projection and native multi-session boundaries",
+    "Original versus recovered grader evidence and retry accounting",
+    "Artifact visibility and deadline eligibility",
+    "Agent-specific versus external tool/network failures"
+  ],
+  "already_checked": {
+    "frozen_task_input_and_native_grader_contracts": 32,
+    "saved_native_transcript_projections": 270,
+    "metric_record_boundaries": 270,
+    "model_calls_used_for_checks": 0
+  },
+  "open_actions": [
+    "Recover nine Iris native grades from corrected content-block serialization; no candidate reruns",
+    "Bind contextual review to final accepted evidence fingerprint"
+  ],
+  "genuine_outcomes_reviewed": {
+    "meeting_searchable_index": "All nine native 180s attempts read valid matching input but created no requested index; zero retained",
+    "meeting_council_votes": "Reports absent at native 180s deadline; recovered provider failures audited separately; original outcomes retained"
+  },
+  "deadline_projection_notes": {
+    "three_extra_untimestamped_results": "Their parent calls started after the native deadline; excluded from eligible evidence, no grade replay needed",
+    "fourth_difference": "Identical to original eligible transcript after clipping"
+  },
+  "policy": "Unresolved setup, grading or capture defects prevent Terminal-Bench; low scores alone never trigger candidate reruns"
+}

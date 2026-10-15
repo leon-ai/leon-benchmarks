@@ -1,0 +1,20 @@
+{
+  "task_id": "task_csv_iris_summary",
+  "score": 0.9685714285714285,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.dataset_overview": 0.75,
+    "automated.overall_stats": 1.0,
+    "automated.per_species_stats": 1.0,
+    "automated.correlation": 1.0,
+    "automated.separability_insight": 1.0,
+    "automated.formatting": 1.0,
+    "llm_judge.Statistical Accuracy": 1.0,
+    "llm_judge.Analytical Insight": 1.0,
+    "llm_judge.Report Structure and Presentation": 0.9,
+    "llm_judge.Completeness": 1.0
+  },
+  "notes": "All statistics are correct for the supplied CSV, with sample standard deviations explicitly identified. The report includes every requested section, accurate correlation interpretation, and clear evidence of setosa separability. Minor deductions reflect repetitive correlation commentary and unnecessary workflow overhead from skill searches and Git commits."
+}

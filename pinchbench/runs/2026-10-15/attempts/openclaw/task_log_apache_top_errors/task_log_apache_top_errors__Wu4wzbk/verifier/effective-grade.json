@@ -1,0 +1,21 @@
+{
+  "accepted_score": 0.06,
+  "native_criteria": {
+    "score": 0.06,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 0.0,
+      "automated.directory_forbidden_top": 0.0,
+      "automated.file_not_exist_counted": 0.0,
+      "automated.invalid_method_identified": 0.0,
+      "automated.internal_errors_included": 0.0,
+      "llm_judge.report_file_created": 0.0,
+      "llm_judge.directory_index_forbidden_identified_as_most_frequent_client_error": 0.1,
+      "llm_judge.file_does_not_exist_identified_and_counted": 0.1,
+      "llm_judge.invalid_method_identified_as_distinct_error_type": 0.0,
+      "llm_judge.server_internal_errors_included": 0.4
+    }
+  },
+  "judge_notes": "The agent performed preliminary error-message enumeration and surfaced env.createBean2() and config.update() examples, but no error_types_report.json was created. The visible transcript provides no completed ranked categorization, verifiable category counts, or cause/security explanations. Skill-search calls were unnecessary for this straightforward parsing task.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_stock/native/task_stock__VcTWGys",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "50132290a3585b404b933c17eae39e9c93ae0dde2d65649ccb77e3f23cc6c6e9",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

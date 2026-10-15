@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_stock_trend__KTHmQqJ",
+  "agent": "hermes",
+  "task": "task_csv_stock_trend",
+  "score": 1.0,
+  "diagnosis": {
+    "category": "Full native score",
+    "explanation": "Accurate prices, return, monthly averages, and longest streaks, including the tied five-day declines. Clearly identifies the bullish trend and documents major rallies, corrections, and dated inflection points. The well-structured Markdown report includes every requested element and appropriately distinguishes the December 12 endpoint from full-year coverage. Tool usage was efficient.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

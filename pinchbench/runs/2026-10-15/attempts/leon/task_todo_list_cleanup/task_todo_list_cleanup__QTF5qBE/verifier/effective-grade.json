@@ -1,0 +1,19 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "file_created": 1.0,
+      "organized_by_project": 1.0,
+      "all_items_present": 1.0,
+      "duplicates_marked_partial": 1.0,
+      "duplicates_marked_all": 1.0,
+      "no_false_completions": 1.0,
+      "overdue_flagged": 1.0,
+      "overdue_not_over_flagged": 1.0
+    }
+  },
+  "judge_notes": "",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

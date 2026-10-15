@@ -1,0 +1,13 @@
+{
+  "requested_at": "2026-10-14T15:59:55.446983+00:00",
+  "explicit_owner_pause": true,
+  "suite": "pinch",
+  "task": "task_log_apache_top_errors",
+  "controller_pid": 357255,
+  "supervisor_pids": [
+    357158,
+    327777,
+    327774
+  ],
+  "policy": "Drain active cohort within unchanged native deadlines; stop before next task; preserve valid attempts"
+}

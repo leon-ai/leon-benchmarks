@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_iris_summary__qJgWvny",
+  "agent": "openclaw",
+  "task": "task_csv_iris_summary",
+  "score": 0.995,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "All reported statistics match the supplied CSV, and every requested section is present in a clear Markdown report. Insights correctly identify the strongest correlation, setosa separability, and overlap between the other species, with appropriate correlation caveats. Minor efficiency deduction for unnecessary skill discovery and unrequested Git commit attempts.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

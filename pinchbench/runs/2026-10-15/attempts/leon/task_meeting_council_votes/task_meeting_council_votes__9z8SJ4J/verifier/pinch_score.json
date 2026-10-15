@@ -1,0 +1,23 @@
+{
+  "task_id": "task_meeting_council_votes",
+  "score": 0.0,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 0.0,
+    "automated.minutes_vote": 0.0,
+    "automated.item12_abstain": 0.0,
+    "automated.item14_15_rollcall": 0.0,
+    "automated.item19_unanimous": 0.0,
+    "automated.item22_continued": 0.0,
+    "automated.item23_first_reading": 0.0,
+    "automated.item25_carlson_no": 0.0,
+    "automated.item26_28_reconsider": 0.0,
+    "automated.summary_count": 0.0,
+    "llm_judge.vote_identification_completeness": 0.0,
+    "llm_judge.vote_detail_accuracy": 0.0,
+    "llm_judge.organization": 0.0,
+    "llm_judge.summary": 0.0
+  },
+  "notes": "No votes_report.md was created and no substantive vote report was delivered. The agent extensively searched and read the transcript but provided no chronological vote list, mover/seconder details, dissent or abstention records, or summary counts. Tool usage was also inefficient, including repeated searches and an unrelated weather call."
+}

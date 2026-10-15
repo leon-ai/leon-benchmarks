@@ -1,0 +1,14 @@
+{
+  "task_id": "task_it_procurement",
+  "score": 0.05,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Product Research Quality": 0.25,
+    "Practical Procurement Value": 0.0,
+    "Linux Compatibility Assessment": 0.0,
+    "Fleet Recommendation": 0.0,
+    "Comparison Quality": 0.0
+  },
+  "notes": "The transcript shows preliminary research into several identifiable laptop models, but no completed findings or saved laptop_procurement.md. Exact purchasable configurations and current prices are not established. There is no substantive warranty, repairability, bulk purchasing, or Linux compatibility assessment, and no comparison table, fleet mix, or total budget. Research also includes an unnecessary weather lookup."
+}

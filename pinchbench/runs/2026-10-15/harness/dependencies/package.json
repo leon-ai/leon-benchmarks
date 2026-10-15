@@ -1,0 +1,9 @@
+{
+  "name": "pinchbench-mock-dependencies",
+  "private": true,
+  "packageManager": "pnpm@12.10.1",
+  "dependencies": {
+    "@juppytt/fws": "0.4.4",
+    "@googleworkspace/cli": "0.22.5"
+  }
+}

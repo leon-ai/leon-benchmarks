@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_cross_service__nCdYXC6",
+  "agent": "hermes",
+  "task": "task_gws_cross_service",
+  "score": 0.73,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Located and read Alice’s email, consulted Calendar, found the agenda in Drive, and wrote a detailed actions.md. Coordination was logical but involved repeated verification calls. Only two steps were fully completed: no event was created because a matching event already existed, and Bob’s sharing permission could not be confirmed after the creation request. The agent accurately disclosed both limitations.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

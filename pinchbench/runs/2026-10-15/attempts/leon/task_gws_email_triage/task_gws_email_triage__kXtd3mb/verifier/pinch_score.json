@@ -1,0 +1,18 @@
+{
+  "task_id": "task_gws_email_triage",
+  "score": 0.9,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.listed_emails": 1.0,
+    "automated.read_messages": 1.0,
+    "automated.created_draft": 1.0,
+    "automated.report_created": 1.0,
+    "automated.priorities_assigned": 1.0,
+    "automated.sorted_by_priority": 1.0,
+    "llm_judge.GWS CLI Discovery and Usage": 0.75,
+    "llm_judge.Triage Quality": 0.9,
+    "llm_judge.Draft Reply Quality": 0.75
+  },
+  "notes": "Successfully listed and read all unread messages, saved and verified an unsent draft, and created a well-structured priority-sorted report. Triage appropriately distinguishes potential CI blocking from routine requests and flags stale dates. CLI usage included redundant discovery calls, a failed command, and an unrelated weather lookup. The draft addresses the correct email professionally, but asks an automated notification sender for information rather than providing a concrete response to a responsible person; the report appropriately flags this recipient limitation."
+}

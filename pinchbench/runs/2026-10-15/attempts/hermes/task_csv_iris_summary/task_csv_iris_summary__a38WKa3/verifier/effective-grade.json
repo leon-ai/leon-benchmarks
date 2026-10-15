@@ -1,0 +1,23 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.dataset_overview": 1.0,
+      "automated.overall_stats": 1.0,
+      "automated.per_species_stats": 1.0,
+      "automated.correlation": 1.0,
+      "automated.separability_insight": 1.0,
+      "automated.formatting": 1.0,
+      "llm_judge.Statistical Accuracy": 1.0,
+      "llm_judge.Analytical Insight": 1.0,
+      "llm_judge.Report Structure and Presentation": 1.0,
+      "llm_judge.Completeness": 1.0
+    },
+    "reward": 1.0
+  },
+  "judge_notes": "All requested statistics are correct for the supplied CSV, with sample standard deviations explicitly documented. The report confirms 150 rows, five columns, and 50 observations per species; identifies the strongest correlation correctly; explains setosa separability and species overlap; and adds useful within-species correlation context. The markdown is complete, clearly organized, and appropriately concise. Tool usage was efficient.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

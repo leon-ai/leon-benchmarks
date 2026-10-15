@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.9,
+  "native_criteria": {
+    "score": 0.9,
+    "max_score": 1.0,
+    "breakdown": {
+      "Content Quality and Relevance": 0.85,
+      "Structure and Organization": 0.9,
+      "Writing Quality": 0.85,
+      "Word Count Compliance": 1.0,
+      "Task Completion": 0.9
+    }
+  },
+  "judge_notes": "Created blog_post.md with a complete 500-word post, clear introduction and conclusion, proper markdown, and five distinct benefits supported by examples. Developer-specific discussion is strongest in deep work and communication; some other sections are more generic. Prose is professional but occasionally awkward after trimming. Execution included unnecessary skill searches, revisions to reach an exact word count, and an unrequested, unsuccessful Git commit.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "task_meeting_council_votes",
+  "score": 0.075,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 0.0,
+    "automated.minutes_vote": 0.0,
+    "automated.item12_abstain": 0.0,
+    "automated.item14_15_rollcall": 0.0,
+    "automated.item19_unanimous": 0.0,
+    "automated.item22_continued": 0.0,
+    "automated.item23_first_reading": 0.0,
+    "automated.item25_carlson_no": 0.0,
+    "automated.item26_28_reconsider": 0.0,
+    "automated.summary_count": 0.0,
+    "llm_judge.Vote Identification Completeness": 0.25,
+    "llm_judge.Vote Detail Accuracy": 0.25,
+    "llm_judge.Organization": 0.1,
+    "llm_judge.Summary": 0.0
+  },
+  "notes": "The agent did not create votes_report.md or deliver a completed report. Its keyword-hit audit contains evidence of many votes, including key dissents and Carlson's abstention, but does not consolidate them into distinct vote entries with verified movers, seconders, and results. The raw hits are chronological but include duplicates and irrelevant matches. No summary counts were produced, and tool usage included unnecessary setup and an unsuccessful delegation attempt."
+}

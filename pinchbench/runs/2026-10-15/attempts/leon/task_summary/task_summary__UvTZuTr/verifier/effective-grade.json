@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.87,
+  "native_criteria": {
+    "score": 0.87,
+    "max_score": 1.0,
+    "breakdown": {
+      "Accuracy and Completeness": 1.0,
+      "Conciseness": 0.85,
+      "Structure and Coherence": 0.7,
+      "Writing Quality": 1.0,
+      "Task Completion": 0.8
+    },
+    "reward": 0.87
+  },
+  "judge_notes": "Accurate, professional summary covering all major themes without factual errors. Exactly three paragraphs, but applications and benefits appear in paragraph 1, while paragraph 2 addresses challenges rather than the requested applications. At approximately 127 words, it is shorter than the rubric's ideal range but preserves essential information. The source was read and the correct output file saved. Unrelated weather retrieval, repeated file searches, and tool-setup commentary added unnecessary overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

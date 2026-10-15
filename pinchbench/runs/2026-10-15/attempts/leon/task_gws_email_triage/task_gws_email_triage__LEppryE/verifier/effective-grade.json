@@ -1,0 +1,20 @@
+{
+  "accepted_score": 0.90833333335,
+  "native_criteria": {
+    "score": 0.90833333335,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_emails": 1.0,
+      "automated.read_messages": 1.0,
+      "automated.created_draft": 1.0,
+      "automated.report_created": 1.0,
+      "automated.priorities_assigned": 1.0,
+      "automated.sorted_by_priority": 1.0,
+      "llm_judge.GWS CLI Discovery and Usage": 0.75,
+      "llm_judge.Triage Quality": 0.9,
+      "llm_judge.Draft Reply Quality": 0.8
+    }
+  },
+  "judge_notes": "Correctly used Gmail list, get, and draft commands and verified the saved draft. Unrelated weather lookup, redundant file searches, and extra discovery calls reduced efficiency. The report covers all three emails with sensible priorities, specific actions, and careful handling of stale dates. The professional draft addresses the highest-priority CI failure, but its automated recipient limits usefulness despite the explicit warning to verify a monitored address.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

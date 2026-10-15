@@ -1,0 +1,20 @@
+{
+  "accepted_score": 0.93333333335,
+  "native_criteria": {
+    "score": 0.93333333335,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_emails": 1.0,
+      "automated.read_messages": 1.0,
+      "automated.created_draft": 1.0,
+      "automated.report_created": 1.0,
+      "automated.priorities_assigned": 1.0,
+      "automated.sorted_by_priority": 1.0,
+      "llm_judge.GWS CLI Discovery and Usage": 0.85,
+      "llm_judge.Triage Quality": 0.95,
+      "llm_judge.Draft Reply Quality": 0.8
+    }
+  },
+  "judge_notes": "Correctly listed and read all unread emails, created and verified an unsent threaded draft, and saved a structured, priority-sorted report with specific recommendations and careful treatment of stale dates. The draft appropriately addresses the CI failure but targets an automated notification address with unverified reply routing. Unnecessary skill discovery and Git commit attempts added overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

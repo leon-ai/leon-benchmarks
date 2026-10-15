@@ -1,0 +1,16 @@
+{
+  "task_id": "task_files",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "automated",
+  "breakdown": {
+    "src_directory": 1.0,
+    "main_py_created": 1.0,
+    "main_py_valid": 1.0,
+    "readme_created": 1.0,
+    "readme_has_title": 1.0,
+    "gitignore_created": 1.0,
+    "gitignore_has_pycache": 1.0
+  },
+  "notes": ""
+}

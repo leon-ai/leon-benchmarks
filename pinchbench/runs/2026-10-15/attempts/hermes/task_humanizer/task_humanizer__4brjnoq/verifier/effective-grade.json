@@ -1,0 +1,15 @@
+{
+  "accepted_score": 0.9,
+  "native_criteria": {
+    "score": 0.9,
+    "max_score": 1.0,
+    "breakdown": {
+      "skill_usage_or_manual_rewrite": 0.75,
+      "output_quality_natural_voice": 0.95,
+      "content_preservation": 0.9,
+      "task_completion": 1.0
+    }
+  },
+  "judge_notes": "The manual rewrite is conversational, varied, and concrete, removing robotic transitions and filler while preserving all seven strategies. Minor original points, including explicitly avoiding multitasking, were omitted. The input was read and the output saved correctly. However, the agent never attempted the requested /install humanizer command; checking local skills did not establish registry unavailability, and the CLI and documentation checks added unnecessary overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "task_summary__UvTZuTr",
+  "agent": "leon",
+  "task": "task_summary",
+  "score": 0.87,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate, professional summary covering all major themes without factual errors. Exactly three paragraphs, but applications and benefits appear in paragraph 1, while paragraph 2 addresses challenges rather than the requested applications. At approximately 127 words, it is shorter than the rubric's ideal range but preserves essential information. The source was read and the correct output file saved. Unrelated weather retrieval, repeated file searches, and tool-setup commentary added unnecessary overhead.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

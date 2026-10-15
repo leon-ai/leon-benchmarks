@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_gws_email_triage/native-service-repair/task_gws_email_triage__Nw3NrAW",
+  "score": 0.925,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "f2d1dc4214518fc775ed2e61a16294e93367e6599536d4450b7fe30305ac0ec3",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

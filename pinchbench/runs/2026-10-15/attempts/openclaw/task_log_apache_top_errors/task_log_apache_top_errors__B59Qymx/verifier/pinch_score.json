@@ -1,0 +1,19 @@
+{
+  "task_id": "task_log_apache_top_errors",
+  "score": 0.9299999999999999,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.output_created": 1.0,
+    "automated.directory_forbidden_top": 0.5,
+    "automated.file_not_exist_counted": 1.0,
+    "automated.invalid_method_identified": 1.0,
+    "automated.internal_errors_included": 1.0,
+    "llm_judge.report_file_created": 1.0,
+    "llm_judge.directory_index_forbidden_identification": 0.8,
+    "llm_judge.file_does_not_exist_identification_and_count": 1.0,
+    "llm_judge.invalid_method_distinct_category": 1.0,
+    "llm_judge.server_internal_errors_included": 1.0
+  },
+  "notes": "Created a valid report covering all 753 errors, with descending counts, verbatim examples, and careful security explanations. Directory-index errors are counted correctly at 224 but are not ranked first as the rubric expects; the actual combined missing-file count of 295 justifies the report's ordering. Internal errors are comprehensively included. Minor process inefficiencies include unnecessary skill searches and a failed initial Python invocation."
+}

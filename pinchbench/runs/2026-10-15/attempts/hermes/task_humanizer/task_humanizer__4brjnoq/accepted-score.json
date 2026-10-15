@@ -1,0 +1,11 @@
+{
+  "id": "task_humanizer__4brjnoq",
+  "agent": "hermes",
+  "task": "task_humanizer",
+  "score": 0.9,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The manual rewrite is conversational, varied, and concrete, removing robotic transitions and filler while preserving all seven strategies. Minor original points, including explicitly avoiding multitasking, were omitted. The input was read and the output saved correctly. However, the agent never attempted the requested /install humanizer command; checking local skills did not establish registry unavailability, and the CLI and documentation checks added unnecessary overhead.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

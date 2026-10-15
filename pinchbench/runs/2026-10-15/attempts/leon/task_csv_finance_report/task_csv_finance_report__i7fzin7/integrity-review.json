@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_csv_finance_report/native/task_csv_finance_report__i7fzin7",
+  "score": 0.0625,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "d366902843ec2598dd85aa706f33a96142b6998dba77ae55a0ada1cdf0410fb6",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

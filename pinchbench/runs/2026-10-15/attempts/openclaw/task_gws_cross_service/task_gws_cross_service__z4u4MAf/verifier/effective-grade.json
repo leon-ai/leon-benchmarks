@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.73,
+  "native_criteria": {
+    "score": 0.73,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.read_email": 1.0,
+      "automated.created_event": 0.0,
+      "automated.found_drive_file": 1.0,
+      "automated.shared_file": 1.0,
+      "automated.actions_summary": 1.0,
+      "llm_judge.Cross-Service Coordination": 0.75,
+      "llm_judge.Task Completeness": 0.5
+    }
+  },
+  "judge_notes": "Correctly read Alice’s email, interpreted the meeting date, checked Calendar, located the agenda in Drive, and saved an accurate actions.md. However, no event was created because a matching event already existed, and Bob’s sharing permission remained unresolved after verification returned 404. Unnecessary Git operations and setup steps reduced efficiency.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

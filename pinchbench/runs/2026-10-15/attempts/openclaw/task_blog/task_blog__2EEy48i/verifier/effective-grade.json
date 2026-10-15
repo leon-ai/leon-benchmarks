@@ -1,0 +1,16 @@
+{
+  "accepted_score": 0.92,
+  "native_criteria": {
+    "score": 0.92,
+    "max_score": 1.0,
+    "breakdown": {
+      "Content Quality and Relevance": 0.9,
+      "Structure and Organization": 0.95,
+      "Writing Quality": 0.9,
+      "Word Count Compliance": 1.0,
+      "Task Completion": 0.85
+    }
+  },
+  "judge_notes": "Created blog_post.md with a complete 500-word post, clear markdown structure, five relevant benefits, and a balanced conclusion. Developer-specific examples include debugging, code reviews, documentation, and asynchronous collaboration, though some benefits remain broadly applicable. Writing is polished but occasionally generic. Execution was unnecessarily elaborate: skill searches, unsolicited Git commits, recovery from missing Git identity, and repeated edits to achieve an exact count despite an acceptable range.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

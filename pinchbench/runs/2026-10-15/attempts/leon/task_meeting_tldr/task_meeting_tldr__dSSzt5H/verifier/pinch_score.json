@@ -1,0 +1,20 @@
+{
+  "task_id": "task_meeting_tldr",
+  "score": 0.92,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 1.0,
+    "automated.one_line_summary": 1.0,
+    "automated.bullet_points": 1.0,
+    "automated.events_mentioned": 1.0,
+    "automated.messaging_decision": 1.0,
+    "automated.deadline_mentioned": 1.0,
+    "automated.word_count_ok": 1.0,
+    "automated.no_filler": 1.0,
+    "llm_judge.Information Density": 0.8,
+    "llm_judge.Conciseness": 0.85,
+    "llm_judge.Scannability": 0.75
+  },
+  "notes": "Created the requested file with a one-line summary, five bullets, and both deadlines in approximately 124 words. Captures the main outcomes accurately, but omits the company-level tagline and packs unnecessary detail into some bullets. Deadlines could be highlighted more clearly. Execution was inefficient: an irrelevant weather call, duplicate file searches, and numerous overlapping transcript reads."
+}

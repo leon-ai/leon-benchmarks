@@ -1,0 +1,19 @@
+{
+  "accepted_score": 0.9533333333333334,
+  "native_criteria": {
+    "score": 0.9533333333333334,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_tasks": 1.0,
+      "automated.updated_completed": 1.0,
+      "automated.read_emails": 1.0,
+      "automated.created_new_task": 1.0,
+      "automated.summary_created": 1.0,
+      "llm_judge.Information Extraction": 0.9,
+      "llm_judge.Task List Management": 0.85,
+      "llm_judge.Summary Quality": 0.9
+    }
+  },
+  "judge_notes": "Identified all four email follow-ups and created specific, source-linked tasks, clearly distinguishing inferred actions and historical requests. Reviewed existing tasks, appropriately preserved the already-completed documentation task, and avoided marking the Q3 proposal complete without evidence. Verified the resulting task list and saved a comprehensive, organized summary. Minor deductions for an unrelated weather call, redundant inspection steps, somewhat verbose reporting, and reframing the old meeting invitation as a speculative follow-up.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

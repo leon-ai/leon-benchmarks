@@ -1,0 +1,18 @@
+{
+  "task_id": "task_gws_email_triage",
+  "score": 0.925,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.listed_emails": 1.0,
+    "automated.read_messages": 1.0,
+    "automated.created_draft": 1.0,
+    "automated.report_created": 1.0,
+    "automated.priorities_assigned": 1.0,
+    "automated.sorted_by_priority": 1.0,
+    "llm_judge.GWS CLI Discovery and Usage": 0.8,
+    "llm_judge.Triage Quality": 0.9,
+    "llm_judge.Draft Reply Quality": 0.85
+  },
+  "notes": "Successfully discovered and used Gmail list, get, and draft commands, reviewed all three unread messages, and saved a complete priority-sorted triage_report.md. Priorities and recommendations appropriately account for the messages' age without inventing an active outage. The professional reply was saved and verified in the correct thread without sending. Deductions reflect unnecessary verification calls, a failed draft-parsing step, an overly detailed report, and the draft's automated notification recipient, although that limitation was explicitly flagged."
+}

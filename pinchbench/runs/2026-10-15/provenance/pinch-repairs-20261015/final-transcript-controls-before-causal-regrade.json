@@ -1,0 +1,80 @@
+{
+  "checked": 288,
+  "unchanged": 278,
+  "artifact_only_transcript_differences": [
+    {
+      "trial": "task_multi_file_refactoring__Qib6dVj",
+      "task": "task_multi_file_refactoring",
+      "agent": "openclaw",
+      "before_rows": 30,
+      "after_rows": 30
+    },
+    {
+      "trial": "task_multi_file_refactoring__5z6YjM7",
+      "task": "task_multi_file_refactoring",
+      "agent": "openclaw",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_multi_file_refactoring__BJRb3fo",
+      "task": "task_multi_file_refactoring",
+      "agent": "leon",
+      "before_rows": 43,
+      "after_rows": 43
+    },
+    {
+      "trial": "task_multi_file_refactoring__Y7UStDL",
+      "task": "task_multi_file_refactoring",
+      "agent": "openclaw",
+      "before_rows": 27,
+      "after_rows": 27
+    },
+    {
+      "trial": "task_multi_file_refactoring__sKjC3ay",
+      "task": "task_multi_file_refactoring",
+      "agent": "leon",
+      "before_rows": 29,
+      "after_rows": 29
+    },
+    {
+      "trial": "task_multi_file_refactoring__s3fvU27",
+      "task": "task_multi_file_refactoring",
+      "agent": "hermes",
+      "before_rows": 22,
+      "after_rows": 22
+    },
+    {
+      "trial": "task_multi_file_refactoring__YcWdJag",
+      "task": "task_multi_file_refactoring",
+      "agent": "hermes",
+      "before_rows": 10,
+      "after_rows": 10
+    },
+    {
+      "trial": "task_multi_file_refactoring__yQTzKt6",
+      "task": "task_multi_file_refactoring",
+      "agent": "leon",
+      "before_rows": 48,
+      "after_rows": 47
+    },
+    {
+      "trial": "task_multi_file_refactoring__UFHdSzb",
+      "task": "task_multi_file_refactoring",
+      "agent": "hermes",
+      "before_rows": 20,
+      "after_rows": 20
+    }
+  ],
+  "unresolved_hybrid_differences": [
+    {
+      "trial": "task_log_apache_top_errors__NCaw7sF",
+      "task": "task_log_apache_top_errors",
+      "agent": "hermes",
+      "before_rows": 13,
+      "after_rows": 12
+    }
+  ],
+  "projection_errors": [],
+  "additional_model_calls": 0
+}

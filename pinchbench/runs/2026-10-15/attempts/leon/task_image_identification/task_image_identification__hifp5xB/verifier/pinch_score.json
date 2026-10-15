@@ -1,0 +1,17 @@
+{
+  "task_id": "task_image_identification",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "automated",
+  "breakdown": {
+    "file_created": 1.0,
+    "valid_json_shape": 1.0,
+    "has_required_categories": 1.0,
+    "values_are_valid_paths": 1.0,
+    "uses_each_image_once": 1.0,
+    "phone_correct": 1.0,
+    "food_correct": 1.0,
+    "menu_correct": 1.0
+  },
+  "notes": ""
+}

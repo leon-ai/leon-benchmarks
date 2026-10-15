@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_searchable_index__upbobEL",
+  "agent": "leon",
+  "task": "task_meeting_searchable_index",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read the transcript but never created meeting_index.md or provided any index entries. All required sections are missing. The unrelated weather call and repeated file searches and reads also added unnecessary overhead without producing the requested deliverable.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

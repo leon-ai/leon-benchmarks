@@ -1,0 +1,11 @@
+{
+  "id": "task_csv_finance_report__6Sq6KYz",
+  "agent": "hermes",
+  "task": "task_csv_finance_report",
+  "score": 0.9625,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Excellent, comprehensive report saved to the requested file. All seven sections are substantive, and the calculations match expected results. Particularly strong methodology, quarterly-return conventions, drawdown analysis, streak identification, and disclosure of incomplete-year coverage. Interpretation appropriately avoids unsupported news attribution. Minor deductions for repetitive caveats and conclusions that could offer more specific investor decision implications.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

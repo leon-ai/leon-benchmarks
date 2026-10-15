@@ -1,0 +1,12 @@
+{
+  "native_scores_unchanged": true,
+  "corrected_area": "Agent runtime completion versus recovered verifier exceptions",
+  "trials": [
+    "task_summary__E33QHov",
+    "task_summary__UvTZuTr",
+    "task_summary__hbzpSaG",
+    "task_summary__nPUfEKa"
+  ],
+  "contract": "A verified completed native turn is not an agent runtime failure because its original verifier result failed validation. Original harness exceptions remain separately visible and raw results are unchanged.",
+  "derived_metrics_sha256": "bec20dc2bf61c7e8e07191d8fd19c75198c76af9bd6880d9b6bfec7babaf7714"
+}

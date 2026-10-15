@@ -1,0 +1,20 @@
+{
+  "accepted_score": 0.9166666666500001,
+  "native_criteria": {
+    "score": 0.9166666666500001,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.listed_emails": 1.0,
+      "automated.read_messages": 1.0,
+      "automated.created_draft": 1.0,
+      "automated.report_created": 1.0,
+      "automated.priorities_assigned": 1.0,
+      "automated.sorted_by_priority": 1.0,
+      "llm_judge.GWS CLI Discovery and Usage": 0.75,
+      "llm_judge.Triage Quality": 0.9,
+      "llm_judge.Draft Reply Quality": 0.85
+    }
+  },
+  "judge_notes": "Correctly discovered Gmail commands, read all three unread messages, saved a threaded reply draft without sending, and created the requested report. Triage was specific, appropriately prioritized, and careful about stale dates and unverified operational impact. Deductions reflect redundant verification calls, a draft-format correction, an overly elaborate report for three messages, and unresolved reply routing to the GitHub notification address.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

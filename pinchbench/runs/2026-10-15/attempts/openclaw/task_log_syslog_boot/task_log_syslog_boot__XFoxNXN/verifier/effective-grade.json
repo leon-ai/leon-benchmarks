@@ -1,0 +1,32 @@
+{
+  "accepted_score": 1.0,
+  "native_criteria": {
+    "score": 1.0,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 1.0,
+      "automated.kernel_version": 1.0,
+      "automated.cpu_identified": 1.0,
+      "automated.ram_identified": 1.0,
+      "automated.disk_identified": 1.0,
+      "automated.filesystem_identified": 1.0,
+      "automated.network_card": 1.0,
+      "automated.services_listed": 1.0,
+      "automated.mdmpd_failure": 1.0,
+      "automated.selinux_disabled": 1.0,
+      "llm_judge.report_created": 1.0,
+      "llm_judge.kernel_version": 1.0,
+      "llm_judge.cpu_identification": 1.0,
+      "llm_judge.ram_identification": 1.0,
+      "llm_judge.hard_drive_identification": 1.0,
+      "llm_judge.root_filesystem": 1.0,
+      "llm_judge.network_card": 1.0,
+      "llm_judge.successful_services": 1.0,
+      "llm_judge.mdmpd_failure": 1.0,
+      "llm_judge.selinux_disabled_at_runtime": 1.0
+    },
+    "reward": 1.0
+  },
+  "judge_notes": "All rubric criteria are fully satisfied. The structured report isolates the first boot, provides supporting line references, lists 28 exact-phrase startup successes, and correctly identifies hardware, memory, storage, failures, and 24 BIND listening addresses. It also explains timestamp discrepancies and distinguishes available memory from total detected memory.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

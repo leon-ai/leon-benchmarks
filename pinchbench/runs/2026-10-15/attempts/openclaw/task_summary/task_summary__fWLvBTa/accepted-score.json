@@ -1,0 +1,11 @@
+{
+  "id": "task_summary__fWLvBTa",
+  "agent": "openclaw",
+  "task": "task_summary",
+  "score": 0.88,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurate, concise, professional summary covering all major themes, saved to the correct file after reading the source. Exactly three coherent paragraphs, but applications are concentrated in paragraph 1 and challenges in paragraph 2 rather than the requested organization. Unnecessary skill searches, Git inspection, and failed verification/commit attempts reduced execution efficiency.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

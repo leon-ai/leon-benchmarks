@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_shell_command_generator/native/task_shell_command_generator__mgKDpwR",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "d60c31494269851970512b80958d44fe4a505714c51518384b111831d3173a5c",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,25 @@
+{
+  "accepted_score": 0.8416666666666667,
+  "native_criteria": {
+    "score": 0.8416666666666667,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.trend_direction": 1.0,
+      "automated.starting_price": 1.0,
+      "automated.ending_price": 1.0,
+      "automated.percentage_change": 1.0,
+      "automated.monthly_breakdown": 1.0,
+      "automated.up_streak": 0.0,
+      "automated.down_streak": 0.0,
+      "automated.trend_periods": 1.0,
+      "llm_judge.data_analysis_accuracy": 1.0,
+      "llm_judge.trend_identification_quality": 0.9,
+      "llm_judge.report_structure_and_presentation": 0.85,
+      "llm_judge.completeness": 1.0
+    },
+    "reward": 0.8416666666666667
+  },
+  "judge_notes": "Accurate prices, percentage change, monthly averages, and streaks, including the tied five-day decline. Covers all requested elements and correctly limits conclusions to December 12. Detailed, dated trend periods support the bullish assessment, though the April breakout could be highlighted more explicitly. The report is well structured but unnecessarily elaborate; skill searches and Git commit attempts added avoidable execution overhead.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

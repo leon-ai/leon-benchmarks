@@ -1,0 +1,14 @@
+{
+  "task_id": "task_it_procurement",
+  "score": 0.15,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Product Research Quality": 0.3,
+    "Practical Procurement Value": 0.2,
+    "Linux Compatibility Assessment": 0.25,
+    "Fleet Recommendation": 0.0,
+    "Comparison Quality": 0.0
+  },
+  "notes": "The available record shows incomplete research rather than a completed procurement deliverable. System76 evidence includes an exact qualifying configuration, price, repair documentation, and warranty options; Lenovo research identifies relevant certification and business resources. However, five priced models are not documented, Linux issues are not synthesized into model-specific assessments, and laptop_procurement.md is absent. There is no comparison table, macOS recommendation, specific fleet mix, or total budget."
+}

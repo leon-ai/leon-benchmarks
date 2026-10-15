@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_summary/native-repair/task_summary__RvdDrqQ",
+  "score": 0.85,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "f10345590570b8f1da673440c0f7c7cf1ba0f87fee64b3809d7ed226aab83c93",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

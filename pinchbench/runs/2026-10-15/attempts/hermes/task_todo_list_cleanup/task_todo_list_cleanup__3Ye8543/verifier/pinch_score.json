@@ -1,0 +1,17 @@
+{
+  "task_id": "task_todo_list_cleanup",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "automated",
+  "breakdown": {
+    "file_created": 1.0,
+    "organized_by_project": 1.0,
+    "all_items_present": 1.0,
+    "duplicates_marked_partial": 1.0,
+    "duplicates_marked_all": 1.0,
+    "no_false_completions": 1.0,
+    "overdue_flagged": 1.0,
+    "overdue_not_over_flagged": 1.0
+  },
+  "notes": ""
+}

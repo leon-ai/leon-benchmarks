@@ -1,0 +1,20 @@
+{
+  "task_id": "task_meeting_searchable_index",
+  "score": 0.0,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 0.0,
+    "automated.metadata_present": 0.0,
+    "automated.topic_index": 0.0,
+    "automated.people_index": 0.0,
+    "automated.keyword_index": 0.0,
+    "automated.decisions_log": 0.0,
+    "automated.action_items_log": 0.0,
+    "automated.organized": 0.0,
+    "llm_judge.Completeness and Accuracy": 0.0,
+    "llm_judge.Searchability and Structure": 0.0,
+    "llm_judge.Index Quality": 0.0
+  },
+  "notes": "The agent read and inspected the transcript but did not create meeting_index.md or provide any index content. All six requested sections are missing. The skill searches and workspace inspection did not produce a usable deliverable."
+}

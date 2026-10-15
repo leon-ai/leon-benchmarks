@@ -1,0 +1,14 @@
+{
+  "task_id": "task_summary",
+  "score": 0.9,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "accuracy_and_completeness": 1.0,
+    "conciseness": 1.0,
+    "structure_and_coherence": 0.75,
+    "writing_quality": 1.0,
+    "task_completion": 0.75
+  },
+  "notes": "Accurate, concise, professional summary covering all major themes in exactly three paragraphs. Paragraph focus deviates from the requested organization: applications appear in paragraph 1 and challenges in paragraph 2. The source was read and the correct output file created, but skill searches, Git inspection, and unsuccessful verification/commit attempts added unnecessary overhead."
+}

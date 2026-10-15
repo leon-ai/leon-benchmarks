@@ -1,0 +1,14 @@
+{
+  "task_id": "task_it_procurement",
+  "score": 0.09,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Product Research Quality": 0.25,
+    "Practical Procurement Value": 0.1,
+    "Linux Compatibility Assessment": 0.1,
+    "Fleet Recommendation": 0.0,
+    "Comparison Quality": 0.0
+  },
+  "notes": "The visible transcript shows research attempts across at least five laptop models and some exact Apple configuration URLs, but no completed findings with verified prices. Warranty, bulk purchasing, and Linux issues were investigated without a documented assessment. No comparison table, fleet mix, total budget, or saved laptop_procurement.md is shown; execution ends mid-research."
+}

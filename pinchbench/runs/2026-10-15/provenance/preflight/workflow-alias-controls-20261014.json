@@ -1,0 +1,19 @@
+{
+  "native_rubric_unchanged": true,
+  "checks": [
+    {
+      "native_name": "read",
+      "read_config": 1.0
+    },
+    {
+      "native_name": "read_file",
+      "read_config": 1.0
+    },
+    {
+      "native_name": "file_system.file.read",
+      "read_config": 1.0
+    }
+  ],
+  "no_call_control": 0,
+  "additional_inference_calls": 0
+}

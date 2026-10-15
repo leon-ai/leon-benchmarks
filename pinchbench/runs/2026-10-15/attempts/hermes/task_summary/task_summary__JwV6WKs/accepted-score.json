@@ -1,0 +1,11 @@
+{
+  "id": "task_summary__JwV6WKs",
+  "agent": "hermes",
+  "task": "task_summary",
+  "score": 0.93,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Accurately captures all major applications, benefits, challenges, and future themes in clear, professional prose. The summary is concise at approximately 130 words, slightly below the rubric's ideal range. Exactly three paragraphs are present, but challenges appear in paragraph two rather than being grouped with the future outlook in paragraph three. The source was read and summary_output.txt was successfully created with no unnecessary tool use.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

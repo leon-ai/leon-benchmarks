@@ -1,0 +1,51 @@
+{
+  "task": "task_gws_email_triage",
+  "native_grader_unchanged": true,
+  "finding": "Native automated command detection examines outer command strings, and can miss gws invocations constructed with Python argv lists. This affects captured successful draft responses; the native judge separately evaluates draft quality. Review this rubric limitation before claiming final semantic tool-accuracy equivalence. No semantic action score inferred from schema validity.",
+  "evidence": [
+    {
+      "trial": "task_gws_email_triage__5RLux8P",
+      "grade_file": "pinch-repairs-20261014/transcript-grades/task_gws_email_triage/task_gws_email_triage__5RLux8P/verifier/effective-grade.json",
+      "sha256": "e849c50867e91bb570219e62cce2c2f6e8acf75b4abaade7f68f083442d16ac2",
+      "native_static_draft_credit": 0,
+      "native_judge_draft_quality": 0.85
+    },
+    {
+      "trial": "task_gws_email_triage__2b62GpC",
+      "grade_file": "pinch-repairs-20261014/transcript-grades/task_gws_email_triage/task_gws_email_triage__2b62GpC/verifier/effective-grade.json",
+      "sha256": "11039258cd2d1dc68b1213f97264898d9e989a27e89e7844d2a1c931949df5e8",
+      "native_static_draft_credit": 0,
+      "native_judge_draft_quality": 0.8
+    },
+    {
+      "trial": "task_gws_email_triage__xUZKtYp",
+      "grade_file": "pinch-repairs-20261014/transcript-grades/task_gws_email_triage/task_gws_email_triage__xUZKtYp/verifier/effective-grade.json",
+      "sha256": "379fc8bca8ae4f16028918a9934128565293e07468b78f503e4a05c0b66c1428",
+      "native_static_draft_credit": 0,
+      "native_judge_draft_quality": 0.8
+    },
+    {
+      "trial": "task_gws_email_triage__kAruxJt",
+      "grade_file": "pinch-repairs-20261014/transcript-grades/task_gws_email_triage/task_gws_email_triage__kAruxJt/verifier/effective-grade.json",
+      "sha256": "4a608584de469ee3d177f772c232bf56d5fd8891329b35a9782a8cb4565d09dc",
+      "native_static_draft_credit": 0,
+      "native_judge_draft_quality": 0.85
+    },
+    {
+      "trial": "task_gws_email_triage__6cmYd6Q",
+      "grade_file": "pinch-repairs-20261014/transcript-grades/task_gws_email_triage/task_gws_email_triage__6cmYd6Q/verifier/effective-grade.json",
+      "sha256": "0bcfba230595722f4c3099a2531af4f5048aedf59903c024f83d68fab036c579",
+      "native_static_draft_credit": 0,
+      "native_judge_draft_quality": 0.75
+    },
+    {
+      "trial": "task_gws_email_triage__pdUqRTK",
+      "grade_file": "pinch-repairs-20261014/transcript-grades/task_gws_email_triage/task_gws_email_triage__pdUqRTK/verifier/effective-grade.json",
+      "sha256": "1e9cb7ae08cc6b84e5da7d7187ded1132c98b679694abfa16f46d29a0c4394cc",
+      "native_static_draft_credit": 0,
+      "native_judge_draft_quality": 0.85
+    }
+  ],
+  "status": "needs final native-rubric review; no score correction made",
+  "additional_inference_calls": 0
+}

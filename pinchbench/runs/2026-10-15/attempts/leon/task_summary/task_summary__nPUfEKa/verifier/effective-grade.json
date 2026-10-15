@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.9,
+  "native_criteria": {
+    "score": 0.9,
+    "max_score": 1.0,
+    "breakdown": {
+      "Accuracy and Completeness": 1.0,
+      "Conciseness": 1.0,
+      "Structure and Coherence": 0.75,
+      "Writing Quality": 1.0,
+      "Task Completion": 0.75
+    },
+    "reward": 0.9
+  },
+  "judge_notes": "The summary accurately preserves all major themes in concise, professional prose, and the correct output file was created after reading the source. It has exactly three paragraphs, but applications and benefits appear in paragraph 1 rather than paragraph 2, which instead covers challenges. Execution included an irrelevant weather call, a redundant file-listing call despite instructions to wait, and unnecessary setup commentary.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

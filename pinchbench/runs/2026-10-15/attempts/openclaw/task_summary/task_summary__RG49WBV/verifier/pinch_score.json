@@ -1,0 +1,14 @@
+{
+  "task_id": "task_summary",
+  "score": 0.86,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Accuracy and Completeness": 0.95,
+    "Conciseness": 0.9,
+    "Structure and Coherence": 0.7,
+    "Writing Quality": 0.95,
+    "Task Completion": 0.8
+  },
+  "notes": "Accurate, clear summary covering all major themes, saved to the correct file after reading the source. It contains exactly three paragraphs and is substantially shorter than the original, though slightly below the preferred 150-word minimum. Paragraph focus deviates from the requested organization: imaging and drug discovery appear in paragraph 1, while challenges appear in paragraph 2. Unnecessary skill searches and failed verification/commit attempts reduced execution efficiency."
+}

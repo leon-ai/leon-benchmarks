@@ -1,0 +1,50 @@
+{
+  "trials": [
+    {
+      "trial": "task_multi_file_refactoring__Qib6dVj",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__5z6YjM7",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__BJRb3fo",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__Y7UStDL",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__sKjC3ay",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__s3fvU27",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__YcWdJag",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__yQTzKt6",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    },
+    {
+      "trial": "task_multi_file_refactoring__UFHdSzb",
+      "native_grade_unchanged": true,
+      "transcript_independent": true
+    }
+  ],
+  "additional_inference_calls": 0
+}

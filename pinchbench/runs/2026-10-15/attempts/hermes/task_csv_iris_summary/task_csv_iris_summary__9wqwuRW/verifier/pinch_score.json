@@ -1,0 +1,20 @@
+{
+  "task_id": "task_csv_iris_summary",
+  "score": 0.9142857142857143,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.dataset_overview": 1.0,
+    "automated.overall_stats": 1.0,
+    "automated.per_species_stats": 1.0,
+    "automated.correlation": 1.0,
+    "automated.separability_insight": 0.0,
+    "automated.formatting": 1.0,
+    "llm_judge.Statistical Accuracy": 1.0,
+    "llm_judge.Analytical Insight": 1.0,
+    "llm_judge.Report Structure and Presentation": 1.0,
+    "llm_judge.Completeness": 1.0
+  },
+  "notes": "Excellent completion: all reported statistics match the supplied dataset, sample standard deviations are explicitly defined, and every requested section is present in a clear markdown report. The analysis correctly identifies the strongest correlation and setosa's separability, while adding useful nuance about pooled versus within-species correlations and versicolor–virginica overlap."
+}

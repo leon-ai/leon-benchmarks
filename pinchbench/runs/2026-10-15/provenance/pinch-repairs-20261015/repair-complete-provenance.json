@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-15T00:33:19.346219+00:00",
+  "owner_resumed": true,
+  "candidate_reruns_this_resume": 0,
+  "three_missing_native_grades_recovered": true,
+  "four_late_native_judgments_replayed": true,
+  "source_snapshot_sha256": {
+    "pinch-repairs-20261015/source-versions/final-verification/fairness_audit.py": "74b6d4cef077e622ff1fe9bb93b2aa9ad5b86129a528522b7259b5be8e1dddaa",
+    "pinch-repairs-20261015/source-versions/final-verification/native-deadline.py": "e0da72758084c98e7f45998ad5d9a72f119ec7096cbb59b55d59a52e4d56b322",
+    "pinch-repairs-20261015/source-versions/final-verification/pinch_agents.py": "504e46905bd01a003b23bd2ec5b00c654f24b465b5c7da2c69e41fb18e5ad81a",
+    "pinch-repairs-20261015/source-versions/final-verification/task_integrity.py": "f44a1cfe2df8452553580870bb9403628846c5971c6c67e9de6d182ff453aecb",
+    "pinch-repairs-20261015/source-versions/final-verification/regrading.py": "22b81584ba7613833323f4bf259ff5111a19f4f17c8d9fab12d7f8b960111b54"
+  },
+  "checks": [
+    "24 offline scheduling/recovery tests passed",
+    "Actual container deadline/descendant and environment controls passed without inference",
+    "27 prior timeout transcripts audited; affected native hybrid grading inputs corrected",
+    "Native recovered 502/503 requests retained independently of task score",
+    "Wild accepted evidence fingerprint unchanged"
+  ],
+  "preserved": [
+    "Frozen tasks and native rubrics",
+    "Frozen agent source versions",
+    "Subscription-only GPT-6.1 Sol/high/priority requested; actual returned tier retained",
+    "Native deadlines, repetitions, CPU/RAM admission and cleanup policy"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_todo_list_cleanup/native/task_todo_list_cleanup__3Ye8543",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "e9b650d710dbf3272c7ee916c5bc40265af3fb8bc22bdb3758a5c96b121e1a76",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

@@ -1,0 +1,24 @@
+{
+  "accepted_score": 0.985,
+  "native_criteria": {
+    "score": 0.985,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.trend_direction": 1.0,
+      "automated.starting_price": 1.0,
+      "automated.ending_price": 1.0,
+      "automated.percentage_change": 1.0,
+      "automated.monthly_breakdown": 1.0,
+      "automated.up_streak": 1.0,
+      "automated.down_streak": 1.0,
+      "automated.trend_periods": 1.0,
+      "llm_judge.Data Analysis Accuracy": 1.0,
+      "llm_judge.Trend Identification Quality": 0.95,
+      "llm_judge.Report Structure and Presentation": 0.9,
+      "llm_judge.Completeness": 1.0
+    }
+  },
+  "judge_notes": "Correct prices, return, monthly averages, and streaks, including the tied five-day down streak. Thorough sustained-period analysis and appropriate disclosure of incomplete December coverage. All requested elements are present in a clear markdown report. Minor deductions for excessive numerical precision, an April breakout described less explicitly than other phases, and inefficient execution involving an irrelevant weather call, repeated file searches, and multiple analysis commands.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

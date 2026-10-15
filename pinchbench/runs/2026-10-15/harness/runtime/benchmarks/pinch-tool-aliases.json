@@ -1,0 +1,1 @@
+{"purpose": "Portable PinchBench transcript equivalents for verified native file-reading functions; native names and raw traces are retained.", "aliases": {"file_system.file.read": "read", "read_file": "read", "readFile": "read"}}

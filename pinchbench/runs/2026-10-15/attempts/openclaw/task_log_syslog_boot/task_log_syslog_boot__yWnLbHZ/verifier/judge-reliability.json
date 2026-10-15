@@ -1,0 +1,15 @@
+{
+  "failed_calls": [
+    "APIConnectionError"
+  ],
+  "judge_outcomes": [
+    {
+      "status": "error",
+      "error": "APIConnectionError"
+    },
+    {
+      "status": "success"
+    }
+  ],
+  "native_retry_recovered": true
+}

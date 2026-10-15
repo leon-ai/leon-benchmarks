@@ -1,0 +1,22 @@
+{
+  "task_id": "task_market_research",
+  "score": 0.9550000000000001,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.file_created": 1.0,
+    "automated.competitors_identified": 1.0,
+    "automated.has_comparison_table": 1.0,
+    "automated.has_pricing_info": 1.0,
+    "automated.has_trends_section": 1.0,
+    "automated.has_structure": 1.0,
+    "automated.has_executive_summary": 1.0,
+    "automated.used_web_search": 1.0,
+    "llm_judge.research_depth_and_accuracy": 0.85,
+    "llm_judge.analytical_quality": 0.9,
+    "llm_judge.market_trends_and_context": 0.95,
+    "llm_judge.report_structure_and_presentation": 0.9,
+    "llm_judge.pricing_and_business_model_coverage": 0.95
+  },
+  "notes": "Successfully saved market_research.md in the current directory. Strong, sourced five-vendor analysis with detailed pricing caveats, meaningful strategic comparisons, and well-contextualized market trends. The shortlist is appropriately distinguished from a verified market-share ranking. Some profiles could better identify proprietary technologies and noncommercial weaknesses. Minor deductions for excessive length, repetitive procurement caveats, and unnecessary or inefficient tool calls."
+}

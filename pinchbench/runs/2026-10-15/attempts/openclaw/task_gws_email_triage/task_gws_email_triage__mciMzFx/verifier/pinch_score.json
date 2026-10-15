@@ -1,0 +1,18 @@
+{
+  "task_id": "task_gws_email_triage",
+  "score": 0.925,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.listed_emails": 1.0,
+    "automated.read_messages": 1.0,
+    "automated.created_draft": 1.0,
+    "automated.report_created": 1.0,
+    "automated.priorities_assigned": 1.0,
+    "automated.sorted_by_priority": 1.0,
+    "llm_judge.GWS CLI Discovery and Usage": 0.75,
+    "llm_judge.Triage Quality": 0.95,
+    "llm_judge.Draft Reply Quality": 0.85
+  },
+  "notes": "Correctly listed and read all unread messages, saved and verified a threaded draft without sending, and produced a priority-sorted report with specific recommendations and careful handling of stale dates. Deducted for redundant message retrieval, unnecessary skill discovery and Git commit attempts, and a draft addressed to an automated notification sender, which limits its practical usefulness despite the documented caution."
+}

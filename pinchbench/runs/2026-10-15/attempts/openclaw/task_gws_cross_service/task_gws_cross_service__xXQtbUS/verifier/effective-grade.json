@@ -1,0 +1,18 @@
+{
+  "accepted_score": 0.73,
+  "native_criteria": {
+    "score": 0.73,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.read_email": 1.0,
+      "automated.created_event": 0.0,
+      "automated.found_drive_file": 1.0,
+      "automated.shared_file": 1.0,
+      "automated.actions_summary": 1.0,
+      "llm_judge.Cross-Service Coordination": 0.75,
+      "llm_judge.Task Completeness": 0.5
+    }
+  },
+  "judge_notes": "Used Gmail, Calendar, and Drive coherently, but unnecessary Git operations and repeated checks reduced efficiency. Read the email and saved actions.md successfully. Did not create the requested calendar event, instead retaining an existing match. Bob's reader permission creation returned success, but subsequent checks failed to confirm persisted access, so sharing was not reliably completed.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

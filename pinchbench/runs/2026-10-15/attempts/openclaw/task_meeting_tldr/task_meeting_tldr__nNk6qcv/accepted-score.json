@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_tldr__nNk6qcv",
+  "agent": "openclaw",
+  "task": "task_meeting_tldr",
+  "score": 0.95333333332,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The file captures all five major outcome areas and both substantive deadlines in 124 words, with a clear opening line and five bullets. Minor omissions include the company-level messaging tagline. Bold emphasis or separate deadline callouts would improve scanning. Unnecessary skill searches, Git operations, and failed validation/commit attempts reduced execution efficiency.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "extends": "pinch-repairs-20261014/transcript-repair-receipt.json",
+  "sources": [
+    {
+      "file": "pinch-repairs-20261014/source-versions/cli-controller/pinch-gws-observer.py",
+      "sha256": "b0c705d2d4b3d881af7f67f555f6613bfce66513992aed84a3aae636d21b801d"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/cli-controller/pinch_transcript.py",
+      "sha256": "73ecf18240726f48a7cdbfdaf2429d2efcf4980aa7bc1def7aa759a88e8bdbf8"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/cli-controller/fairness_audit.py",
+      "sha256": "a7f14c49590f876430c547ac7585862498678ab15dcfe2ca018ad3363f1f2f58"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/cli-controller/task_integrity.py",
+      "sha256": "211cc86af302cc9811f93635fa9d760630e6bf05c172616987c4b53716bab6a1"
+    }
+  ],
+  "gws_observer_manifest": "pinch-repairs-20261014/gws-observer-manifest.json",
+  "native_cli_control": "preflight/pinch-gws-observer-control.json",
+  "changes": [
+    "Observe actual gws argv uniformly, preserving original executable bytes, argv and I/O",
+    "Project observed CLI invocation intent into unchanged native command-usage grader; keep this separate from model function-call counts and action-success accuracy",
+    "Replace all nine triage slots affected by missing argv capture; preserve original/earlier replacement evidence",
+    "Keep successful native artifact grades after recovered provider errors, retaining failed-call and deadline metrics; low or unrecovered outcomes still require review"
+  ],
+  "public_files_changed": false,
+  "frozen_agent_sources_changed": false,
+  "native_rubrics_changed": false
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "task_second_brain",
+  "score": 1.0,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.memory_tool_used": 1.0,
+    "automated.recall_tool_used": 1.0,
+    "llm_judge.Memory Storage": 1.0,
+    "llm_judge.Same-Session Recall": 1.0,
+    "llm_judge.Cross-Session Memory Retrieval": 1.0,
+    "llm_judge.Accuracy of Recalled Facts": 1.0,
+    "llm_judge.Response Quality and Confidence": 1.0
+  },
+  "notes": "Created and confirmed memory/MEMORY.md with all five facts in a clear format. Correctly answered the same-session questions, read the file in the new session, and recalled every fact accurately and concisely without uncertainty or fabrication."
+}

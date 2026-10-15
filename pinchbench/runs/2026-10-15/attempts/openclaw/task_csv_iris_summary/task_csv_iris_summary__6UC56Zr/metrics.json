@@ -1,0 +1,477 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 7,
+    "recorded_inference_requests": 7,
+    "completed_inference_requests": 7,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      }
+    ],
+    "requests_with_token_usage": 7,
+    "token_usage": {
+      "input_tokens": 148118,
+      "output_tokens": 2164,
+      "total_tokens": 150282,
+      "cached_input_tokens": 130944,
+      "reasoning_output_tokens": 143
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 7
+    },
+    "http_statuses": {
+      "200": 7
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 7,
+        "median": 1.9617622569999984,
+        "minimum": 1.5855441920000013,
+        "maximum": 5.806047601000002
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 4.02808982400001,
+        "minimum": 4.02808982400001,
+        "maximum": 4.02808982400001
+      },
+      "firstToolActionSeconds": {
+        "count": 6,
+        "median": 5.667053041999999,
+        "minimum": 4.671986735999999,
+        "maximum": 51.410185744
+      },
+      "responseSeconds": {
+        "count": 7,
+        "median": 5.443248781000002,
+        "minimum": 4.841620404999998,
+        "maximum": 51.55818859000001
+      }
+    },
+    "observer_milliseconds": 36.05388200001835,
+    "model_tool_calls": 6,
+    "tool_schema_checks": {
+      "valid": 6
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 6350,
+      "output_tokens": 279,
+      "total_tokens": 6629,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 171
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 2.102963708995958,
+        "minimum": 2.102963708995958,
+        "maximum": 2.102963708995958
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 11.197195191998617,
+        "minimum": 11.197195191998617,
+        "maximum": 11.197195191998617
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 14.308542977996694,
+        "minimum": 14.308542977996694,
+        "maximum": 14.308542977996694
+      }
+    },
+    "observer_milliseconds": 1.5544540074188262,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 6543,
+      "output_tokens": 433,
+      "total_tokens": 6976,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 330
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.8107498640001722,
+        "minimum": 1.8107498640001722,
+        "maximum": 1.8107498640001722
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 10.680255264000152,
+        "minimum": 10.680255264000152,
+        "maximum": 10.680255264000152
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 12.363620575999448,
+        "minimum": 12.363620575999448,
+        "maximum": 12.363620575999448
+      }
+    },
+    "observer_milliseconds": 1.6468119965793449,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "prior_judge_recovery_attempts": [],
+  "stage_seconds": {
+    "environment_setup": 2.583363,
+    "agent_setup": 26.415208,
+    "agent_execution": 104.651721,
+    "verifier": 15.338666
+  },
+  "native_task_grade": {
+    "task_id": "task_csv_iris_summary",
+    "score": 0.9685714285714285,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.dataset_overview": 0.75,
+      "automated.overall_stats": 1.0,
+      "automated.per_species_stats": 1.0,
+      "automated.correlation": 1.0,
+      "automated.separability_insight": 1.0,
+      "automated.formatting": 1.0,
+      "llm_judge.Statistical Accuracy": 1.0,
+      "llm_judge.Analytical Insight": 1.0,
+      "llm_judge.Report Structure and Presentation": 0.9,
+      "llm_judge.Completeness": 1.0
+    },
+    "notes": "All statistics are correct for the supplied CSV, with sample standard deviations explicitly identified. The report includes every requested section, accurate correlation interpretation, and clear evidence of setosa separability. Minor deductions reflect repetitive correlation commentary and unnecessary workflow overhead from skill searches and Git commits.",
+    "reward": 0.9685714285714285
+  },
+  "exception": null,
+  "artifact_regrade": {
+    "method_type": "native_grader_replay",
+    "transport_repair": "native-content-block-schema",
+    "candidate_execution_preserved": true,
+    "additional_candidate_inference_calls": 0,
+    "reason": "Represent complete native text as content blocks required by the pinned grader; candidate outputs and original deadline outcome preserved",
+    "grade_file": "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/effective-grade.json",
+    "requests_file": "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/requests.jsonl",
+    "deterministic_no_inference": false,
+    "rewards": {
+      "task_id": "task_csv_iris_summary",
+      "score": 0.9685714285714285,
+      "max_score": 1.0,
+      "grading_type": "hybrid",
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.dataset_overview": 0.75,
+        "automated.overall_stats": 1.0,
+        "automated.per_species_stats": 1.0,
+        "automated.correlation": 1.0,
+        "automated.separability_insight": 1.0,
+        "automated.formatting": 1.0,
+        "llm_judge.Statistical Accuracy": 1.0,
+        "llm_judge.Analytical Insight": 1.0,
+        "llm_judge.Report Structure and Presentation": 0.9,
+        "llm_judge.Completeness": 1.0
+      },
+      "notes": "All statistics are correct for the supplied CSV, with sample standard deviations explicitly identified. The report includes every requested section, accurate correlation interpretation, and clear evidence of setosa separability. Minor deductions reflect repetitive correlation commentary and unnecessary workflow overhead from skill searches and Git commits.",
+      "reward": 0.9685714285714285
+    },
+    "started_at": "2026-10-15T01:28:44.611908+00:00",
+    "finished_at": "2026-10-15T01:28:59.956626+00:00",
+    "evidence_sha256": {
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/result.json": "1f4e1c3539e306138a5f638a6a35060bdd471f1487c9d7535bf2ac40c4985728",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/openclaw-migration.txt": "dd3c4583343b19ef902e61a4f23508e340bb0d160ef8f305ce507fd97a4397ce",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/openclaw.txt": "e7cf73efb5a10cbaf636d41dbc93f0780fa6f588d36e05fe5a9f05b8adbf15c4",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/inference-events.jsonl": "d4ef2fec973e4a4134085ec876d5607d545bb394143c91b8f88f0836b9500936",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/openclaw-config.json": "7d5db4a4736782f6d5fda10dce785e3671486dfdbb532dbb79189510127d30f7",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/requests.jsonl": "088dde092917c259e8c6fdf9450d700d397f1f01b2c0bbc925730895bbe8003f",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/task-skills.json": "d32132065465cba8bf71d0c99613ef1b1f7782c48155a12a62781fc6ae0926b6",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/model-tool-calls.jsonl": "70eff26dfc87c146730fdda98e9eabecb0528dad1bfc62586092f7221f43431b",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/transcript-export.json": "7c9516468219a04362f5544ff4a84f024e62c9bde1696d02bf5cc51a4b10738c",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/pinch-transcript.jsonl": "7e4485e0b8c7c05af3912e7ce65a4b465d36fbefc635af9b5ffdad4ffa75bacd",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/pinch-turns.json": "fe5ec20a591804d576afe90cd61abe508093553b6a7733799cab7c4c7390f245",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/tool-schemas.jsonl": "b76a616118dd21cced86fef84b8f853080a6261c6c7ed12669433cc7c6f0019a",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/turns/01/openclaw.txt": "e7cf73efb5a10cbaf636d41dbc93f0780fa6f588d36e05fe5a9f05b8adbf15c4",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/turns/01/openclaw-native-sessions.json": "ec57bc07926fdad4f9c750673b02135a9724fdd5b4f44e78b61ade85670753ea",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/turns/01/native-transcript.jsonl": "7e4485e0b8c7c05af3912e7ce65a4b465d36fbefc635af9b5ffdad4ffa75bacd",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/turns/01/transcript-export.json": "3896a07341dec36db05306c089a4abed5e68611828ff5bf65d13fe99c39edb30",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/agent/turns/01/openclaw.session.jsonl": "849e9499d09bffc6df7f5673dfa116e03e1ba8549646c1b7b9c29890c75205b5",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/IDENTITY.md": "59b223766c8dd978162044e333a684c72e22af753d1ba3dc3bff4b2d915c54e2",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/SOUL.md": "f1ca0312afae15dee389671c566cb25c11290ccc344f4a97d306f7d9af85a438",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/USER.md": "46e0d8c937df7b104de97a23c58537292672654194879ca9f76b02075e022555",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/iris_flowers.csv": "3af1770fa64ea16ccfa1458de00cfed5741855c02a1979763b09f58452ff4b09",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/BOOTSTRAP.md": "0bcb8c9187e32c87bc31dc3e2fa83c4569bfd13267c0bf9766a635dac3df33a3",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/iris_summary.md": "408378ca0f355e2bd50081c8aa5e69d54a93285ae4030bef0b26cfaa4d0cbc7e",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/AGENTS.md": "490fc2b32865dd310a3af1225a409ac5c942d89ba456167feb0fd95e2807aaff",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/COMMIT_EDITMSG": "b7371c56c3044a973f46d5ab557a8408b15ef0caca6b9138f1bdcd6cfdad9fe5",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/description": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/HEAD": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/index": "049f48f6b1ee22112d285a2b9650b3387447e4ebfbdc4a445576e0bf21df6f79",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/config": "cfe7ba1238c9a78be7535d7c63bcaf5a4d5011d46b07c9b45d3bbf7d6c312dfe",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/pre-applypatch.sample": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/applypatch-msg.sample": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/pre-merge-commit.sample": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/update.sample": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/pre-receive.sample": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/fsmonitor-watchman.sample": "f3c0228d8e827f1c5260ac59fdd92c3d425c46e54711ef713c5a54ae0a4db2b4",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/pre-push.sample": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/commit-msg.sample": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/push-to-checkout.sample": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/pre-commit.sample": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/prepare-commit-msg.sample": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/pre-rebase.sample": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/hooks/post-update.sample": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/info/exclude": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/logs/HEAD": "dd9b06fd8a11797f9c15933c2d33d0caf1283d95e9d0cd300a7a49cb14ebbbb1",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/refs/heads/master": "73054407227149f6951643b170538c6ea3edb826f26981dcfbb5425412818e22",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/logs/refs/heads/master": "dd9b06fd8a11797f9c15933c2d33d0caf1283d95e9d0cd300a7a49cb14ebbbb1",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/objects/4f/b3b85b65b1921b5465b34e8520dcd7e23e4462": "2d032cd3320d457767474b0768aaa9f25cb080804a9fe28e06ac4a4f1823ac35",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/objects/ac/83417914ec340b5be548c7193f9b357a3546d1": "77a8a010f2f105fc921af7f6bb9eb9045653eaaee93011213f1bc69e6337cbe1",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/objects/fd/634d3da04fedd7a138034b4e29ec693716b8de": "99802e82daf39ba4d4527cc8311c995b80eb2b8b743caf7a9708edfc62472fc4",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/objects/07/88018927eaa032a78f9b88b3554d9880a85d59": "7edf3ee56e474a28f157290fc247180f8e259a33d2b3e1abd6872e14c3227f86",
+      "jobs/pinch--task_csv_iris_summary/native/task_csv_iris_summary__6UC56Zr/artifacts/workspace/.git/objects/b8/bb55484ab30ef8fda1c3be37b0b1e4960594df": "c0e777e77c33a10cd777c7b6b426aaaae1fdae0c438f7b28c82c057604d59b57",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/judge-responses.jsonl": "2cac2030f9f5229a7851393046bd15b42a3487a7440714b86aa114ee86818614",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/inference-events.jsonl": "2175efed4af2e929d937a6763d91b2110b9f5e00a0677d92ec622a82e24bfb2f",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/reward.json": "f5a5ee582c69d6af06444dd9f114755f61d880afef7a612ad2d0ca7f09741ccd",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/requests.jsonl": "63c40dfd99b45e402674801cf9cf9c0ce4337e57bea1eeac7bef355ab2088455",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/effective-grade.json": "93eb31d817e39005a93ef68199146caabcafef60b70e9d5f6057903654e99344",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/judge-reliability.json": "5354cb75f5a6321f4f96f91b5b8f227e65122cb6278f7005e3e256aa3875028c",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/pinch_score.json": "811ac3cff5f64bc3948e75d0924303b86b247044d8a8dc6cc2d94b8d5df34af1",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/verifier/tool-schemas.jsonl": "60c2d1406e8407a3260fecfceaced5e399eeab6f8df2d1126ed7856291224e3e",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/agent/pinch-transcript.jsonl": "9a16c40f5d5ec67631c25780d53b4e123385d6395345371b9088242e10d4df6e",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/agent/turns/01/openclaw.txt": "e7cf73efb5a10cbaf636d41dbc93f0780fa6f588d36e05fe5a9f05b8adbf15c4",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/agent/turns/01/openclaw-native-sessions.json": "ec57bc07926fdad4f9c750673b02135a9724fdd5b4f44e78b61ade85670753ea",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/agent/turns/01/native-transcript.jsonl": "7e4485e0b8c7c05af3912e7ce65a4b465d36fbefc635af9b5ffdad4ffa75bacd",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/agent/turns/01/transcript-export.json": "3896a07341dec36db05306c089a4abed5e68611828ff5bf65d13fe99c39edb30",
+      "pinch-repairs-20261014/transcript-grades/task_csv_iris_summary/task_csv_iris_summary__6UC56Zr/agent/turns/01/openclaw.session.jsonl": "849e9499d09bffc6df7f5673dfa116e03e1ba8549646c1b7b9c29890c75205b5",
+      "tasks/pinch/task_csv_iris_summary/tests/tasks/task_csv_iris_summary.md": "6e7ff2e8d940df1a90c3a13cf0da792a1a2fced33826ae892355d1e8c1aebfdc",
+      "pinch-repairs-20261015/source-versions/content-block-review/fairness_audit.py": "557f732be6844834b8fcd2029a2f38d84bc72bf361d0e0d2de29a4c8d44a3391",
+      "pinch-repairs-20261015/source-versions/content-block-review/native_transcript.py": "9cfbba33dc970825e73df5c812ea64c2111d3f326c7ca71efbb5f7cc8c31b83f",
+      "pinch-repairs-20261015/source-versions/content-block-review/pinch_transcript.py": "1fc88be7d14b22a9144ad5466de3ae4f3438557e035b720accb0c15b4045c9a2",
+      "pinch-repairs-20261015/source-versions/content-block-review/regrading.py": "12dfbf0b8accb150781b5605cfdf67f8c4c3c51aad6ac5e907e683fdd395b2a9"
+    }
+  },
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}

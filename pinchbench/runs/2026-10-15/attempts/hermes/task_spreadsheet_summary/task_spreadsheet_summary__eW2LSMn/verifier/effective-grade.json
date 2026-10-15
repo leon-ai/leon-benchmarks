@@ -1,0 +1,24 @@
+{
+  "accepted_score": 0.985,
+  "native_criteria": {
+    "score": 0.985,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.report_created": 1.0,
+      "automated.total_revenue": 1.0,
+      "automated.total_profit": 1.0,
+      "automated.top_region": 1.0,
+      "automated.top_product": 1.0,
+      "automated.total_expenses": 1.0,
+      "automated.top_department": 1.0,
+      "automated.top_employee": 1.0,
+      "automated.budget_comparison": 1.0,
+      "llm_judge.data_reading_and_parsing": 0.95,
+      "llm_judge.analytical_accuracy": 1.0,
+      "llm_judge.report_quality_and_structure": 0.95,
+      "llm_judge.insights_and_synthesis": 0.95
+    }
+  },
+  "judge_notes": "Successfully analyzed the CSV and both Excel sheets, created the requested report, and matched all expected numerical results. Clear tables include department-level budget comparisons. Strong synthesis distinguishes annual sales from Q1 expenses and appropriately qualifies the illustrative combined result. Minor deductions for the failed initial dependency attempt and somewhat lengthy caveats relative to the requested brief summary.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

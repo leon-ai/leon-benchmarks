@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_workflow/native/task_workflow__Bn6Xk8W",
+  "score": 0.9625,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "201f20b383662b34da0ea87fd114387998afa616e275c2c27be943053d6eb5be",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

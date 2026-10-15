@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-14T14:50:01.242606+00:00",
+  "extends": "pinch-repairs-20261014/repair-receipt.json",
+  "changes": [
+    {
+      "module": "pinch.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/pinch.py",
+      "sha256": "cd5a494a590c18225a239b6a0e3e2cdcaba2db7ce8156751f1a7cd5ff4fba161"
+    },
+    {
+      "module": "balanced.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/balanced.py",
+      "sha256": "7a2bad1cf878143570f3ad13b7bda4874a7569146f28524cdd97d0ebbe06bfcd"
+    },
+    {
+      "module": "pinch_agents.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/pinch_agents.py",
+      "sha256": "3ed1dbe43cbcf2e03af732db646f9691fc6f3dd68826268dd589a7e9b0274ca9"
+    },
+    {
+      "module": "task_integrity.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/task_integrity.py",
+      "sha256": "55fb85586068f89fa3c4a0da5fd3a4b875d2de1f2c150473141d371733247faa"
+    },
+    {
+      "module": "pinch_transcript.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/pinch_transcript.py",
+      "sha256": "3fa78caa0e6dc25df69865f1a2ec3f867dbf4d680c7122fef66a0432cb440046"
+    },
+    {
+      "module": "pinch_grader.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/pinch_grader.py",
+      "sha256": "01360d71fe88b84e01cb528933322d1df4d806c45eccc361ba7e30d2e3583949"
+    },
+    {
+      "module": "harbor_agents.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/harbor_agents.py",
+      "sha256": "71c56d48036227286cbc9b1c68753e4dabc364973fee965c120f9b68a3212856"
+    },
+    {
+      "module": "regrading.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/regrading.py",
+      "sha256": "d08db3385f63bc4c33d92ed3f68ff1c055bc4417597c8e636f16d5af3ea3efb0"
+    },
+    {
+      "module": "fairness_audit.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/fairness_audit.py",
+      "sha256": "9cef9c69f76233a3fadf44094aa67fe9b4cfccd333c02098a74a05a04512af3a"
+    },
+    {
+      "module": "campaign.py",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/campaign.py",
+      "sha256": "3b07564f6b5e3a8b72425b14e79fb64e64bccffd20837896634bb98547d1986c"
+    },
+    {
+      "module": "pinch-worker-cwd.mjs",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/pinch-worker-cwd.mjs",
+      "sha256": "2ed7addc1d4b719f7b6215b82e6aa097e8b1b774e95ce4f4d0a55c1e5e827c68"
+    },
+    {
+      "module": "native-worker-cwd.mjs",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/native-worker-cwd.mjs",
+      "sha256": "9b375db73e7f54b60453a2104e0da2300b776ef8c40a15adf84fad95fde46386"
+    },
+    {
+      "module": "pinch-tool-aliases.json",
+      "immutable_snapshot": "pinch-repairs-20261014/source-versions/controller-20261014-1452/pinch-tool-aliases.json",
+      "sha256": "89d88a563e0ef2d18c3c09e9a28d00ae09308d6bad795a6a45b1c44da3ac6417"
+    }
+  ],
+  "conditions_unchanged": [
+    "Frozen tasks/native rubrics",
+    "Frozen agent sources",
+    "Subscription-only GPT-6.1 Sol/high/priority requested",
+    "Native deadlines and repetitions",
+    "CPU/RAM admission"
+  ],
+  "additional_repairs": [
+    "Shared short-lived subscription token uses native Leon refresh owner after account equality check",
+    "Successful native judge retries retain grade and failed-call metrics",
+    "Original candidate and judge traces remain immutable; derived recovery receipts bind original bytes",
+    "Existing prepared Terminal task receives assigned worker cwd preload; task bytes and native rubric unchanged"
+  ],
+  "controls": "Pinch native session and offline Memory/Workflow rubric controls passed; actual-image grader imports and 32 task hashes passed",
+  "public_harness_changed": false
+}

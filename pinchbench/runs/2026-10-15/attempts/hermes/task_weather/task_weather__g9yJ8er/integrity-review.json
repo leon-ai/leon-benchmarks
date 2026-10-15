@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_weather/native/task_weather__g9yJ8er",
+  "score": 1.0,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "33f3a5a7f391299e3d171a8760946c9ebfaa1bbc0c3d8e35656afa3ee0d020ff",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

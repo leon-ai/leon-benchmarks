@@ -1,0 +1,33 @@
+{
+  "approved_environment_capture_repair": true,
+  "candidate_reruns": 0,
+  "affected_trials": [
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_syslog_boot/native/task_log_syslog_boot__XFoxNXN",
+      "task": "task_log_syslog_boot",
+      "agent": "openclaw",
+      "original_result_sha256": "6ef44f3a677398a32ff3bdff189ed81d69ce8b5effbb4c5f27261ba2bbcf2b99"
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__veKLCXf",
+      "task": "task_csv_stock_trend",
+      "agent": "openclaw",
+      "original_result_sha256": "be5143a1390a73c3809e76f71045c740bf9bbf4dacbe0397b2a1985dc347069e"
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_csv_stock_trend/native/task_csv_stock_trend__4vvtj5M",
+      "task": "task_csv_stock_trend",
+      "agent": "openclaw",
+      "original_result_sha256": "523cb70a37654aa788def46ceeca151deda7af39c8973b302d1ca38820503c5d"
+    },
+    {
+      "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__BEHKzg6",
+      "task": "task_log_apache_top_errors",
+      "agent": "openclaw",
+      "original_result_sha256": "9e457a92e6d2cf0b9a680fba63ffc9bb564c16fc43bfdd42a19db519dabdc50f"
+    }
+  ],
+  "controller_pid": 22628,
+  "native_rubrics_unchanged": true,
+  "correction": "Grade only native message evidence eligible within the original published deadline; preserve original artifact bytes and deadline outcomes"
+}

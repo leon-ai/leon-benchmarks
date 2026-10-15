@@ -1,0 +1,19 @@
+{
+  "task_id": "task_log_apache_top_errors",
+  "score": 0.925,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.output_created": 1.0,
+    "automated.directory_forbidden_top": 0.5,
+    "automated.file_not_exist_counted": 1.0,
+    "automated.invalid_method_identified": 1.0,
+    "automated.internal_errors_included": 1.0,
+    "llm_judge.report_file_created": 1.0,
+    "llm_judge.directory_index_forbidden_identified_as_most_frequent": 0.8,
+    "llm_judge.file_does_not_exist_identified_and_counted": 1.0,
+    "llm_judge.invalid_method_identified_as_distinct_type": 1.0,
+    "llm_judge.server_internal_errors_included": 0.95
+  },
+  "notes": "The report uses the requested JSON structure, includes examples and nuanced security explanations, and its nine counts sum to 753. Directory-index errors are counted at 224 but ranked second behind 295 missing-file errors; this is consistent with aggregating all missing-file paths, although it differs from the rubric's stated ranking. Internal connector errors are covered carefully, including zero-status messages logged at error level. Minor efficiency concerns include an irrelevant weather call and repeated file discovery."
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "task_gws_cross_service",
+  "score": 0.72,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.read_email": 1.0,
+    "automated.created_event": 0.0,
+    "automated.found_drive_file": 1.0,
+    "automated.shared_file": 1.0,
+    "automated.actions_summary": 1.0,
+    "llm_judge.Cross-Service Coordination": 0.7,
+    "llm_judge.Task Completeness": 0.5
+  },
+  "notes": "Read Alice's email, located the agenda, checked Calendar, and saved an accurate actions.md. Preserving an existing matching event reasonably avoided duplication, but no event was created as requested and Bob's reader access remained unverified. Unrelated weather lookup, repeated checks, and redundant status messages reduced efficiency."
+}

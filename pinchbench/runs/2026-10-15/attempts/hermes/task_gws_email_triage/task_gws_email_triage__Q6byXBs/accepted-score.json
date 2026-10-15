@@ -1,0 +1,11 @@
+{
+  "id": "task_gws_email_triage__Q6byXBs",
+  "agent": "hermes",
+  "task": "task_gws_email_triage",
+  "score": 0.9166666666666667,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Correctly discovered and used Gmail listing, reading, and draft commands, though with some extra calls and a recovered verification error. The saved report covers all three emails with sensible priorities, accurate categories, actionable recommendations, and appropriate stale-date caveats. The professional draft targets the highest-priority email and was saved without sending, but requesting information from an automated notification address limits its practical usefulness.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

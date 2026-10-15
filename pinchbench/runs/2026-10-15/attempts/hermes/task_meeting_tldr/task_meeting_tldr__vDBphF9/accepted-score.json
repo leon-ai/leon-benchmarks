@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_tldr__vDBphF9",
+  "agent": "hermes",
+  "task": "task_meeting_tldr",
+  "score": 0.94,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "Created the requested file with 121 words, a one-line summary, five bullets, accurate assignments, and both substantive deadlines. Strong actionable coverage, but omits the green-only infographic decision and company-level tagline while spending two bullets on announcements. Deadlines could stand out more visually. Verification was slightly inefficient, including a failed Python invocation.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

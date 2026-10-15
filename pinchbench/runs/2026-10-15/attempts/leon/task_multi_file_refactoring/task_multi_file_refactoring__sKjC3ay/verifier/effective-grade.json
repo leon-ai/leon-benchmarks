@@ -1,0 +1,26 @@
+{
+  "accepted_score": 0.26666666666666666,
+  "native_criteria": {
+    "score": 0.26666666666666666,
+    "max_score": 1.0,
+    "breakdown": {
+      "utils_def_renamed": 0.0,
+      "utils_no_old_name": 0.0,
+      "utils_valid_python": 1.0,
+      "orders_valid_python": 1.0,
+      "orders_import_updated": 0.0,
+      "orders_calls_updated": 0.0,
+      "orders_no_old_name": 0.0,
+      "reports_valid_python": 1.0,
+      "reports_import_updated": 0.0,
+      "reports_calls_updated": 0.0,
+      "reports_no_old_name": 0.0,
+      "api_valid_python": 1.0,
+      "api_import_updated": 0.0,
+      "api_calls_updated": 0.0,
+      "api_no_old_name": 0.0
+    }
+  },
+  "judge_notes": "",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

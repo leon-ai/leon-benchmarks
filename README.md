@@ -29,7 +29,7 @@ run folders; planned selections are kept separately from scored results.
 | Benchmark | Status | Records |
 | --- | --- | --- |
 | [WildClawBench](wildclawbench/README.md) | First campaign complete | [2026-10-12 results and methods](wildclawbench/runs/2026-10-12/README.md) · [Interactive report](wildclawbench/runs/2026-10-12/report/index.html) |
-| [PinchBench](pinchbench/README.md) | Frozen plan; session validation pending | [Task selection](pinchbench/frozen-plan.json) |
+| [PinchBench](pinchbench/README.md) | First campaign complete; fairness reviewed | [2026-10-15 results and methods](pinchbench/runs/2026-10-15/README.md) · [Interactive report](pinchbench/runs/2026-10-15/report/index.html) |
 | [Terminal-Bench 4.0](terminal-bench-4.0/README.md) | Frozen plan; execution pending | [Task selection](terminal-bench-4.0/frozen-plan.json) |
 
 ## Comparison principles

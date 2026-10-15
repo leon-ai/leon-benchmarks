@@ -1,0 +1,14 @@
+{
+  "task_id": "task_summary",
+  "score": 0.9,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Accuracy and Completeness": 1.0,
+    "Conciseness": 1.0,
+    "Structure and Coherence": 0.5,
+    "Writing Quality": 1.0,
+    "Task Completion": 1.0
+  },
+  "notes": "Accurate, concise summary covering all major applications, benefits, challenges, and future directions. The source was read and the correctly named output file created efficiently. Three clear paragraphs are present, but the requested organization is not followed: applications are concentrated in paragraph 1, paragraph 2 covers challenges rather than applications and benefits, and paragraph 3 covers the future outlook."
+}

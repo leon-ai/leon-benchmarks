@@ -1,0 +1,3 @@
+allowBuilds:
+  "@googleworkspace/cli": true
+  esbuild: true

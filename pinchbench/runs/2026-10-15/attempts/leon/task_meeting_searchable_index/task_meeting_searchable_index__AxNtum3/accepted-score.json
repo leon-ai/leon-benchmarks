@@ -1,0 +1,11 @@
+{
+  "id": "task_meeting_searchable_index__AxNtum3",
+  "agent": "leon",
+  "task": "task_meeting_searchable_index",
+  "score": 0.0,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The agent read the transcript but did not create meeting_index.md or provide any index content. None of the required sections, entries, decisions, or action items were delivered. An unrelated weather call and numerous redundant searches and reads also made execution inefficient.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

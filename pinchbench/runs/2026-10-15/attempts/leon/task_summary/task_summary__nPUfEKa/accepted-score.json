@@ -1,0 +1,11 @@
+{
+  "id": "task_summary__nPUfEKa",
+  "agent": "leon",
+  "task": "task_summary",
+  "score": 0.9,
+  "diagnosis": {
+    "category": "Partial native rubric credit",
+    "explanation": "The summary accurately preserves all major themes in concise, professional prose, and the correct output file was created after reading the source. It has exactly three paragraphs, but applications and benefits appear in paragraph 1 rather than paragraph 2, which instead covers challenges. Execution included an irrelevant weather call, a redundant file-listing call despite instructions to wait, and unnecessary setup commentary.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

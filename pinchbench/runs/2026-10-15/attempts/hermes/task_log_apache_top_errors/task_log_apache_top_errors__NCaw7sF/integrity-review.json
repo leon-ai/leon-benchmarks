@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_log_apache_top_errors/native/task_log_apache_top_errors__NCaw7sF",
+  "score": 0.95,
+  "review_triggered": true,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "ca31dba55e98cbdf488308194c24bbf1bb4ec573acc28cd1be3b2fcc6fa7021a",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

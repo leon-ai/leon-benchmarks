@@ -1,0 +1,22 @@
+{
+  "accepted_score": 0.04,
+  "native_criteria": {
+    "score": 0.04,
+    "max_score": 1.0,
+    "breakdown": {
+      "automated.output_created": 0.0,
+      "automated.directory_forbidden_top": 0.0,
+      "automated.file_not_exist_counted": 0.0,
+      "automated.invalid_method_identified": 0.0,
+      "automated.internal_errors_included": 0.0,
+      "llm_judge.report_file_created": 0.0,
+      "llm_judge.directory_index_forbidden_rank_and_count": 0.0,
+      "llm_judge.file_does_not_exist_identification_and_count": 0.0,
+      "llm_judge.invalid_method_distinct_category": 0.0,
+      "llm_judge.server_internal_errors_included": 0.4
+    },
+    "reward": 0.04
+  },
+  "judge_notes": "The agent began parsing error lines and visibly counted 12 env.createBean2() factory errors, earning partial credit for internal-error analysis. However, error_types_report.json was not created, and the available transcript does not establish the other required category counts or rankings. No completed report, explanations, or security assessments were delivered. The preliminary skill searches were unnecessary.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

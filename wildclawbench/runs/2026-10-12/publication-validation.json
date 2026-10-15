@@ -1,13 +1,31 @@
 {
-  "verified_at": "2026-10-13T03:53:28.557830+00:00",
+  "published_runs": [
+    {
+      "run": "pinchbench/runs/2026-10-15",
+      "accepted_attempts": 288,
+      "matched_tasks": 32,
+      "domains": 11,
+      "proof_links_checked": 1160,
+      "scores_and_aggregate_telemetry_match_private_original": true
+    },
+    {
+      "run": "wildclawbench/runs/2026-10-12",
+      "accepted_attempts": 324,
+      "matched_tasks": 36,
+      "domains": 6,
+      "proof_links_checked": 1304,
+      "scores_and_aggregate_telemetry_match_private_original": true
+    }
+  ],
+  "verified_at": "2026-10-15T01:53:10.058532+00:00",
   "passed": true,
-  "manifest_sha256": "c6ee5ea48d4c9830c292ddf6f016053993d8999ac34777e138b1772752d1cbcb",
-  "files_verified": 6132,
+  "manifest_sha256": "d809d6029e406a622ba107e90fb65637def4a65712b75800cec443a28db24a94",
+  "files_verified": 12135,
   "accepted_attempts": 324,
   "matched_tasks": 36,
   "domains": 6,
-  "proof_links_checked": 1304,
-  "scanned_uncompressed_bytes": 278856385,
+  "proof_links_checked": 2464,
+  "scanned_uncompressed_bytes": 354403410,
   "scores_and_aggregate_telemetry_match_private_original": true,
   "no_owner_paths_or_credential_patterns": true,
   "private_reasoning_fields_omitted": true,

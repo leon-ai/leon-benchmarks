@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.88,
+  "native_criteria": {
+    "score": 0.88,
+    "max_score": 1.0,
+    "breakdown": {
+      "Accuracy and Completeness": 1.0,
+      "Conciseness": 0.85,
+      "Structure and Coherence": 0.65,
+      "Writing Quality": 1.0,
+      "Task Completion": 0.9
+    },
+    "reward": 0.88
+  },
+  "judge_notes": "Accurately captures the major applications, benefits, challenges, and future outlook in clear prose. The source was read and the correctly named output file contains exactly three paragraphs. However, the summary is about 122 words, below the preferred 150–250-word range, and paragraph two covers challenges rather than the requested applications and benefits.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

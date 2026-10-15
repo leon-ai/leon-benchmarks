@@ -1,0 +1,29 @@
+{
+  "task_id": "task_log_syslog_boot",
+  "score": 0.0,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.output_created": 0.0,
+    "automated.kernel_version": 0.0,
+    "automated.cpu_identified": 0.0,
+    "automated.ram_identified": 0.0,
+    "automated.disk_identified": 0.0,
+    "automated.filesystem_identified": 0.0,
+    "automated.network_card": 0.0,
+    "automated.services_listed": 0.0,
+    "automated.mdmpd_failure": 0.0,
+    "automated.selinux_disabled": 0.0,
+    "llm_judge.boot_report_created": 0.0,
+    "llm_judge.kernel_version_identified": 0.0,
+    "llm_judge.cpu_model_identified": 0.0,
+    "llm_judge.ram_reported": 0.0,
+    "llm_judge.hard_drive_model_identified": 0.0,
+    "llm_judge.root_filesystem_identified": 0.0,
+    "llm_judge.network_card_identified": 0.0,
+    "llm_judge.at_least_15_successful_services_listed": 0.0,
+    "llm_judge.mdmpd_failure_noted": 0.0,
+    "llm_judge.selinux_runtime_disabling_mentioned": 0.0
+  },
+  "notes": "The visible transcript shows investigation but no creation of boot_report.md or completed report. The closing statement gives a startup-message count, BIND address count, and approximate duration, but does not establish any rubric-required hardware identifications, list successful services, or mention mdmpd and SELinux issues. Reading or searching the log alone does not satisfy those reporting criteria."
+}

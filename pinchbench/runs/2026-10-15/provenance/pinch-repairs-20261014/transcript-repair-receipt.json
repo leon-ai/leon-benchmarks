@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-14T15:06:28.713744+00:00",
+  "extends": "pinch-repairs-20261014/repair-receipt-20261014-1452.json",
+  "sources": [
+    {
+      "file": "pinch-repairs-20261014/source-versions/transcript-final-controller/pinch_transcript.py",
+      "sha256": "5b87ae87d745e2cbf1dce8502823f5326306b5b9cb6772c37040450ab04ace97"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/transcript-final-controller/pinch_hermes_observer.py",
+      "sha256": "9ea95196fdcf3839802390602ae1e3e1eee064deff5fd71a1f0da9a0d88cd730"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/transcript-final-controller/regrading.py",
+      "sha256": "96158548490c67a3c13912a738b16307913c3372ca09963ce140db3f512f586b"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/transcript-final-controller/fairness_audit.py",
+      "sha256": "9830096289f18e27cf8a1b235e6b313761ca2d912be1d903f471b01ff3841cdd"
+    },
+    {
+      "file": "pinch-repairs-20261014/source-versions/transcript-final-controller/run-hermes.py",
+      "sha256": "b128208c991a40caae66d8b23b912661dd3c19db54e5a1578ebe9a131c48db8e"
+    }
+  ],
+  "changes": [
+    "All native transcript roles projected to required content-block arrays; original text preserved in full",
+    "Record only actual accepted nested Hermes RPC dispatches; tool behavior and limits unchanged",
+    "Native grader replay accepts proven completed Pinch sessions, including OpenClaw, and preserves valid native retry recovery",
+    "Phase audit fingerprints nested dispatch evidence"
+  ],
+  "controls": "preflight/transcript-schema-controls-20261014.json",
+  "candidate_recovery": "Preserve Summary9 and Leon/OpenClaw email6; replace Hermes email3 whose nested tool evidence was not captured",
+  "native_rubrics_changed": false,
+  "frozen_tasks_changed": false,
+  "frozen_agent_source_changed": false,
+  "public_harness_changed": false
+}

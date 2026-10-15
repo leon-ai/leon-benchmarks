@@ -1,0 +1,180 @@
+{
+  "id": "8644e238-a6a0-4c0e-b3a1-95034a5eed35",
+  "task_name": "task_spreadsheet_summary",
+  "trial_name": "task_spreadsheet_summary__nDZUDuu",
+  "trial_uri": "file://__WORKSPACE__/jobs/pinch--task_spreadsheet_summary/native/task_spreadsheet_summary__nDZUDuu",
+  "task_id": {
+    "path": "__WORKSPACE__/tasks/pinch/task_spreadsheet_summary"
+  },
+  "source": null,
+  "task_checksum": "93feb6132d69d0b80be438a821b544b82ad3b7c13f9083a48514ce94e7c3368f",
+  "config": {
+    "task": {
+      "path": "__WORKSPACE__/tasks/pinch/task_spreadsheet_summary",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "task_spreadsheet_summary__nDZUDuu",
+    "trials_dir": "__WORKSPACE__/jobs/pinch--task_spreadsheet_summary/native",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": null,
+      "import_path": "scripts.benchmarks.pinch_agents:PinchLeon",
+      "model_name": "openai/gpt-6.1-sol",
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {},
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": "docker",
+      "import_path": null,
+      "force_build": false,
+      "delete": true,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-111ccc8d",
+          "target": "/opt/leon",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/openclaw-2026.10.1",
+          "target": "/opt/openclaw",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/hermes-0.21.6",
+          "target": "/opt/hermes",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/hermes-python",
+          "target": "__HOME__/.hermes/tools/python-3.14.7+20260901-linux-x64",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-binaries",
+          "target": "/tmp/leon-benchmark/bin",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-binaries/python",
+          "target": "__HOME__/.leon/bin/python",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__WORKSPACE__/pinch-runtime/benchmarks",
+          "target": "/opt/leon/scripts/benchmarks",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/benchmark-chromium",
+          "target": "/opt/benchmark-chromium",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__SOURCES__/leon-111ccc8d",
+          "target": "__HOME__/Workspace/leon/leon",
+          "read_only": true
+        },
+        {
+          "type": "bind",
+          "source": "__WORKSPACE__/pinch-dependencies",
+          "target": "/opt/pinch-dependencies",
+          "read_only": true
+        }
+      ],
+      "extra_docker_compose": [
+        "__WORKSPACE__/network.yaml"
+      ],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": "f89f768e-ee38-4988-ac2d-49e667279791",
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "leon",
+    "version": "unknown",
+    "model_info": {
+      "name": "gpt-6.1-sol",
+      "provider": "openai"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 200665,
+    "n_cache_tokens": 7552,
+    "n_output_tokens": 3910,
+    "cost_usd": null,
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.975
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-10-14T15:41:40.163804Z",
+  "finished_at": "2026-10-14T15:44:56.852005Z",
+  "environment_setup": {
+    "started_at": "2026-10-14T15:41:42.072005Z",
+    "finished_at": "2026-10-14T15:41:44.222523Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-14T15:41:44.222551Z",
+    "finished_at": "2026-10-14T15:41:45.136760Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-14T15:41:45.136828Z",
+    "finished_at": "2026-10-14T15:44:35.163172Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-14T15:44:35.542410Z",
+    "finished_at": "2026-10-14T15:44:46.260004Z"
+  },
+  "step_results": null
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "task_csv_iris_summary",
+  "score": 0.99,
+  "max_score": 1.0,
+  "grading_type": "hybrid",
+  "breakdown": {
+    "automated.report_created": 1.0,
+    "automated.dataset_overview": 1.0,
+    "automated.overall_stats": 1.0,
+    "automated.per_species_stats": 1.0,
+    "automated.correlation": 1.0,
+    "automated.separability_insight": 1.0,
+    "automated.formatting": 1.0,
+    "llm_judge.Statistical Accuracy": 1.0,
+    "llm_judge.Analytical Insight": 1.0,
+    "llm_judge.Report Structure and Presentation": 0.9,
+    "llm_judge.Completeness": 1.0
+  },
+  "notes": "The report contains correct overall and per-species statistics, all requested sections, and well-supported insights. It correctly identifies the strongest correlation and setosa's separation, with useful pooled-correlation caveats. A modest efficiency deduction reflects the unrelated weather call, repeated tool attempts, redundant computations, and unnecessary setup chatter."
+}

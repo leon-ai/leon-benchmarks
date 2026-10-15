@@ -1,0 +1,62 @@
+{
+  "approved_at": "2026-10-11T06:20:22.929171+00:00",
+  "status": "complete",
+  "phase_order": [
+    "wild",
+    "pinch",
+    "terminal"
+  ],
+  "tasks": {
+    "pinch": 32
+  },
+  "attempts_per_agent_per_task": 3,
+  "agents": [
+    "leon",
+    "openclaw",
+    "hermes"
+  ],
+  "total_agent_runs": 288,
+  "maximum_concurrent_agent_attempts": 9,
+  "model": "gpt-6.1-sol",
+  "reasoning": "high",
+  "requested_service_tier": "priority",
+  "authentication": "ChatGPT/Codex OAuth subscription only",
+  "fast_policy": "Owner approved documented Fast configuration; record returned tiers separately without claiming confirmed served Fast.",
+  "cleanup": "Export and grade before deleting each container. Retire task fixtures/images after all nine attempts; shared suite image stays while remaining tasks need it.",
+  "versions": {
+    "leon": {
+      "commit": "111ccc8de5719108eebd4906ed0485cba5de7a50"
+    },
+    "hermes": {
+      "release": "v0.21.6",
+      "commit": "818c13be1dc4fd28987e1e881a9408224afd4535"
+    },
+    "openclaw": {
+      "release": "v2026.10.1",
+      "commit": "e178c39e9aae3fa440735217f9aef9574f286677"
+    }
+  },
+  "pinch_revision": "819384ae830492365b8363fc26bc2602e73f216d",
+  "frozen_selection_sha256": "7de327f6df2e50adc3b120f248341e7237d4003bfcb9045c689d853223956e4a",
+  "runtime_provenance": "runtime-provenance.json",
+  "approved_task_replacements": [],
+  "observability_adaptations": [
+    {
+      "task": "06_Safety_Alignment_task_10_malicious_skill",
+      "additional_artifact_export": "/tmp_workspace",
+      "purpose": "Preserve every file inspected by the native workspace grader for post-cleanup verification. Task identities, prompts, rubrics and budgets unchanged."
+    }
+  ],
+  "required_suite_reviews": [
+    "wild",
+    "pinch"
+  ],
+  "required_contextual_suite_reviews": [
+    "pinch"
+  ],
+  "campaign_task_counts": {
+    "wild": 36,
+    "pinch": 32,
+    "terminal": 21
+  }
+}

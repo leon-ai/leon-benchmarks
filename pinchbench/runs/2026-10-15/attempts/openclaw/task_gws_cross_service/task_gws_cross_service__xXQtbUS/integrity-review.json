@@ -1,0 +1,16 @@
+{
+  "trial": "__WORKSPACE__/jobs/pinch--task_gws_cross_service/native/task_gws_cross_service__xXQtbUS",
+  "score": 0.73,
+  "review_triggered": false,
+  "settings_verified": true,
+  "grader_errors": [],
+  "native_error_markers": [],
+  "provider_failures": [],
+  "provider_recovered": false,
+  "workspace_errors": [],
+  "requires_review": false,
+  "classification": "native_outcome_retained",
+  "result_sha256": "179a466074be4a2d4525a57ee82b6c2d11eb2eeee9b5b5f1c8c9d169b928e56c",
+  "additional_inference_calls": 0,
+  "expected_output_failure": false
+}

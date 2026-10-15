@@ -1,0 +1,17 @@
+{
+  "accepted_score": 0.9,
+  "native_criteria": {
+    "score": 0.9,
+    "max_score": 1.0,
+    "breakdown": {
+      "Accuracy and Completeness": 1.0,
+      "Conciseness": 1.0,
+      "Structure and Coherence": 0.75,
+      "Writing Quality": 1.0,
+      "Task Completion": 0.75
+    },
+    "reward": 0.9
+  },
+  "judge_notes": "Accurate, concise, professional summary covering all major themes, saved to the correct file after reading the source. Exactly three coherent paragraphs, but applications are concentrated in paragraph 1 and challenges in paragraph 2 rather than the requested arrangement. The unrelated weather call and duplicate file searches were unnecessary.",
+  "note": "Accepted native grade; original grader records and recovery ledgers remain separate."
+}

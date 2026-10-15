@@ -1,0 +1,11 @@
+{
+  "id": "task_log_apache_top_errors__NCaw7sF",
+  "agent": "hermes",
+  "task": "task_log_apache_top_errors",
+  "score": 0.95,
+  "diagnosis": {
+    "category": "Published deadline",
+    "explanation": "The report provides all required fields, ranks categories by count, and accounts for all 753 errors while excluding notices. Examples and security explanations are specific and appropriately qualified. Directory-index errors are correctly counted at 224; ranking them second is justified because the actual log contains 295 missing-file errors, contrary to the rubric's approximate ordering. Server-internal categories are comprehensively covered.",
+    "confidence": "Native grader verdict; causal attribution is limited to the documented fairness review"
+  }
+}

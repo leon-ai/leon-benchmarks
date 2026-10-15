@@ -1,0 +1,8 @@
+{
+  "process_id": 206,
+  "process_start": "85342",
+  "deadline_epoch": 1792023603.0703125,
+  "expired": false,
+  "finished_epoch": 1792023603.061179,
+  "return_code": -9
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "task_it_procurement",
+  "score": 0.0,
+  "max_score": 1.0,
+  "grading_type": "llm_judge",
+  "breakdown": {
+    "Product Research Quality": 0.0,
+    "Practical Procurement Value": 0.0,
+    "Linux Compatibility Assessment": 0.0,
+    "Fleet Recommendation": 0.0,
+    "Comparison Quality": 0.0
+  },
+  "notes": "The provided transcript shows preliminary tool discovery, progress statements, and workspace inspection only. It contains no researched laptop configurations, sourced prices, substantive procurement or Linux assessments, fleet mix, budget, or comparison table. There is no evidence that laptop_procurement.md was created."
+}

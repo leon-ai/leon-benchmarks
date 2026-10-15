@@ -1,0 +1,335 @@
+{
+  "agent": "openclaw",
+  "candidate": {
+    "attempted_inference_requests": 8,
+    "recorded_inference_requests": 8,
+    "completed_inference_requests": 8,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      {
+        "image_gen": {
+          "input_tokens": 0,
+          "input_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "output_tokens": 0,
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          },
+          "total_tokens": 0
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      }
+    ],
+    "requests_with_token_usage": 8,
+    "token_usage": {
+      "input_tokens": 202232,
+      "output_tokens": 824,
+      "total_tokens": 203056,
+      "cached_input_tokens": 163584,
+      "reasoning_output_tokens": 108
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 8
+    },
+    "http_statuses": {
+      "200": 8
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 8,
+        "median": 2.098089456000001,
+        "minimum": 1.9130901000000013,
+        "maximum": 3.2439580259999965
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 3.4914035890000013,
+        "minimum": 3.4914035890000013,
+        "maximum": 3.4914035890000013
+      },
+      "firstToolActionSeconds": {
+        "count": 7,
+        "median": 6.503556021999997,
+        "minimum": 4.095015298999999,
+        "maximum": 11.141065245999998
+      },
+      "responseSeconds": {
+        "count": 8,
+        "median": 5.682470003000001,
+        "minimum": 4.177613063000001,
+        "maximum": 11.184189386999998
+      }
+    },
+    "observer_milliseconds": 28.76032300010229,
+    "model_tool_calls": 7,
+    "tool_schema_checks": {
+      "valid": 7
+    },
+    "tool_schema_validity": 1.0,
+    "tool_schema_check_coverage": 1.0,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "candidate_image_generation": {
+    "attempted_inference_requests": 0,
+    "recorded_inference_requests": 0,
+    "completed_inference_requests": 0,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 0,
+    "token_usage": null,
+    "token_usage_complete": false,
+    "returned_service_tiers": {},
+    "http_statuses": {},
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstTextSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    "observer_milliseconds": 0,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge": {
+    "attempted_inference_requests": 1,
+    "recorded_inference_requests": 1,
+    "completed_inference_requests": 1,
+    "hosted_image_generation_requests": 0,
+    "reported_hosted_image_usage": [],
+    "requests_with_token_usage": 1,
+    "token_usage": {
+      "input_tokens": 10796,
+      "output_tokens": 288,
+      "total_tokens": 11084,
+      "cached_input_tokens": 0,
+      "reasoning_output_tokens": 181
+    },
+    "token_usage_complete": true,
+    "returned_service_tiers": {
+      "default": 1
+    },
+    "http_statuses": {
+      "200": 1
+    },
+    "latency_seconds": {
+      "headersSeconds": {
+        "count": 1,
+        "median": 1.9301010920025874,
+        "minimum": 1.9301010920025874,
+        "maximum": 1.9301010920025874
+      },
+      "firstTextSeconds": {
+        "count": 1,
+        "median": 10.698219942001742,
+        "minimum": 10.698219942001742,
+        "maximum": 10.698219942001742
+      },
+      "firstToolActionSeconds": {
+        "count": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "responseSeconds": {
+        "count": 1,
+        "median": 13.78629465099948,
+        "minimum": 13.78629465099948,
+        "maximum": 13.78629465099948
+      }
+    },
+    "observer_milliseconds": 1.791832000890281,
+    "model_tool_calls": 0,
+    "tool_schema_checks": {},
+    "tool_schema_validity": null,
+    "tool_schema_check_coverage": null,
+    "semantic_tool_accuracy": null,
+    "semantic_tool_accuracy_note": "Schema validity does not establish semantic correctness. Use task verifiers and native execution evidence; unverified calls remain unknown."
+  },
+  "judge_recovery": null,
+  "stage_seconds": {
+    "environment_setup": 1.337791,
+    "agent_setup": 19.387498,
+    "agent_execution": 71.771332,
+    "verifier": 14.846333
+  },
+  "native_task_grade": {
+    "task_id": "task_meeting_tldr",
+    "score": 0.9533333333333334,
+    "max_score": 1.0,
+    "grading_type": "hybrid",
+    "breakdown": {
+      "automated.file_created": 1.0,
+      "automated.one_line_summary": 1.0,
+      "automated.bullet_points": 1.0,
+      "automated.events_mentioned": 1.0,
+      "automated.messaging_decision": 1.0,
+      "automated.deadline_mentioned": 1.0,
+      "automated.word_count_ok": 1.0,
+      "automated.no_filler": 1.0,
+      "llm_judge.Information Density": 0.9,
+      "llm_judge.Conciseness": 0.9,
+      "llm_judge.Scannability": 0.85
+    },
+    "notes": "Captures all five major outcomes and both actionable deadlines in 132 words, with a one-line opener and five bullets. Minor omission: the company-level messaging tagline. Some bullets are denser than ideal for Slack. Redundant skill searches, unnecessary Git operations, and failed validation added avoidable execution overhead."
+  },
+  "exception": null,
+  "artifact_regrade": null,
+  "interpretation": "Candidate and judge counts are separate. Tokens without provider usage are unknown. Native auxiliary and delegated requests passing the observed transport are included; external tool subprocess inference coverage must be audited separately."
+}
